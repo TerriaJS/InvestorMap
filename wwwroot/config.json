@@ -13,8 +13,7 @@
         "www.dptiapps.com.au"
     ],
     "initializationUrls" : [
-        "nm",
-        "na"
+        "nainvest"
     ],
     "parameters": {
         "bingMapsKey": null,

@@ -1,0 +1,85 @@
+{
+  "catalog": [
+    {
+      "name": "Tenure and title",
+      "type": "group",
+      "items": [
+        {
+          "name": "Indigenous Land Use Agreement (NT)",
+          "type": "wms",
+          "url": "http://wms1.ntlis.nt.gov.au/ilismap",
+          "layers": "56"
+        },
+        {
+          "name": "Indigenous Land Use Agreement (WA)",
+          "type": "wms",
+          "url": "https://mapsengine.google.com/09372590152434720789-03311849775732631692-4/wms/",
+          "layers": "09372590152434720789-16968166552416378034-4"
+        },
+        {
+          "name": "Native Title Determination Outcomes",
+          "type": "wms",
+          "url": "http://data.gov.au/geoserver/native-title-determination-outcomes/wms",
+          "layers": "ckan_54f906a3_2c6c_4143_bcb4_27d542429939"
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "type": "group",
+      "items": [
+        {
+          "name": "Transport",
+          "type": "group",
+          "items": [
+            {
+              "name": "Railways",
+              "type": "esri-mapServer",
+              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Transport/MapServer",
+              "layers": "Railways"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geology & Climate",
+      "type": "group",
+      "items": []
+    },
+    {
+      "name": "Existing projects",
+      "type": "group",
+      "items": []
+    },
+    {
+      "name": "Renewable Energy",
+      "type": "group",
+      "items": []
+    },
+    {
+      "name": "Biosecurity",
+      "type": "group",
+      "items": [
+        {
+          "name": "Genetically modified organism field trial sites",
+          "type": "geojson",
+          "url": "http://guru.cycletour.org:6001"
+        }
+      ]
+    }
+  ],
+  "corsDomains": [
+    "corsproxy.com",
+    "programs.communications.gov.au",
+    "www.asris.csiro.au",
+    "mapsengine.google.com"
+  ],
+  "homeCamera": {
+    "west": 116,
+    "east": 149,
+    "north": -8,
+    "south": -27
+  },
+  "baseMapName": "Positron (Light)"
+}
