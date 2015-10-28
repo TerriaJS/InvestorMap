@@ -5,6 +5,11 @@
       "type": "group",
       "items": [
         {
+          "name": "Tenure Types",
+          "type": "esri-mapServer-group",
+          "url": "http://services.ga.gov.au/gis/rest/services/Northern_Australia_Land_Tenure/MapServer"
+        },
+        {
           "name": "Indigenous Land Use Agreement (NT)",
           "type": "wms",
           "url": "http://wms1.ntlis.nt.gov.au/ilismap",
@@ -187,6 +192,11 @@
           "name": "Genetically modified organism field trial sites",
           "type": "geojson",
           "url": "http://guru.cycletour.org:6001"
+        },
+        {
+          "name": "Northern Australia Quarantine Strategy Offices",
+          "type": "geojson",
+          "url": "data/quarantine_offices.geojson"
         }
       ]
     },
