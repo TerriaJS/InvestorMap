@@ -146,6 +146,100 @@
           "type": "wms",
           "url": "http://wms1.ntlis.nt.gov.au/ilismap",
           "layers": "60"
+        },
+        {
+          "name": "Electricity grid",
+          "type": "group",
+          "items": [
+            {
+              "name": "Electricity grid",
+              "type": "group",
+              "items": [
+                {
+                  "name": "Electricity Transmission Lines",
+                  "type": "esri-mapServer",
+                  "url": "http://www.ga.gov.au/gis/rest/services/topography/National_Electricity_Transmission_Lines/MapServer",
+                  "layers": "National_Electricity_Transmission_Lines",
+                  "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/National_Electricity_Transmission_Lines.png",
+                  "info": [
+                    {
+                      "name": "Licence",
+                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Powerlines",
+                  "type": "esri-mapServer",
+                  "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Culture_and_Infrastructure/MapServer",
+                  "layers": "Powerlines,No_Data",
+                  "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Culture_and_Infrastructure_Powerlines.png",
+                  "info": [
+                    {
+                      "name": "Licence",
+                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Water",
+          "type": "group",
+          "items": [
+            {
+              "name": "(unnamed item)",
+              "type": "group",
+              "items": [
+                {
+                  "name": "Rivers",
+                  "type": "esri-mapServer",
+                  "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Hydrography_and_Marine/MapServer",
+                  "layers": "Watercourses_All_Rivers_Labels,Watercourses_Major_Rivers_Scale_5Million_to_300000_Labels,Watercourses_Major_Rivers_Scale_10Million_to_5Million_Labels,Watercourses_All_Rivers_Watercourse_Lines,Watercourses_All_Rivers_Connectors,Watercourses_Major_Rivers_Scale_5Million_to_300000,Watercourses_Major_Rivers_National_Scale_to_5Million,No_Data",
+                  "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Hydrography_and_Marine_Watercourses.png",
+                  "info": [
+                    {
+                      "name": "Licence",
+                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Watercourse Areas",
+                  "type": "esri-mapServer",
+                  "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Hydrography_and_Marine/MapServer",
+                  "layers": "Watercourse_Areas_Labels,Watercourse_Areas,No_Data",
+                  "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Hydrography_and_Marine_Watercourse_Areas.png",
+                  "info": [
+                    {
+                      "name": "Licence",
+                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                    }
+                  ]
+                },
+                {
+                  "name": "NT: Rivers & Lakes",
+                  "type": "wms",
+                  "url": "http://wms1.ntlis.nt.gov.au/ilismap",
+                  "layers": "7"
+                }
+              ]
+            },
+            {
+              "name": "Irrigated areas (National Land and Water Resources Audit)",
+              "type": "wms",
+              "url": "http://data.gov.au/geoserver/australian-irrigation-areas-vector-version-1a-national-land-and-water-resources-audit/wms",
+              "layers": "3c934692_b670_4608_8f74_ee36583f74c1"
+            },
+            {
+              "name": "WA: Surface Water Areas & Irrigation Districts (RIWI Act)",
+              "type": "wms",
+              "url": "https://mapsengine.google.com/09372590152434720789-11920815285354965867-4/wms/",
+              "layers": "09372590152434720789-00157321636549444088-4"
+            }
+          ]
         }
       ]
     },
@@ -171,13 +265,67 @@
               "content": "http://creativecommons.org/licenses/by/3.0/au/"
             }
           ]
+        },
+        {
+          "name": "Type of commodity",
+          "type": "group",
+          "items": [
+            {
+              "name": "QLD: Mineral occurrence",
+              "type": "esri-mapServer",
+              "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/MINES/Resources/MapServer",
+              "layers": "17"
+            }
+          ]
         }
       ]
     },
     {
       "name": "Existing projects",
       "type": "group",
-      "items": []
+      "items": [
+        {
+          "name": "Mines",
+          "type": "group",
+          "items": [
+            {
+              "name": "WA: Mines & Mineral deposits",
+              "type": "wms",
+              "url": "https://mapsengine.google.com/09372590152434720789-11493353092997567468-4/wms/",
+              "layers": "09372590152434720789-12202648460129380533-4"
+            },
+            {
+              "name": "QLD: Operating mines",
+              "type": "esri-mapServer",
+              "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/MINES/Resources/MapServer"
+            },
+            {
+              "name": "WA: Mining tenements",
+              "type": "wms",
+              "url": "https://mapsengine.google.com/09372590152434720789-09499575881840677463-4/wms/",
+              "layers": "09372590152434720789-04695855072319211862-4"
+            }
+          ]
+        },
+        {
+          "name": "Cropping",
+          "type": "group",
+          "items": [
+            {
+              "name": "QLD: Irrigated cropping",
+              "type": "esri-mapServer",
+              "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/QLD/CurrentLandUse/MapServer",
+              "layers": "14"
+            },
+            {
+              "name": "QLD: Cropping",
+              "type": "esri-mapServer",
+              "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/QLD/CurrentLandUse/MapServer",
+              "layers": "8"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Renewable Energy",
