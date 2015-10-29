@@ -336,12 +336,6 @@
           "name": "Type of commodity",
           "type": "group",
           "items": [
-            {
-              "name": "QLD: Mineral occurrence",
-              "type": "esri-mapServer",
-              "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/MINES/Resources/MapServer",
-              "layers": "17"
-            }
           ]
         },
         {
@@ -353,6 +347,31 @@
               "type": "esri-mapServer",
               "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/QLD/WeatherAndExtremeEventRisk/MapServer",
               "layers": "33"
+            }
+          ]
+        },
+        {
+          "name": "Mineral occurrence",
+          "type": "group",
+          "items": [
+            {
+              "name": "QLD: Mineral occurrence",
+              "type": "esri-mapServer",
+              "url": "https://geospatial.information.qld.gov.au/ArcGIS/rest/services/MINES/Resources/MapServer",
+              "layers": "17"
+            },
+
+            {
+              "name": "NT: Mineral occurrence",
+              "type": "wms",
+              "url": "http://geology.data.nt.gov.au/geoserver/mo/wms",
+              "layers": "mo:MinOccView",
+              "getFeatureInfoFormats": [
+                {
+                  "type": "text",
+                  "format": "text/html"
+                }
+              ]
             }
           ]
         }
@@ -382,6 +401,18 @@
               "type": "wms",
               "url": "https://mapsengine.google.com/09372590152434720789-09499575881840677463-4/wms/",
               "layers": "09372590152434720789-04695855072319211862-4"
+            },
+            {
+              "name": "NT: Mining tenements",
+              "type": "wms",
+              "url": "http://geology.data.nt.gov.au/geoserver/mt/wms",
+              "layers": "mt:MineralTenement",
+              "getFeatureInfoFormats": [
+                {
+                  "type": "text",
+                  "format": "text/html"
+                }
+              ]
             }
           ]
         },
