@@ -84,7 +84,7 @@
             {
               "name": "All-weather roads",
               "type": "esri-mapServer",
-              "url": "http://www.ga.gov.au/gis/services/topography/Australian_Topography_2014/MapServer",
+              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Transport/MapServer",
               "layers": "Major_Road_Network,Roads_Scale_7Million_to_600000,Roads_Scale_600000_to_300000,All_Roads",
               "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Transport_Roads.png",
               "info": [
@@ -92,7 +92,11 @@
                   "name": "Licence",
                   "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
                 }
-              ]
+              ],
+              "initialMessage": {
+                "title": "All-weather roads",
+                "content": "The all weather roads are Dual Carriageway (red), Principal Road (orange), Secondary Road (Yellow) and Minor Road (grey solid line). Vehicular tracks, shown as a grey dotted line, are NOT all-weather roads"
+              }
             },
             {
               "name": "Road Bridges and Fords",
