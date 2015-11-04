@@ -26,6 +26,48 @@
           "type": "wms",
           "url": "http://data.gov.au/geoserver/native-title-determination-outcomes/wms",
           "layers": "ckan_54f906a3_2c6c_4143_bcb4_27d542429939"
+        },
+        {
+          "name": "Convertible lease",
+          "type": "wms",
+          "url": "http://services.ga.gov.au/gis/services/Northern_Australia_Land_Tenure/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          "layers": "CONVERTIBLE_LEASE"
+        },
+        {
+          "name": "Freehold",
+          "type": "wms",
+          "url": "http://services.ga.gov.au/gis/services/Northern_Australia_Land_Tenure/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          "layers": "FREEHOLD"
+        },
+        {
+          "name": "Crown land",
+          "type": "wms",
+          "url": "http://services.ga.gov.au/gis/services/Northern_Australia_Land_Tenure/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          "layers": "CROWN_LAND"
+        },
+        {
+          "name": "Reserves",
+          "type": "wms",
+          "url": "http://services.ga.gov.au/gis/services/Northern_Australia_Land_Tenure/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          "layers": "RESERVE"
+        },
+        {
+          "name": "Pastoral lease",
+          "type": "wms",
+          "url": "http://services.ga.gov.au/gis/services/Northern_Australia_Land_Tenure/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          "layers": "PASTORAL_LEASE"
+        },
+        {
+          "name": "Other lease",
+          "type": "wms",
+          "url": "http://services.ga.gov.au/gis/services/Northern_Australia_Land_Tenure/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          "layers": "OTHER_LEASE"
+        },
+        {
+          "name": "Secondary tenure type",
+          "type": "wms",
+          "url": "http://services.ga.gov.au/gis/services/Northern_Australia_Land_Tenure/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          "layers": "SECONDARY_TENURE_TYPE"
         }
       ],
       "preserveOrder": true
