@@ -5,11 +5,6 @@
       "type": "group",
       "items": [
         {
-          "name": "Tenure Types",
-          "type": "esri-mapServer-group",
-          "url": "http://services.ga.gov.au/gis/rest/services/Northern_Australia_Land_Tenure/MapServer"
-        },
-        {
           "name": "Indigenous Land Use Agreement (NT)",
           "type": "wms",
           "url": "http://wms1.ntlis.nt.gov.au/ilismap",
@@ -87,10 +82,10 @@
               "layers": "Railways"
             },
             {
-              "name": "Roads (GA)",
+              "name": "All-weather roads",
               "type": "esri-mapServer",
-              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Transport/MapServer",
-              "layers": "All_Roads,Roads_Scale_600000_to_300000,Roads_Scale_7Million_to_600000,Major_Road_Network,No_Data",
+              "url": "http://www.ga.gov.au/gis/services/topography/Australian_Topography_2014/MapServer",
+              "layers": "Major_Road_Network,Roads_Scale_7Million_to_600000,Roads_Scale_600000_to_300000,All_Roads",
               "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Transport_Roads.png",
               "info": [
                 {
