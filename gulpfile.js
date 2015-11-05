@@ -76,7 +76,7 @@ gulp.task('watch-specs', ['prepare'], function() {
 });
 
 gulp.task('watch-css', ['build-css'], function() {
-    return gulp.watch(['./index.less', './node_modules/terriajs/lib/Styles/*.less'], ['build-css']);
+    return gulp.watch(['./index.less', './node_modules/terriajs/lib/Styles/*.less', 'lib/Styles/*.less'], ['build-css']);
 });
 
 gulp.task('watch-datasource-groups', ['merge-groups'], function() {
