@@ -335,4 +335,11 @@ terria.start({
     });
 
     document.getElementById('loadingIndicator').style.display = 'none';
+
+    var homeLink = '<a style="color: hsl(31, 92%, 58%);" href="http://www.austrade.gov.au">&larr; Back to AusTrade Land Tenure site</a>';
+    var div = document.createElement('div');
+    div.innerHTML = homeLink;
+    div.style.marginTop = '20px';
+    div.style.marginLeft = '20px';    
+    document.getElementsByClassName("explorer-panel-body-pane")[0].appendChild(div);
 });
