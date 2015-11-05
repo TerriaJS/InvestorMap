@@ -38,6 +38,9 @@ var checkBrowserCompatibility = require('terriajs/lib/ViewModels/checkBrowserCom
 checkBrowserCompatibility('ui');
 
 var knockout = require('terriajs-cesium/Source/ThirdParty/knockout');
+var defined = require('terriajs-cesium/Source/Core/defined');
+var fs = require('fs');
+
 
 var isCommonMobilePlatform = require('terriajs/lib/Core/isCommonMobilePlatform');
 var TerriaViewer = require('terriajs/lib/ViewModels/TerriaViewer');
@@ -68,6 +71,7 @@ var NavigationViewModel = require('terriajs/lib/ViewModels/NavigationViewModel')
 var NowViewingAttentionGrabberViewModel = require('terriajs/lib/ViewModels/NowViewingAttentionGrabberViewModel');
 var NowViewingTabViewModel = require('terriajs/lib/ViewModels/NowViewingTabViewModel');
 var PopupMessageViewModel = require('terriajs/lib/ViewModels/PopupMessageViewModel');
+var PopupMessageConfirmationViewModel = require('terriajs/lib/ViewModels/PopupMessageConfirmationViewModel');
 var SearchTabViewModel = require('terriajs/lib/ViewModels/SearchTabViewModel');
 var SettingsPanelViewModel = require('terriajs/lib/ViewModels/SettingsPanelViewModel');
 var SharePopupViewModel = require('terriajs/lib/ViewModels/SharePopupViewModel');
@@ -336,6 +340,36 @@ terria.start({
     });
 
     document.getElementById('loadingIndicator').style.display = 'none';
+
+    // Add disclaimer. This code lifted directly from AREMI.
+    if(terria.configParameters.globalDisclaimer !== undefined) {
+      var disclaimer = terria.configParameters.globalDisclaimer;
+      if(disclaimer.enabled) {
+          var message = '';
+          if (location.hostname.indexOf('nationalmap.gov.au') === -1) {
+            message += fs.readFileSync(__dirname + '/lib/Views/DevelopmentDisclaimer.html', 'utf8');
+          }
+          message += fs.readFileSync(__dirname + '/lib/Views/GlobalDisclaimer.html', 'utf8');
+          var options = {
+              title: (disclaimer.title !== undefined) ? disclaimer.title : 'Disclaimer',
+              confirmText: "I Agree",
+              width: 600,
+              height: 550,
+              message: message,
+              horizontalPadding : 100
+          };
+
+          if(disclaimer.confirmationRequired) {
+              // To account for confirmation buttons
+              options.height += 30;
+              PopupMessageConfirmationViewModel.open(ui, options);
+          } else {
+              PopupMessageViewModel.open(ui, options);
+          }
+      }
+    }
+
+    // add sidebar link
 
     var homeLink = '<a style="color: hsl(31, 92%, 58%);" href="http://www.austrade.gov.au">&larr; Back to AusTrade Land Tenure site</a>';
     var div = document.createElement('div');
