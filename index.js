@@ -163,8 +163,8 @@ terria.start({
     BrandBarViewModel.create({
         container: ui,
         elements: [
-            '<a target="_blank" href="About.html"><img src="images/NorthernAustraliaLarge.png" height="50" alt="Northern Australia Map" title="Version: ' + version + '" /></a>',
-            '<a target="_blank" href="http://www.gov.au/"><img src="images/AG-Rvsd-Stacked-Press.png" height="45" alt="Australian Government" /></a>'
+            '<a target="_blank" href="About.html"><span style="font-size: 12px">NORTHERN</span><br/><span style="font-size: 18px">AUSTRALIA</big></a>',
+            '<a target="_blank" href="http://www.gov.au/"><img src="images/austrade-unlimited-3.png" style="height: 100%;" alt="Australian Government" /></a>'
         ]
     });
 
