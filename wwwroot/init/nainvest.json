@@ -586,17 +586,10 @@
       "items": [
         {
           "name": "Northern Australia Highlight",
-          "type": "wms",
-          "url": "http://geoserver.nationalmap.nicta.com.au/admin_bnds_abs/ows",
-          "rectangle": [
-            "96.816941408",
-            "-43.74050960205765",
-            "159.109219008",
-            "-9.142175976703609"
-          ],
-          "layers": "admin_bnds:NA_MASK",
+          "type": "geojson",
+          "url": "data/na_highlight.geojson",
           "isShown": true,
-          "opacity": 0.7,
+          "opacity": 0.9,
           "keepOnTop": true
         }
       ]
