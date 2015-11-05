@@ -20,7 +20,8 @@
           "name": "Native Title Determination Outcomes",
           "type": "wms",
           "url": "http://data.gov.au/geoserver/native-title-determination-outcomes/wms",
-          "layers": "ckan_54f906a3_2c6c_4143_bcb4_27d542429939"
+          "layers": "ckan_54f906a3_2c6c_4143_bcb4_27d542429939",
+          "description": "Native Title is a form of land title that recognises the traditional connection, rights and interests of Aboriginal and Torres Strait Islander people with the land. <br /><a href=\"http://www.austrade.gov.au/landtenure/native-title/native-title-in-the-northern-territory/\">Read full explanation on the Austrade Site</a>"
         },
         {
           "name": "Convertible lease",
