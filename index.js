@@ -167,9 +167,7 @@ terria.start({
     BrandBarViewModel.create({
         container: ui,
         elements: [
-            '<a target="_blank" href="http://www.austrade.gov.au"><img src="images/na-logo.png" style="width: 350px; height: 68px;" /></a>'
-/*            '<a target="_blank" href="About.html"><span style="font-size: 12px">NORTHERN</span><br/><span style="font-size: 18px">AUSTRALIA</big></a>',
-            '<a target="_blank" href="http://www.gov.au/"><img src="images/austrade-unlimited-3.png" style="height: 100%;" alt="Australian Government" /></a>'*/
+            '<a target="_self" href="http://northernaustralia.nationalmap.nicta.com.au"><img src="images/na-logo.png" style="width: 350px; height: 68px;" /></a>'
         ]
     });
 
@@ -371,7 +369,7 @@ terria.start({
 
     // add sidebar link
 
-    var homeLink = '<a style="color: hsl(31, 92%, 58%);" href="http://www.austrade.gov.au">&larr; Back to AusTrade Land Tenure site</a>';
+    var homeLink = '<a style="color: hsl(31, 92%, 58%);" href="http://www.austrade.gov.au/landtenure">&larr; Back to AusTrade Land Tenure site</a>';
     var div = document.createElement('div');
     div.innerHTML = homeLink;
     div.style.marginTop = '20px';
