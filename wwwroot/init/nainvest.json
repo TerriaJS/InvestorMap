@@ -56,7 +56,7 @@
           "type": "wms",
           "url": "http://services.ga.gov.au/gis/services/Northern_Australia_Land_Tenure/MapServer/WMSServer?request=GetCapabilities&service=WMS",
           "layers": "PASTORAL_LEASE",
-          "description": "Pastoral Leases have been a significant land tenure type for the growth of the Australian agriculture industry. Pastoral leases cover approximately 44% of Australia’s mainland (338 million hectares) and are generally situated in arid and semi-arid regions and the tropical savannahs. <br /><a href=\"http://www.austrade.gov.au/landtenure/land-tenure/pastoral-leases#pastoral-leases-in-the-northern-territory\">Read full explanation on the Austrade Site</a>"
+          "description": "Pastoral Leases have been a significant land tenure type for the growth of the Australian agriculture industry. Pastoral leases cover approximately 44% of Australia’s mainland (338 million hectares) and are generally situated in arid and semi-arid regions and the tropical savannahs. <br /><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/pastoral-leases/#who-can-hold-pastoral-leases\">Read full explanation on the Austrade Site</a>"
         },
         {
           "name": "Other lease",
