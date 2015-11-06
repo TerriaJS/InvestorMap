@@ -344,7 +344,7 @@ terria.start({
     // Add disclaimer. This code lifted directly from AREMI.
     if(terria.configParameters.globalDisclaimer !== undefined) {
       var disclaimer = terria.configParameters.globalDisclaimer;
-      if(disclaimer.enabled) {
+      if(disclaimer.enabled && location.hostname.indexOf('localhost') === -1) {
           var message = '';
           if (location.hostname.indexOf('nationalmap.gov.au') === -1) {
             message += fs.readFileSync(__dirname + '/lib/Views/DevelopmentDisclaimer.html', 'utf8');
