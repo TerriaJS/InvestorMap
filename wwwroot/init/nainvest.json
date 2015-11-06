@@ -137,6 +137,11 @@
                   "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
                 }
               ]
+            },
+            {
+              "name": "NT: Stock routes",
+              "type": "wms",
+              "layers": "60"
             }
           ]
         },
@@ -189,12 +194,6 @@
               "layers": "5"
             }
           ]
-        },
-        {
-          "name": "NT: Stock Routes",
-          "type": "wms",
-          "url": "http://wms1.ntlis.nt.gov.au/ilismap",
-          "layers": "60"
         },
         {
           "name": "Electricity grid",
@@ -562,7 +561,11 @@
     {
       "name": "Renewable Energy",
       "type": "group",
-      "items": []
+      "items": [],
+      "initialMessage": {
+        "title": "AREMI",
+        "content": "To view renewable energy layers, please visit the <a href=\"http://nationalmap.gov.au/renewables\" target=\"_self\">Australian Renewable Energy Mapping Infrastructure</a>."
+      }
     },
     {
       "name": "Biosecurity",
@@ -571,7 +574,9 @@
         {
           "name": "Genetically modified organism field trial sites",
           "type": "geojson",
-          "url": "http://guru.cycletour.org:6001"
+          "url": "data/ogtr-sites.geojson",
+          "dataCustodian": "Office of the Gene Technology Regulator",
+          "description": "Locations of Genetically Modified Organisms field trial sites.<br/><br/>\nSee <a href=\"http://www.ogtr.gov.au/internet/ogtr/publishing.nsf/Content/map\" target=\"_self\">OGTR website</a> for more information."
         },
         {
           "name": "Northern Australia Quarantine Strategy Offices",
@@ -624,5 +629,5 @@
     "north": -8,
     "south": -27
   },
-  "baseMapName": "Positron (Light)"
+  "baseMapName": "Australian Topography"
 }
