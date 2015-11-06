@@ -369,7 +369,7 @@ terria.start({
 
     // add sidebar link
 
-    var homeLink = '<a style="color: hsl(31, 92%, 58%);" href="http://www.austrade.gov.au/landtenure">&larr; Back to AusTrade Land Tenure site</a>';
+    var homeLink = '<a style="color: hsl(31, 92%, 58%);" href="http://www.austrade.gov.au/landtenure">&larr; Back to Austrade Land Tenure site</a>';
     var div = document.createElement('div');
     div.innerHTML = homeLink;
     div.style.marginTop = '20px';
