@@ -8,7 +8,8 @@
           "name": "Indigenous Land Use Agreement (NT)",
           "type": "wms",
           "url": "http://wms1.ntlis.nt.gov.au/ilismap",
-          "layers": "56"
+          "layers": "56",
+            "description": "More information about <a href=\"http://www.northernaustralialandtenure.com.au/how-do-i-engage-with-title-owners/northern-territory-information-on-engaging-with-traditional-owners-and-land-councils/#indigenous-land-use-agreements\">Indigenous Land Use Agreements (ILUA)</a>."
         },
         {
           "name": "Indigenous Land Use Agreement (WA)",
@@ -516,6 +517,7 @@
               "type": "wms",
               "url": "http://geology.data.nt.gov.au/geoserver/mt/wms",
               "layers": "mt:MineralTenement",
+              "description": "More information about <a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/leasehold-land/#mining-mineral-exploration-leases-in-the-northern-territory\">Mining and Mineral Exploration Leases in the Northern Territory</a>.",
               "getFeatureInfoFormats": [
                 {
                   "type": "text",
