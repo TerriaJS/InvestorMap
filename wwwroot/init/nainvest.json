@@ -120,13 +120,6 @@
               ]
             },
             {
-              "name": "Ports",
-              "type": "geojson",
-              "url": "https://cdn.rawgit.com/stevage/ogtr-geojson/1ce87634416a093255f070daca5c535cbdc018ee/ports.geojson",
-              "dataCustodian": "Ports Australia",
-              "description": "Location of ports derived from: http://www.portsaustralia.com.au/aus-ports-industry/map-of-australian-ports/"
-            },
-            {
               "name": "Airports and Airfields",
               "type": "esri-mapServer",
               "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Transport/MapServer",
@@ -140,10 +133,78 @@
               ]
             },
             {
+              "name": "Major Seaports",
+              "type": "esri-mapServer",
+              "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+              "layers": "1",
+              "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+              "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>",
+              "opacity": "1"
+            },
+            {
+              "name": "Major Airports",
+              "type": "esri-mapServer",
+              "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+              "layers": "0",
+              "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+              "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>",
+              "opacity": "1"
+            },
+
+            {
               "name": "NT: Stock routes",
               "type": "wms",
               "layers": "60"
-            }
+            },
+            {
+              "name": "Key Freight Routes",
+              "type": "group",
+              "preserveOrder": true,
+              "items": [
+                {
+                  "name": "Key Freight Routes - Roads",
+                  "type": "esri-mapServer",
+                  "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+                  "layers": "5",
+                  "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+                  "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>Route Number</td><td>{{RouteNumber}}</td><tr><td>State</td><td>{{state}}</td></tr><tr><td>Manager</td><td>{{Manager}}</td></tr></table>"
+                },
+                {
+                  "name": "Secondary Freight Routes - Roads",
+                  "type": "esri-mapServer",
+                  "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+                  "layers": "4",
+                  "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+                  "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>Route Number</td><td>{{RouteNumber}}</td><tr><td>State</td><td>{{state}}</td></tr><tr><td>Owner</td><td>{{owner}}</td></tr></table>"
+                },
+                {
+                  "name": "Key Freight Routes - Rail",
+                  "type": "esri-mapServer",
+                  "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+                  "layers": "6",
+                  "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+                  "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Gauge</td><td>{{gauge}}</td><tr><td>State</td><td>{{state}}</td></tr><tr><td>Manager</td><td>{{manager}}</td></tr></table>"
+                },
+                {
+                  "name": "Intermodal Terminals",
+                  "type": "esri-mapServer",
+                  "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+                  "layers": "2",
+                  "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+                  "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>",
+                  "opacity": "1"
+                },
+                {
+                  "name": "Road Train Assembly Areas",
+                  "type": "esri-mapServer",
+                  "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
+                  "layers": "3",
+                  "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
+                  "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>",
+                  "opacity": "1"
+                }
+              ]
+            }            
           ]
         },
         {
