@@ -344,7 +344,7 @@ terria.start({
       var disclaimer = terria.configParameters.globalDisclaimer;
       if(disclaimer.enabled && location.hostname.indexOf('localhost') === -1) {
           var message = '';
-          if (location.hostname.indexOf('nationalmap.nicta.com.au') === -1) {
+          if (location.hostname.match(/research\.nicta\.com\.au/)) {
             message += fs.readFileSync(__dirname + '/lib/Views/DevelopmentDisclaimer.html', 'utf8');
           }
           message += fs.readFileSync(__dirname + '/lib/Views/GlobalDisclaimer.html', 'utf8');
