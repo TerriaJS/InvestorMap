@@ -22,7 +22,8 @@
           "type": "wms",
           "url": "http://data.gov.au/geoserver/native-title-determination-outcomes/wms",
           "layers": "ckan_54f906a3_2c6c_4143_bcb4_27d542429939",
-          "description": "Native Title is a form of land title that recognises the traditional connection, rights and interests of Aboriginal and Torres Strait Islander people with the land. <br /><a href=\"http://www.northernaustralialandtenure.com.au/native-title/native-title-in-the-northern-territory/\">Read full explanation on the Austrade Site</a>"
+          "description": "Native Title is a form of land title that recognises the traditional connection, rights and interests of Aboriginal and Torres Strait Islander people with the land. <br /><a href=\"http://www.northernaustralialandtenure.com.au/native-title/native-title-in-the-northern-territory/\">Read full explanation on the Austrade Site</a>",
+          "featureInfoTemplate": "<h3>{{detoutcome}}</h3><table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}<br/>{{fcname}} ({{fcno}})</td></tr><tr><td>Prescribed body corporate</td><td>{{rntbcname}}</td></tr><tr><td>Sequence number</td><td>{{nnttseqno}}</td></tr><tr><td>Dates</td><td>{{detdate}} - {{detregdate}}</td></tr><tr><td>Link</td><td>{{link}}</td></tr><tr><td>Tribunal file number</td><td><a href=\"http://www.nntt.gov.au/searchRegApps/NativeTitleClaims/Pages/details.aspx?NTDA_Fileno={{relntda}}\">{{relntda}}</a></td></tr></table> <br /><a href=\"http://www.northernaustralialandtenure.com.au/native-title/native-title-in-the-northern-territory/\">Read full explanation on the Austrade Site</a>"
         },
         {
           "name": "Convertible lease",
