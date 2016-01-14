@@ -31,6 +31,7 @@
             "enabled": true,
             "confirmationRequired": true,
             "title": "Disclaimer"
-        }
+        },
+        "corsProxyBaseUrl": "/proxy/"
     }
 }
