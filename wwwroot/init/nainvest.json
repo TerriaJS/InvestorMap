@@ -12,12 +12,6 @@
             "description": "More information about <a href=\"http://www.northernaustralialandtenure.com.au/how-do-i-engage-with-title-owners/northern-territory-information-on-engaging-with-traditional-owners-and-land-councils/#indigenous-land-use-agreements\">Indigenous Land Use Agreements (ILUA)</a>."
         },
         {
-          "name": "Indigenous Land Use Agreement (WA)",
-          "type": "wms",
-          "url": "https://mapsengine.google.com/09372590152434720789-03311849775732631692-4/wms/",
-          "layers": "09372590152434720789-16968166552416378034-4"
-        },
-        {
           "name": "Native Title Determination Outcomes",
           "type": "wms",
           "url": "http://data.gov.au/geoserver/native-title-determination-outcomes/wms",
