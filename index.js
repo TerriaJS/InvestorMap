@@ -158,7 +158,7 @@ terria.start({
     BrandBarViewModel.create({
         container: ui,
         elements: [
-            '<a target="_self" href="http://northernaustralia.nationalmap.nicta.com.au"><img src="images/na-logo.png" style="width: 350px; height: 68px;"  title="Version: ' + version + '" /></a>'
+            '<a target="_self" href="http://nationalmap.gov.au/northernaustralia"><img src="images/na-logo.png" style="width: 350px; height: 68px;"  title="Version: ' + version + '" /></a>'
         ]
     });
 
