@@ -142,7 +142,7 @@
               "layers": "1",
               "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
               "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>",
-              "opacity": "1"
+              "opacity": 1
             },
             {
               "name": "Major Airports",
@@ -151,7 +151,7 @@
               "layers": "0",
               "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
               "featureInfoTemplate": "{{name}}",
-              "opacity": "1"
+              "opacity": 1
             },
 
             {
@@ -195,7 +195,7 @@
                   "layers": "2",
                   "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
                   "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>",
-                  "opacity": "1"
+                  "opacity": 1
                 },
                 {
                   "name": "Road Train Assembly Areas",
@@ -204,7 +204,7 @@
                   "layers": "3",
                   "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
                   "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>",
-                  "opacity": "1"
+                  "opacity": 1
                 }
               ]
             }            
