@@ -32,6 +32,12 @@
             "confirmationRequired": true,
             "title": "Disclaimer"
         },
-        "corsProxyBaseUrl": "/proxy/"
+        "corsProxyBaseUrl": "/proxy/",
+        "developerAttribution": {
+            "text": "Data61",
+            "link": "http://www.csiro.au/en/Research/D61"
+        },
+        "appName": "Northern Australia Map",
+        "supportEmail": "nationalmap@lists.nicta.com.au"
     }
 }
