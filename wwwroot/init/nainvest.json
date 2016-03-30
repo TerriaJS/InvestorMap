@@ -157,7 +157,8 @@
             {
               "name": "NT: Stock routes",
               "type": "wms",
-              "layers": "60"
+              "layers": "60",
+              "url": "http://wms1.ntlis.nt.gov.au/ilismap"
             },
             {
               "name": "Key Freight Routes",
