@@ -136,8 +136,13 @@ terria.start({
     var australiaBaseMaps = createAustraliaBaseMapOptions(terria);
     var globalBaseMaps = createGlobalBaseMapOptions(terria, configuration.bingMapsKey);
 
+    // Remove Bing options temporarily.
+    globalBaseMaps = globalBaseMaps.filter(function(baseMap) {
+        return baseMap.catalogItem.name.indexOf('Bing') < 0;
+    });
+
     var allBaseMaps = australiaBaseMaps.concat(globalBaseMaps);
-    selectBaseMap(terria, allBaseMaps, 'Bing Maps Aerial with Labels', true);
+    selectBaseMap(terria, allBaseMaps, 'Positron (Light)', true);
 
     // Create the Settings / Map panel.
     var settingsPanel = SettingsPanelViewModel.create({
@@ -276,10 +281,10 @@ terria.start({
                     new CatalogItemNameSearchProviderViewModel({
                         terria: terria
                     }),
-                    new BingMapsSearchProviderViewModel({
-                        terria: terria,
-                        key: configuration.bingMapsKey
-                    }),
+                    // new BingMapsSearchProviderViewModel({
+                    //     terria: terria,
+                    //     key: configuration.bingMapsKey
+                    // }),
                     new GazetteerSearchProviderViewModel({
                         terria: terria
                     })
