@@ -17,6 +17,7 @@
             "title": "Disclaimer"
         },
         "corsProxyBaseUrl": "/proxy/",
+        "proxyableDomainsUrl": "/proxyabledomains",
         "developerAttribution": {
             "text": "Data61",
             "link": "http://www.csiro.au/en/Research/D61"
