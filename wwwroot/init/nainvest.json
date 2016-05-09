@@ -208,7 +208,7 @@
                   "opacity": 1
                 }
               ]
-            }            
+            }
           ]
         },
         {
@@ -563,8 +563,8 @@
             {
               "name": "WA: Mines & Mineral deposits",
               "type": "wms",
-              "url": "https://mapsengine.google.com/09372590152434720789-11493353092997567468-4/wms/",
-              "layers": "09372590152434720789-12202648460129380533-4"
+              "url": "https://services.slip.wa.gov.au/public/services/DMP_Public_Services/DMP_Public_Services/MapServer/WMSServer",
+              "layers": "17"
             },
             {
               "name": "QLD: Operating mines",
@@ -574,14 +574,14 @@
             {
               "name": "WA: Mining tenements",
               "type": "wms",
-              "url": "https://mapsengine.google.com/09372590152434720789-09499575881840677463-4/wms/",
-              "layers": "09372590152434720789-04695855072319211862-4"
+              "url": "https://services.slip.wa.gov.au/public/services/DMP_Public_Services/DMP_Public_Services/MapServer/WMSServer",
+              "layers": "12"
             },
             {
               "name": "NT: Mining tenements",
               "type": "wms",
               "url": "http://geology.data.nt.gov.au/geoserver/mt/wms",
-              "layers": "mt:MineralTenement",
+              "layers": "MineralTenement",
               "description": "More information about <a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/leasehold-land/#mining-mineral-exploration-leases-in-the-northern-territory\">Mining and Mineral Exploration Leases in the Northern Territory</a>.",
               "getFeatureInfoFormats": [
                 {
@@ -593,7 +593,7 @@
             {
               "name": "Mine Areas",
               "type": "esri-mapServer",
-              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Culture_and_Infrastructure/MapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/NM_Culture_and_Infrastructure/MapServer",
               "layers": "Mine_Areas,No_Data",
               "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Culture_and_Infrastructure_Mine_Areas.png",
               "info": [
