@@ -89,15 +89,14 @@
             {
               "name": "Railways",
               "type": "esri-mapServer",
-              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Transport/MapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer",
               "layers": "Railways"
             },
             {
               "name": "All-weather roads",
               "type": "esri-mapServer",
-              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Transport/MapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer",
               "layers": "Major_Road_Network,Roads_Scale_7Million_to_600000,Roads_Scale_600000_to_300000,All_Roads",
-              "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Transport_Roads.png",
               "info": [
                 {
                   "name": "Licence",
@@ -112,9 +111,8 @@
             {
               "name": "Road Bridges and Fords",
               "type": "esri-mapServer",
-              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Transport/MapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer",
               "layers": "Road_Bridges_and_Fords,No_Data",
-              "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Transport_Road_Bridges_and_Fords.png",
               "info": [
                 {
                   "name": "Licence",
@@ -125,9 +123,8 @@
             {
               "name": "Airports and Airfields",
               "type": "esri-mapServer",
-              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Transport/MapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer",
               "layers": "Airports_Point_Features,No_Data",
-              "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Transport_Airports_Point_features.png",
               "info": [
                 {
                   "name": "Licence",
@@ -218,9 +215,7 @@
             {
               "name": "Onshore Gas Pipelines",
               "type": "esri-mapServer",
-              "url": "http://www.ga.gov.au/gis/rest/services/topography/National_Onshore_Gas_Pipelines/MapServer",
-              "layers": "Gas_Pipelines",
-              "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/National_Onshore_Gas_Pipelines_Legend.png",
+              "url": "http://services.ga.gov.au/gis/rest/services/Oil_Gas_Infrastructure/MapServer/1",
               "info": [
                 {
                   "name": "Licence",
@@ -231,9 +226,7 @@
             {
               "name": "Onshore Oil Pipelines",
               "type": "esri-mapServer",
-              "url": "http://www.ga.gov.au/gis/rest/services/topography/National_Onshore_Oil_Pipelines/MapServer",
-              "layers": "Oil_Pipelines",
-              "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/National_Onshore_Oil_Pipelines_Legend.png",
+              "url": "http://services.ga.gov.au/gis/rest/services/Oil_Gas_Infrastructure/MapServer/0",
               "info": [
                 {
                   "name": "Licence",
@@ -244,8 +237,8 @@
             {
               "name": "WA Petroleum Pipelines",
               "type": "wms",
-              "url": "https://mapsengine.google.com/09372590152434720789-09499575881840677463-4/wms/",
-              "layers": "09372590152434720789-14260109621676598966-4"
+              "url": "https://services.slip.wa.gov.au/public/services/DMP_Public_Services/DMP_Public_Services/MapServer/WMSServer",
+              "layers": "10"
             },
             {
               "name": "NT Oil Pipelines",
@@ -266,34 +259,27 @@
           "type": "group",
           "items": [
             {
-              "name": "Electricity grid",
-              "type": "group",
-              "items": [
+              "name": "Electricity Transmission Lines",
+              "type": "esri-mapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/Electricity_Infrastructure/MapServer",
+              "layers": "National_Electricity_Transmission_Lines",
+              "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/National_Electricity_Transmission_Lines.png",
+              "info": [
                 {
-                  "name": "Electricity Transmission Lines",
-                  "type": "esri-mapServer",
-                  "url": "http://www.ga.gov.au/gis/rest/services/topography/National_Electricity_Transmission_Lines/MapServer",
-                  "layers": "National_Electricity_Transmission_Lines",
-                  "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/National_Electricity_Transmission_Lines.png",
-                  "info": [
-                    {
-                      "name": "Licence",
-                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-                    }
-                  ]
-                },
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                }
+              ]
+            },
+            {
+              "name": "Powerlines",
+              "type": "esri-mapServer",
+              "url": "http://services.ga.gov.au/gis/rest/services/NM_Culture_and_Infrastructure/MapServer",
+              "layers": "Powerlines,No_Data",
+              "info": [
                 {
-                  "name": "Powerlines",
-                  "type": "esri-mapServer",
-                  "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Culture_and_Infrastructure/MapServer",
-                  "layers": "Powerlines,No_Data",
-                  "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Culture_and_Infrastructure_Powerlines.png",
-                  "info": [
-                    {
-                      "name": "Licence",
-                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-                    }
-                  ]
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
                 }
               ]
             }
