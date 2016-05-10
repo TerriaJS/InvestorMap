@@ -298,8 +298,8 @@
             {
               "name": "WA: Surface Water Areas & Irrigation Districts (RIWI Act)",
               "type": "wms",
-              "url": "https://mapsengine.google.com/09372590152434720789-11920815285354965867-4/wms/",
-              "layers": "09372590152434720789-00157321636549444088-4"
+              "url": "https://services.slip.wa.gov.au/public/services/DOW_Public_Services/DOW_Public_Services/MapServer/WMSServer",
+              "layers": "21"
             },
             {
               "name": "Water Table Yield",
@@ -352,8 +352,8 @@
             {
               "name": "Canals",
               "type": "esri-mapServer",
-              "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Hydrography_and_Marine/MapServer",
-              "layers": "46",
+              "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrography_and_Marine_Lines/MapServer",
+              "layers": "Canal_Lines,No_Data",
               "dataCustodian": "Geoscience Australia"
             },
             {
@@ -363,9 +363,8 @@
                 {
                   "name": "Rivers",
                   "type": "esri-mapServer",
-                  "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Hydrography_and_Marine/MapServer",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrography_and_Marine_Lines/MapServer",
                   "layers": "Watercourses_All_Rivers_Labels,Watercourses_Major_Rivers_Scale_5Million_to_300000_Labels,Watercourses_Major_Rivers_Scale_10Million_to_5Million_Labels,Watercourses_All_Rivers_Watercourse_Lines,Watercourses_All_Rivers_Connectors,Watercourses_Major_Rivers_Scale_5Million_to_300000,Watercourses_Major_Rivers_National_Scale_to_5Million,No_Data",
-                  "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Hydrography_and_Marine_Watercourses.png",
                   "info": [
                     {
                       "name": "Licence",
@@ -376,9 +375,8 @@
                 {
                   "name": "Watercourse Areas",
                   "type": "esri-mapServer",
-                  "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Hydrography_and_Marine/MapServer",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrography_and_Marine_Polygons/MapServer",
                   "layers": "Watercourse_Areas_Labels,Watercourse_Areas,No_Data",
-                  "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Hydrography_and_Marine_Watercourse_Areas.png",
                   "info": [
                     {
                       "name": "Licence",
@@ -387,9 +385,14 @@
                   ]
                 },
                 {
-                  "name": "Geoscience Australia hydrography",
+                  "name": "Geoscience Australia Hydrography Lines",
                   "type": "esri-mapServer-group",
-                  "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Hydrography_and_Marine/MapServer"
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrography_and_Marine_Lines/MapServer"
+                },
+                {
+                  "name": "Geoscience Australia Hydrography Areas",
+                  "type": "esri-mapServer-group",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrography_and_Marine_Polygons/MapServer"
                 }
               ]
             }
@@ -440,11 +443,6 @@
           ]
         },
         {
-          "name": "Type of commodity",
-          "type": "group",
-          "items": []
-        },
-        {
           "name": "Rainfall",
           "type": "group",
           "items": [
@@ -470,7 +468,7 @@
               "name": "NT: Mineral occurrence",
               "type": "wms",
               "url": "http://geology.data.nt.gov.au/geoserver/mo/wms",
-              "layers": "mo:MinOccView",
+              "layers": "MinOccView",
               "getFeatureInfoFormats": [
                 {
                   "type": "text",
@@ -569,6 +567,8 @@
               "url": "http://geology.data.nt.gov.au/geoserver/mt/wms",
               "layers": "MineralTenement",
               "description": "More information about <a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/leasehold-land/#mining-mineral-exploration-leases-in-the-northern-territory\">Mining and Mineral Exploration Leases in the Northern Territory</a>.",
+              "clipToRectangle": true,
+              "ignoreUnknownTileErrors": true,
               "getFeatureInfoFormats": [
                 {
                   "type": "text",
@@ -659,9 +659,8 @@
         {
           "name": "Populated Places",
           "type": "esri-mapServer",
-          "url": "http://www.ga.gov.au/gis/rest/services/topography/Dynamic_National_Map_Labelling_and_Boundaries/MapServer",
+          "url": "http://services.ga.gov.au/gis/rest/services/NM_Labelling_and_Boundaries/MapServer",
           "layers": "PopulatedPlaces_Canberra,CapitalCities_40Mill_to_20Mill_Scale,CapitalCities_20Mill_to_73K_Scale,CapitalCities_73K_to_70K_Scale,PopulatedPlaces_10Mill_to_7Mill_Scale,PopulatedPlaces_7Mill_to_1Mill_Scale,PopulatedPlaces_1Mill_to_150K_Scale,PopulatedPlaces_150K_to_100K_Scale,PopulatedPlaces_100K_to_70K_Scale,No_Data",
-          "legendUrl": "http://www.ga.gov.au/gis/server/capabilities/Dynamic_National_Map_Labelling_and_Boundaries_Populated_Places.png",
           "info": [
             {
               "name": "Licence",
