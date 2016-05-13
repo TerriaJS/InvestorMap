@@ -346,7 +346,7 @@ terria.start({
           if (location.hostname.match(/research\.nicta\.com\.au/)) {
             message += require('./lib/Views/DevelopmentDisclaimer.html');
           }
-          message += require('/lib/Views/GlobalDisclaimer.html');
+          message += require('./lib/Views/GlobalDisclaimer.html');
           var options = {
               title: (disclaimer.title !== undefined) ? disclaimer.title : 'Disclaimer',
               confirmText: "I Agree",
