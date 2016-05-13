@@ -37,7 +37,6 @@ checkBrowserCompatibility('ui');
 
 var knockout = require('terriajs-cesium/Source/ThirdParty/knockout');
 var defined = require('terriajs-cesium/Source/Core/defined');
-var fs = require('fs');
 
 
 var isCommonMobilePlatform = require('terriajs/lib/Core/isCommonMobilePlatform');
@@ -345,9 +344,9 @@ terria.start({
       if(disclaimer.enabled && location.hostname.indexOf('localhost') === -1) {
           var message = '';
           if (location.hostname.match(/research\.nicta\.com\.au/)) {
-            message += fs.readFileSync(__dirname + '/lib/Views/DevelopmentDisclaimer.html', 'utf8');
+            message += require('./lib/Views/DevelopmentDisclaimer.html');
           }
-          message += fs.readFileSync(__dirname + '/lib/Views/GlobalDisclaimer.html', 'utf8');
+          message += require('/lib/Views/GlobalDisclaimer.html');
           var options = {
               title: (disclaimer.title !== undefined) ? disclaimer.title : 'Disclaimer',
               confirmText: "I Agree",
