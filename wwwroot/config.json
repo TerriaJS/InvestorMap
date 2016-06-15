@@ -16,7 +16,7 @@
             "confirmationRequired": true,
             "title": "Disclaimer"
         },
-        "corsProxyBaseUrl": "/proxy/",
+        "proxyBaseUrl": "/proxy/",
         "proxyableDomainsUrl": "/proxyabledomains",
         "developerAttribution": {
             "text": "Data61",
