@@ -1,9 +1,25 @@
 Change Log
 ==========
 
-### 2016-04-05
+### 2016-08-15
 
-* Temporarily disable the Bing Maps base maps and geocoder until we get a new API key.
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 4.2.0.  Significant changes relevant to NationalMap users include:
+  * A brand new user interface, incorporating user feedback and the results of usability testing!
+  * `CswCatalogGroup` will now include Web Processing Services from the catalog if configured with `includeWps` set to true.
+  * `WebMapServiceCatalogItem` will now detect ncWMS servers and set isNcWMS to true.
+  * Uses a new mechanism for storing the data associated with the Share feature, avoid URL length limits.
+  * Added partial support for the SDMX-JSON format, including the ability to sum over dimensions via `aggregatedDimensionIds`.
+  * Added support for ArcGis FeatureServers, using the new catalog types `esri-featureServer` and `esri-featureServer-group`. Catalog type `esri-group` can load REST service, MapServer and FeatureServer endpoints. (For backwards compatability, catalog type `esri-mapServer-group` continues to work for REST service as well as MapServer endpoints.)
+  * Adds bulk geocoding capability for Australian addresses. So GnafAPI can be used with batches of addresses, if configured.
+  * Updated to [Cesium](http://cesiumjs.org) 1.23 (from 1.20).  See the [change log](https://github.com/AnalyticalGraphicsInc/cesium/blob/1.23/CHANGES.md) for details.
+  * Added support for `tableStyle.colorBins` as array of values specifying the boundaries between the color bins in the legend, eg. `[3000, 3500, 3900, 4000]`. `colorBins` can still be an integer specifying the number of bins, in which case Terria determines the boundaries.
+  * Added support for moving-point csv files, via an `idColumns` array on csv catalog items. By default, feature positions, color and size are interpolated between the known time values; set `isSampled` to false to prevent this. (Color and size are never interpolated when they are drawn from a text column.)
+  * Added support for polling csv files with a partial update, and by using `idColumns` to identify features across updates.
+  * Added a time series chart to the Feature Info Panel for sampled, moving features.
+  * Made explorer panel not rendered at all when hidden and made the preview map destroy itself when unmounted - this mitigates performance issues from having Leaflet running in the background on very busy vector datasets.
+  * Legend images that fail to load are now hidden entirely.
+
+
 ### 2016-06-15
 
 * Added a prominent link to the preview of the new UI.
