@@ -1,60 +1,37 @@
 {
-    /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
-    initializationUrls: [
-        "terria",
-        "test"
+    "initializationUrls" : [
+        "nainvest"
     ],
-    parameters: {
-        bingMapsKey: "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
-        googleUrlShortenerKey: null,
-        googleAnalyticsKey: null,
-        googleAnalyticsOptions: null,
-        /* Text that appears at the bottom of the map */
-        disclaimer: {
-            text: "Disclaimer: This map must not be used for navigation or precise spatial analysis",
-            url: ""
+    "parameters": {
+        "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
+        "googleUrlShortenerKey": null,
+        "googleAnalyticsKey": null,
+        "googleAnalyticsOptions": null,
+        "disclaimer": {
+            "text": "Disclaimer: The NationalMap must not be used for navigation or precise spatial analysis",
+            "url": "about.html"
         },
-        /*
-        // Text that will be added to any pages printed from your site.
-        printDisclaimer:{
-            text:"Put your print disclaimer here.",
-            url: "#"
-        },
-        */
-         
-        // Pop-up disclaimer that will be shown at the start
-        // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
-        globalDisclaimer: {
-            confirmationRequired: true,
-            buttonTitle: "I agree",
-            title: "Disclaimer",
-            // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
-            // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
-            //prodHostRegex: "gov.\\.au$",
+        "globalDisclaimer": {
+            "enabled": true,
+            "confirmationRequired": true,
+            "title": "Disclaimer",
+            "prodHostRegex": "nationalmap\\.gov\\.au",
             //devHostRegex: "\\b(staging|preview|test|dev)\\.",
-            enableOnLocalhost: true // If false, don't show this when running on localhost
+            enableOnLocalhost: true
         },
-        
-        /*
-        developerAttribution: {
-            text: "Your organisation",
-            link: "http://www.example.com"
-        },*/
-        // This is used in various text messages. You should also set <title> in index.html
-        appName: "Terria Map",
-
-        // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
-        brandBarElements: [
+        "corsProxyBaseUrl": "/proxy/",
+        "proxyableDomainsUrl": "/proxyabledomains",
+        "developerAttribution": {
+            "text": "Data61",
+            "link": "http://www.csiro.au/en/Research/D61"
+        },
+        "appName": "Northern Australia Map",
+        "supportEmail": "nationalmap@lists.nicta.com.au",
+        "brandBarElements": [
             "",
-            "<a target=\"_blank\" href=\"http://www.nicta.com.au\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+            "<a target=\"_blank\" href=\"http://www.nicta.com.au\"><img src=\"images/na-logo.png\" title=\"Version: {{version}}\" /></a>",
             ""
-        ],
-        // Shown when things go wrong.
-        supportEmail: "help@example.com",
-        // You probably shouldn't change this.
-        proj4ServiceBaseUrl: "proj4def/",
-        // Or this
-        feedbackUrl: "feedback"
+        ]
+
     }
 }
-

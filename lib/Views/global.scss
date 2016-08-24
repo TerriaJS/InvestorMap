@@ -16,7 +16,7 @@ body {
 
     // To customise the look of your Terria Map, uncomment this section and make changes to your heart's content
     // You will also want to uncomment and change values in lib/Styles/variables.scss
-    /*
+    
     // Import any custom fonts here
     //@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700);
 
@@ -42,9 +42,18 @@ body {
 
         // To make the logo clickable, it should be instead set in config.json, at "brandBarElements"
         // background:$dark url(http://www.public-domain-image.com/backgrounds/slides/abstract-waves-on-a-blue-background.jpg);
+        background-color: hsl(34,100%,49%);
+        border-left: 5px solid $dark;
+        border-right: 5px solid $dark;
+        border-bottom: 4px solid $dark;
+        border-top: 4px solid $dark;
         // background-position: top right;
         // background-size: 100%;
         // background-repeat: no-repeat;
+        img {
+            height: 68px;
+            max-height: 68px;
+        }
 
     }
     // Background of whole left panel
@@ -151,6 +160,22 @@ body {
     .tjs-tabs__btn--tab:hover {    
         color:$color-secondary;
     }
-    */
+    
+
+    // Special Austrade link
+    .austrade {
+        position:absolute;
+        bottom:0;
+        left:0;
+        padding-bottom:0.5em;
+        padding-left:1em;
+        background:hsl(214, 15%, 19%); // so it's visible over legends etc (this should be a variable)
+        left: -20px;
+        width:100%;
+
+        a {
+            color: hsl(31, 92%, 58%);
+        }
+    }
 
 }

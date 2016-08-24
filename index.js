@@ -144,4 +144,12 @@ terria.start({
         console.error(e);
         console.error(e.stack);
     }
+    var homeLink = '<a href="http://www.austrade.gov.au/landtenure">&larr; Back to Austrade Land Tenure site</a>';
+    var div = document.createElement('div');
+    div.innerHTML = homeLink;
+    div.className = 'austrade';
+    div.style.marginTop = '20px';
+    div.style.marginLeft = '20px';
+    document.getElementsByClassName("tjs-side-panel__body")[0].appendChild(div);
+
 });
