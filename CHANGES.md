@@ -1,6 +1,22 @@
 Change Log
 ==========
 
+### 2016-08-25
+
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 4.3.0.  Significant changes relevant to NationalMap users include:
+  * A brand new user interface, incorporating user feedback and the results of usability testing!
+  * Uses a new mechanism for storing the data associated with the Share feature, avoid URL length limits.
+  * Added support for ArcGis FeatureServers, using the new catalog types `esri-featureServer` and `esri-featureServer-group`. Catalog type `esri-group` can load REST service, MapServer and FeatureServer endpoints. (For backwards compatability, catalog type `esri-mapServer-group` continues to work for REST service as well as MapServer endpoints.)
+  * Updated to [Cesium](http://cesiumjs.org) 1.23 (from 1.20).  See the [change log](https://github.com/AnalyticalGraphicsInc/cesium/blob/1.23/CHANGES.md) for details.
+  * `CswCatalogGroup` will now include Web Processing Services from the catalog if configured with `includeWps` set to true.
+  * `WebMapServiceCatalogItem` will now detect ncWMS servers and set isNcWMS to true.
+  * Added support for SDMX-JSON data files.
+  * Added support for `tableStyle.colorBins` as array of values specifying the boundaries between the color bins in the legend, eg. `[3000, 3500, 3900, 4000]`. `colorBins` can still be an integer specifying the number of bins, in which case Terria determines the boundaries.
+  * Added support for moving-point csv files, via an `idColumns` array on csv catalog items. By default, feature positions, color and size are interpolated between the known time values; set `isSampled` to false to prevent this. (Color and size are never interpolated when they are drawn from a text column.)
+  * Added support for polling csv files with a partial update, and by using `idColumns` to identify features across updates.
+  * Added a time series chart to the Feature Info Panel for sampled, moving features.
+  * Added a loading indicator for user-added files.
+
 ### 2016-07-15
 
 * Catalog (init) files can now be stored as .ejs files in /datasources, rendered by the EJS templating library. See comments in gulpfile.js.
