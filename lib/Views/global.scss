@@ -16,7 +16,7 @@ body {
 
     // To customise the look of your Terria Map, uncomment this section and make changes to your heart's content
     // You will also want to uncomment and change values in lib/Styles/variables.scss
-    
+
     // Import any custom fonts here
     //@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700);
 
@@ -27,8 +27,6 @@ body {
     // Logo area in top left
     .tjs-branding__branding {
         a:first-child, a:last-child {
-            display: none;
-
             @media screen and (min-width: $sm) {
                 display: inline;
             }
@@ -51,8 +49,14 @@ body {
         // background-size: 100%;
         // background-repeat: no-repeat;
         img {
-            height: 68px;
-            max-height: 68px;
+            @media screen and (min-width: $sm){
+                height: 68px;
+                max-height: 68px;
+            }
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+
         }
 
     }
@@ -66,15 +70,16 @@ body {
         font-weight:400;
         font-size:18px;
         background:$dark-darker;
+        height: calc(100vh - #{$logo-height});
     }
 
     // All kinds of buttons in various screens
     .tjs-_buttons__btn {
-        &-primary { 
-            font-family: $font-base; 
+        &-primary {
+            font-family: $font-base;
         }
-        &:hover { 
-            color: $color-primary;             
+        &:hover {
+            color: $color-primary;
         }
     }
 
@@ -86,11 +91,11 @@ body {
 
     // Lat/lon buttons
     .tjs-legend__locationBar, .tjs-legend__distanceLegend {
-        
+
         background:$dark;
         color:white;
         &:hover,&:focus { background: $dark; color: white; }
-    
+
     }
 
     // Progress bar while datasets are loading
@@ -105,7 +110,7 @@ body {
     }
 
     .tjs-timeline__text-cell {
-        font-family: $font-base; 
+        font-family: $font-base;
     }
 
     .tjs-timeline__timeline {
@@ -128,10 +133,11 @@ body {
         }
 
         table td {
-            border:none;
+            // border:none;
             // font-family: $font-base; // if you don't want monospaced
             font-weight:normal; // not bold
             color:hsl(0,0%,90%);
+            padding: 5px;
 
         }
         a {
@@ -149,21 +155,22 @@ body {
     .tjs-data-catalog-item__btn-catalog-item--is-previewed {
         ,&:focus {color: $color-primary; }
     }
-      // The tabs at the top 
-    .tjs-tabs__btn--tab {    
+      // The tabs at the top
+    .tjs-tabs__btn--tab {
         font-family:$font-base
     }
 
     .tjs-tabs__btn--selected {
         color:$color-primary-dark;
     }
-    .tjs-tabs__btn--tab:hover {    
+    .tjs-tabs__btn--tab:hover {
         color:$color-secondary;
     }
-    
+
 
     // Special Austrade link
     .austrade {
+        font-size: 15px;
         position:absolute;
         bottom:0;
         left:0;
@@ -175,6 +182,19 @@ body {
 
         a {
             color: hsl(31, 92%, 58%);
+        }
+    }
+
+    .tjs-_buttons__btn-primary{
+        &:hover{
+            color: #fff;
+        }
+    }
+
+    .tjs-mobile-modal-window__done-button{
+        &:hover{
+            color: #fff !important;
+            background: $color-secondary !important;
         }
     }
 
