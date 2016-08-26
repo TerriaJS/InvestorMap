@@ -6,7 +6,7 @@
 //$logo-height: 175px;
 
 // If using a non-standard font, remember to include an @import statement in global.scss
-//$font-base: 'Josefin Sans', sans-serif; 
+//$font-base: 'Josefin Sans', sans-serif;
 //$font-pop: $font-base; // If you just want to use one font throughout, do this.
 
 // These variables are for buttons and text.
@@ -24,3 +24,7 @@ $dark-lighter: hsl(0,30%,50%);
 $color-primary-light:lighten($color-primary,10%);
 $color-primary-dark:darken($color-primary,10%);
 $dark-darker: darken($dark,10%);//hsl(0,30%,15%);
+
+
+
+$logo-height: 80px;
