@@ -3,7 +3,7 @@ Change Log
 
 ### 2016-08-25
 
-* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 4.3.0.  Significant changes relevant to NationalMap users include:
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 4.3.2.  Significant changes relevant to NationalMap users include:
   * A brand new user interface, incorporating user feedback and the results of usability testing!
   * Uses a new mechanism for storing the data associated with the Share feature, avoid URL length limits.
   * Added support for ArcGis FeatureServers, using the new catalog types `esri-featureServer` and `esri-featureServer-group`. Catalog type `esri-group` can load REST service, MapServer and FeatureServer endpoints. (For backwards compatability, catalog type `esri-mapServer-group` continues to work for REST service as well as MapServer endpoints.)
