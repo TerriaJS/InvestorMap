@@ -26,8 +26,7 @@
           "layers": "CONVERTIBLE_LEASE",
           "description": "Leasehold land is a land holding that is leased to a person either by the government (as the Crown) or by a freeholdowner. However, it is critical to remember that, where applicable, all mineral rights are reserved to the Crown. <br /><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/leasehold-land/\">Read full explanation on the Austrade Site</a>",
           "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Tenure type: </td><td>{{JURISDICTION_TENURE_TYPE_NAME}}<br/> ({{JURISDICTION_TENURE_TYPE_DESCRIPTION}})</td></tr><tr><td>Status</td><td>{{PARCEL_STATUS_NAME}}<br/>({{PARCEL_STATUS_DESCRIPTION}})</td></tr><tr><td>Jurisdiction ID:</td><td>{{JURISDICTION_ID}}</td></tr></tr></table> <br /><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/leasehold-land/\">Read full explanation on the Austrade Site</a>",
-          "hideSource": true,
-          "info": [ { "name": "GetCapabilities URL", "content": "" } ] // remove when https://github.com/TerriaJS/terriajs/issues/2067 is implemented
+          "hideSource": true
         },
         {
           "name": "Freehold",
@@ -36,8 +35,7 @@
           "layers": "FREEHOLD",
           "description": "Freehold land (or fee simple) provides people with the most complete form of ownership of that land, in perpetuity. It allows the land holder to deal with the land including selling, leasing, licensing or mortgaging the land, subject to compliance with applicable laws such as planning laws. <br/><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/freehold-land/\">Read full explanation on the Austrade Site</a>",
           "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Tenure type: </td><td>{{JURISDICTION_TENURE_TYPE_NAME}}<br/> ({{JURISDICTION_TENURE_TYPE_DESCRIPTION}})</td></tr><tr><td>Status</td><td>{{PARCEL_STATUS_NAME}}<br/>({{PARCEL_STATUS_DESCRIPTION}})</td></tr><tr><td>Jurisdiction ID:</td><td>{{JURISDICTION_ID}}</td></tr></tr></table> <br/><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/freehold-land/\">Read full explanation on the Austrade Site</a>",
-          "hideSource": true,
-          "info": [ { "name": "GetCapabilities URL", "content": "" } ] // remove when https://github.com/TerriaJS/terriajs/issues/2067 is implemented
+          "hideSource": true
         },
         {
           "name": "Crown land",
@@ -46,8 +44,7 @@
           "layers": "CROWN_LAND",
           "description": "Crown Land is known as all land which is “remaining” that has not been converted as freehold title and is still held by the Crown. <br /><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/crown-land/\">Read full explanation on the Austrade Site</a>",
           "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Tenure type: </td><td>{{JURISDICTION_TENURE_TYPE_NAME}}<br/> ({{JURISDICTION_TENURE_TYPE_DESCRIPTION}})</td></tr><tr><td>Status</td><td>{{PARCEL_STATUS_NAME}}<br/>({{PARCEL_STATUS_DESCRIPTION}})</td></tr><tr><td>Jurisdiction ID:</td><td>{{JURISDICTION_ID}}</td></tr></tr></table> <br /><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/crown-land/\">Read full explanation on the Austrade Site</a>",
-          "hideSource": true,
-          "info": [ { "name": "GetCapabilities URL", "content": "" } ] // remove when https://github.com/TerriaJS/terriajs/issues/2067 is implemented
+          "hideSource": true
         },
         {
           "name": "Reserves",
@@ -56,8 +53,7 @@
           "layers": "RESERVE",
           "description": "Crown reserves are land set aside by the Government on behalf of the community for a wide range of public purposes, including sites for environmental and heritage protection, recreation and sport, open space, community halls, special events and government services. <br /><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/reserves/\">Read full explanation on the Austrade Site</a>",
           "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Tenure type: </td><td>{{JURISDICTION_TENURE_TYPE_NAME}}<br/> ({{JURISDICTION_TENURE_TYPE_DESCRIPTION}})</td></tr><tr><td>Status</td><td>{{PARCEL_STATUS_NAME}}<br/>({{PARCEL_STATUS_DESCRIPTION}})</td></tr><tr><td>Jurisdiction ID:</td><td>{{JURISDICTION_ID}}</td></tr></tr></table><br /><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/reserves/\">Read full explanation on the Austrade Site</a>",
-          "hideSource": true,
-          "info": [ { "name": "GetCapabilities URL", "content": "" } ] // remove when https://github.com/TerriaJS/terriajs/issues/2067 is implemented
+          "hideSource": true
         },
         {
           "name": "Pastoral lease",
@@ -66,8 +62,7 @@
           "layers": "PASTORAL_LEASE",
           "description": "Pastoral Leases have been a significant land tenure type for the growth of the Australian agriculture industry. Pastoral leases cover approximately 44% of Australia’s mainland (338 million hectares) and are generally situated in arid and semi-arid regions and the tropical savannahs. <br /><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/pastoral-leases#pastoral-leases-in-the-northern-territory\">Read full explanation on the Austrade Site</a>",
           "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Tenure type: </td><td>{{JURISDICTION_TENURE_TYPE_NAME}}<br/> ({{JURISDICTION_TENURE_TYPE_DESCRIPTION}})</td></tr><tr><td>Status</td><td>{{PARCEL_STATUS_NAME}}<br/>({{PARCEL_STATUS_DESCRIPTION}})</td></tr><tr><td>Jurisdiction ID:</td><td>{{JURISDICTION_ID}}</td></tr></tr></table><br /><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/pastoral-leases#pastoral-leases-in-the-northern-territory\">Read full explanation on the Austrade Site</a>",
-          "hideSource": true,
-          "info": [ { "name": "GetCapabilities URL", "content": "" } ] // remove when https://github.com/TerriaJS/terriajs/issues/2067 is implemented
+          "hideSource": true
         },
         {
           "name": "Other lease",
@@ -76,8 +71,7 @@
           "layers": "OTHER_LEASE",
           "description": "Leasehold land is a land holding that is leased to a person either by the government (as the Crown) or by a freehold owner. However, it is critical to remember that, where applicable, all mineral rights are reserved to the Crown. <br /><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/leasehold-land/\">Read full explanation on the Austrade Site</a>",
           "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Tenure type: </td><td>{{JURISDICTION_TENURE_TYPE_NAME}}<br/> ({{JURISDICTION_TENURE_TYPE_DESCRIPTION}})</td></tr><tr><td>Status</td><td>{{PARCEL_STATUS_NAME}}<br/>({{PARCEL_STATUS_DESCRIPTION}})</td></tr><tr><td>Jurisdiction ID:</td><td>{{JURISDICTION_ID}}</td></tr></tr></table> <br /><a href=\"http://www.northernaustralialandtenure.com.au/land-tenure/leasehold-land/\">Read full explanation on the Austrade Site</a>",
-          "hideSource": true,
-          "info": [ { "name": "GetCapabilities URL", "content": "" } ] // remove when https://github.com/TerriaJS/terriajs/issues/2067 is implemented
+          "hideSource": true
         },
         {
           "name": "Secondary tenure type",
@@ -85,8 +79,7 @@
           "url": "http://services.ga.gov.au/gis/services/Northern_Australia_Land_Tenure/MapServer/WMSServer?request=GetCapabilities&service=WMS",
           "layers": "SECONDARY_TENURE_TYPE",
           "featureInfoTemplate": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Tenure type: </td><td>{{JURISDICTION_TENURE_TYPE_NAME}}<br/> ({{JURISDICTION_TENURE_TYPE_DESCRIPTION}})</td></tr><tr><td>Status</td><td>{{PARCEL_STATUS_NAME}}<br/>({{PARCEL_STATUS_DESCRIPTION}})</td></tr><tr><td>Jurisdiction ID:</td><td>{{JURISDICTION_ID}}</td></tr></tr></table>",
-          "hideSource": true,
-          "info": [ { "name": "GetCapabilities URL", "content": "" } ] // remove when https://github.com/TerriaJS/terriajs/issues/2067 is implemented
+          "hideSource": true
         }
       ],
       "preserveOrder": true
