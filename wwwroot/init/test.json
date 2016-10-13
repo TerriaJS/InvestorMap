@@ -67,6 +67,7 @@
               "name": "Auto Incidents (CSV)",
               "type": "csv",
               "url": "test/incidents.csv",
+              "idColumns": null,
               "tableStyle": {
                 "colorMap": [
                   {
@@ -250,6 +251,121 @@
           ]
         },
         {
+          "name": "WMS",
+          "type": "group",
+          "items": [
+            {
+              "layers": "mybroadband:MyBroadband_Map",
+              "parameters": {
+                "tiled": true
+              },
+              "dataUrlType": "none",
+              "clipToRectangle": true,
+              "description": "[MyBroadband Map](https://www.mybroadband.communications.gov.au)",
+              "name": "Broadband with html feature info",
+              "rectangle": [
+                96.79939,
+                -43.59821,
+                153.63925,
+                -9.21592
+              ],
+              "getFeatureInfoFormats": [{"type": "html"}],
+              "dataCustodian": "[Department of Communications](http://www.communications.gov.au/)",
+              "url": "https://programs.communications.gov.au/geoserver/ows",
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](http://creativecommons.org/licenses/by/3.0/au/)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "WPS",
+          "type": "group",
+          "preserveOrder": true,
+          "items": [
+            {
+              "name": "InputsTest",
+              "type": "wps",
+              "url": "http://sparrow.terria.io:5001/wps?service=wps",
+              "identifier": "inputs_test"
+            },
+            {
+              "name": "PointTest",
+              "type": "wps",
+              "url": "http://sparrow.terria.io:5001/wps?service=wps",
+              "identifier": "point_test",
+              "opacity" : 0.6,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "LineTest",
+              "type": "wps",
+              "url": "http://sparrow.terria.io:5001/wps?service=wps",
+              "identifier": "line_test",
+              "opacity" : 0.6,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "RectangleTest",
+              "type": "wps",
+              "url": "http://sparrow.terria.io:5001/wps?service=wps",
+              "identifier": "bbox_test",
+              "opacity" : 0.6,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "PolygonTest",
+              "type": "wps",
+              "url": "http://sparrow.terria.io:5001/wps?service=wps",
+              "identifier": "polygon_test",
+              "opacity" : 0.6,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "RegionTest",
+              "type": "wps",
+              "url": "http://sparrow.terria.io:5001/wps?service=wps",
+              "identifier": "region_test",
+              "opacity" : 0.6,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "GeoJsonTest",
+              "type": "wps",
+              "url": "http://sparrow.terria.io:5001/wps?service=wps",
+              "identifier": "geojson_test",
+              "opacity" : 0.6,
+              "ignoreUnknownTileErrors": true
+            },
+            {
+              "name": "ContextTest",
+              "type": "wps",
+              "url": "http://sparrow.terria.io:5001/wps?service=wps",
+              "identifier": "point_test",
+              "opacity" : 0.6,
+              "ignoreUnknownTileErrors": true,
+              "contextItem": {
+                  "name": "Analysis Study Area",
+                  "description": "Show where it is possible to use the analytical functions of this test function.",
+                  "layers": "awavea-interim:outline_ww3.aus_4m",
+                  "url": "http://oa-gis.csiro.au/geoserver/ows",
+                  "type": "wms",
+                  "legendUrl": "",
+                  "rectangle": [
+                    109.0,
+                    -48.0,
+                    158.0,
+                    -5.0
+                  ]
+                }
+            }
+          ]
+        },
+        {
           "name": "GeoJSON files",
           "type": "group",
           "items": [
@@ -383,7 +499,7 @@
                     }
                   }
                 ]
-              }              
+              }
             }
           ]
         },

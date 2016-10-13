@@ -31,7 +31,7 @@
         "supportEmail": "nationalmap@lists.nicta.com.au",
         "brandBarElements": [
             "",
-            "<a target=\"_blank\" href=\"http://www.nicta.com.au\"><img src=\"images/na-logo.png\" title=\"Version: {{version}}\" /></a>",
+            "<a target=\"_blank\" href=\"http://www.csiro.au/en/Research/D61\"><img src=\"images/na-logo.png\" title=\"Version: {{version}}\" /></a>",
             ""
         ]
 
