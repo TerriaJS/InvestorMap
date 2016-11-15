@@ -4,6 +4,11 @@ Change Log
 ### 2016-09-15
 
 ### 2016-10-13
+### 2016-11-15
+
+* Fixed link to NEII viewer in related maps.
+* Added a button below the map navigation buttons to measure the distance between points.
+
 ### 2016-10-14
 
 * Support `openAddData` option in config.json. If true, the "Add Data" dialog is automatically opened at start up.
