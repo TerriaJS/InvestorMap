@@ -3,7 +3,6 @@
         "nainvest"
     ],
     "parameters": {
-        "feedbackUrl": "/feedback",
         "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
         "googleUrlShortenerKey": null,
         "googleAnalyticsKey": null,
@@ -23,6 +22,8 @@
         "corsProxyBaseUrl": "/proxy/",
         "proxyableDomainsUrl": "/proxyabledomains",
         "serverConfigUrl": "/serverconfig/",
+        "feedbackUrl": "/feedback",
+        "shareUrl": "/share",
         "developerAttribution": {
             "text": "Data61",
             "link": "http://www.csiro.au/en/Research/D61"
