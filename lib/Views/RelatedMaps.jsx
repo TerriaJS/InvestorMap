@@ -25,6 +25,23 @@ function RelatedMaps(props) {
             </p>
 
             <div className={classNames(PanelStyles.section, Styles.section)}>
+                <a target="_blank" href="http://nationalmap.gov.au/">
+                    <img className={Styles.image} src={require('../../wwwroot/images/nationalmap.jpg')}
+                         alt="The National Map"/>
+                </a>
+
+                <a target="_blank" className={Styles.link} href="http://nationalmap.gov.au/">The National
+                    Map</a>
+
+                <p>
+                    The NationalMap is a website for map-based access to spatial data from Australian government agencies. 
+                    It is an initiative of the Australian Government's Department of the Prime Minister and Cabinet and the 
+                    software has been developed by Data61 working closely with the Department of the Prime Minister and Cabinet, 
+                    Geoscience Australia and other government agencies.
+                </p>
+            </div>
+
+            <div className={classNames(PanelStyles.section, Styles.section)}>
                 <a target="_blank" href="http://nationalmap.gov.au/renewables/">
                     <img className={Styles.image} src={require('../../wwwroot/images/aremi.jpg')}
                          alt="AREMI"/>
@@ -38,29 +55,9 @@ function RelatedMaps(props) {
                 </p>
             </div>
 
-            <div className={classNames(PanelStyles.section, Styles.section)}>
-                <a target="_blank" href="http://nationalmap.gov.au/northernaustralia/">
-                    <img className={Styles.image} src={require('../../wwwroot/images/northernaustralia.jpg')}
-
-                         alt="Northern Australia"/>
-                </a>
-
-                <a target="_blank" className={Styles.link} href="http://nationalmap.gov.au/northernaustralia/">Northern
-                    Australia</a>
-
-                <p>
-                    The Northern Australia NationalMap forms part of the Government's commitment to developing
-                    northern Australia by providing easy access to authoritative and other spatial data on northern
-                    Australia to governments, business and the public.
-
-                    More information on the Government's White Paper on Developing Northern Australia is available
-                    here: <a target="_blank" className={Styles.link} href="https://northernaustralia.dpmc.gov.au">
-                    https://northernaustralia.dpmc.gov.au</a>.
-                </p>
-            </div>
 
             <div className={classNames(PanelStyles.section, Styles.section)}>
-                <a target="_blank" href="http://neiiviewer.nicta.com.au">
+                <a target="_blank" href="http://www.neii.gov.au/viewer/">
                     <img className={Styles.image} src={require('../../wwwroot/images/neii.jpg')}
                          alt="NEII Viewer"/>
                 </a>
