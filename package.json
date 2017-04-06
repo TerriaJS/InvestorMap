@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/NICTA/nationalmap"
+    "url": "http://github.com/TerriaJS/NorthernAustralia"
   },
   "dependencies": {
     "terriajs-server": "^2.6.2"
