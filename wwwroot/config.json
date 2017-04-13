@@ -34,11 +34,12 @@
         },
         "appName": "Northern Australia Map",
         "supportEmail": "nationalmap@lists.nicta.com.au",
+        "proj4ServiceBaseUrl": "/proj4def/",
         "brandBarElements": [
             "",
             "<a target=\"_blank\" href=\"http://www.csiro.au/en/Research/D61\"><img src=\"images/na-logo.png\" title=\"Version: {{version}}\" /></a>",
             ""
-        ]
-
+        ],
+        "autoPlay": false
     }
 }
