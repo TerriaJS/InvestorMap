@@ -4,6 +4,84 @@ Change Log
 ### 2017-02-15
 
 * Replaced Northern Australia with NationalMap in the "Related Maps"; fixed the link to the "NEII viewer" when the image is clicked.
+### 2017-04-13
+
+* Turned off the automatic animation of time-series data when an item is enabled. The user must now explicitly press the play button to see this.
+* The filter that extracts Local Governments from the general data.gov.au organisations now uses a precise field instead of guessing based on the name.
+* Fixed incorrect region IDs for ABS CED 2016 layers.
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 5.1.0.  Changes include:
+  * Breaking changes:
+    * Starting with this release, TerriaJS is meant to be built with Webpack 2.  The best way to upgrade your application is to merge from [TerriaMap](https://github.com/TerriaJS/TerriaMap).  If you run into trouble, post a message on the [TerriaJS forum](https://groups.google.com/forum/#!forum/terriajs).
+    * Removed the following previously-deprecated modules: `registerKnockoutBindings` (no replacement), `AsyncFunctionResultCatalogItem` (now `ResultPendingCatalogItem`), `PlacesLikeMeFunction` (now `PlacesLikeMeCatalogFunction`), `SpatialDetailingFunction` (now `SpatialDetailingCatalogFunction`), and `WhyAmISpecialFunction` (now `WhyAmISpecialCatalogFunction`).
+    * Removed `lib/Sass/StandardUserInterface.scss`.  It is no longer necessary to include this in your application.
+    * Removed the previously-deprecated third pararameter, `getColorCallback`, of `DisplayVariablesConcept`.  Pass it inside the `options` parameter instead.
+    * Removed the following previously-deprecated properties from `TableColumn`: `indicesIntoUniqueValues` (use `uniqueValues`), `indicesOrValues` (use `values`), `indicesOrNumericalValues` (use `uniqueValues` or `numericalValues`), and `usesIndicesIntoUniqueValues` (use `isEnum`).
+    * Removed the previously-deprecated `dataSetID` property from `AbsIttCatalogItem`.  Use `datasetId` instead.
+    * Removed the previously-deprecated `allowGroups` property from `CkanCatalogItem`.   Use `allowWmsGroups` or `allowWfsGroups` instead.
+    * Removed the previously-deprecated `RegionMapping.setRegionColumnType` function.  Use the `setRegionColumnType` on an _instance_ of `RegionMapping` instead.
+    * Removed the previously-deprecated `regionMapping.regionDetails[].column` and `.disambigColumn`. Use `.columnName` and `.disambigColumnName` instead.
+    * Removed the previously-deprecated `options.regionMappingDefinitionsUrl` parameter from the `Terria` constructor.  Set the `regionMappingDefinitionsUrl` inside `parameters` in `config.json` instead.
+  * Fixed a bug in `WebMapServiceCatalogItem` that prevented TerriaJS from correctly determining the projections supported by a WMS layer when supported projections are inherited from parent layers.
+  * Changed "no value" colour of region-mapped data to fully transparent, not black.
+  * Fixed an issue where expanding a chart from an SDMX-JSON or SOS feature twice, with different data choices selected, would overwrite the previous chart.
+  * Improved SDMX-JSON items to still show properly, even if the `selectedInitially` property is invalid.
+  * Added `Score` column to `GNAFAddressGeocoder` to indicate relative quality, which maps as default variable.
+  * Fixed a bug that prevented `WebMapServiceCatalogItem` from acting as a time-dynamic layer when the time dimension was inherited from a parent layer.
+  * `WebMapServiceCatalogItem` now supports WMS 1.1.1 style dimensions (with an `Extent` element) in addition to the 1.3.0 style (`Dimension` only).
+  * `WebMapServiceCatalogItem` now passes dates only (rather than dates and times) to the server when the TIME dimension uses the `start/stop/period` form, `start` is a date only, and `period` does not include hours, minutes, or seconds.
+  * `WebMapServiceCatalogItem` now supports years and months (in addition to days, hours, minutes, and seconds) in the period specified of a TIME dimension.
+  * `WebMapServiceCatalogItem` now ignores [leap seconds](https://en.wikipedia.org/wiki/Leap_second) when evaluating ISO8601 periods in a time dimension.  As a result, 2 hours after `2016-06-30T23:00:00Z` is now `2016-07-01T01:00:00Z` instead of `2016-07-01T00:59:59Z` even though a leap second at the end of June 2016 makes that technically 2 hours and 1 second.  We expect that this is more likely to align with the expectations of WMS server software.
+  * Added option to specify `mobileDefaultViewerMode` in the `parameters` section of `config.json` to specify the default view mode when running on a mobile platform.
+  * Added support for `itemProperties` to `CswCatalogGroup`.
+  * Added `terria.urlEncode` function for use in feature info templates.
+  * Fixed a layout problem that caused the coordinates on the location bar to be displayed below the bar itself in Internet Explorer 11.
+  * Updated syntax to remove deprecation warnings with React version 15.5.
+
+### 2017-03-15
+
+* Deprecated the old Australian Bureau of Statistics group and instead interspersed ABS items (now based on SDMX-JSON) into National Datasets.  Moved a few existing items into subfolders as appropriate.
+* Moved `Agricultural exposure` from `Social and Economic` to `Land`.
+* Moved ABS Statistical Boundaries datasets into the Data Providers group.
+* Specified the character set for the ABC Photo Stories CSV file in order to fix a problem with incorrect display of unusual characters.
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 4.10.5.  Changes include:
+  * Improved error message when accessing the user's location under http with Chrome.
+  * When searching locations, the button to instead search the catalog is now above the results instead of below them.
+  * Changed "go to full screen mode" tooltip to "Hide workbench", and "Exit Full Screen" button to "Show Workbench".  The term "full screen" was misleading.
+  * Fixed a bug where a chartable (non-geo-spatial) CSV file with a column including the text "height" would not let the user choose the "height" column as the y-axis of a chart.
+  * Added support for non-default x-axes for charts via `<chart x-column="x">` and the new `tableStyle.xAxis` parameter.
+  * Added support for a `charSet` parameter on CSV catalog items, which overrides the server's mime-type if present.
+  * Added the ability for `CkanCatalogGroup` to receive results in pages, rather than all in one request.  This will happen automatically when the server returns partial results.
+  * Improved the performance of the catalog UI by not creating React elements for the contents of a group until that group is opened.
+  * Close polygons used as input to a `CatalogFunction` by making the last position the same as the first one.
+  * Added support for a new `nameInCatalog` property on all catalog members which overrides `name` when displayed in the catalog, if present.
+  * Added `terria.urlEncodeComponent` function for use in feature info templates.
+  * `yAxisMin` and `yAxisMax` are now honored when multiple charts are active, by using the minimum `yAxisMin` and the maximum `yAxisMax` of all charts.
+  * Locked third-party dependency proj4 to v2.3.x because v2.4.0 breaks our build.
+  * New sections are now merged info `CatalogMember.info` when `updateFromJson` is called multiple times, rather than the later `info` completely replacing the earlier one.  This is most useful when using `itemProperties` to override some of the info sections in a child catalog item.
+  * Fixed a bug where csv files with a date column would sometimes fail if a date is missing.
+
+### 2017-02-15
+
+* Fixed the link to the "NEII viewer" related map when the image is clicked.
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 4.10.1.  Changes include:
+  * Changed defaults:
+    * `WebProcessingServiceCatalogFunction` now defaults to invoking the `Execute` service via an HTTP POST with XML encoding rather than an HTTP GET with KVP encoding.  This is a more sensible default because the WPS specification requires that servers support POST/XML while GET/KVP is optional.  Plus, POST/XML allows large input parameters, such as a polygon descibing all of Australia, to be successfully passed to the WPS process.  To force use of GET/KVP, set the `executeWithHttpGet` property to `true`.
+  * Improved the SDMX-JSON catalog item to handle huge dimensions, allow a blacklist, handle bad responses better, and more.
+  * Fixed a bug that prevented the proxy from being used for loading legends, even in situations where it is necessary such as an `http` legend accessed from an `https` site.
+  * Added link to re-download local files, noting that TerriaJS may have done additional processing (eg. geocoding).
+  * Fixed problems with third-party dependencies causing `npm install` and `npm run gulp` to fail.
+  * Added a help overlay system. A TerriaJS application can define a set of help sequences that interactively walk the user through a task, such as adding data to the map or changing map settings. The help sequences usually appear as a drop-down Help menu in the top-right corner.
+  * Fixed a bug with calculating bounding rectangles in `ArcGisCatalogItem` caused by changes to `proj4` package.
+  * Fixed a bug preventing chart axis labels from being visible on a white background.
+  * Fixed a bug that caused the Feedback panel to appear below the chart panel, making it difficult to use.
+  * Fixed a bug that prevented a `shareUrl` specified in `config.json` from actually being used by the `ShareDataService`.
+  * Adding a JSON init file by dropping it on the map or selecting it from the My Data tab no longer adds an entry to the Workbench and User-Added Data catalog.
+  * WPS return type can now be `application/vnd.terriajs.catalog-member+json` which allows a json catalog member to be returned in WPS along with the usual attributes to control display.
+  * `chartLineColor` tableStyle attribute added, allowing per column specification of chart line color.
+  * Fixed a bug that caused a `WebMapServiceCatalogItem` inside a `WebMapServiceCatalogGroup` to revert to defaults from GetCapabilities instead of using shared properties.
+  * Fix a bug that prevented drawing the marker and zooming to the point when searching for a location in 2D.
+  * Fixed a bug where `WebMapTileServiceCatalogItem` would incorrectly interpret a bounding box and return only the lower left corner causing Cesium to crash on render.
+  * Fixed a bug that caused the feedback form to be submitted when unchecking "Share my map view".
 
 ### 2017-01-12
 

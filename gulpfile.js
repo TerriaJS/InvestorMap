@@ -40,8 +40,7 @@ gulp.task('release-app', ['check-terriajs-dependencies', 'write-version'], funct
 
     runWebpack(webpack, Object.assign({}, webpackConfig, {
         plugins: [
-            new webpack.optimize.UglifyJsPlugin(),
-            new webpack.optimize.DedupePlugin(),
+            new webpack.optimize.UglifyJsPlugin({sourceMap: true}),
             new webpack.optimize.OccurrenceOrderPlugin(),
         ].concat(webpackConfig.plugins || [])
     }), done);
@@ -209,6 +208,8 @@ gulp.task('make-package', function() {
     var spawnSync = require('child_process').spawnSync;
     var json5 = require('json5');
 
+    fs.copySync(require.resolve('nationalmap-catalog/build/abs-itt.json'), 'wwwroot/init/abs-itt.json');
+
     var packageName = argv.packageName || (process.env.npm_package_name + '-' + spawnSync('git', ['describe']).stdout.toString().trim());
     var packagesDir = path.join('.', 'deploy', 'packages');
 
@@ -308,8 +309,10 @@ function mergeConfigs(original, override) {
  */
 gulp.task('render-datasource-templates', function() {
     var ejs = require('ejs');
+    var fs = require('fs-extra');
     var JSON5 = require('json5');
     var templateDir = 'datasources';
+
     try {
         fs.accessSync(templateDir);
     } catch (e) {
@@ -337,7 +340,6 @@ gulp.task('render-datasource-templates', function() {
             fs.writeFileSync(path.join('wwwroot/init', outFilename), new Buffer(result));
         }
     });
-
 });
 
 gulp.task('watch-datasource-templates', ['render-datasource-templates'], function() {
