@@ -1,9 +1,10 @@
 Change Log
 ==========
 
-### 2017-02-15
+###
 
 * Replaced Northern Australia with NationalMap in the "Related Maps"; fixed the link to the "NEII viewer" when the image is clicked.
+
 ### 2017-04-13
 
 * Turned off the automatic animation of time-series data when an item is enabled. The user must now explicitly press the play button to see this.
