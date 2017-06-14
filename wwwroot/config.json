@@ -40,6 +40,7 @@
             "<a target=\"_blank\" href=\"http://www.csiro.au/en/Research/D61\"><img src=\"images/na-logo.png\" title=\"Version: {{version}}\" /></a>",
             ""
         ],
-        "autoPlay": false
+        "autoPlay": false,
+        "feedbackPreamble": "Provide feedback to the NationalMap software developers below. We would love to hear from you!\n\nIf you are commenting on the _content_ of the map, please considering sending your comments to the custodian of the dataset you're viewing, instead of using this form. Contact information for most datasets can be found by clicking \"About this Data Set\"."
     }
 }
