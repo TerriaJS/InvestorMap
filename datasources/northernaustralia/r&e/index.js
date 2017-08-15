@@ -3,6 +3,27 @@ const getFromCatalogPath = require('../../getFromCatalogPath');
 const nainvest = require('../../../wwwroot/init/nainvest.json');
 const aremi = require('./aremi.json');
 
+function importExistingProjects() {
+  const existingProjectsItem = name => getFromCatalogPath(nainvest, ['Existing projects', 'Mines', name]);
+  return [
+    {
+      name: 'Mine areas',
+      type: 'group',
+      items: ['Mine Areas'].map(existingProjectsItem)
+    },
+    {
+      name: 'Mining tenements',
+      type: 'group',
+      items: ['WA: Mining tenements', 'NT: Mining tenements'].map(existingProjectsItem)
+    },
+    {
+      name: 'Operating mines',
+      type: 'group',
+      items: ['QLD: Operating mines', 'WA: Mines & Mineral deposits'].map(existingProjectsItem)
+    }
+  ]
+}
+
 function importRenewables(renewablesJson) {
   renewablesJson.items = [
     ...['Solar', 'Wind'].map(name => ({
@@ -26,11 +47,13 @@ function importTransport() {
         name: 'Air',
         type: 'group',
         items: ['Airports and Airfields', 'Major Airports'].map(transportItem)
-      }, {
+      },
+      {
         name: 'Land',
         type: 'group',
         items: ['All-weather roads', 'Key Freight Routes', 'NT: Stock routes', 'Railways', 'Road Bridges and Fords'].map(transportItem)
-      }, {
+      },
+      {
         name: 'Sea',
         type: 'group',
         items: ['Major Seaports'].map(transportItem)
@@ -83,7 +106,7 @@ module.exports = {
         getFromCatalogPath(nainvest, ['Geology & Climate', 'Soil']),
         getFromCatalogPath(nainvest, ['Geology & Climate', 'Surface Geology']),
         getFromCatalogPath(nainvest, ['Geology & Climate', 'Mineral occurrence']),
-        ...getFromCatalogPath(nainvest, ['Existing projects', 'Mines']).items,
+        ...importExistingProjects(),
       ]
     },
     getFromCatalogPath(nainvest, ['Infrastructure', 'Oil & Gas']),
