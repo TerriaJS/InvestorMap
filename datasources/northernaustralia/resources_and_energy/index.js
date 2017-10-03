@@ -1,3 +1,5 @@
+'use strict';
+
 const getFromCatalogPath = require('../../getFromCatalogPath');
 
 const nainvest = require('../../../wwwroot/init/nainvest.json');

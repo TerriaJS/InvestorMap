@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   "catalog": [
     require('./resources_and_energy')

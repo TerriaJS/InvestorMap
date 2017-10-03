@@ -1,3 +1,5 @@
+'use strict';
+
 function getFromCatalogPath(json, path) {
   const catalog = json.catalog;
   if (!catalog) {
