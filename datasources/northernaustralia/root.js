@@ -1,6 +1,6 @@
 module.exports = {
   "catalog": [
-    require('./r&e')
+    require('./resources_and_energy')
   ],
   "corsDomains": [
     "programs.communications.gov.au",
