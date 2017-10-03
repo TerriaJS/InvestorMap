@@ -16,9 +16,9 @@ if (!require('semver').satisfies(process.version, minNode)) {
 }
 
 
-gulp.task('build', ['render-datasource-templates', 'copy-terriajs-assets', 'build-app']);
-gulp.task('release', ['render-datasource-templates', 'copy-terriajs-assets', 'release-app', 'make-editor-schema']);
-gulp.task('watch', ['watch-datasource-templates', 'watch-terriajs-assets', 'watch-app']);
+gulp.task('build', ['build-catalog', 'copy-terriajs-assets', 'build-app']);
+gulp.task('release', ['build-catalog', 'copy-terriajs-assets', 'release-app', 'make-editor-schema']);
+gulp.task('watch', ['watch-catalog', 'watch-terriajs-assets', 'watch-app']);
 gulp.task('default', ['lint', 'build']);
 
 var watchOptions = {
@@ -301,7 +301,7 @@ gulp.task('build-catalog', function() {
 
 
 gulp.task('watch-catalog', ['build-catalog'], function() {
-    return gulp.watch(['datasources/**/*.js','datasources/**/*.json'], watchOptions, [ 'build-catalog' ]);
+    return gulp.watch(['datasources/**.js','datasources/**.json'], watchOptions, [ 'build-catalog' ]);
 });
 
 gulp.task('sync-terriajs-dependencies', function() {
