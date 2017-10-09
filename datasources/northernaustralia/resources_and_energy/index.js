@@ -39,31 +39,6 @@ function importRenewables(renewablesJson) {
   return renewablesJson;
 }
 
-function importTransport() {
-  const transportItem = name => getFromCatalogPath(nainvest, ['Infrastructure', 'Transport', name]);
-  return {
-    name: 'Transport',
-    type: 'group',
-    items: [
-      {
-        name: 'Air',
-        type: 'group',
-        items: ['Airports and Airfields', 'Major Airports'].map(transportItem)
-      },
-      {
-        name: 'Land',
-        type: 'group',
-        items: ['All-weather roads', 'Key Freight Routes', 'NT: Stock routes', 'Railways', 'Road Bridges and Fords'].map(transportItem)
-      },
-      {
-        name: 'Sea',
-        type: 'group',
-        items: ['Major Seaports'].map(transportItem)
-      }
-    ]
-  };
-}
-
 const tenureGroup = getFromCatalogPath(nainvest, ['Tenure and title']);
 
 module.exports = {
@@ -105,7 +80,7 @@ module.exports = {
             }
           ]
         }),
-        getFromCatalogPath(nainvest, ['Geology & Climate', 'Soil']),
+        require('../shared/soil'),
         getFromCatalogPath(nainvest, ['Geology & Climate', 'Surface Geology']),
         getFromCatalogPath(nainvest, ['Geology & Climate', 'Mineral occurrence']),
         ...importExistingProjects(),
@@ -118,7 +93,7 @@ module.exports = {
       type: 'group',
       items: [
         Object.assign({}, getFromCatalogPath(aremi, ['Electricity Infrastructure', 'Transmission']), {name: 'Electricity'}),
-        importTransport()
+        require('../shared/transport')
       ]
     },
     {
