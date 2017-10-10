@@ -10,7 +10,7 @@ module.exports = {
   preserveOrder: true,
   items: [
     {
-      name: "Food",
+      name: "Land",
       type: "group",
       preserveOrder: true,
       items: [
@@ -24,7 +24,12 @@ module.exports = {
       type: "group",
       preserveOrder: true,
       items: [
-        require('../shared/soil').items.find(item => item.name === 'Available Water Capacity')
+        require('../shared/soil').items.find(item => item.name === 'Available Water Capacity'),
+        {
+          name: "Geofabric",
+          type: "wms-getCapabilities",
+          url: "http://geofabric.bom.gov.au/simplefeatures/ows?service=WMS&request=GetCapabilities"
+        }
       ]
     },
     require('../shared/transport')

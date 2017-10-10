@@ -3,6 +3,7 @@
 module.exports = {
   "catalog": [
     require('./resources_and_energy'),
+    require('./tourism'),
     require('./agriculture_and_food')
   ],
   "corsDomains": [
