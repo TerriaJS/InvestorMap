@@ -77,6 +77,32 @@ module.exports = {
           name: "2016-2017_Domestic_Visitors_by_TR",
           type: "csv",
           url: "data/Tourism/2016-2017_Domestic_Visitors_by_TR.csv"
+        },
+        {
+          name: "Table 3a",
+          type: "group",
+          items: [
+            {
+              name: "2016-2017_Domestic_Visitors_Interstate_by_ST.csv",
+              type: "csv",
+              url: "data/Tourism/2016-2017_Domestic_Visitors_Interstate_by_ST.csv"
+            },
+            {
+              name: "2016-2017_Domestic_Visitors_Intrastate_by_ST.csv",
+              type: "csv",
+              url: "data/Tourism/2016-2017_Domestic_Visitors_Intrastate_by_ST.csv"
+            },
+            {
+              name: "2016-2017_Domestic_Visitors_Total_by_ST.csv",
+              type: "csv",
+              url: "data/Tourism/2016-2017_Domestic_Visitors_Total_by_ST.csv"
+            }
+          ]
+        },
+        {
+          name: "2016-2017_Domestic_Visitors_1a.csv",
+          type: "csv",
+          url: "data/Tourism/2016-2017_Domestic_Visitors_1a.csv"
         }
       ]
     }

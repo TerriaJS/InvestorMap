@@ -115,7 +115,14 @@ module.exports = {
             }
           ]
         },
-
+        {
+          name: "Mineral Deposits",
+          type: "csv",
+          url: "data/Resources_and_Energy/mineral_deposits.csv",
+          tableStyle: {
+            dataVariable: "COMMODIDS"
+          }
+        },
         ...importExistingProjects(),
       ]
     },
