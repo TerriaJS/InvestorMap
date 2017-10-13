@@ -1,9 +1,25 @@
 'use strict';
 
 const getFromCatalogPath = require('../../getFromCatalogPath');
+const addDescriptionToGroups = require('../../addDescriptionToGroups');
 
 const nainvest = require('../../../wwwroot/init/nainvest.json');
+
 const aremi = require('./aremi.json');
+
+function removeIds(member) {
+  const updatedMember = Object.assign({}, member);
+  if (updatedMember.id) {
+    updatedMember.id = undefined;
+  }
+  if (updatedMember.items) {
+    updatedMember.items = updatedMember.items.map(removeIds);
+  }
+  return updatedMember;
+}
+
+// Remove ids from aremi catalog (screws up when an item is in multiple places in the catalog)
+aremi.catalog = aremi.catalog.map(removeIds);
 
 function importExistingProjects() {
   const existingProjectsItem = name => getFromCatalogPath(nainvest, ['Existing projects', 'Mines', name]);
@@ -36,55 +52,28 @@ function importExistingProjects() {
   ]
 }
 
+
 function importRenewables(renewablesJson) {
+  const solar = renewablesJson.items.find(m => m.name === 'Solar');
+  solar.items = solar.items.filter(m => m.name.includes('climatology'));
+  const wind = renewablesJson.items.find(m => m.name === 'Wind');
+  wind.items = [wind.items.find(m => m.name === 'Average Wind Speed at 100 metres')];
+  wind.items[0].info = wind.items[0].info.filter(section => !section.name.startsWith('Download'))
   renewablesJson.items = [
-    ...['Solar', 'Wind'].map(name => ({
-      name: name + ' (empty)',
-      type: 'group',
-      items: [],
-      description: 'Awaiting licensing issue resolution'
-    })),
+    solar,
+    wind,
     ...renewablesJson.items.filter(subgroup => ['Solar', 'Wind', 'ARENA Projects'].indexOf(subgroup.name) === -1) // Filter out not approved and unwanted groups/items
   ];
   return renewablesJson;
 }
 
-const tenureGroup = getFromCatalogPath(nainvest, ['Tenure and title']);
 
-module.exports = {
+module.exports = addDescriptionToGroups({
   name: "Resources and Energy",
   type: "group",
   preserveOrder: true,
   items: [
-    Object.assign({}, tenureGroup, { // Use tenure, and add extra items
-      items: [
-        ...tenureGroup.items,
-        {
-          name: 'Native Title Determinations',
-          type: 'wms',
-          url: 'http://data.gov.au/geoserver/native-title-determinations-national-native-title-register/wms?request=GetCapabilities',
-          layers: 'ckan_ecdbbb6c_c374_4649_9cd3_0677f44182c9'
-        },
-        {
-          name: 'Schedule of Native Title Determination Applications',
-          type: 'wms',
-          url: 'http://data.gov.au/geoserver/native-title-determination-applications-schedule/wms?request=GetCapabilities',
-          layers: 'ckan_bcd428f6_484c_4527_8e66_19bcc0fd5402'
-        },
-        {
-          name: 'Indigenous Land Use Agreements',
-          type: 'wms',
-          url: 'http://data.gov.au/geoserver/indigenous-land-use-agreements-registered-or-in-notification/wms?request=GetCapabilities',
-          layers: 'ckan_9e837144_8070_4983_8bf0_15e7ceb56ed7'
-        },
-        {
-          name: 'RATSIB Areas',
-          type: 'wms',
-          url: 'http://data.gov.au/geoserver/ratsib-boundaries/wms?request=GetCapabilities',
-          layers: 'ckan_0d32262b_e13b_4475_adc6_3618811c029a'
-        }
-      ]
-    }),
+    require('../shared/land_and_tenure'),
     {
       name: "Mining",
       type: "group",
@@ -137,10 +126,25 @@ module.exports = {
       ]
     },
     {
-      name: 'Demography (empty)',
+      name: 'Demography',
       type: 'group',
-      descripion: 'For Census data (not yet specified which data).',
-      items: []
+      items: [
+        getFromCatalogPath(aremi, ['Population', 'Australian Bureau of Statistics (BETA)', 'Selected 2011 Census Datasets'])
+      ]
     }
   ]
-};
+}, `
+### Resources and Energy
+
+_Industrialisation and urbanisation within the Asia region will continue to drive demand for Australia’s natural resources._
+
+Many parts of northern Australia are still unexplored and the region remains highly prospective, offering significant potential for future mineral discoveries. Northern Australia has significant potential for further world-class oil and gas discoveries.
+
+Geoscience Australia estimates around 80 per cent of Australia remains under-explored for minerals - most of this unexplored land is in northern Australia.
+
+Northern Australia contains over 70 per cent of Australia’s known resources of iron ore, lead and zinc. It also contains significant deposits of silver, copper, manganese, nickel, bauxite, tungsten, molybdenum and rare earths.
+
+By 2020 northern Australia is destined to become the world’s largest exporter of Liquefied Natural Gas (LNG).
+
+Northern Australia has world-class solar, wind and bioenergy resources. In remote and off-grid locations, there are significant opportunities for investment in renewable energy to help industry and remote communities to become more energy self-sufficient.
+`.trim());
