@@ -2,21 +2,12 @@
 
 const getFromCatalogPath = require('../../getFromCatalogPath');
 const addDescriptionToGroups = require('../../addDescriptionToGroups');
+const removeIds = require('../../removeIds');
 
 const nainvest = require('../../../wwwroot/init/nainvest.json');
-
+const nm = require('nationalmap-catalog/build/nm.json');
 const aremi = require('./aremi.json');
 
-function removeIds(member) {
-  const updatedMember = Object.assign({}, member);
-  if (updatedMember.id) {
-    updatedMember.id = undefined;
-  }
-  if (updatedMember.items) {
-    updatedMember.items = updatedMember.items.map(removeIds);
-  }
-  return updatedMember;
-}
 
 // Remove ids from aremi catalog (screws up when an item is in multiple places in the catalog)
 aremi.catalog = aremi.catalog.map(removeIds);
@@ -129,7 +120,8 @@ module.exports = addDescriptionToGroups({
       name: 'Demography',
       type: 'group',
       items: [
-        getFromCatalogPath(aremi, ['Population', 'Australian Bureau of Statistics (BETA)', 'Selected 2011 Census Datasets'])
+        getFromCatalogPath(aremi, ['Population', 'Australian Bureau of Statistics (BETA)', 'Selected 2011 Census Datasets']),
+        removeIds(getFromCatalogPath(nm, ['National Datasets', 'Social and Economic', 'Population Estimates', 'Residential Population Density']))
       ]
     }
   ]

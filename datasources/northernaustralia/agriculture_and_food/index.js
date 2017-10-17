@@ -5,6 +5,7 @@ const addDescriptionToGroups = require('../../addDescriptionToGroups');
 
 
 const nainvest = require('../../../wwwroot/init/nainvest.json');
+const neiiWater = require('./neii-water.json');
 
 module.exports = addDescriptionToGroups({
   name: "Agriculture and Food",
@@ -30,7 +31,8 @@ module.exports = addDescriptionToGroups({
           name: "Geofabric",
           type: "wms-getCapabilities",
           url: "http://geofabric.bom.gov.au/simplefeatures/ows?service=WMS&request=GetCapabilities"
-        }
+        },
+        getFromCatalogPath(neiiWater, ['NEII Data Services – Conformant', 'Water (4)', 'Water Regulations Data (BoM)'])
       ]
     },
     require('../shared/transport')
