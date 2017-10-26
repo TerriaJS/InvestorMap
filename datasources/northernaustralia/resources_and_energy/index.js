@@ -40,7 +40,21 @@ function importExistingProjects() {
       type: 'group',
       items: ['QLD: Operating mines', 'WA: Mines & Mineral deposits'].map(existingProjectsItem)
     }
-  ]
+  ];
+}
+
+function importOilAndGas() {
+  const group = getFromCatalogPath(nainvest, ['Infrastructure', 'Oil & Gas']);
+  group.items = [...group.items, {
+    name: 'Petroleum Wells',
+    type: 'wms',
+    url: 'http://services.ga.gov.au/geoserver/boreholes/wms',
+    layers: 'Boreholes',
+    parameters: {
+      'CQL_FILTER': "WELLTYPE='Petroleum'"
+    }
+  }];
+  return group;
 }
 
 
@@ -60,53 +74,54 @@ function importRenewables(renewablesJson) {
 
 
 module.exports = addDescriptionToGroups({
-  name: "Resources and Energy",
-  type: "group",
+  name: 'Resources and Energy',
+  type: 'group',
   preserveOrder: true,
   items: [
     require('../shared/land_and_tenure'),
     {
-      name: "Mining",
-      type: "group",
+      name: 'Mining',
+      type: 'group',
       preserveOrder: true,
       items: [
         require('../shared/soil'),
         {
-          "name": "Surface Geology",
-          "type": "wms-getCapabilities",
-          "url": "http://services.ga.gov.au/site_1/services/GA_Surface_Geology/MapServer/WMSServer",
-          "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
-          "info": [
+          name: 'Surface Geology',
+          type: 'wms-getCapabilities',
+          url: 'http://services.ga.gov.au/site_1/services/GA_Surface_Geology/MapServer/WMSServer',
+          dataCustodian: '[Geoscience Australia](http://www.ga.gov.au/)',
+          info: [
             {
-              "name": "Licence",
-              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+              name: 'Licence',
+              content: '[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)'
             }
           ]
         },
         {
-          "name": "Mineral Occurrences and Resources",
-          "type": "wms-getCapabilities",
-          "url": "http://services.ga.gov.au/earthresource/ama/wms",
-          "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
-          "info": [
+          name: 'Mineral Occurrences and Resources',
+          url: 'http://services.ga.gov.au/earthresource/ama/wms',
+          type: 'wms-getCapabilities',
+          dataCustodian: '[Geoscience Australia](http://www.ga.gov.au/)',
+          info: [
             {
-              "name": "Licence",
-              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+              name: 'Licence',
+              content: '[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)'
             }
-          ]
+          ],
+          blacklist: {'Major Resource Projects and Infrastructure': true}
         },
         {
-          name: "Mineral Deposits",
-          type: "csv",
-          url: "data/Resources_and_Energy/mineral_deposits.csv",
+          name: 'Mineral Deposits',
+          type: 'csv',
+          url: 'data/Resources_and_Energy/mineral_deposits.csv',
           tableStyle: {
-            dataVariable: "COMMODIDS"
+            dataVariable: 'COMMODIDS'
           }
         },
         ...importExistingProjects(),
       ]
     },
-    getFromCatalogPath(nainvest, ['Infrastructure', 'Oil & Gas']),
+    importOilAndGas(),
     importRenewables(getFromCatalogPath(aremi, ['Renewable Energy'])),
     {
       name: 'Infrastructure',
