@@ -38,7 +38,7 @@ function importExistingProjects() {
     {
       name: 'Operating mines',
       type: 'group',
-      items: ['QLD: Operating mines', 'WA: Mines & Mineral deposits'].map(existingProjectsItem)
+      items: ['WA: Mines & Mineral deposits'].map(existingProjectsItem)
     }
   ];
 }
