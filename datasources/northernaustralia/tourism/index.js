@@ -127,47 +127,106 @@ module.exports = addDescriptionToGroups(
           {
             name: "TRA_IVS_Country_VisitorNights.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_IVS_Country_VisitorNights.csv"
+            url: "data/Tourism/TRA/TRA_IVS_Country_VisitorNights.csv",
+            tableStyle: {
+              columns: {
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_IVS_Country_Visitors.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_IVS_Country_Visitors.csv"
+            url: "data/Tourism/TRA/TRA_IVS_Country_Visitors.csv",
+            tableStyle: {
+              columns: {
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_accommodation_Domestic Overnight.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_accommodation_Domestic Overnight.csv"
+            url: "data/Tourism/TRA/TRA_accommodation_Domestic Overnight.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_accommodation_International.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_accommodation_International.csv"
+            url: "data/Tourism/TRA/TRA_accommodation_International.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_accommodation_Total.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_accommodation_Total.csv"
+            url: "data/Tourism/TRA/TRA_accommodation_Total.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_key_metrics_Domestic Day.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_key_metrics_Domestic Day.csv"
+            url: "data/Tourism/TRA/TRA_key_metrics_Domestic Day.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_key_metrics_Domestic Overnight.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_key_metrics_Domestic Overnight.csv"
+            url: "data/Tourism/TRA/TRA_key_metrics_Domestic Overnight.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_key_metrics_International.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_key_metrics_International.csv"
+            url: "data/Tourism/TRA/TRA_key_metrics_International.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_key_metrics_Total.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_key_metrics_Total.csv"
+            url: "data/Tourism/TRA/TRA_key_metrics_Total.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_reason_Domestic Day.csv",

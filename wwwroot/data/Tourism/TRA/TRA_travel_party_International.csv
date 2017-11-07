@@ -1,214 +1,214 @@
-State,StateName,lga_code_2016,lga_name_2016,Unaccompanied (nights '000),Couple (nights '000),Family group (nights '000),Friends/relatives travelling together (nights '000)
-1,NSW,10050,Albury (C),,,,
-1,NSW,10130,Armidale Regional (A),,,,
-1,NSW,10250,Ballina (A),,,,
-1,NSW,10470,Bathurst Regional (A),,,,
-1,NSW,10550,Bega Valley (A),,,,
-1,NSW,10600,Bellingen (A),,,,
+State,StateName,lga_code_2016,lga_name_2016,Unaccompanied (visitors '000),Couple (visitors '000),Family group (visitors '000),Friends/relatives travelling together (visitors '000)
+1,NSW,10050,Albury (C),6.8985,4.094,,
+1,NSW,10130,Armidale Regional (A),4.70925,2.94525,,
+1,NSW,10250,Ballina (A),6.514,4.434,,1.28325
+1,NSW,10470,Bathurst Regional (A),4.0785,,,
+1,NSW,10550,Bega Valley (A),9.43175,9.924,2.2445,2.90475
+1,NSW,10600,Bellingen (A),2.68575,,,
 1,NSW,10650,Berrigan (A),,,,
-1,NSW,10900,Blue Mountains (C),,,,
-1,NSW,11250,Broken Hill (C),,,,
-1,NSW,11350,Byron (A),,,,
-1,NSW,11650,Central Coast (C) (NSW),,,,
-1,NSW,11720,Cessnock (C),,,,
-1,NSW,11730,Clarence Valley (A),,,,
-1,NSW,11800,Coffs Harbour (C),,,,
+1,NSW,10900,Blue Mountains (C),36.681,29.81475,11.66375,11.50175
+1,NSW,11250,Broken Hill (C),2.76175,1.87075,,
+1,NSW,11350,Byron (A),106.2475,32.028,8.25475,34.41
+1,NSW,11650,Central Coast (C) (NSW),23.5135,8.9675,2.87175,2.40075
+1,NSW,11720,Cessnock (C),3.83475,3.3985,,
+1,NSW,11730,Clarence Valley (A),7.74975,3.956,,1.92675
+1,NSW,11800,Coffs Harbour (C),35.57225,20.71925,6.3835,11.2115
 1,NSW,12350,Cowra (A),,,,
-1,NSW,12750,Eurobodalla (A),,,,
+1,NSW,12750,Eurobodalla (A),10.0865,9.48675,2.16575,2.85
 1,NSW,12870,Federation (A),,,,
 1,NSW,13010,Glen Innes Severn (A),,,,
-1,NSW,13310,Goulburn Mulwaree (A),,,,
-1,NSW,13450,Griffith (C),,,,
+1,NSW,13310,Goulburn Mulwaree (A),3.553,,,
+1,NSW,13450,Griffith (C),3.652,,,
 1,NSW,13510,Gundagai (A),,,,
-1,NSW,13800,Hawkesbury (C),,,,
-1,NSW,13910,Hilltops (A),,,,
-1,NSW,14200,Inverell (A),,,,
-1,NSW,14350,Kempsey (A),,,,
-1,NSW,14400,Kiama (A),,,,
-1,NSW,14650,Lake Macquarie (C),,,,
-1,NSW,14850,Lismore (C),,,,
+1,NSW,13800,Hawkesbury (C),4.4405,2.262,,
+1,NSW,13910,Hilltops (A),2.23625,,,
+1,NSW,14200,Inverell (A),1.45425,,,
+1,NSW,14350,Kempsey (A),4.2195,2.70325,,1.31275
+1,NSW,14400,Kiama (A),4.8685,4.18625,,1.1725
+1,NSW,14650,Lake Macquarie (C),5.1585,2.14175,,
+1,NSW,14850,Lismore (C),6.73975,2.30225,,1.7985
 1,NSW,14870,Lithgow (C),,,,
-1,NSW,15050,Maitland (C),,,,
-1,NSW,15240,Mid-Coast (A),,,,
-1,NSW,15270,Mid-Western Regional (A),,,,
-1,NSW,15300,Moree Plains (A),,,,
+1,NSW,15050,Maitland (C),2.82175,,,
+1,NSW,15240,Mid-Coast (A),10.62,6.42475,,2.24325
+1,NSW,15270,Mid-Western Regional (A),2.46425,,,
+1,NSW,15300,Moree Plains (A),2.18225,,,
 1,NSW,15520,Murray River (A),,,,
-1,NSW,15700,Nambucca (A),,,,
+1,NSW,15700,Nambucca (A),1.99925,,,
 1,NSW,15750,Narrabri (A),,,,
-1,NSW,15900,Newcastle (C),,,,
-1,NSW,16150,Orange (C),,,,
+1,NSW,15900,Newcastle (C),49.721,17.11025,6.07575,10.10975
+1,NSW,16150,Orange (C),4.714,,,
 1,NSW,16200,Parkes (A),,,,
-1,NSW,16380,Port Macquarie-Hastings (A),,,,
-1,NSW,16400,Port Stephens (A),,,,
-1,NSW,16490,Queanbeyan-Palerang Regional (A),,,,
-1,NSW,16610,Richmond Valley (A),,,,
+1,NSW,16380,Port Macquarie-Hastings (A),24.849,15.99025,5.425,9.01325
+1,NSW,16400,Port Stephens (A),10.85675,7.89,3.78025,3.94975
+1,NSW,16490,Queanbeyan-Palerang Regional (A),2.4315,,,
+1,NSW,16610,Richmond Valley (A),1.56525,,,
 1,NSW,16900,Shellharbour (C),,,,
-1,NSW,16950,Shoalhaven (C),,,,
-1,NSW,17000,Singleton (A),,,,
-1,NSW,17040,Snowy Monaro Regional (A),,,,
-1,NSW,17080,Snowy Valleys (A),,,,
-1,NSW,17310,Tamworth Regional (A),,,,
-1,NSW,17550,Tweed (A),,,,
-1,NSW,17620,Upper Hunter Shire (A),,,,
-1,NSW,17750,Wagga Wagga (C),,,,
+1,NSW,16950,Shoalhaven (C),11.819,8.40275,1.92925,2.3555
+1,NSW,17000,Singleton (A),3.663,,,
+1,NSW,17040,Snowy Monaro Regional (A),8.479,3.49825,,1.38025
+1,NSW,17080,Snowy Valleys (A),2.344,,,
+1,NSW,17310,Tamworth Regional (A),7.099,2.44925,,
+1,NSW,17550,Tweed (A),10.0225,6.40275,,1.57475
+1,NSW,17620,Upper Hunter Shire (A),1.89925,,,
+1,NSW,17750,Wagga Wagga (C),5.556,2.00775,,
 1,NSW,18020,Warrumbungle Shire (A),,,,
-1,NSW,18230,Western Plains Regional (A),,,,
-1,NSW,18350,Wingecarribee (A),,,,
-1,NSW,18450,Wollongong (C),,,,
+1,NSW,18230,Western Plains Regional (A),5.76275,2.1015,,
+1,NSW,18350,Wingecarribee (A),5.161,2.493,,
+1,NSW,18450,Wollongong (C),28.85175,10.56075,4.81225,4.858
 1,NSW,18710,Yass Valley (A),,,,
-2,VIC,20110,Alpine (S),,,,
-2,VIC,20570,Ballarat (C),,,,
-2,VIC,20740,Bass Coast (S),,,,
-2,VIC,20830,Baw Baw (S),,,,
+2,VIC,20110,Alpine (S),3.4925,,,
+2,VIC,20570,Ballarat (C),9.761,8.99625,2.00025,1.99075
+2,VIC,20740,Bass Coast (S),12.966,13.26325,6.57475,5.04125
+2,VIC,20830,Baw Baw (S),3.4535,,,
 2,VIC,21010,Benalla (RC),,,,
-2,VIC,21370,Campaspe (S),,,,
-2,VIC,21450,Cardinia (S),,,,
-2,VIC,21750,Colac-Otway (S),,,,
-2,VIC,21830,Corangamite (S),,,,
-2,VIC,22110,East Gippsland (S),,,,
-2,VIC,22170,Frankston (C),,,,
-2,VIC,22410,Glenelg (S),,,,
-2,VIC,22620,Greater Bendigo (C),,,,
-2,VIC,22750,Greater Geelong (C),,,,
-2,VIC,22830,Greater Shepparton (C),,,,
-2,VIC,22910,Hepburn (S),,,,
-2,VIC,23190,Horsham (RC),,,,
+2,VIC,21370,Campaspe (S),4.76,3.113,,
+2,VIC,21450,Cardinia (S),5.03725,2.24375,,
+2,VIC,21750,Colac-Otway (S),21.7445,22.90825,8.25375,7.50875
+2,VIC,21830,Corangamite (S),11.103,13.821,5.05925,4.45075
+2,VIC,22110,East Gippsland (S),12.49025,12.28025,3.05375,4.3255
+2,VIC,22170,Frankston (C),9.62475,3.884,2.35,
+2,VIC,22410,Glenelg (S),4.14625,3.98875,,1.043
+2,VIC,22620,Greater Bendigo (C),7.4055,3.97425,,
+2,VIC,22750,Greater Geelong (C),23.16975,9.93475,5.55975,4.3825
+2,VIC,22830,Greater Shepparton (C),6.565,,,1.79375
+2,VIC,22910,Hepburn (S),2.89575,,,
+2,VIC,23190,Horsham (RC),2.35675,,,
 2,VIC,23350,Indigo (S),,,,
-2,VIC,23810,Latrobe (C) (Vic.),,,,
-2,VIC,24130,Macedon Ranges (S),,,,
+2,VIC,23810,Latrobe (C) (Vic.),3.229,,,
+2,VIC,24130,Macedon Ranges (S),2.88875,,,
 2,VIC,24250,Mansfield (S),,,,
-2,VIC,24780,Mildura (RC),,,,
+2,VIC,24780,Mildura (RC),9.00925,3.8815,,3.32875
 2,VIC,24850,Mitchell (S),,,,
-2,VIC,24900,Moira (S),,,,
-2,VIC,25340,Mornington Peninsula (S),,,,
+2,VIC,24900,Moira (S),2.2025,,,
+2,VIC,25340,Mornington Peninsula (S),15.62,9.28225,3.57875,2.3565
 2,VIC,25430,Mount Alexander (S),,,,
-2,VIC,25490,Moyne (S),,,,
-2,VIC,25620,Murrindindi (S),,,,
-2,VIC,25710,Nillumbik (S),,,,
-2,VIC,25810,Northern Grampians (S),,,,
+2,VIC,25490,Moyne (S),6.648,10.283,,2.1495
+2,VIC,25620,Murrindindi (S),3.52325,2.7365,,
+2,VIC,25710,Nillumbik (S),3.40775,,,
+2,VIC,25810,Northern Grampians (S),13.89175,10.21975,2.65825,3.603
 2,VIC,26080,Queenscliffe (B),,,,
-2,VIC,26170,South Gippsland (S),,,,
+2,VIC,26170,South Gippsland (S),9.143,6.02075,,2.24875
 2,VIC,26260,Southern Grampians (S),,,,
 2,VIC,26430,Strathbogie (S),,,,
-2,VIC,26490,Surf Coast (S),,,,
-2,VIC,26610,Swan Hill (RC),,,,
-2,VIC,26700,Wangaratta (RC),,,,
-2,VIC,26730,Warrnambool (C),,,,
-2,VIC,26810,Wellington (S),,,,
+2,VIC,26490,Surf Coast (S),13.44125,14.25825,4.00325,3.33975
+2,VIC,26610,Swan Hill (RC),2.7765,,,
+2,VIC,26700,Wangaratta (RC),2.2295,,,
+2,VIC,26730,Warrnambool (C),9.52225,10.4795,3.42625,3.45875
+2,VIC,26810,Wellington (S),5.376,3.01275,,
 2,VIC,27170,Wodonga (C),,,,
-2,VIC,27450,Yarra Ranges (S),,,,
-3,QLD,30370,Banana (S),,,,
-3,QLD,31820,Bundaberg (R),,,,
-3,QLD,31900,Burdekin (S),,,,
-3,QLD,32080,Cairns (R),,,,
-3,QLD,32260,Cassowary Coast (R),,,,
-3,QLD,32270,Central Highlands (R) (Qld),,,,
-3,QLD,32310,Charters Towers (R),,,,
-3,QLD,32500,Cook (S),,,,
-3,QLD,32810,Douglas (S),,,,
-3,QLD,33220,Fraser Coast (R),,,,
-3,QLD,33360,Gladstone (R),,,,
-3,QLD,33430,Gold Coast (C),,,,
+2,VIC,27450,Yarra Ranges (S),10.4745,4.00325,,
+3,QLD,30370,Banana (S),3.18775,,,
+3,QLD,31820,Bundaberg (R),16.741,8.564,2.53875,6.521
+3,QLD,31900,Burdekin (S),2.74775,1.346,,
+3,QLD,32080,Cairns (R),246.08725,210.941,101.12325,152.6235
+3,QLD,32260,Cassowary Coast (R),21.9205,12.488,2.75825,9.46575
+3,QLD,32270,Central Highlands (R) (Qld),4.87175,2.2945,,
+3,QLD,32310,Charters Towers (R),1.94125,2.0465,,
+3,QLD,32500,Cook (S),2.959,2.83375,,
+3,QLD,32810,Douglas (S),29.6865,41.315,9.61975,11.086
+3,QLD,33220,Fraser Coast (R),66.0275,31.66875,8.2145,23.5785
+3,QLD,33360,Gladstone (R),28.398,11.76,3.5975,7.91425
+3,QLD,33430,Gold Coast (C),285.87325,214.01825,160.83875,182.371
 3,QLD,33610,Goondiwindi (R),,,,
-3,QLD,33620,Gympie (R),,,,
-3,QLD,33800,Hinchinbrook (S),,,,
-3,QLD,33960,Ipswich (C),,,,
-3,QLD,33980,Isaac (R),,,,
-3,QLD,34530,Livingstone (S),,,,
-3,QLD,34590,Logan (C),,,,
-3,QLD,34770,Mackay (R),,,,
-3,QLD,34860,Maranoa (R),,,,
-3,QLD,34880,Mareeba (S),,,,
-3,QLD,35300,Mount Isa (C),,,,
-3,QLD,35740,Noosa (S),,,,
-3,QLD,36370,Rockhampton (R),,,,
-3,QLD,36510,Scenic Rim (R),,,,
+3,QLD,33620,Gympie (R),29.55475,7.4135,1.7495,10.61925
+3,QLD,33800,Hinchinbrook (S),1.3235,1.459,,
+3,QLD,33960,Ipswich (C),11.5825,2.5865,1.908,
+3,QLD,33980,Isaac (R),2.3495,,,
+3,QLD,34530,Livingstone (S),6.27775,4.65025,,1.63275
+3,QLD,34590,Logan (C),16.602,6.3965,3.733,1.86025
+3,QLD,34770,Mackay (R),18.958,12.15,3.676,5.14125
+3,QLD,34860,Maranoa (R),4.78625,,,
+3,QLD,34880,Mareeba (S),5.24275,3.28975,,
+3,QLD,35300,Mount Isa (C),5.665,3.004,,1.44725
+3,QLD,35740,Noosa (S),67.66425,34.2435,9.28825,21.609
+3,QLD,36370,Rockhampton (R),21.56225,15.36,3.24625,7.70475
+3,QLD,36510,Scenic Rim (R),4.78225,5.67125,,
 3,QLD,36580,Somerset (R),,,,
 3,QLD,36630,South Burnett (R),,,,
-3,QLD,36660,Southern Downs (R),,,,
-3,QLD,36720,Sunshine Coast (R),,,,
-3,QLD,36820,Tablelands (R),,,,
-3,QLD,36910,Toowoomba (R),,,,
-3,QLD,37010,Townsville (C),,,,
-3,QLD,37310,Western Downs (R),,,,
-3,QLD,37340,Whitsunday (R),,,,
+3,QLD,36660,Southern Downs (R),4.355,1.5675,,1.53925
+3,QLD,36720,Sunshine Coast (R),48.64225,38.13125,13.60575,8.85725
+3,QLD,36820,Tablelands (R),5.4325,5.56625,,1.0225
+3,QLD,36910,Toowoomba (R),14.36925,3.74775,,1.51925
+3,QLD,37010,Townsville (C),56.3745,25.42975,7.4925,18.52375
+3,QLD,37310,Western Downs (R),6.16675,,,
+3,QLD,37340,Whitsunday (R),98.80275,58.8225,14.808,37.35175
 4,SA,40120,Adelaide Hills (DC),,,,
-4,SA,40220,Alexandrina (DC),,,,
-4,SA,40310,Barossa (DC),,,,
+4,SA,40220,Alexandrina (DC),1.898,1.941,,
+4,SA,40310,Barossa (DC),3.29675,5.70175,,
 4,SA,40520,Berri and Barmera (DC),,,,
-4,SA,41010,Ceduna (DC),,,,
+4,SA,41010,Ceduna (DC),2.09575,1.4625,,
 4,SA,41140,Clare and Gilbert Valleys (DC),,,,
-4,SA,41330,Coober Pedy (DC),,,,
+4,SA,41330,Coober Pedy (DC),11.16825,4.4415,,2.78675
 4,SA,41560,Copper Coast (DC),,,,
-4,SA,41830,Flinders Ranges (DC),,,,
-4,SA,42750,Kangaroo Island (DC),,,,
+4,SA,41830,Flinders Ranges (DC),2.76375,1.8935,,
+4,SA,42750,Kangaroo Island (DC),12.429,18.79775,3.53075,4.253
 4,SA,43790,Loxton Waikerie (DC),,,,
 4,SA,44210,Mid Murray (DC),,,,
-4,SA,44550,Mount Barker (DC),,,,
-4,SA,44620,Mount Gambier (C),,,,
+4,SA,44550,Mount Barker (DC),1.97475,1.793,,
+4,SA,44620,Mount Gambier (C),8.49625,8.945,2.1395,1.8795
 4,SA,45040,Murray Bridge (RC),,,,
-4,SA,46090,Port Augusta (C),,,,
-4,SA,46300,Port Lincoln (C),,,,
+4,SA,46090,Port Augusta (C),5.29075,3.0455,,1.66875
+4,SA,46300,Port Lincoln (C),4.128,1.77825,,
 4,SA,46450,Port Pirie City and Dists (M),,,,
-4,SA,46670,Renmark Paringa (DC),,,,
-4,SA,46860,Robe (DC),,,,
-4,SA,48050,Victor Harbor (C),,,,
-4,SA,48340,Wattle Range (DC),,,,
+4,SA,46670,Renmark Paringa (DC),1.4955,,,
+4,SA,46860,Robe (DC),2.44975,6.9945,,
+4,SA,48050,Victor Harbor (C),2.98825,4.454,,
+4,SA,48340,Wattle Range (DC),,2.499,,
 4,SA,48540,Whyalla (C),,,,
 4,SA,48750,Yankalilla (DC),,,,
 4,SA,48830,Yorke Peninsula (DC),,,,
-5,WA,50080,Albany (C),,,,
-5,WA,50250,Ashburton (S),,,,
-5,WA,50280,Augusta-Margaret River (S),,,,
-5,WA,50980,Broome (S),,,,
-5,WA,51190,Bunbury (C),,,,
-5,WA,51260,Busselton (C),,,,
-5,WA,51540,Carnarvon (S),,,,
-5,WA,52590,Dandaragan (S),,,,
-5,WA,52730,Denmark (S),,,,
-5,WA,52800,Derby-West Kimberley (S),,,,
-5,WA,53080,Dundas (S),,,,
-5,WA,53220,East Pilbara (S),,,,
-5,WA,53290,Esperance (S),,,,
-5,WA,53360,Exmouth (S),,,,
-5,WA,53570,Gingin (S),,,,
-5,WA,53800,Greater Geraldton (C),,,,
-5,WA,53920,Halls Creek (S),,,,
-5,WA,53990,Harvey (S),,,,
-5,WA,54060,Irwin (S),,,,
-5,WA,54280,Kalgoorlie/Boulder (C),,,,
-5,WA,54310,Karratha (C),,,,
-5,WA,54620,Kondinin (S),,,,
-5,WA,55110,Mandurah (C),,,,
-5,WA,55180,Manjimup (S),,,,
+5,WA,50080,Albany (C),16.19425,14.61525,4.47925,6.50225
+5,WA,50250,Ashburton (S),16.68975,5.098,,2.2315
+5,WA,50280,Augusta-Margaret River (S),25.521,27.45575,13.157,10.862
+5,WA,50980,Broome (S),16.24425,8.8105,2.3755,3.49975
+5,WA,51190,Bunbury (C),9.651,6.07075,2.01575,2.6005
+5,WA,51260,Busselton (C),14.89475,14.6955,5.9015,4.29725
+5,WA,51540,Carnarvon (S),11.45325,8.81525,2.12575,2.7755
+5,WA,52590,Dandaragan (S),5.93275,8.21475,2.54475,2.682
+5,WA,52730,Denmark (S),5.366,4.94425,,1.086
+5,WA,52800,Derby-West Kimberley (S),4.1275,3.681,,
+5,WA,53080,Dundas (S),2.31125,1.95075,,
+5,WA,53220,East Pilbara (S),3.89425,,,
+5,WA,53290,Esperance (S),8.5605,7.6145,,3.3345
+5,WA,53360,Exmouth (S),11.9645,8.57525,1.80775,3.3745
+5,WA,53570,Gingin (S),3.228,2.877,,
+5,WA,53800,Greater Geraldton (C),11.48475,9.99925,2.9175,3.4025
+5,WA,53920,Halls Creek (S),2.95075,2.7765,,
+5,WA,53990,Harvey (S),1.472,,,
+5,WA,54060,Irwin (S),1.6375,2.07675,,
+5,WA,54280,Kalgoorlie/Boulder (C),7.19975,5.11175,,
+5,WA,54310,Karratha (C),11.03975,1.67425,,
+5,WA,54620,Kondinin (S),2.22175,2.702,,
+5,WA,55110,Mandurah (C),9.89625,7.81775,2.88475,2.856
+5,WA,55180,Manjimup (S),7.38725,7.25875,2.5845,2.499
 5,WA,56230,Murray (S),,,,
-5,WA,56790,Northampton (S),,,,
-5,WA,57280,Port Hedland (T),,,,
-5,WA,57770,Shark Bay (S),,,,
-5,WA,59340,Wyndham-East Kimberley (S),,,,
-6,TAS,60210,Break O'Day (M),,,,
-6,TAS,60610,Burnie (C),,,,
+5,WA,56790,Northampton (S),10.40375,10.62025,1.74825,3.4235
+5,WA,57280,Port Hedland (T),9.24125,3.631,,1.6795
+5,WA,57770,Shark Bay (S),12.23025,10.1975,2.3935,3.8735
+5,WA,59340,Wyndham-East Kimberley (S),5.8735,4.25125,,1.6815
+6,TAS,60210,Break O'Day (M),5.2905,4.50975,,
+6,TAS,60610,Burnie (C),2.9175,2.42275,,
 6,TAS,60810,Central Coast (M) (Tas.),,,,
-6,TAS,61010,Central Highlands (M) (Tas.),,,,
-6,TAS,61210,Circular Head (M),,,,
-6,TAS,61610,Devonport (C),,,,
+6,TAS,61010,Central Highlands (M) (Tas.),,2.18025,,
+6,TAS,61210,Circular Head (M),2.867,2.51475,,
+6,TAS,61610,Devonport (C),5.45175,2.43375,,1.94475
 6,TAS,61810,Dorset (M),,,,
-6,TAS,62410,Glamorgan/Spring Bay (M),,,,
-6,TAS,63010,Huon Valley (M),,,,
-6,TAS,63210,Kentish (M),,,,
-6,TAS,63610,Kingborough (M),,,,
-6,TAS,64010,Launceston (C),,,,
-6,TAS,64210,Meander Valley (M),,,,
+6,TAS,62410,Glamorgan/Spring Bay (M),14.17825,12.39275,3.707,3.855
+6,TAS,63010,Huon Valley (M),2.92525,,,
+6,TAS,63210,Kentish (M),9.2135,8.921,2.43225,3.852
+6,TAS,63610,Kingborough (M),3.824,,,
+6,TAS,64010,Launceston (C),34.06725,18.4075,8.2355,9.39575
+6,TAS,64210,Meander Valley (M),2.1535,,,
 6,TAS,64610,Northern Midlands (M),,,,
-6,TAS,65210,Tasman (M),,,,
+6,TAS,65210,Tasman (M),8.1625,5.30875,,2.383
 6,TAS,65410,Waratah/Wynyard (M),,,,
-6,TAS,65610,West Coast (M),,,,
+6,TAS,65610,West Coast (M),7.815,6.4915,,2.3835
 6,TAS,65810,West Tamar (M),,,,
-7,NT,70200,Alice Springs (T),,,,
-7,NT,70420,Barkly (R),,,,
-7,NT,70700,Coomalie (S),,,,
-7,NT,72200,Katherine (T),,,,
-7,NT,72330,MacDonnell (R),,,,
-7,NT,73600,Roper Gulf (R),,,,
-7,NT,74550,Victoria Daly (R),,,,
-7,NT,74660,West Arnhem (R),,,,
+7,NT,70200,Alice Springs (T),53.0145,39.2565,7.19725,15.2845
+7,NT,70420,Barkly (R),7.80775,4.1985,,2.52475
+7,NT,70700,Coomalie (S),4.02475,4.5775,,1.46975
+7,NT,72200,Katherine (T),9.8315,8.25975,1.454,3.68925
+7,NT,72330,MacDonnell (R),52.7045,55.14225,14.62675,21.643
+7,NT,73600,Roper Gulf (R),4.78175,4.28325,,
+7,NT,74550,Victoria Daly (R),1.66675,2.01425,,
+7,NT,74660,West Arnhem (R),9.647,12.5275,2.46275,3.196
