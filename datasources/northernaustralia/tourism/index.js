@@ -231,42 +231,98 @@ module.exports = addDescriptionToGroups(
           {
             name: "TRA_reason_Domestic Day.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_reason_Domestic Day.csv"
+            url: "data/Tourism/TRA/TRA_reason_Domestic Day.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_reason_Domestic Overnight.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_reason_Domestic Overnight.csv"
+            url: "data/Tourism/TRA/TRA_reason_Domestic Overnight.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_reason_International.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_reason_International.csv"
+            url: "data/Tourism/TRA/TRA_reason_International.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_reason_Total.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_reason_Total.csv"
+            url: "data/Tourism/TRA/TRA_reason_Total.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_tourism_businesses.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_tourism_businesses.csv"
+            url: "data/Tourism/TRA/TRA_tourism_businesses.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_travel_party_Domestic Overnight.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_travel_party_Domestic Overnight.csv"
+            url: "data/Tourism/TRA/TRA_travel_party_Domestic Overnight.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_travel_party_International.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_travel_party_International.csv"
+            url: "data/Tourism/TRA/TRA_travel_party_International.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           },
           {
             name: "TRA_travel_party_Total.csv",
             type: "csv",
-            url: "data/Tourism/TRA/TRA_travel_party_Total.csv"
+            url: "data/Tourism/TRA/TRA_travel_party_Total.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           }
         ]
       }
