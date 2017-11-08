@@ -10,7 +10,7 @@ module.exports = addDescriptionToGroups(
     preserveOrder: true,
     items: [
       {
-        name: "Tourist Accommodation",
+        name: "Tourist Accommodation and other key metrics",
         type: "group",
         items: [
           {
@@ -32,6 +32,66 @@ module.exports = addDescriptionToGroups(
             name: "Accom establishments NT, QLD, WA by quarter 2015-16 (TR)",
             type: "csv",
             url: "data/Tourism/2015-2016_TR_Quarterly.csv"
+          },
+          {
+            name: "Accomm total 2009-13 (LGA)",
+            type: "csv",
+            url: "data/Tourism/TRA/TRA_accommodation_Total.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
+          },
+          {
+            name: "Key tourism metrics 2009-13 (LGA)",
+            type: "csv",
+            url: "data/Tourism/TRA/TRA_key_metrics_Total.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
+          },
+          {
+            name: "Total visitors by reason 2009-13 (LGA)",
+            type: "csv",
+            url: "data/Tourism/TRA/TRA_reason_Total.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
+          },
+          {
+            name: "Total tourism businesses 2009-13 (LGA)",
+            type: "csv",
+            url: "data/Tourism/TRA/TRA_tourism_businesses.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
+          },
+          {
+            name: "Total visitors by travel party 2009-13 (LGA) ",
+            type: "csv",
+            url: "data/Tourism/TRA/TRA_travel_party_Total.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
           }
         ]
       },
@@ -72,7 +132,75 @@ module.exports = addDescriptionToGroups(
             tableStyle: {
               replaceWithNullValues: ["np"]
             }
-          }
+          },
+          {
+            name: "International visitor nights by country 2009-13 (LGA)",
+            type: "csv",
+            url: "data/Tourism/TRA/TRA_IVS_Country_VisitorNights.csv",
+            tableStyle: {
+              columns: {
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
+          },
+          {
+            name: "International visitors by country 2009-13 (LGA)",
+            type: "csv",
+            url: "data/Tourism/TRA/TRA_IVS_Country_Visitors.csv",
+            tableStyle: {
+              columns: {
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
+          },
+          {
+            name: "Accomm international visitors 2009-13 (LGA)",
+            type: "csv",
+            url: "data/Tourism/TRA/TRA_accommodation_International.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
+          },
+          {
+            name: "Key metrics international visitors 2009-13 (LGA)",
+            type: "csv",
+            url: "data/Tourism/TRA/TRA_key_metrics_International.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
+          },
+          {
+            name: "International visitors by reason 2009-13 (LGA)",
+            type: "csv",
+            url: "data/Tourism/TRA/TRA_reason_International.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
+          },
+          {
+            name: "International visitors by travel party 2009-13 (LGA)",
+            type: "csv",
+            url: "data/Tourism/TRA/TRA_travel_party_International.csv",
+            tableStyle: {
+              columns: {
+                State: {type: "HIDDEN"},
+                StateName: {type: "HIDDEN"},
+                lga_name_2016: {type: "HIDDEN"}
+              }
+            }
+          },
         ]
       },
       {
@@ -116,36 +244,9 @@ module.exports = addDescriptionToGroups(
             tableStyle: {
               replaceWithNullValues: ["np"]
             }
-          }
-        ]
-      },
-      {
-        name: "Tourism data by LGA (Tourism Research Australia)",
-        type: "group",
-        preserveOrder: true,
-        items: [
-          {
-            name: "TRA_IVS_Country_VisitorNights.csv",
-            type: "csv",
-            url: "data/Tourism/TRA/TRA_IVS_Country_VisitorNights.csv",
-            tableStyle: {
-              columns: {
-                lga_name_2016: {type: "HIDDEN"}
-              }
-            }
           },
           {
-            name: "TRA_IVS_Country_Visitors.csv",
-            type: "csv",
-            url: "data/Tourism/TRA/TRA_IVS_Country_Visitors.csv",
-            tableStyle: {
-              columns: {
-                lga_name_2016: {type: "HIDDEN"}
-              }
-            }
-          },
-          {
-            name: "TRA_accommodation_Domestic Overnight.csv",
+            name: "Accomm domestic visitors overnight 2009-13 (LGA)",
             type: "csv",
             url: "data/Tourism/TRA/TRA_accommodation_Domestic Overnight.csv",
             tableStyle: {
@@ -157,31 +258,7 @@ module.exports = addDescriptionToGroups(
             }
           },
           {
-            name: "TRA_accommodation_International.csv",
-            type: "csv",
-            url: "data/Tourism/TRA/TRA_accommodation_International.csv",
-            tableStyle: {
-              columns: {
-                State: {type: "HIDDEN"},
-                StateName: {type: "HIDDEN"},
-                lga_name_2016: {type: "HIDDEN"}
-              }
-            }
-          },
-          {
-            name: "TRA_accommodation_Total.csv",
-            type: "csv",
-            url: "data/Tourism/TRA/TRA_accommodation_Total.csv",
-            tableStyle: {
-              columns: {
-                State: {type: "HIDDEN"},
-                StateName: {type: "HIDDEN"},
-                lga_name_2016: {type: "HIDDEN"}
-              }
-            }
-          },
-          {
-            name: "TRA_key_metrics_Domestic Day.csv",
+            name: "Key metrics domestic visitors 2009-13 (LGA)",
             type: "csv",
             url: "data/Tourism/TRA/TRA_key_metrics_Domestic Day.csv",
             tableStyle: {
@@ -193,7 +270,7 @@ module.exports = addDescriptionToGroups(
             }
           },
           {
-            name: "TRA_key_metrics_Domestic Overnight.csv",
+            name: "Key metrics domestic visitors overnight 2009-13 (LGA)",
             type: "csv",
             url: "data/Tourism/TRA/TRA_key_metrics_Domestic Overnight.csv",
             tableStyle: {
@@ -205,31 +282,7 @@ module.exports = addDescriptionToGroups(
             }
           },
           {
-            name: "TRA_key_metrics_International.csv",
-            type: "csv",
-            url: "data/Tourism/TRA/TRA_key_metrics_International.csv",
-            tableStyle: {
-              columns: {
-                State: {type: "HIDDEN"},
-                StateName: {type: "HIDDEN"},
-                lga_name_2016: {type: "HIDDEN"}
-              }
-            }
-          },
-          {
-            name: "TRA_key_metrics_Total.csv",
-            type: "csv",
-            url: "data/Tourism/TRA/TRA_key_metrics_Total.csv",
-            tableStyle: {
-              columns: {
-                State: {type: "HIDDEN"},
-                StateName: {type: "HIDDEN"},
-                lga_name_2016: {type: "HIDDEN"}
-              }
-            }
-          },
-          {
-            name: "TRA_reason_Domestic Day.csv",
+            name: "Domestic day visitors by reason 2009-13 (LGA)",
             type: "csv",
             url: "data/Tourism/TRA/TRA_reason_Domestic Day.csv",
             tableStyle: {
@@ -241,7 +294,7 @@ module.exports = addDescriptionToGroups(
             }
           },
           {
-            name: "TRA_reason_Domestic Overnight.csv",
+            name: "Domestic overnight visitors by reason 2009-13 (LGA)",
             type: "csv",
             url: "data/Tourism/TRA/TRA_reason_Domestic Overnight.csv",
             tableStyle: {
@@ -253,43 +306,7 @@ module.exports = addDescriptionToGroups(
             }
           },
           {
-            name: "TRA_reason_International.csv",
-            type: "csv",
-            url: "data/Tourism/TRA/TRA_reason_International.csv",
-            tableStyle: {
-              columns: {
-                State: {type: "HIDDEN"},
-                StateName: {type: "HIDDEN"},
-                lga_name_2016: {type: "HIDDEN"}
-              }
-            }
-          },
-          {
-            name: "TRA_reason_Total.csv",
-            type: "csv",
-            url: "data/Tourism/TRA/TRA_reason_Total.csv",
-            tableStyle: {
-              columns: {
-                State: {type: "HIDDEN"},
-                StateName: {type: "HIDDEN"},
-                lga_name_2016: {type: "HIDDEN"}
-              }
-            }
-          },
-          {
-            name: "TRA_tourism_businesses.csv",
-            type: "csv",
-            url: "data/Tourism/TRA/TRA_tourism_businesses.csv",
-            tableStyle: {
-              columns: {
-                State: {type: "HIDDEN"},
-                StateName: {type: "HIDDEN"},
-                lga_name_2016: {type: "HIDDEN"}
-              }
-            }
-          },
-          {
-            name: "TRA_travel_party_Domestic Overnight.csv",
+            name: "Domestic visitors by travel party 2009-13 (LGA)",
             type: "csv",
             url: "data/Tourism/TRA/TRA_travel_party_Domestic Overnight.csv",
             tableStyle: {
@@ -300,30 +317,6 @@ module.exports = addDescriptionToGroups(
               }
             }
           },
-          {
-            name: "TRA_travel_party_International.csv",
-            type: "csv",
-            url: "data/Tourism/TRA/TRA_travel_party_International.csv",
-            tableStyle: {
-              columns: {
-                State: {type: "HIDDEN"},
-                StateName: {type: "HIDDEN"},
-                lga_name_2016: {type: "HIDDEN"}
-              }
-            }
-          },
-          {
-            name: "TRA_travel_party_Total.csv",
-            type: "csv",
-            url: "data/Tourism/TRA/TRA_travel_party_Total.csv",
-            tableStyle: {
-              columns: {
-                State: {type: "HIDDEN"},
-                StateName: {type: "HIDDEN"},
-                lga_name_2016: {type: "HIDDEN"}
-              }
-            }
-          }
         ]
       }
     ]
