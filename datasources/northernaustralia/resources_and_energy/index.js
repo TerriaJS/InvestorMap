@@ -1,12 +1,10 @@
 'use strict';
 
 const getFromCatalogPath = require('../../getFromCatalogPath');
-const addDescriptionToGroups = require('../../addDescriptionToGroups');
 const removeIds = require('../../removeIds');
 
 const nainvest = require('../../../wwwroot/init/nainvest.json');
-const nm = require('nationalmap-catalog/build/nm.json');
-const aremi = require('./aremi.json');
+const aremi = require('../shared/aremi.json');
 
 
 // Remove ids from aremi catalog (screws up when an item is in multiple places in the catalog)
@@ -46,7 +44,7 @@ function importRenewables(renewablesJson) {
 }
 
 
-module.exports = addDescriptionToGroups({
+module.exports = {
   name: 'Resources and Energy',
   type: 'group',
   preserveOrder: true,
@@ -107,37 +105,9 @@ module.exports = addDescriptionToGroups({
       ]
     },
     importRenewables(getFromCatalogPath(aremi, ['Renewable Energy'])),
-    {
-      name: 'Infrastructure',
-      type: 'group',
-      items: [
-        Object.assign({}, getFromCatalogPath(aremi, ['Electricity Infrastructure', 'Transmission']), {name: 'Electricity'}),
-        require('../shared/transport')
-      ]
-    },
+    require('../shared/infrastructure'),
     importOilAndGas(),
     require('../shared/soil'),
-    {
-      name: 'Demography',
-      type: 'group',
-      items: [
-        getFromCatalogPath(aremi, ['Population', 'Australian Bureau of Statistics (BETA)', 'Selected 2011 Census Datasets']),
-        removeIds(getFromCatalogPath(nm, ['National Datasets', 'Social and Economic', 'Population Estimates', 'Residential Population Density']))
-      ]
-    }
+    require('../shared/demography')
   ]
-}, `
-### Resources and Energy
-
-_Industrialisation and urbanisation within the Asia region will continue to drive demand for Australia’s natural resources._
-
-Many parts of northern Australia are still unexplored and the region remains highly prospective, offering significant potential for future mineral discoveries. Northern Australia has significant potential for further world-class oil and gas discoveries.
-
-Geoscience Australia estimates around 80 per cent of Australia remains under-explored for minerals - most of this unexplored land is in northern Australia.
-
-Northern Australia contains over 70 per cent of Australia’s known resources of iron ore, lead and zinc. It also contains significant deposits of silver, copper, manganese, nickel, bauxite, tungsten, molybdenum and rare earths.
-
-By 2020 northern Australia is destined to become the world’s largest exporter of Liquefied Natural Gas (LNG).
-
-Northern Australia has world-class solar, wind and bioenergy resources. In remote and off-grid locations, there are significant opportunities for investment in renewable energy to help industry and remote communities to become more energy self-sufficient.
-`.trim());
+};
