@@ -652,11 +652,6 @@ module.exports = {
     },
     require('../shared/infrastructure'),
     require('../shared/demography'),
-    removeIds(getFromCatalogPath(aremi, ['Environment'])),
-    {
-      name: "Climate (empty)",
-      type: "group",
-      items: []
-    }
+    removeIds(getFromCatalogPath(aremi, ['Environment']))
   ]
 };

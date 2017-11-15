@@ -44,10 +44,11 @@ module.exports = {
     },
     require('../shared/transport'),
     {
-      name: "Agriculture (empty)",
+      name: "Agriculture",
       type: "group",
       preserveOrder: true,
       items: [
+        ...require('./sdmx_items')
       ]
     }
   ]
