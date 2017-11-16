@@ -384,7 +384,6 @@ module.exports = [
   {
     name: "Land Management Practices Survey 2011-2012",
     type: "sdmx-json",
-    id: "ABS_SDMX-JSON__ABS_LAMPS",
     rectangle: [109, -45, 158, -8],
     cacheDuration: "300s",
     sortValues: "id",
@@ -483,7 +482,6 @@ module.exports = [
   {
     name: "Land Management Practices Survey 2013-2014",
     type: "sdmx-json",
-    id: "ABS_SDMX-JSON__ABS_LAMPS2014",
     rectangle: [109, -45, 158, -8],
     cacheDuration: "300s",
     sortValues: "id",
