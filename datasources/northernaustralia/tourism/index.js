@@ -477,7 +477,7 @@ module.exports = {
           url:
             "data/Tourism/2015-2017_Domestic_Visitors_Intrastate_by_ST.csv",
           tableStyle: {
-            replaceWithNullValues: ["np"]
+            replaceWithNullValues: ["-"]
           },
           description: "This map layer presents domestic visitors intrastate by reason by State for July 2015 – June 2017. The data is extracted from the National Visitor Survey (NVS) conducted by the Tourism Research Australia.",
           info: [
