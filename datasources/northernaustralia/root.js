@@ -7,11 +7,11 @@ module.exports = {
     {
       name: "All Data",
       type: "group",
-      preserveOrder: true,
+      preserveOrder: "true",
       items: [
         ...require('./resources_and_energy').items,
         ...require('./tourism').items,
-        require('./agriculture_and_food').items.find(m => m.name === 'Water')
+        ...require('./agriculture_and_food').items.filter(m => ['Water', 'Agriculture'].indexOf(m.name) >= 0)
       ]
     },
     addDescriptionToGroups(require('./resources_and_energy'), `
