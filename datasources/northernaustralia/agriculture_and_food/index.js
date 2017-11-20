@@ -48,6 +48,11 @@ module.exports = {
       type: "group",
       preserveOrder: true,
       items: [
+        {
+          name: 'Catchment Scale Land Use',
+          type: 'esri-mapServer',
+          url: 'http://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_current/MapServer'
+        },
         ...require('./sdmx_items')
       ]
     }
