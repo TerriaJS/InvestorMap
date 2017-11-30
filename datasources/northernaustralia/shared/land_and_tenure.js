@@ -25,7 +25,7 @@ module.exports = { // Use tenure, and add extra items
       type: 'esri-mapServer',
       url: 'http://services.ga.gov.au/site_13/rest/services/APP_Northern_Australia_Land_Tenure_WM/MapServer',
       layers: 'APP_Northern_Australia_Land_Tenure_WM',
-      tokenUrl: 'esri-token-auth',
+      tokenUrl: '/esri-token-auth',
       hideSource: true
     },
     {
