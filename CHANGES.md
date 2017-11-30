@@ -1,9 +1,39 @@
 Change Log
 ==========
 
-###
+### 2017-11-30
 
-* Replaced Northern Australia with NationalMap in the "Related Maps"; fixed the link to the "NEII viewer" when the image is clicked.
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 5.5.4.  Changes include:
+  * Fixed a serious bug that prevented opening the Data Catalog in Internet Explorer.
+  * Fixed some problems with the Terria Spatial Analytics `CatalogFunctions`.
+
+### 2017-11-21
+
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 5.5.3.  Changes include:
+  * Added the ability to split the screen into a left-side and right-side, and show raster and region mapped layers on only one side of the splitter.
+  * Added the ability to use a tabbed catalog in the explorer panel on desktop site. Setting `tabbedCatalog` parameter to `true` in `config.json` causes top-level groups in the catalog to list items in separate explorer panel tabs.
+  * Added the ability to use vector tile properties in feature info templates when using region mapping (data row attributes will overwrite vector tile properties with the same name).
+  * Properties available in feature info templates are now JSON parsed and replaced by their javascript object if they start with `[` or `{` and parse successfully.
+  * Decreased flickering of time-varying region mapped layers by pre-rendering the next time interval.
+  * Fixed a bug in `WebMapServiceCatalogItem` that could cause a WMS time time dimension to be interpreted incorrectly if it was specified only using dates (not times) and with a periodicity of less than a day.
+  * Added `cannotSum` property to SDMX-JSON catalog items. This is used to identify the measures that cannot be summed so that TerriaJS won't display a Total when more than one of these are selected and it will not show a "Display as a percentage of regional total" checkbox in the workbench UI. `cannotSum` can be either a mapping of concept ids to the values that prevent summing, or simply `true` to always prevent summing.
+
+### 2017-11-13
+
+* Added `AEC_FED_2017_AMLS` region type.
+* Added `data61.io` and `d61.io` to the proxy whitelist.
+
+### 2017-11-09
+
+* Removed six datasets from the catalog that have been taken down from the ABS SDMX-JSON service (ABS_ERP_LGA, ABS_ANNUAL_ERP_LGA, ABS_ANNUAL_ERP_LGA2014, ABS_ERP_LGA2014, ABS_ANNUAL_ERP_LGA2015, ABS_ERP_LGA2015)
+* Added two replacement datasets to the catalog, ABS_ERP_LGA2016 and ABS_ANNUAL_ERP_LGA2016.
+* Added ATSI_BIRTHS_SUMM, ATSI_FERTILITY, ABS_BLDG_APPROVALS_LGA2016, ABS_BA_SA2_ASGS2016, CONFINEMENTS_NUPTIALITY, CONFINEMENTS_PLURALITY, FERTILITY_AGE_STATE, PATERNITY_AGE_STATE, RES_DWELL, RES_PROP_INDEX.
+* Fixed broken link in Broadband layer descriptions and add some text explaining that the data is historical.
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 5.4.5.  Changes include:
+  * Added support for specifying namespaced layer names in the `WebMapServiceCatalogItem` `layers` property.
+  * Made TerriaJS tolerant of XML/HTML inside text elements in WMS GetCapabilities without being properly wrapped in `CDATA`.
+  * Improved behaviour of SDMX-JSON items when no data is available.
+
 ### 2017-10-31
 
 * Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 5.4.3.  Changes include:
