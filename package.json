@@ -1,4 +1,8 @@
 {
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "name": "northernaustralia",
   "version": "0.1.0",
   "description": "Geospatial visualization application for Australian government and open data.",
