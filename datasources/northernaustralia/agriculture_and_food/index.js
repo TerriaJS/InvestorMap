@@ -17,15 +17,7 @@ module.exports = {
       preserveOrder: true,
       items: [
         getFromCatalogPath(nainvest, ['Tenure and title', 'Freehold']),
-        getFromCatalogPath(nainvest, ['Tenure and title', 'Pastoral lease']),
-        {
-          name: "Catchment Scale Land Use 2016",
-          id: "Root Group/National Data Sets/Land/Catchment Scale Land Use 2016",
-          type: "ckan-resource",
-          url: "https://data.gov.au",
-          resourceId: "98e11819-e02f-4729-8368-148f24eb89a5",
-          datasetId: "catchment-scale-land-use-of-australia-update-may-2016"
-        }
+        getFromCatalogPath(nainvest, ['Tenure and title', 'Pastoral lease'])
       ]
     },
     require('../shared/soil'),
@@ -51,6 +43,8 @@ module.exports = {
         {
           name: 'Catchment Scale Land Use',
           type: 'esri-mapServer',
+          dataUrl: 'http://www.agriculture.gov.au/abares/data/clum-50m-current',
+          dataUrlType: 'direct',
           url: 'http://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_current/MapServer'
         },
         ...require('./sdmx_items')
