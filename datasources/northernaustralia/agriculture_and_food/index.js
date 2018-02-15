@@ -41,7 +41,7 @@ module.exports = {
       preserveOrder: true,
       items: [
         {
-          name: 'Catchment Scale Land Use',
+          name: 'Catchment Scale Land Use 2017',
           type: 'esri-mapServer',
           dataUrl: 'http://www.agriculture.gov.au/abares/data/clum-50m-current',
           dataUrlType: 'direct',
