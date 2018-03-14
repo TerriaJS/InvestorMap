@@ -17,6 +17,11 @@ body {
   background-color: #f5f5f5;
 }
 
+section{
+  padding: 11px 0;
+}
+
+
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -77,6 +82,7 @@ ul {
 
 .side-nav a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 
@@ -200,25 +206,38 @@ h2 > a {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+
 .navbar {
-  min-height: 80px;
+  height: 60px;
 }
 
 .navbar-nav>li>a {
-  margin-top: 20px;
+  margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 
 .navbar-brand {
+<<<<<<< HEAD
   padding-top: 15px;
   padding-bottom: 15px;
+||||||| merged common ancestors
+  margin-right: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+=======
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+>>>>>>> nm/master
 }
 
 .navbar-brand {
-  height: 80px;
+  height: 50px;
 }
 
+<<<<<<< HEAD
 .navbar-brand img {
   width: 250px;
 }
@@ -226,6 +245,16 @@ h2 > a {
 .content {
   margin-top: 80px;
 }
+||||||| merged common ancestors
+.navbar-brand img {
+  width: 170px;
+}
+
+.content {
+  margin-top: 80px;
+}
+=======
+>>>>>>> nm/master
 
 .nav-header:first-of-type {
   margin-top: 25px;
@@ -235,8 +264,10 @@ h2 > a {
   margin-bottom: 20px;
 }
 
-
+section{
+  padding: 21px 0;
 }
 
 
 
+}
