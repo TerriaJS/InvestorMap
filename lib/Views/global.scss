@@ -153,7 +153,7 @@ body {
     }
       // The currently selected item in the list
     .tjs-data-catalog-item__btn-catalog-item--is-previewed {
-        ,&:focus {color: $color-primary; }
+        &:focus {color: $color-primary; }
     }
       // The tabs at the top
     .tjs-tabs__btn--tab {
