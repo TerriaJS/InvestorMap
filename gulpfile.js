@@ -302,7 +302,7 @@ gulp.task('build-catalog', function() {
 
 
 gulp.task('watch-catalog', ['build-catalog'], function() {
-    return gulp.watch(['datasources/**.js','datasources/**.json'], watchOptions, [ 'build-catalog' ]);
+    console.log('Task watch-catalog does not work due to caching of require. Use nodemon -w datasources -x "gulp build-catalog"');
 });
 
 gulp.task('sync-terriajs-dependencies', function() {
