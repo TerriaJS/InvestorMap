@@ -14,19 +14,19 @@ function existingProjectsItem(name) {
   return getFromCatalogPath(nainvest, ['Existing projects', 'Mines', name]);
 }
 
-function importOilAndGas() {
-  const group = getFromCatalogPath(nainvest, ['Infrastructure', 'Oil & Gas']);
-  group.items = [...group.items, {
-    name: 'Petroleum Wells',
-    type: 'wms',
-    url: 'http://services.ga.gov.au/geoserver/boreholes/wms',
-    layers: 'Boreholes',
-    parameters: {
-      'CQL_FILTER': "WELLTYPE='Petroleum'"
-    }
-  }];
-  return group;
-}
+// function importOilAndGas() {
+//   const group = getFromCatalogPath(nainvest, ['Infrastructure', 'Oil & Gas']);
+//   group.items = [...group.items, {
+//     name: 'Petroleum Wells',
+//     type: 'wms',
+//   url: 'http://services.ga.gov.au/geoserver/boreholes/wms',
+//     layers: 'Boreholes',
+//     parameters: {
+//       'CQL_FILTER': "WELLTYPE='Petroleum'"
+//     }
+//   }];
+//   return group;
+// }
 
 
 function importRenewables(renewablesJson) {
@@ -106,7 +106,7 @@ module.exports = {
     },
     importRenewables(getFromCatalogPath(aremi, ['Renewable Energy'])),
     require('../shared/infrastructure'),
-    importOilAndGas(),
+    require('./oil_and_gas'),
     require('../shared/soil'),
     require('../shared/demography')
   ]
