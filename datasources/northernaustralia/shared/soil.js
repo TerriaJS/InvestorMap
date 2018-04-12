@@ -1,8 +1,8 @@
-'use strict';
+"use strict";
 
-const getFromCatalogPath = require('../../getFromCatalogPath');
+const getFromCatalogPath = require("../../getFromCatalogPath");
 
-const nm = require('nationalmap-catalog/build/nm.json');
+const nm = require("nationalmap-catalog/build/nm.json");
 
 // const nainvest = require('../../../wwwroot/init/nainvest.json');
 
@@ -14,4 +14,12 @@ const nm = require('nationalmap-catalog/build/nm.json');
 
 // module.exports = soilGroup;
 
-module.exports = Object.assign({}, getFromCatalogPath(nm, ['National Datasets', 'Land', 'National Soil Attributes']), {name: 'Soil'});
+module.exports = Object.assign(
+  {},
+  getFromCatalogPath(nm, [
+    "National Datasets",
+    "Land",
+    "National Soil Attributes"
+  ]),
+  { name: "Soil" }
+);

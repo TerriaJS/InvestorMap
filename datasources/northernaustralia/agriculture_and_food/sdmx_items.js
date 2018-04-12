@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 module.exports = [
   {
@@ -12,7 +12,8 @@ module.exports = [
     cleanFootnotes: true,
     forceShowDimensionIds: ["MEASURE"],
     url: "http://stat.data.abs.gov.au/sdmx-json/data/ABS_REGIONAL_ASGS2016",
-    description: "Explanatory notes are available [here](http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/1379.0.55.001Explanatory%20Notes12009-13?OpenDocument).<br/>You can view this data, along with explanations of the meaning of terms, on the ABS.Stat website [here](http://stat.data.abs.gov.au/Index.aspx?DatasetCode=ABS_REGIONAL_ASGS2016).  Click on the _i_ symbols on that page for further information and links. Please note that ABS.Stat beta is continuing to be developed. Data will be updated as soon as possible following its 11:30 am release on the ABS website.",
+    description:
+      "Explanatory notes are available [here](http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/1379.0.55.001Explanatory%20Notes12009-13?OpenDocument).<br/>You can view this data, along with explanations of the meaning of terms, on the ABS.Stat website [here](http://stat.data.abs.gov.au/Index.aspx?DatasetCode=ABS_REGIONAL_ASGS2016).  Click on the _i_ symbols on that page for further information and links. Please note that ABS.Stat beta is continuing to be developed. Data will be updated as soon as possible following its 11:30 am release on the ABS website.",
     singleValuedDimensionIds: ["MEASURE"],
     totalValueIds: {
       "*": ["TOT", "LFTOT"],
@@ -112,7 +113,8 @@ module.exports = [
     cleanFootnotes: true,
     forceShowDimensionIds: ["MEASURE"],
     url: "http://stat.data.abs.gov.au/sdmx-json/data/ABS_REGIONAL_ASGS",
-    description: "Explanatory notes are available [here](http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/1379.0.55.001Explanatory%20Notes12009-13?OpenDocument).<br/>You can view this data, along with explanations of the meaning of terms, on the ABS.Stat website [here](http://stat.data.abs.gov.au/Index.aspx?DatasetCode=ABS_REGIONAL_ASGS).  Click on the _i_ symbols on that page for further information and links. Please note that ABS.Stat beta is continuing to be developed. Data will be updated as soon as possible following its 11:30 am release on the ABS website.",
+    description:
+      "Explanatory notes are available [here](http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/1379.0.55.001Explanatory%20Notes12009-13?OpenDocument).<br/>You can view this data, along with explanations of the meaning of terms, on the ABS.Stat website [here](http://stat.data.abs.gov.au/Index.aspx?DatasetCode=ABS_REGIONAL_ASGS).  Click on the _i_ symbols on that page for further information and links. Please note that ABS.Stat beta is continuing to be developed. Data will be updated as soon as possible following its 11:30 am release on the ABS website.",
     singleValuedDimensionIds: ["MEASURE"],
     totalValueIds: {
       "*": ["TOT", "LFTOT"],
@@ -205,7 +207,8 @@ module.exports = [
     cleanFootnotes: true,
     forceShowDimensionIds: ["MEASURE"],
     url: "http://stat.data.abs.gov.au/sdmx-json/data/ABS_REGIONAL_ASGS2016",
-    description: "Explanatory notes are available [here](http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/1379.0.55.001Explanatory%20Notes12009-13?OpenDocument).<br/>You can view this data, along with explanations of the meaning of terms, on the ABS.Stat website [here](http://stat.data.abs.gov.au/Index.aspx?DatasetCode=ABS_REGIONAL_ASGS2016).  Click on the _i_ symbols on that page for further information and links. Please note that ABS.Stat beta is continuing to be developed. Data will be updated as soon as possible following its 11:30 am release on the ABS website.",
+    description:
+      "Explanatory notes are available [here](http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/1379.0.55.001Explanatory%20Notes12009-13?OpenDocument).<br/>You can view this data, along with explanations of the meaning of terms, on the ABS.Stat website [here](http://stat.data.abs.gov.au/Index.aspx?DatasetCode=ABS_REGIONAL_ASGS2016).  Click on the _i_ symbols on that page for further information and links. Please note that ABS.Stat beta is continuing to be developed. Data will be updated as soon as possible following its 11:30 am release on the ABS website.",
     singleValuedDimensionIds: ["MEASURE"],
     totalValueIds: {
       "*": ["TOT", "LFTOT"],
@@ -302,7 +305,8 @@ module.exports = [
     cleanFootnotes: true,
     forceShowDimensionIds: ["MEASURE"],
     url: "http://stat.data.abs.gov.au/sdmx-json/data/ABS_REGIONAL_ASGS",
-    description: "Explanatory notes are available [here](http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/1379.0.55.001Explanatory%20Notes12009-13?OpenDocument).<br/>You can view this data, along with explanations of the meaning of terms, on the ABS.Stat website [here](http://stat.data.abs.gov.au/Index.aspx?DatasetCode=ABS_REGIONAL_ASGS).  Click on the _i_ symbols on that page for further information and links. Please note that ABS.Stat beta is continuing to be developed. Data will be updated as soon as possible following its 11:30 am release on the ABS website.",
+    description:
+      "Explanatory notes are available [here](http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/1379.0.55.001Explanatory%20Notes12009-13?OpenDocument).<br/>You can view this data, along with explanations of the meaning of terms, on the ABS.Stat website [here](http://stat.data.abs.gov.au/Index.aspx?DatasetCode=ABS_REGIONAL_ASGS).  Click on the _i_ symbols on that page for further information and links. Please note that ABS.Stat beta is continuing to be developed. Data will be updated as soon as possible following its 11:30 am release on the ABS website.",
     singleValuedDimensionIds: ["MEASURE"],
     totalValueIds: {
       "*": ["TOT", "LFTOT"],
@@ -391,7 +395,8 @@ module.exports = [
     cleanFootnotes: true,
     forceShowDimensionIds: ["MEASURE"],
     url: "http://stat.data.abs.gov.au/sdmx-json/data/ABS_LAMPS",
-    description: "This dataset presents detailed information on agricultural land management practices used on Australian farms, using data collected from the 2011-12 Land Management Practices Survey (LaMPS). Explanatory notes are available [here](http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/4630.0Explanatory%20Notes12011-12?OpenDocument).\n\nNote that ACT is included in the NSW figures.\n\n<br/>You can view this data, along with explanations of the meaning of terms, on the ABS.Stat website [here](http://stat.data.abs.gov.au/Index.aspx?DatasetCode=ABS_LAMPS).  Click on the _i_ symbols on that page for further information and links. Please note that ABS.Stat beta is continuing to be developed. Data will be updated as soon as possible following its 11:30 am release on the ABS website.",
+    description:
+      "This dataset presents detailed information on agricultural land management practices used on Australian farms, using data collected from the 2011-12 Land Management Practices Survey (LaMPS). Explanatory notes are available [here](http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/4630.0Explanatory%20Notes12011-12?OpenDocument).\n\nNote that ACT is included in the NSW figures.\n\n<br/>You can view this data, along with explanations of the meaning of terms, on the ABS.Stat website [here](http://stat.data.abs.gov.au/Index.aspx?DatasetCode=ABS_LAMPS).  Click on the _i_ symbols on that page for further information and links. Please note that ABS.Stat beta is continuing to be developed. Data will be updated as soon as possible following its 11:30 am release on the ABS website.",
     singleValuedDimensionIds: ["MEASURE", "MGT_PRACTICE"],
     totalValueIds: {
       "*": ["TOT", "LFTOT"],
@@ -489,7 +494,8 @@ module.exports = [
     cleanFootnotes: true,
     forceShowDimensionIds: ["MEASURE"],
     url: "http://stat.data.abs.gov.au/sdmx-json/data/ABS_LAMPS2014",
-    description: "This dataset presents detailed information on agricultural land management practices used on Australian farms, using data collected from the 2013-2014 Land Management Practices Survey (LaMPS). Explanatory notes are available [here](http://www.abs.gov.au/Ausstats/abs@.nsf/Previousproducts/4627.0Explanatory%20Notes12013-14). \n\nNote that ACT is included in the NSW figures.\n\n<br/>You can view this data, along with explanations of the meaning of terms, on the ABS.Stat website [here](http://stat.data.abs.gov.au/Index.aspx?DatasetCode=ABS_LAMPS2014).  Click on the _i_ symbols on that page for further information and links. Please note that ABS.Stat beta is continuing to be developed. Data will be updated as soon as possible following its 11:30 am release on the ABS website.",
+    description:
+      "This dataset presents detailed information on agricultural land management practices used on Australian farms, using data collected from the 2013-2014 Land Management Practices Survey (LaMPS). Explanatory notes are available [here](http://www.abs.gov.au/Ausstats/abs@.nsf/Previousproducts/4627.0Explanatory%20Notes12013-14). \n\nNote that ACT is included in the NSW figures.\n\n<br/>You can view this data, along with explanations of the meaning of terms, on the ABS.Stat website [here](http://stat.data.abs.gov.au/Index.aspx?DatasetCode=ABS_LAMPS2014).  Click on the _i_ symbols on that page for further information and links. Please note that ABS.Stat beta is continuing to be developed. Data will be updated as soon as possible following its 11:30 am release on the ABS website.",
     singleValuedDimensionIds: ["MEASURE", "MGT_PRACTICE"],
     totalValueIds: {
       "*": ["TOT", "LFTOT"],

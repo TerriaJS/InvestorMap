@@ -1,14 +1,14 @@
-'use strict';
+"use strict";
 
 function getFromCatalogPath(json, path) {
   const catalog = json.catalog;
   if (!catalog) {
-    throw new Error('No catalog found');
+    throw new Error("No catalog found");
   }
 
   const item = findInItems(catalog, path);
   if (!item) {
-    throw new Error('Could not find catalog item for path: ' + path.join(','));
+    throw new Error("Could not find catalog item for path: " + path.join(","));
   }
   return item;
 }
