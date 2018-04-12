@@ -2,21 +2,11 @@
 
 const getFromCatalogPath = require("../../getFromCatalogPath");
 
-const nm = require("nationalmap-catalog/build/nm.json");
-
-// const nainvest = require('../../../wwwroot/init/nainvest.json');
-
-// const soilGroup = getFromCatalogPath(nainvest, ['Geology & Climate', 'Soil']);
-// soilGroup.items = soilGroup.items.map(item => Object.assign({}, item, {
-//   type: 'esri-mapServer-group',
-//   url: item.url.replace(/^.*services\/(.*)\/MapServer.*$/, 'http://www.asris.csiro.au/arcgis/rest/services/$1/MapServer'),
-// }));
-
-// module.exports = soilGroup;
+const externalCatalogs = require("../shared/externalCatalogs");
 
 module.exports = Object.assign(
   {},
-  getFromCatalogPath(nm, [
+  getFromCatalogPath(externalCatalogs.nationalmap, [
     "National Datasets",
     "Land",
     "National Soil Attributes"

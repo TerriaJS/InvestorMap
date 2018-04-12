@@ -1,5 +1,9 @@
 "use strict";
 
+const getFromCatalogPath = require("../../getFromCatalogPath");
+
+const externalCatalogs = require("../shared/externalCatalogs");
+
 module.exports = {
   name: "Oil & Gas",
   type: "group",
@@ -31,8 +35,8 @@ module.exports = {
       ]
     },
     {
-      type: "wms-getCapabilities",
       name: "WA Petroleum",
+      type: "wms-getCapabilities",
       url:
         "https://services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer"
     },
@@ -56,6 +60,12 @@ module.exports = {
       parameters: {
         CQL_FILTER: "WELLTYPE='Petroleum'"
       }
-    }
+    },
+    getFromCatalogPath(externalCatalogs.nationalmap, [
+      "National Datasets",
+      "Land",
+      "Agriculture and Mining",
+      "Petroleum Exploration"
+    ])
   ]
 };

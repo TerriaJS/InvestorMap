@@ -2,23 +2,13 @@
 
 const getFromCatalogPath = require("../../getFromCatalogPath");
 
-const nainvest = require("../../../wwwroot/init/nainvest.json");
-const neiiWater = require("./neii-water.json");
+const externalCatalogs = require("../shared/externalCatalogs");
 
 module.exports = {
   name: "Agriculture and Food",
   type: "group",
   preserveOrder: true,
   items: [
-    {
-      name: "Land",
-      type: "group",
-      preserveOrder: true,
-      items: [
-        getFromCatalogPath(nainvest, ["Tenure and title", "Freehold"]),
-        getFromCatalogPath(nainvest, ["Tenure and title", "Pastoral lease"])
-      ]
-    },
     require("../shared/soil"),
     {
       name: "Water",
@@ -31,10 +21,16 @@ module.exports = {
           url:
             "http://geofabric.bom.gov.au/simplefeatures/ows?service=WMS&request=GetCapabilities"
         },
-        getFromCatalogPath(neiiWater, [
+        getFromCatalogPath(externalCatalogs.neiiWater, [
           "NEII Data Services – Conformant",
           "Water (4)",
           "Water Regulations Data (BoM)"
+        ]),
+        getFromCatalogPath(externalCatalogs.nationalmap, [
+          "National Datasets",
+          "Land",
+          "Agriculture and Mining",
+          "Water Use on Australian Farms"
         ])
       ]
     },

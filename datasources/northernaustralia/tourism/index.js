@@ -1,9 +1,8 @@
 "use strict";
 
 const getFromCatalogPath = require("../../getFromCatalogPath");
-const removeIds = require("../../removeIds");
 
-const aremi = require("../shared/aremi.json");
+const externalCatalogs = require("../shared/externalCatalogs");
 
 module.exports = {
   name: "Tourism",
@@ -710,6 +709,6 @@ module.exports = {
     },
     require("../shared/infrastructure"),
     require("../shared/demography"),
-    removeIds(getFromCatalogPath(aremi, ["Environment"]))
+    getFromCatalogPath(externalCatalogs.aremi, ["Environment"])
   ]
 };
