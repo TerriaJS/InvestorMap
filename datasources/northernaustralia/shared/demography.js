@@ -1,6 +1,6 @@
 const getFromCatalogPath = require("../../getFromCatalogPath");
 
-const externalCatalogs = require("../shared/externalCatalogs");
+const externalCatalogs = require("./externalCatalogs");
 
 module.exports = {
   name: "Demography",
@@ -13,9 +13,7 @@ module.exports = {
     ]),
     getFromCatalogPath(externalCatalogs.nationalmap, [
       "National Datasets",
-      "Social and Economic",
-      "Population Estimates",
-      "Residential Population Density"
+      "Social and Economic"
     ])
   ]
 };
