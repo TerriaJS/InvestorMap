@@ -13,7 +13,49 @@ module.exports = {
         ...require("./tourism").items,
         ...require("./agriculture_and_food").items.filter(
           m => ["Water", "Agriculture"].indexOf(m.name) >= 0
-        )
+        ),
+        {
+          name: "Homesteads 1M",
+          type: "esri-mapServer",
+          url:
+            "http://services.ga.gov.au/site_7/rest/services/NM_Labelling_and_Boundaries/MapServer/",
+          layers: "23"
+        },
+        {
+          name: "Homesteads 250K (high zoom only)",
+          type: "esri-mapServer",
+          url:
+            "http://services.ga.gov.au/site_7/rest/services/NM_Labelling_and_Boundaries/MapServer/",
+          layers: "24"
+        },
+        {
+          name: "Waste Water Treatment Facilities",
+          type: "wms",
+          url:
+            "http://services.ga.gov.au/site_3/services/Wastewater_Treatment_Facilities/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          layers: "National_Wastewater_Treatment_Facilities"
+        },
+        {
+          name: "Aviation Facilities",
+          nameInCatalog:
+            "Aviation Facilities (to move to Infrastructure > Transport > Air)",
+          type: "wms-getCapabilities",
+          url:
+            "http://services.ga.gov.au/site_3/services/Aviation_Facilities/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+        },
+        {
+          name: "Liquid Fuel Facilities",
+          type: "wms-getCapabilities",
+          url:
+            "http://services.ga.gov.au/site_3/services/Liquid_Fuel_Facilities/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+        },
+        {
+          name: "Land Cover",
+          type: "wms",
+          url:
+            "http://services.ga.gov.au/site_1/services/Land_Cover_WM/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          layers: "Land_Cover_Class"
+        }
       ]
     },
     addDescriptionToGroups(

@@ -35,6 +35,14 @@ module.exports = {
       ]
     },
     {
+      name: "Oil and Gas Platforms",
+
+      type: "wms",
+      url:
+        "http://services.ga.gov.au/site_9/services/Oil_Gas_Infrastructure/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+      layers: "National_Oil_Gas_Platforms"
+    },
+    {
       name: "WA Petroleum",
       type: "wms-getCapabilities",
       url:
