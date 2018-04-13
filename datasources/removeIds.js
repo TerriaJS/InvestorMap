@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 module.exports = function removeIds(member) {
   const updatedMember = Object.assign({}, member);
