@@ -4,6 +4,10 @@ const getFromCatalogPath = require("../../getFromCatalogPath");
 
 const externalCatalogs = require("../shared/externalCatalogs");
 
+const aremiEnvironment = getFromCatalogPath(externalCatalogs.aremi, [
+  "Environment"
+]);
+
 module.exports = {
   name: "Tourism",
   type: "group",
@@ -708,7 +712,18 @@ module.exports = {
       ]
     },
     require("../shared/infrastructure"),
-    require("../shared/demography"),
-    getFromCatalogPath(externalCatalogs.aremi, ["Environment"])
+    require("../shared/social_and_economic"),
+    Object.assign({}, aremiEnvironment, {
+      items: [
+        ...aremiEnvironment.items,
+        {
+          name: "Waste Water Treatment Facilities",
+          type: "wms",
+          url:
+            "http://services.ga.gov.au/site_3/services/Wastewater_Treatment_Facilities/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          layers: "National_Wastewater_Treatment_Facilities"
+        }
+      ]
+    })
   ]
 };

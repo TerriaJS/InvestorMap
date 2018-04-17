@@ -48,6 +48,27 @@ module.exports = {
           url:
             "http://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_current/MapServer"
         },
+        {
+          name: "Land Cover",
+          type: "wms",
+          url:
+            "http://services.ga.gov.au/site_1/services/Land_Cover_WM/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          layers: "Land_Cover_Class"
+        },
+        {
+          name: "Homesteads 1M",
+          type: "esri-mapServer",
+          url:
+            "http://services.ga.gov.au/site_7/rest/services/NM_Labelling_and_Boundaries/MapServer/",
+          layers: "23"
+        },
+        {
+          name: "Homesteads 250K (high zoom only)",
+          type: "esri-mapServer",
+          url:
+            "http://services.ga.gov.au/site_7/rest/services/NM_Labelling_and_Boundaries/MapServer/",
+          layers: "24"
+        },
         ...require("./sdmx_items")
       ]
     }
