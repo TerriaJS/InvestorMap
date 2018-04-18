@@ -39,12 +39,6 @@ module.exports = {
     },
     {
       name: "Register of Native Title Claims",
-      type: "esri-featureServer",
-      url:
-        "https://services2.arcgis.com/rzk7fNEt0xoEp3cX/arcgis/rest/services/NNTT_Custodial_AGOL/FeatureServer/7"
-    },
-    {
-      name: "Register of Native Title Claims (WMS)",
       type: "wms",
       url:
         "https://data.gov.au/geoserver/native-title-determination-applications-register/wms?request=GetCapabilities",

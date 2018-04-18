@@ -7,13 +7,16 @@ module.exports = {
     {
       name: "All Data",
       type: "group",
-      preserveOrder: "true",
+      preserveOrder: true,
       items: [
-        ...require("./resources_and_energy").items,
+        ...require("./resources_and_energy").items.filter(
+          m => m.name !== "Soil"
+        ),
         ...require("./tourism").items,
         ...require("./agriculture_and_food").items.filter(
           m => ["Water", "Agriculture"].indexOf(m.name) >= 0
-        )
+        ),
+        require("./shared/soil")
       ]
     },
     addDescriptionToGroups(

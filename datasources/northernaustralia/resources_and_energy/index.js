@@ -37,7 +37,7 @@ module.exports = {
     importRenewables(),
     require("../shared/infrastructure"),
     require("./oil_and_gas"),
-    require("../shared/soil"),
-    require("../shared/social_and_economic")
+    require("../shared/social_and_economic"),
+    require("../shared/soil")
   ]
 };

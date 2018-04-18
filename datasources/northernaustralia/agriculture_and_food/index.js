@@ -9,7 +9,6 @@ module.exports = {
   type: "group",
   preserveOrder: true,
   items: [
-    require("../shared/soil"),
     {
       name: "Water",
       type: "group",
@@ -62,15 +61,9 @@ module.exports = {
             "http://services.ga.gov.au/site_7/rest/services/NM_Labelling_and_Boundaries/MapServer/",
           layers: "23"
         },
-        {
-          name: "Homesteads 250K (high zoom only)",
-          type: "esri-mapServer",
-          url:
-            "http://services.ga.gov.au/site_7/rest/services/NM_Labelling_and_Boundaries/MapServer/",
-          layers: "24"
-        },
         ...require("./sdmx_items")
       ]
-    }
+    },
+    require("../shared/soil")
   ]
 };
