@@ -10,31 +10,6 @@ module.exports = {
   preserveOrder: true,
   items: [
     {
-      name: "Water",
-      type: "group",
-      preserveOrder: true,
-      items: [
-        {
-          name: "Geofabric",
-          type: "wms-getCapabilities",
-          url:
-            "http://geofabric.bom.gov.au/simplefeatures/ows?service=WMS&request=GetCapabilities"
-        },
-        getFromCatalogPath(externalCatalogs.neiiWater, [
-          "NEII Data Services – Conformant",
-          "Water (4)",
-          "Water Regulations Data (BoM)"
-        ]),
-        getFromCatalogPath(externalCatalogs.nationalmap, [
-          "National Datasets",
-          "Land",
-          "Agriculture and Mining",
-          "Water Use on Australian Farms"
-        ])
-      ]
-    },
-    require("../shared/transport"),
-    {
       name: "Agriculture",
       type: "group",
       preserveOrder: true,
@@ -64,6 +39,31 @@ module.exports = {
         ...require("./sdmx_items")
       ]
     },
+    {
+      name: "Water",
+      type: "group",
+      preserveOrder: true,
+      items: [
+        {
+          name: "Geofabric",
+          type: "wms-getCapabilities",
+          url:
+            "http://geofabric.bom.gov.au/simplefeatures/ows?service=WMS&request=GetCapabilities"
+        },
+        getFromCatalogPath(externalCatalogs.neiiWater, [
+          "NEII Data Services – Conformant",
+          "Water (4)",
+          "Water Regulations Data (BoM)"
+        ]),
+        getFromCatalogPath(externalCatalogs.nationalmap, [
+          "National Datasets",
+          "Land",
+          "Agriculture and Mining",
+          "Water Use on Australian Farms"
+        ])
+      ]
+    },
+    require("../shared/transport"),
     require("../shared/soil")
   ]
 };
