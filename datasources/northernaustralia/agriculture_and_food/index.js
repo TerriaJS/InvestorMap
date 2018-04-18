@@ -9,7 +9,36 @@ module.exports = {
   type: "group",
   preserveOrder: true,
   items: [
-    require("../shared/soil"),
+    {
+      name: "Agriculture",
+      type: "group",
+      preserveOrder: true,
+      items: [
+        {
+          name: "Catchment Scale Land Use 2017",
+          type: "esri-mapServer",
+          dataUrl: "http://www.agriculture.gov.au/abares/data/clum-50m-current",
+          dataUrlType: "direct",
+          url:
+            "http://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_current/MapServer"
+        },
+        {
+          name: "Land Cover",
+          type: "wms",
+          url:
+            "http://services.ga.gov.au/site_1/services/Land_Cover_WM/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          layers: "Land_Cover_Class"
+        },
+        {
+          name: "Homesteads 1M",
+          type: "esri-mapServer",
+          url:
+            "http://services.ga.gov.au/site_7/rest/services/NM_Labelling_and_Boundaries/MapServer/",
+          layers: "23"
+        },
+        ...require("./sdmx_items")
+      ]
+    },
     {
       name: "Water",
       type: "group",
@@ -35,21 +64,6 @@ module.exports = {
       ]
     },
     require("../shared/transport"),
-    {
-      name: "Agriculture",
-      type: "group",
-      preserveOrder: true,
-      items: [
-        {
-          name: "Catchment Scale Land Use 2017",
-          type: "esri-mapServer",
-          dataUrl: "http://www.agriculture.gov.au/abares/data/clum-50m-current",
-          dataUrlType: "direct",
-          url:
-            "http://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_current/MapServer"
-        },
-        ...require("./sdmx_items")
-      ]
-    }
+    require("../shared/soil")
   ]
 };
