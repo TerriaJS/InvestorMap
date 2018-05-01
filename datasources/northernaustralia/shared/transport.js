@@ -35,8 +35,6 @@ module.exports = {
         },
         {
           name: "Aviation Facilities",
-          nameInCatalog:
-            "Aviation Facilities (to move to Infrastructure > Transport > Air)",
           type: "wms-getCapabilities",
           url:
             "http://services.ga.gov.au/site_3/services/Aviation_Facilities/MapServer/WMSServer?request=GetCapabilities&service=WMS"
