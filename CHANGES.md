@@ -3,6 +3,9 @@ Change Log
 
 ### 2018-05-16
 
+* Remove the group "Oil and Gas -> Northern Terriatory".
+* Remove the layers "Oil and Gas -> {File Notation Area,Mineral Drill Holes}".
+* Move the layers "Oil and Gas -> Western Australia -> {Minedex,Mining tenements}" and move these to "Mining".
 * Remove the layers "Mining -> {WA: Mines & Mineral Deposits,{WA|NT}: Mining tenements}".
 
 ### 2018-04-16
