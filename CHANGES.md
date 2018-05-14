@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+### 2018-05-16
+
+* Remove the layers "Mining -> {WA: Mines & Mineral Deposits,{WA|NT}: Mining tenements}".
+
 ### 2018-04-16
 
 * Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 5.7.0.  Changes include:
