@@ -18,11 +18,11 @@ module.exports = {
       type: "group",
       items: [
         {
-          name: "Accom occupancy NT, QLD, WA by month 2015-16 (SA2)",
+          name: "Accom occupancy by month 2015-16 (SA2)",
           type: "csv",
           url: "data/Tourism/2015-2016_SA2_Montly.csv",
           description:
-            "This map layer presents occupancy related data (room nights occupied, room nights available, occupancy rate, takings from accommodation etc.) by Statistical Area 2 (SA2) level for the Northern Territory, Queensland and Western Australia from the Survey of Tourism Accommodation (STA) conducted by the Australian Bureau of Statistics. The STA is a census of all in-scope accommodation establishments within Australia. This data layer includes each month of the 2015-16 financial year, that is from 1 July 2015 until 30 June 2016. <p/> Establishments in scope of STA are: hotels and resorts with 15 or more rooms; motels, private hotels and guest houses with 15 or more rooms; serviced apartments with 15 or more units. <p/> Statistical Area 2 (SA2) level is the geographical delimitation by which this data is presented. SA2s generally have a population range of 3,000 to 25,000 persons. More information on SA2s here: http://www.abs.gov.au/ausstats/abs@.nsf/Lookup/by%20Subject/1270.0.55.001~July%202016~Main%20Features~Statistical%20Area%20Level%202%20(SA2)~10014",
+            "This map layer presents occupancy related data (room nights occupied, room nights available, occupancy rate, takings from accommodation etc.) by Statistical Area 2 (SA2) level from the Survey of Tourism Accommodation (STA) conducted by the Australian Bureau of Statistics. The STA is a census of all in-scope accommodation establishments within Australia. This data layer includes each month of the 2015-16 financial year, that is from 1 July 2015 until 30 June 2016. <p/> Establishments in scope of STA are: hotels and resorts with 15 or more rooms; motels, private hotels and guest houses with 15 or more rooms; serviced apartments with 15 or more units. <p/> Statistical Area 2 (SA2) level is the geographical delimitation by which this data is presented. SA2s generally have a population range of 3,000 to 25,000 persons. More information on SA2s here: http://www.abs.gov.au/ausstats/abs@.nsf/Lookup/by%20Subject/1270.0.55.001~July%202016~Main%20Features~Statistical%20Area%20Level%202%20(SA2)~10014",
           info: [
             {
               name: "Data custodian",
@@ -36,11 +36,11 @@ module.exports = {
           ]
         },
         {
-          name: "Accom establishments NT, QLD, WA by quarter 2015-16 (SA2)",
+          name: "Accom establishments by quarter 2015-16 (SA2)",
           type: "csv",
           url: "data/Tourism/2015-2016_SA2_Quarterly.csv",
           description:
-            "This map layer presents number of establishments, rooms and bed spaces data by Statistical Area 2 (SA2) level for the Northern Territory, Queensland and Western Australia from the Survey of Tourism Accommodation (STA) conducted by the Australian Bureau of Statistics. The STA is a census of all in-scope accommodation establishments within Australia. This data layer includes the four quarters of the 2015-16 financial year, that is September quarter 2015, December quarter 2015, March quarter 2016 and June quarter 2016. <p/> Establishments in scope of STA are: hotels and resorts with 15 or more rooms; motels, private hotels and guest houses with 15 or more rooms; serviced apartments with 15 or more units. <p/> Statistical Area 2 (SA2) level is the geographical delimitation by which this data is presented. SA2s generally have a population range of 3,000 to 25,000 persons. More information on SA2s here: http://www.abs.gov.au/ausstats/abs@.nsf/Lookup/by%20Subject/1270.0.55.001~July%202016~Main%20Features~Statistical%20Area%20Level%202%20(SA2)~10014",
+            "This map layer presents number of establishments, rooms and bed spaces data by Statistical Area 2 (SA2) level from the Survey of Tourism Accommodation (STA) conducted by the Australian Bureau of Statistics. The STA is a census of all in-scope accommodation establishments within Australia. This data layer includes the four quarters of the 2015-16 financial year, that is September quarter 2015, December quarter 2015, March quarter 2016 and June quarter 2016. <p/> Establishments in scope of STA are: hotels and resorts with 15 or more rooms; motels, private hotels and guest houses with 15 or more rooms; serviced apartments with 15 or more units. <p/> Statistical Area 2 (SA2) level is the geographical delimitation by which this data is presented. SA2s generally have a population range of 3,000 to 25,000 persons. More information on SA2s here: http://www.abs.gov.au/ausstats/abs@.nsf/Lookup/by%20Subject/1270.0.55.001~July%202016~Main%20Features~Statistical%20Area%20Level%202%20(SA2)~10014",
           info: [
             {
               name: "Data custodian",
@@ -54,11 +54,11 @@ module.exports = {
           ]
         },
         {
-          name: "Accom occupancy NT, QLD, WA by month 2015-16 (TR)",
+          name: "Accom occupancy by month 2015-16 (TR)",
           type: "csv",
           url: "data/Tourism/2015-2016_TR_Montly.csv",
           description:
-            "This map layer presents occupancy related data (room nights occupied, room nights available, occupancy rate, takings from accommodation etc.) by Tourism Region (TR) level for the Northern Territory, Queensland and Western Australia from the Survey of Tourism Accommodation (STA) conducted by the Australian Bureau of Statistics. The STA is a census of all in-scope accommodation establishments within Australia. This data layer includes each month of the 2015-16 financial year, that is from 1 July 2015 until 30 June 2016. <p/> Establishments in scope of STA are: hotels and resorts with 15 or more rooms; motels, private hotels and guest houses with 15 or more rooms; serviced apartments with 15 or more units.",
+            "This map layer presents occupancy related data (room nights occupied, room nights available, occupancy rate, takings from accommodation etc.) by Tourism Region (TR) level from the Survey of Tourism Accommodation (STA) conducted by the Australian Bureau of Statistics. The STA is a census of all in-scope accommodation establishments within Australia. This data layer includes each month of the 2015-16 financial year, that is from 1 July 2015 until 30 June 2016. <p/> Establishments in scope of STA are: hotels and resorts with 15 or more rooms; motels, private hotels and guest houses with 15 or more rooms; serviced apartments with 15 or more units.",
           info: [
             {
               name: "Data custodian",
@@ -72,11 +72,11 @@ module.exports = {
           ]
         },
         {
-          name: "Accom establishments NT, QLD, WA by quarter 2015-16 (TR)",
+          name: "Accom establishments by quarter 2015-16 (TR)",
           type: "csv",
           url: "data/Tourism/2015-2016_TR_Quarterly.csv",
           description:
-            "This map layer presents data by Tourism Region (TR) for the Northern Territory, Queensland and Western Australia from the Survey of Tourism Accommodation (STA) conducted by the Australian Bureau of Statistics. The STA is a census of all in-scope accommodation establishments within Australia. This data layer includes the four quarters of the 2015-16 financial year, that is September quarter 2015, December quarter 2015, March quarter 2016 and June quarter 2016. <p/> Establishments in scope of STA are: hotels and resorts with 15 or more rooms; motels, private hotels and guest houses with 15 or more rooms; serviced apartments with 15 or more units.",
+            "This map layer presents data by Tourism Region (TR) from the Survey of Tourism Accommodation (STA) conducted by the Australian Bureau of Statistics. The STA is a census of all in-scope accommodation establishments within Australia. This data layer includes the four quarters of the 2015-16 financial year, that is September quarter 2015, December quarter 2015, March quarter 2016 and June quarter 2016. <p/> Establishments in scope of STA are: hotels and resorts with 15 or more rooms; motels, private hotels and guest houses with 15 or more rooms; serviced apartments with 15 or more units.",
           info: [
             {
               name: "Data custodian",
