@@ -58,55 +58,9 @@ module.exports = {
       }
     },
     {
-      name: "Northern Territory",
-      type: "group",
-      items: [
-        {
-          name: "NT Oil Pipelines",
-          type: "wms",
-          url: "http://wms1.ntlis.nt.gov.au/ilismap",
-          layers: "105"
-        },
-        {
-          name: "NT Gas Pipelines",
-          type: "wms",
-          url: "http://wms1.ntlis.nt.gov.au/ilismap",
-          layers: "5"
-        }
-      ]
-    },
-    {
       name: "Western Australia",
       type: "group",
       items: [
-        {
-          name: "File Notation Area",
-          type: "wms",
-          url:
-            "https://services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer",
-          layers: "0"
-        },
-        {
-          name: "Minedex",
-          type: "wms",
-          url:
-            "https://services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer",
-          layers: "11"
-        },
-        {
-          name: "Mineral Drill Holes",
-          type: "wms",
-          url:
-            "https://services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer",
-          layers: "10"
-        },
-        {
-          name: "Mining Tenements",
-          type: "wms",
-          url:
-            "https://services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer",
-          layers: "8"
-        },
         {
           name: "Petroleum Pipelines",
           type: "wms",
