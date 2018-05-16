@@ -4,6 +4,7 @@
     "allowProxyFor" : [
         "adelaidecitycouncil.com",
         "adelaidemetro.com.au",
+        "agrifutures.com.au",
         "arcgis.com",
         "argo.jcommops.org",
         "biogas.nceastg.usq.edu.au",
@@ -22,14 +23,9 @@
         "nicta.com.au",
         "s3-ap-southeast-2.amazonaws.com",
         "static.nationalmap.nicta.com.au",
-        "localdata.net.au",
-        "lakemac.com.au",
-        "data.aodn.org.au",
-        "adelaidemetro.com.au",
         "tern.org.au",
         "www.abc.net.au",
         "www.dptiapps.com.au",
-        "biogas.nceastg.usq.edu.au"
     ],
     "initPaths": [
         "node_modules/nationalmap-catalog/build"
