@@ -66,7 +66,7 @@ module.exports = {
       ]
     },
     {
-      name: "WA Minedex",
+      name: "WA: Minedex",
       type: "wms",
       url:
         "https://services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer",
