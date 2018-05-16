@@ -2,6 +2,7 @@
 
 const mergeRecursive = require("../../mergeRecursive");
 const removeIds = require("../../removeIds");
+const syncRequest = require('sync-request');
 
 const removeIdsFromCatalog = members => members.map(removeIds);
 
@@ -23,5 +24,9 @@ module.exports = {
   neiiWater: applyTransforms(
     [mergeRecursive, removeIdsFromCatalog],
     require("./neii-water.json")
+  ),
+  soe: applyTransforms(
+    [mergeRecursive, removeIdsFromCatalog],
+    JSON.parse(syncRequest('GET', 'https://raw.githubusercontent.com/envris/National-Map-Viewer/master/soe_generated.json').getBody('utf8'))
   )
 };
