@@ -10,6 +10,15 @@ module.exports = {
   preserveOrder: true,
   items: [
     {
+      type: "esri-mapServer",
+      name: "Gas Basins",
+      url: "http://services.ga.gov.au/site_3/rest/services/Geological_Provinces_2013/MapServer",
+      layers: "AllProvinces",
+      parameters: {
+        layerDefs: "20:NAME LIKE 'Bonaparte Basin' OR NAME LIKE 'Browse Basin' OR NAME LIKE 'Northern Carnarvon Basin' OR NAME LIKE 'Southern Carnarvon Basin' OR NAME LIKE 'Perth Basin' OR NAME LIKE 'Otway Basin' OR NAME LIKE 'Bass Basin' OR NAME LIKE 'Gippsland Basin' OR NAME LIKE 'Sydney Basin' OR NAME LIKE 'Clarence-Moreton Basin' OR NAME LIKE 'Surat Basin' OR NAME LIKE 'Bowen Basin' OR NAME LIKE 'Eromanga Basin' OR NAME LIKE 'Cooper Basin' OR NAME LIKE 'Amadeus Basin' OR NAME LIKE 'Canning Basin'"
+      }
+    },
+    {
       name: "Oil and Gas Platforms",
       type: "wms",
       url:
