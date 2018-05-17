@@ -52,36 +52,6 @@ module.exports = {
       }
     },
     {
-      name: "WA: Mines & Mineral deposits",
-      type: "wms",
-      url:
-        "https://services.slip.wa.gov.au/public/services/DMP_Public_Services/DMP_Public_Services/MapServer/WMSServer",
-      layers: "17"
-    },
-    {
-      name: "WA: Mining tenements",
-      type: "wms",
-      url:
-        "https://services.slip.wa.gov.au/public/services/DMP_Public_Services/DMP_Public_Services/MapServer/WMSServer",
-      layers: "12"
-    },
-    {
-      name: "NT: Mining tenements",
-      type: "wms",
-      url: "http://geology.data.nt.gov.au/geoserver/mt/wms",
-      layers: "MineralTenement",
-      description:
-        'More information about <a href="http://www.northernaustralialandtenure.com.au/land-tenure/leasehold-land/#mining-mineral-exploration-leases-in-the-northern-territory">Mining and Mineral Exploration Leases in the Northern Territory</a>.',
-      clipToRectangle: true,
-      ignoreUnknownTileErrors: true,
-      getFeatureInfoFormats: [
-        {
-          type: "text",
-          format: "text/html"
-        }
-      ]
-    },
-    {
       name: "Surface Geology",
       type: "wms-getCapabilities",
       url:
@@ -94,6 +64,20 @@ module.exports = {
             "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
         }
       ]
+    },
+    {
+      name: "WA: Minedex",
+      type: "wms",
+      url:
+        "https://services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer",
+      layers: "11"
+    },
+    {
+      name: "WA: Mining tenements",
+      type: "wms",
+      url:
+        "https://services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer",
+      layers: "8"
     }
   ]
 };

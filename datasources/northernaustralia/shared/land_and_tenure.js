@@ -44,12 +44,13 @@ module.exports = {
         "https://data.gov.au/geoserver/native-title-determination-applications-register/wms?request=GetCapabilities",
       layers: "ckan_00602301_ad90_4657_abd9_8025d9bf485a"
     },
-    // {
-    //   name: "Registered Native Title Bodies Corporate",
-    //   type: "esri-featureServer",
-    //   url:
-    //     "https://services2.arcgis.com/rzk7fNEt0xoEp3cX/arcgis/rest/services/NNTT_Custodial_AGOL/FeatureServer/0"
-    // },
+    {
+      name: "Registered Native Title Body Corporate (RNTBC) Areas",
+      type: "wms",
+      url:
+        "https://data.gov.au/geoserver/registered-native-title-body-corporate-rntbc-areas/wms?request=GetCapabilities",
+      layers: "ckan_c6c68892_cc2b_452c_8a9b_5cbfe201443f"
+    },
     {
       name: "RATSIB Areas",
       type: "wms",
