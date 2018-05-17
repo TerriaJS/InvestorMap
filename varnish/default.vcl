@@ -13,6 +13,14 @@ sub vcl_recv {
     error 750 "/#marriage";
   }
 
+  # Rewrite /northernaustralia/* to /*
+  if (req.url == "/northernaustralia") {
+    set req.url = "/";
+  }
+  if (req.url ~ "^/northernaustralia") {
+    set req.url = regsub(req.url, "^/northernaustralia", "");
+  }
+
   # only cache GET requests
   if (req.request == "GET") {
     return (lookup);
@@ -26,7 +34,7 @@ sub vcl_recv {
   }
 
   # let everything else pass the cache
-    return (pass);
+  return (pass);
 }
 
 sub vcl_hit {
