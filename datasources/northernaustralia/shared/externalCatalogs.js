@@ -2,7 +2,7 @@
 
 const mergeRecursive = require("../../mergeRecursive");
 const removeIds = require("../../removeIds");
-const syncRequest = require('sync-request');
+const syncRequest = require("sync-request");
 
 const removeIdsFromCatalog = members => members.map(removeIds);
 
@@ -27,6 +27,11 @@ module.exports = {
   ),
   soe: applyTransforms(
     [mergeRecursive, removeIdsFromCatalog],
-    JSON.parse(syncRequest('GET', 'https://raw.githubusercontent.com/envris/National-Map-Viewer/master/soe_generated.json').getBody('utf8'))
+    JSON.parse(
+      syncRequest(
+        "GET",
+        "https://raw.githubusercontent.com/envris/National-Map-Viewer/master/soe_generated.json"
+      ).getBody("utf8")
+    )
   )
 };
