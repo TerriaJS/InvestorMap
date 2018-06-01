@@ -33,17 +33,6 @@ module.exports = {
           opacity: 1
         },
         {
-          name: "Major Airports",
-          type: "esri-mapServer",
-          url:
-            "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
-          layers: "0",
-          dataCustodian:
-            "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
-          featureInfoTemplate: "{{name}}",
-          opacity: 1
-        },
-        {
           name: "Aviation Facilities",
           type: "wms-getCapabilities",
           url:
