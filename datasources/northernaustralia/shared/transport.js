@@ -13,7 +13,8 @@ module.exports = {
           type: "esri-mapServer",
           url:
             "http://services.ga.gov.au/site_7/rest/services/NM_Transport_Infrastructure/MapServer",
-          layers: "Airport_Runway_Centrelines_and_Landing_Grounds_Line_Features",
+          layers:
+            "Airport_Runway_Centrelines_and_Landing_Grounds_Line_Features",
           opacity: 1.0,
           info: [
             {
@@ -22,6 +23,14 @@ module.exports = {
                 "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
             }
           ]
+        },
+        {
+          name: "Airports",
+          type: "esri-mapServer",
+          url:
+            "https://gisservices.information.qld.gov.au/arcgis/rest/services/Farming/AgriculturalLandAudit/MapServer",
+          layers: "11",
+          opacity: 1
         },
         {
           name: "Major Airports",
