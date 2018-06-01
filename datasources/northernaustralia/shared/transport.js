@@ -28,8 +28,8 @@ module.exports = {
           name: "Airports",
           type: "esri-mapServer",
           url:
-            "https://gisservices.information.qld.gov.au/arcgis/rest/services/Farming/AgriculturalLandAudit/MapServer",
-          layers: "11",
+            "http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer",
+          layers: "Airports_Point_Features",
           opacity: 1
         },
         {
