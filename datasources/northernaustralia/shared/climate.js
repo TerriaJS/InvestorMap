@@ -25,7 +25,9 @@ module.exports = {
         "temperature",
         true
       )
-        .filter(item => item.name.indexOf("Reef") < 0)
+        .filter(
+          item => item.name.indexOf("Reef") < 0 && item.name.indexOf("MAR5") < 0
+        )
         .map(fixProxyUrls)
     }
   ]
