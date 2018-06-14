@@ -7,57 +7,53 @@ module.exports = {
   items: [
     {
       name: "Native Title Determinations",
-      type: "wms",
-      url:
-        "http://data.gov.au/geoserver/native-title-determinations-national-native-title-register/wms?request=GetCapabilities",
-      layers: "ckan_ecdbbb6c_c374_4649_9cd3_0677f44182c9"
+      type: "ckan-resource",
+      url: "https://data.gov.au/",
+      resourceId: "ca3328f0-e9d2-4fad-b732-b1db07485c8b"
     },
     {
       name: "Indigenous Land Use Agreements",
-      type: "wms",
-      url:
-        "http://data.gov.au/geoserver/indigenous-land-use-agreements-registered-or-in-notification/wms?request=GetCapabilities",
-      layers: "ckan_9e837144_8070_4983_8bf0_15e7ceb56ed7"
+      type: "ckan-resource",
+      url: "https://data.gov.au/",
+      resourceId: "fbb4d8c5-5387-463f-b18a-631a90a14415"
     },
     {
       name: "Native Title Determination Outcomes",
-      type: "wms",
-      url:
-        "http://data.gov.au/geoserver/native-title-determination-outcomes/wms",
-      layers: "ckan_54f906a3_2c6c_4143_bcb4_27d542429939",
-      description:
-        'Native Title is a form of land title that recognises the traditional connection, rights and interests of Aboriginal and Torres Strait Islander people with the land. <br /><a href="http://www.northernaustralialandtenure.com.au/native-title/native-title-in-the-northern-territory/">Read full explanation on the Austrade Site</a>',
-      featureInfoTemplate:
-        '<h3>{{detoutcome}}</h3><table class="cesium-infoBox-defaultTable"><tr><td>Name</td><td>{{name}}<br/>{{fcname}} ({{fcno}})</td></tr><tr><td>Prescribed body corporate</td><td>{{rntbcname}}</td></tr><tr><td>Sequence number</td><td>{{nnttseqno}}</td></tr><tr><td>Dates</td><td>{{detdate}} - {{detregdate}}</td></tr><tr><td>Link</td><td>{{link}}</td></tr><tr><td>Tribunal file number</td><td><a href="http://www.nntt.gov.au/searchRegApps/NativeTitleClaims/Pages/details.aspx?NTDA_Fileno={{relntda}}">{{relntda}}</a></td></tr></table> <br /><a href="http://www.northernaustralialandtenure.com.au/native-title/native-title-in-the-northern-territory/">Read full explanation on the Austrade Site</a>'
+      type: "ckan-resource",
+      url: "https://data.gov.au/",
+      resourceId: "aea4303c-e89b-46b6-8f5a-6304db7359e0",
+      itemProperties: {
+        description:
+          'Native Title is a form of land title that recognises the traditional connection, rights and interests of Aboriginal and Torres Strait Islander people with the land. <br /><a href="http://www.northernaustralialandtenure.com.au/native-title/native-title-in-the-northern-territory/">Read full explanation on the Austrade Site</a>',
+        featureInfoTemplate:
+          '<h3>{{detoutcome}}</h3><table class="cesium-infoBox-defaultTable"><tr><td>Name</td><td>{{name}}<br/>{{fcname}} ({{fcno}})</td></tr><tr><td>Prescribed body corporate</td><td>{{rntbcname}}</td></tr><tr><td>Sequence number</td><td>{{nnttseqno}}</td></tr><tr><td>Dates</td><td>{{detdate}} - {{detregdate}}</td></tr><tr><td>Link</td><td>{{link}}</td></tr><tr><td>Tribunal file number</td><td><a href="http://www.nntt.gov.au/searchRegApps/NativeTitleClaims/Pages/details.aspx?NTDA_Fileno={{relntda}}">{{relntda}}</a></td></tr></table> <br /><a href="http://www.northernaustralialandtenure.com.au/native-title/native-title-in-the-northern-territory/">Read full explanation on the Austrade Site</a>'
+      }
     },
     {
       name: "Schedule of Native Title Determination Applications",
-      type: "wms",
-      url:
-        "http://data.gov.au/geoserver/native-title-determination-applications-schedule/wms?request=GetCapabilities",
-      layers: "ckan_bcd428f6_484c_4527_8e66_19bcc0fd5402"
+      type: "ckan-resource",
+      url: "https://data.gov.au/",
+      resourceId: "c02e6ddf-fcb3-4825-be21-2a77a2d8e12c"
     },
     {
       name: "Register of Native Title Claims",
-      type: "wms",
-      url:
-        "https://data.gov.au/geoserver/native-title-determination-applications-register/wms?request=GetCapabilities",
-      layers: "ckan_00602301_ad90_4657_abd9_8025d9bf485a"
+      type: "ckan-resource",
+      url: "https://data.gov.au/",
+      resourceId: "3a4d18b5-bd83-45fe-8459-e035a28799c2"
     },
     {
       name: "Registered Native Title Body Corporate (RNTBC) Areas",
-      type: "wms",
-      url:
-        "https://data.gov.au/geoserver/registered-native-title-body-corporate-rntbc-areas/wms?request=GetCapabilities",
-      layers: "ckan_c6c68892_cc2b_452c_8a9b_5cbfe201443f"
+      type: "ckan-resource",
+      url: "https://data.gov.au",
+      resourceId: "1e1bf6fe-6226-40c2-bfba-63a33428d8f5"
     },
     {
       name: "RATSIB Areas",
-      type: "wms",
-      url:
-        "http://data.gov.au/geoserver/ratsib-boundaries/wms?request=GetCapabilities",
-      layers: "ckan_0d32262b_e13b_4475_adc6_3618811c029a"
+      type: "ckan-resource",
+      url: "https://data.gov.au/",
+      resourceId: "b32d4683-d110-4a89-b794-6c8c8c429339"
     },
+
     {
       name: "Indigenous Protected Areas",
       type: "esri-mapServer",
