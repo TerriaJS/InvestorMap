@@ -48,7 +48,18 @@ module.exports = {
       type: "csv",
       url: "data/Resources_and_Energy/mineral_deposits.csv",
       tableStyle: {
-        dataVariable: "COMMODIDS"
+        dataVariable: "COMMODIDS",
+        columns: {
+          id: { type: "HIDDEN" },
+          ENO: { type: "HIDDEN" },
+          NAME: { type: "HIDDEN" },
+          SYNONYMS: { type: "HIDDEN" },
+          ACCURACY: { type: "HIDDEN" },
+          SIGNIFICANT: { type: "HIDDEN" },
+          SIGNIFICANCE_VALUE: { type: "HIDDEN" },
+          SIGNIFICANCE_CALC_METHOD: { type: "HIDDEN" },
+          ACCESS_CODE: { type: "HIDDEN" }
+        }
       }
     },
     {
