@@ -9,17 +9,27 @@ module.exports = {
     {
       type: "group",
       name: "Rainfall",
-      items: findItemsMatchingName(externalCatalogs.soe.catalog, 'rainfall', true)
-        .filter(item => item.name.indexOf('Lake Eyre') < 0)
+      items: findItemsMatchingName(
+        externalCatalogs.soe.catalog,
+        "rainfall",
+        true
+      )
+        .filter(item => item.name.indexOf("Lake Eyre") < 0)
         .map(fixProxyUrls)
     },
     {
       type: "group",
       name: "Temperature",
-      items: findItemsMatchingName(externalCatalogs.soe.catalog, 'temperature', true)
-        .filter(item => item.name.indexOf('Reef') < 0)
+      items: findItemsMatchingName(
+        externalCatalogs.soe.catalog,
+        "temperature",
+        true
+      )
+        .filter(
+          item => item.name.indexOf("Reef") < 0 && item.name.indexOf("MAR5") < 0
+        )
         .map(fixProxyUrls)
-    },
+    }
   ]
 };
 
@@ -30,9 +40,9 @@ function fixProxyUrls(item) {
     return item;
   }
 
-  if (item.url.indexOf('proxy/') === 0) {
+  if (item.url.indexOf("proxy/") === 0) {
     return Object.assign({}, item, {
-      url: '/' + item.url
+      url: "/" + item.url
     });
   }
   return item;

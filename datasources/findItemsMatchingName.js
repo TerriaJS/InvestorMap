@@ -1,4 +1,3 @@
-
 function findItemsMatchingName(items, name, recursive) {
   name = name.toLowerCase();
 

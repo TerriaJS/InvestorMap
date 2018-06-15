@@ -13,7 +13,8 @@ module.exports = {
           type: "esri-mapServer",
           url:
             "http://services.ga.gov.au/site_7/rest/services/NM_Transport_Infrastructure/MapServer",
-          layers: "Airport_Runway_Centrelines_and_Landing_Grounds_Line_Features",
+          layers:
+            "Airport_Runway_Centrelines_and_Landing_Grounds_Line_Features",
           opacity: 1.0,
           info: [
             {
@@ -24,14 +25,11 @@ module.exports = {
           ]
         },
         {
-          name: "Major Airports",
+          name: "Airports",
           type: "esri-mapServer",
           url:
-            "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
-          layers: "0",
-          dataCustodian:
-            "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
-          featureInfoTemplate: "{{name}}",
+            "http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer",
+          layers: "Airports_Point_Features",
           opacity: 1
         },
         {
