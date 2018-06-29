@@ -305,6 +305,11 @@ gulp.task('watch-catalog', ['build-catalog'], function() {
     console.log('Task watch-catalog does not work due to caching of require. Use nodemon -w datasources -x "gulp build-catalog"');
 });
 
+gulp.task('render-markdown-pages', function() {
+    var generatePages = require('./pages/generatePages');
+    generatePages();
+});
+
 gulp.task('sync-terriajs-dependencies', function() {
     var appPackageJson = require('./package.json');
     var terriaPackageJson = require('terriajs/package.json');
