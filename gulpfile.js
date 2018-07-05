@@ -16,8 +16,8 @@ if (!require('semver').satisfies(process.version, minNode)) {
 }
 
 
-gulp.task('build', ['build-catalog', 'copy-terriajs-assets', 'build-app']);
-gulp.task('release', ['build-catalog', 'copy-terriajs-assets', 'release-app', 'make-editor-schema']);
+gulp.task('build', ['build-catalog', 'render-markdown-pages', 'copy-terriajs-assets', 'build-app']);
+gulp.task('release', ['build-catalog', 'render-markdown-pages', 'copy-terriajs-assets', 'release-app', 'make-editor-schema']);
 gulp.task('watch', ['watch-catalog', 'watch-terriajs-assets', 'watch-app']);
 gulp.task('default', ['lint', 'build']);
 
@@ -303,6 +303,11 @@ gulp.task('build-catalog', function() {
 
 gulp.task('watch-catalog', ['build-catalog'], function() {
     console.log('Task watch-catalog does not work due to caching of require. Use nodemon -w datasources -x "gulp build-catalog"');
+});
+
+gulp.task('render-markdown-pages', function() {
+    var generatePages = require('./pages/generatePages');
+    generatePages();
 });
 
 gulp.task('sync-terriajs-dependencies', function() {
