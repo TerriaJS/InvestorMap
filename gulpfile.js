@@ -16,8 +16,8 @@ if (!require('semver').satisfies(process.version, minNode)) {
 }
 
 
-gulp.task('build', ['build-catalog', 'copy-terriajs-assets', 'build-app']);
-gulp.task('release', ['build-catalog', 'copy-terriajs-assets', 'release-app', 'make-editor-schema']);
+gulp.task('build', ['build-catalog', 'render-markdown-pages', 'copy-terriajs-assets', 'build-app']);
+gulp.task('release', ['build-catalog', 'render-markdown-pages', 'copy-terriajs-assets', 'release-app', 'make-editor-schema']);
 gulp.task('watch', ['watch-catalog', 'watch-terriajs-assets', 'watch-app']);
 gulp.task('default', ['lint', 'build']);
 

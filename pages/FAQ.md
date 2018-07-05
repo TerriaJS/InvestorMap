@@ -132,13 +132,13 @@ With Northern Australia Map application harvesting data from various custodians 
 
 What you can do:
 * Come back to the dataset later (it might have been a temporary outage of the custodian server).
-* Refresh the view and clear the cache (i.e. “browsing history”).
+* Refresh the view and clear the browser cache (i.e. “browsing data”).
 * When there is no visible error, try first “zoom to extent” functionality or just zoom in very closely into an area of interest and wait for the app to “load” the images. Monitor the “loading” through the “orange load progress bar” at the very top of the map.
 
 #### Where do the base maps come from?
 The base maps displayed by the Northern Australia Map come from a number of difference sources including Microsoft’s Bing, Geoscience Australia and NASA. They are downloaded from the source as they are required, so they are as up to date as that service provides.
 
-#### Why are location errors?
+#### Why are location/address labels incorrectly positioned?
 Locations/addresses are part of the base maps provided by Bing Maps, Geoscience Australia, NASA and OpenStreet Maps. The Northern Australia Map is dependent on those providers updates. For example, Bing Maps updated the Australian maps in February 2017: https://blogs.bing.com/maps/February-2017/New-Imagery-Released-Covering-Australia-and-India. For correcting those location errors, users have to address them directly to the base maps providers.
 
 #### Who developed the Northern Australia Map?
