@@ -9,12 +9,16 @@ acl purge {
 }
 
 sub vcl_recv {
-  if (req.url ~ "^/convert") {
-    error 503 "The conversion service is temporarily unavailable.";
-  }
-
   if (req.url == "/marriage") {
     error 750 "/#marriage";
+  }
+
+  # Rewrite /northernaustralia/* to /*
+  if (req.url == "/northernaustralia") {
+    set req.url = "/";
+  }
+  if (req.url ~ "^/northernaustralia") {
+    set req.url = regsub(req.url, "^/northernaustralia", "");
   }
 
   # only cache GET requests
@@ -30,7 +34,7 @@ sub vcl_recv {
   }
 
   # let everything else pass the cache
-    return (pass);
+  return (pass);
 }
 
 sub vcl_hit {
