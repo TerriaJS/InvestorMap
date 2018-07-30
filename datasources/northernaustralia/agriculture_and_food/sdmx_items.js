@@ -92,7 +92,8 @@ module.exports = [
       HHCD_2016: ["TOT", "[0-9]{3}"],
       "": ["A[0-9]+", "T.*", "O.*"],
       BUILDING_TYPE: ["999", "100", "110", "700", "800", "850"],
-      TYPE_BLDG: ["999", "100", "110", "700", "800", "850"]
+      TYPE_BLDG: ["999", "100", "110", "700", "800", "850"],
+      REGIONTYPE: ["AUS", "SA4", "STE"]
     },
     regionDimensionId: "ASGS_2016",
     selectedInitially: {
@@ -186,7 +187,8 @@ module.exports = [
       LANP_2016: ["TOT", "[0-9]{4}"],
       FMCF_2016: ["TOT", "[0-9]{4}"],
       HHCD_2016: ["TOT", "[0-9]{3}"],
-      "": ["A[0-9]+", "T.*", "O.*"]
+      "": ["A[0-9]+", "T.*", "O.*"],
+      REGIONTYPE: ["AUS", "SA2", "SA4", "STE"]
     },
     selectedInitially: {
       REGIONTYPE: ["SA4"],
@@ -284,7 +286,8 @@ module.exports = [
       HHCD_2016: ["TOT", "[0-9]{3}"],
       "": ["A[0-9]+", "T.*", "O.*"],
       BUILDING_TYPE: ["999", "100", "110", "700", "800", "850"],
-      TYPE_BLDG: ["999", "100", "110", "700", "800", "850"]
+      TYPE_BLDG: ["999", "100", "110", "700", "800", "850"],
+      REGIONTYPE: ["AUS", "SA4", "STE"]
     },
     regionDimensionId: "ASGS_2016",
     selectedInitially: {
@@ -375,7 +378,8 @@ module.exports = [
       LANP_2016: ["TOT", "[0-9]{4}"],
       FMCF_2016: ["TOT", "[0-9]{4}"],
       HHCD_2016: ["TOT", "[0-9]{3}"],
-      "": ["A[0-9]+", "T.*", "O.*"]
+      "": ["A[0-9]+", "T.*", "O.*"],
+      REGIONTYPE: ["AUS", "SA2", "SA4", "STE"]
     },
     selectedInitially: {
       REGIONTYPE: ["SA4"],
