@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+### In the next version
+
+* Add Sentinel 2 A/B Near Real-Time satellite imagery from Digital Earth Australia in the "Satellite Imagery -> Sentinel 2 A/B" group.
+
 ### 2018-05-22
 
 * Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 6.0.2.  Changes include:
