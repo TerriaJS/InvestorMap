@@ -33,7 +33,16 @@ module.exports = {
               content:
                 "http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/8635.0Explanatory%20Notes12015-16?OpenDocument "
             }
-          ]
+          ],
+          tableStyle: {
+            columns: {
+              "Room occupancy rate (%)": { units: "%" },
+              "Bed occupancy rate (%)": { units: "%" },
+              "Takings from accommodation ($)": { units: "$" },
+              "Average takings per room night occupied ($)": { units: "$" },
+              "Average takings per room night available ($)": { units: "$" }
+            }
+          }
         },
         {
           name: "Accom establishments by quarter 2015-16 (SA2)",
@@ -69,7 +78,16 @@ module.exports = {
               content:
                 "http://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/8635.0Explanatory%20Notes12015-16?OpenDocument"
             }
-          ]
+          ],
+          tableStyle: {
+            columns: {
+              "Room occupancy rate (%)": { units: "%" },
+              "Bed occupancy rate (%)": { units: "%" },
+              "Takings from accommodation ($)": { units: "$" },
+              "Average takings per room night occupied ($)": { units: "$" },
+              "Average takings per room night available ($)": { units: "$" }
+            }
+          }
         },
         {
           name: "Accom establishments by quarter 2015-16 (TR)",
@@ -238,7 +256,14 @@ module.exports = {
               content:
                 "https://www.tra.gov.au/research/international-visitors-to-australia/international-visitor-survey-methodology/international-visitor-survey-methodology"
             }
-          ]
+          ],
+          tableStyle: {
+            columns: {
+              "Visitors (thousands)": { units: "'000" },
+              "Visitor nights (thousands)": { units: "'000" },
+              "Regional expenditure ($ millions)": { units: "$M" }
+            }
+          }
         },
         {
           name: "International visitors by reason 2015-17 (thousands)",
@@ -476,7 +501,14 @@ module.exports = {
               content:
                 "https://www.tra.gov.au/about-us/methodology/national-visitor-survey/national-visitor-survey"
             }
-          ]
+          ],
+          tableStyle: {
+            columns: {
+              "Visitors (thousands)": { units: "'000" },
+              "Visitor nights (thousands)": { units: "'000" },
+              "Regional expenditure ($ millions)": { units: "$M" }
+            }
+          }
         },
         {
           name: "Domestic visitors & expenditure by State 2015-17",
@@ -494,10 +526,17 @@ module.exports = {
               content:
                 "https://www.tra.gov.au/about-us/methodology/national-visitor-survey/national-visitor-survey"
             }
-          ]
+          ],
+          tableStyle: {
+            columns: {
+              "Visitors (thousands)": { units: "'000" },
+              "Visitor nights (thousands)": { units: "'000" },
+              "Regional expenditure ($ millions)": { units: "$M" }
+            }
+          }
         },
         {
-          name: "Domestic visitors interstate by reason 2015-17",
+          name: "Domestic visitors interstate by reason 2015-17 (thousands)",
           type: "csv",
           url: "data/Tourism/2015-2017_Domestic_Visitors_Interstate_by_ST.csv",
           tableStyle: {
@@ -518,7 +557,7 @@ module.exports = {
           ]
         },
         {
-          name: "Domestic visitors intrastate by reason 2015-17",
+          name: "Domestic visitors intrastate by reason 2015-17 (thousands)",
           type: "csv",
           url: "data/Tourism/2015-2017_Domestic_Visitors_Intrastate_by_ST.csv",
           tableStyle: {
@@ -539,7 +578,7 @@ module.exports = {
           ]
         },
         {
-          name: "Domestic visitors total by reason 2015-17",
+          name: "Domestic visitors total by reason 2015-17 (thousands)",
           type: "csv",
           url: "data/Tourism/2015-2017_Domestic_Visitors_Total_by_ST.csv",
           tableStyle: {
