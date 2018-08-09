@@ -1,10 +1,7 @@
 "use strict";
 
 const mergeRecursive = require("../../mergeRecursive");
-const removeIds = require("../../removeIds");
 const syncRequest = require("sync-request");
-
-const removeIdsFromCatalog = members => members.map(removeIds);
 
 // Apply transforms to catalog property of a complete catalog JSON structure
 const applyTransforms = (transforms, catalogJson) =>
@@ -13,20 +10,14 @@ const applyTransforms = (transforms, catalogJson) =>
   });
 
 module.exports = {
-  aremi: applyTransforms(
-    [mergeRecursive, removeIdsFromCatalog],
-    require("./aremi.json")
-  ),
+  aremi: applyTransforms([mergeRecursive], require("./aremi.json")),
   nationalmap: applyTransforms(
-    [mergeRecursive, removeIdsFromCatalog],
+    [mergeRecursive],
     require("nationalmap-catalog/build/nm.json")
   ),
-  neiiWater: applyTransforms(
-    [mergeRecursive, removeIdsFromCatalog],
-    require("./neii-water.json")
-  ),
+  neiiWater: applyTransforms([mergeRecursive], require("./neii-water.json")),
   soe: applyTransforms(
-    [mergeRecursive, removeIdsFromCatalog],
+    [mergeRecursive],
     JSON.parse(
       syncRequest(
         "GET",

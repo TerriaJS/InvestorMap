@@ -13,4 +13,6 @@ const sentinel = getFromCatalogPath(externalCatalogs.aremi, [
   "Sentinel-2 A/B Near Real-Time (NRT) terrain corrected surface reflectance"
 ]);
 
-module.exports = Object.assign({}, satImageryGroup, { items: [...satImageryGroup.items, sentinel]});
+module.exports = Object.assign({}, satImageryGroup, {
+  items: [...satImageryGroup.items, sentinel]
+});
