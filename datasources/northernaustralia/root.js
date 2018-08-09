@@ -12,7 +12,7 @@ module.exports = {
         ...require("./resources_and_energy").items.filter(
           m => m.name !== "Soil"
         ),
-        ...require("./tourism").items,
+        ...require("./tourism").items.filter(m => m.name !== "Infrastructure"),
         ...require("./agriculture_and_food").items.filter(
           m => ["Water", "Agriculture"].indexOf(m.name) >= 0
         ),
