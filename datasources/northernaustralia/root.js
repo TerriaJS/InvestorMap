@@ -72,7 +72,7 @@ Northern Australia is an established producer of a wide variety of agriculture a
     `.trim()
     )
   ],
-  corsDomains: ["programs.communications.gov.au", "mapsengine.google.com"],
+  corsDomains: ["programs.communications.gov.au", "mapsengine.google.com", "dea.ga.gov.au"],
   homeCamera: {
     west: 112,
     east: 153,
