@@ -5,6 +5,25 @@ Change Log
 
 * Add Sentinel 2 A/B Near Real-Time satellite imagery from Digital Earth Australia in the "Satellite Imagery -> Sentinel 2 A/B" group.
 
+### 2018-08-30
+
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 6.1.1.  Changes include:
+  * Upgraded to terriajs-server v2.7.4.
+  * The previous default terrain provider, STK World Terrain, has been deprecated by its provider. *To continue using terrain in your deployed applications, you _must_ obtain a Cesium Ion key and add it to `config.json`*. See https://cesium.com/ to create an Ion account. New options are available in `config.json` to configure terrain from Cesium Ion or from another source. See https://terria.io/Documentation/guide/customizing/client-side-config/#parameters for configuration details.
+  * Upgraded to Cesium v1.48.
+  * Added `Cesium3DTilesCatalogItem` for visualizing [Cesium 3D Tiles](https://github.com/AnalyticalGraphicsInc/3d-tiles) datasets.
+  * Added `IonImageryCatalogItem` for accessing imagery assets on [Cesium Ion](https://cesium.com/).
+  * Added support for Cesium Ion terrain assets to `CesiumTerrainProvider`. To use an asset from Ion, specify the `ionAssetId` and optionally the `ionAccessToken` and `ionServer` properties instead of specifying a `url`.
+  * Fixed a bug that could cause legends to be missing from `WebMapServiceCatalogItems` that had `isEnabled` set to true.
+
+### 2018-07-16
+
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 6.0.5.  Changes include:
+  * Fixed a bug that caused the order of items on the Workbench to change when visiting a share link.
+  * Added `rel="noreferrer noopener"` to all `target="_blank"` links. This prevents the target page from being able to navigate the source tab to a new page.
+  * Changed `CesiumSelectionIndicator` to no longer use Knockout binding. This will avoid a problem in some environments, such as when a Content Security Policy (CSP) is in place.
+  * Fixed a bug that prevented users from being able to enter coordinates directly into catalog function point parameter fields.
+
 ### 2018-05-22
 
 * Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 6.0.2.  Changes include:
