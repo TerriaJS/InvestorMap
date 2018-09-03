@@ -5,6 +5,11 @@ Change Log
 
 * Add Sentinel 2 A/B Near Real-Time satellite imagery from Digital Earth Australia in the "Satellite Imagery -> Sentinel 2 A/B" group.
 
+### 2018-09-03
+
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 6.1.1.  Changes include:
+  * Fixed a bug that prevented `BingMapsSearchProviderViewModel` and other uses of `loadJsonp` from working correctly.
+
 ### 2018-08-30
 
 * Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 6.1.1.  Changes include:
