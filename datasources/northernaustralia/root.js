@@ -72,12 +72,16 @@ Northern Australia is an established producer of a wide variety of agriculture a
     `.trim()
     )
   ],
-  corsDomains: ["programs.communications.gov.au", "mapsengine.google.com", "dea.ga.gov.au"],
+  corsDomains: [
+    "programs.communications.gov.au",
+    "mapsengine.google.com",
+    "dea.ga.gov.au"
+  ],
   homeCamera: {
-    west: 112,
-    east: 153,
+    west: 109,
+    east: 158,
     north: -8,
-    south: -27
+    south: -45
   },
-  baseMapName: "Australian Topography"
+  baseMapName: "Bing Maps Aerial with Labels"
 };
