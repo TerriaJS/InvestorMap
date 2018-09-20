@@ -37,13 +37,13 @@ module.exports = {
           name: "Monthly minimum temperature 1910-2017",
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
-          layers: "monthly_miniimum_temperature"
+          layers: "monthly_minimum_temperature"
         },
         {
           name: "Annual minimum temperature 1910-2017",
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
-          layers: "annual_miniimum_temperature"
+          layers: "annual_minimum_temperature"
         },
         {
           name: "Monthly maximum temperature 1910-2017",
