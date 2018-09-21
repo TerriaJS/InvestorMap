@@ -1,9 +1,11 @@
 Change Log
 ==========
 
-### In the next version
+### 2018-09-21
 
 * Add Sentinel 2 A/B Near Real-Time satellite imagery from Digital Earth Australia in the "Satellite Imagery -> Sentinel 2 A/B" group.
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 6.1.4.  Changes include:
+  * Fixed a bug that could cause the workbench to appear narrower than expected on some systems, and the map to be off-center when collapsing the workbench on all systems.
 
 ### 2018-09-14
 
