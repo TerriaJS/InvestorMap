@@ -55,7 +55,14 @@ The observational (station) data on which the analyses were based have an associ
               name: "Service Contact",
               content: "Data61 ana.belgun@data61.csiro.au"
             }
-          ]
+          ],
+          featureInfoTemplate: {
+            formats: {
+              GRAY_INDEX: { maximumFractionDigits: 2 }
+            },
+            name: "{{#GRAY_INDEX}}{{GRAY_INDEX}} mm{{/GRAY_INDEX}}",
+            template: "{{#GRAY_INDEX}}{{GRAY_INDEX}} mm{{/GRAY_INDEX}}"
+          }
         },
         {
           name: "Annual rainfall 1910-2017",
@@ -79,7 +86,14 @@ The observational (station) data on which the analyses were based have an associ
               name: "Service Contact",
               content: "Data61 ana.belgun@data61.csiro.au"
             }
-          ]
+          ],
+          featureInfoTemplate: {
+            formats: {
+              GRAY_INDEX: { maximumFractionDigits: 2 }
+            },
+            name: "{{#GRAY_INDEX}}{{GRAY_INDEX}} mm{{/GRAY_INDEX}}",
+            template: "{{#GRAY_INDEX}}{{GRAY_INDEX}} mm{{/GRAY_INDEX}}"
+          }
         },
         ...findItemsMatchingName(externalCatalogs.soe.catalog, "rainfall", true)
           .filter(item => item.name.indexOf("Lake Eyre") < 0)
@@ -106,7 +120,14 @@ Gridded datasets were generated using a spline interpolated analysis. The grid p
               name: "Service Contact",
               content: "Data61 ana.belgun@data61.csiro.au"
             }
-          ]
+          ],
+          featureInfoTemplate: {
+            formats: {
+              GRAY_INDEX: { maximumFractionDigits: 2 }
+            },
+            name: "{{#GRAY_INDEX}}{{GRAY_INDEX}} C{{/GRAY_INDEX}}",
+            template: "{{#GRAY_INDEX}}{{GRAY_INDEX}} &deg;C{{/GRAY_INDEX}}"
+          }
         },
         {
           name: "Monthly maximum temperature 1910-2017",
@@ -123,7 +144,14 @@ Gridded datasets were generated using a spline interpolated analysis. The grid p
               name: "Service Contact",
               content: "Data61 ana.belgun@data61.csiro.au"
             }
-          ]
+          ],
+          featureInfoTemplate: {
+            formats: {
+              GRAY_INDEX: { maximumFractionDigits: 2 }
+            },
+            name: "{{#GRAY_INDEX}}{{GRAY_INDEX}} C{{/GRAY_INDEX}}",
+            template: "{{#GRAY_INDEX}}{{GRAY_INDEX}} &deg;C{{/GRAY_INDEX}}"
+          }
         },
         {
           name: "Annual minimum temperature 1910-2017",
@@ -144,7 +172,14 @@ The observational (station) data on which the analyses were based have an associ
               name: "Service Contact",
               content: "Data61 ana.belgun@data61.csiro.au"
             }
-          ]
+          ],
+          featureInfoTemplate: {
+            formats: {
+              GRAY_INDEX: { maximumFractionDigits: 2 }
+            },
+            name: "{{#GRAY_INDEX}}{{GRAY_INDEX}} C{{/GRAY_INDEX}}",
+            template: "{{#GRAY_INDEX}}{{GRAY_INDEX}} &deg;C{{/GRAY_INDEX}}"
+          }
         },
         {
           name: "Annual maximum temperature 1910-2017",
@@ -165,7 +200,14 @@ The observational (station) data on which the analyses were based have an associ
               name: "Service Contact",
               content: "Data61 ana.belgun@data61.csiro.au"
             }
-          ]
+          ],
+          featureInfoTemplate: {
+            formats: {
+              GRAY_INDEX: { maximumFractionDigits: 2 }
+            },
+            name: "{{#GRAY_INDEX}}{{GRAY_INDEX}} C{{/GRAY_INDEX}}",
+            template: "{{#GRAY_INDEX}}{{GRAY_INDEX}} &deg;C{{/GRAY_INDEX}}"
+          }
         },
         ...findItemsMatchingName(
           externalCatalogs.soe.catalog,
