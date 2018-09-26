@@ -294,15 +294,15 @@ function mergeConfigs(original, override) {
     return result;
 }
 
-
 gulp.task('build-catalog', function() {
-    var buildCatalog = require('./datasources/buildCatalog');
-    buildCatalog();
+    var spawnSync = require('child_process').spawnSync;
+    var buildCatalog = require.resolve('./datasources/buildCatalog');
+    spawnSync('node', [buildCatalog], {stdio: 'inherit'});
 });
 
 
 gulp.task('watch-catalog', ['build-catalog'], function() {
-    console.log('Task watch-catalog does not work due to caching of require. Use nodemon -w datasources -x "gulp build-catalog"');
+    return gulp.watch('datasources/**/*', watchOptions, ['build-catalog']);
 });
 
 gulp.task('render-markdown-pages', function() {

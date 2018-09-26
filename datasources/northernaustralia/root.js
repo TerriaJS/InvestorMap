@@ -1,7 +1,6 @@
 "use strict";
 
 const addDescriptionToGroups = require("../addDescriptionToGroups");
-
 module.exports = {
   catalog: [
     {
@@ -12,7 +11,9 @@ module.exports = {
         ...require("./resources_and_energy").items.filter(
           m => m.name !== "Soil"
         ),
-        ...require("./tourism").items.filter(m => m.name !== "Infrastructure"),
+        ...require("./tourism").items.filter(
+          m => ["Infrastructure", "Social and Economic"].indexOf(m.name) < 0
+        ),
         ...require("./agriculture_and_food").items.filter(
           m => ["Water", "Agriculture"].indexOf(m.name) >= 0
         ),
