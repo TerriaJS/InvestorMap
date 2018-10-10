@@ -21,7 +21,7 @@ The Bureau of Meteorology provided the Material ‘as is’ and CSIRO Data61 ass
 <li>The Bureau’s liability to the User for a breach of any statutory condition or warranty that cannot be excluded is limited to, at the Bureau’s discretion and where permitted by law, the replacement of the Material or the payment of the cost of replacing the Material.</li>
 </ol>
 
-Additional information about the data and its licensing conditions available on request from the Bureau of Meteorology: webclim@bom.gov.au
+Additional information about the data and its licensing conditions available from the Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml
   `
 });
 
@@ -39,8 +39,9 @@ module.exports = {
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
           layers: "monthly_rainfall",
-          dataCustodian: "Bureau of Meteorology webclim@bom.gov.au",
-          description: `Data service visualisation of high resolution monthly rainfall gridded data from 1910 onwards provided by the Bureau of Meteorology. The girds show the rainfall values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
+          dataCustodian:
+            "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
+          description: `Data service visualisation of high resolution monthly rainfall gridded data from 1910 onwards provided by the Bureau of Meteorology. The grids show the rainfall values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
 <br/>
 The analysis (grids) used for the service production are computer generated using a sophisticated analysis technique. It incorporates an optimised Barnes successive correction technique that applies a weighted averaging process to the station data. Topographical information is included by the use of rainfall ratio (actual rainfall divided by monthly average) in the analysis process.
 
@@ -53,7 +54,7 @@ The observational (station) data on which the analyses were based have an associ
             bomLicensingSection("Monthly rainfall 1910-2017"),
             {
               name: "Service Contact",
-              content: "Data61 ana.belgun@data61.csiro.au"
+              content: "info@terria.io"
             }
           ],
           featureInfoTemplate: {
@@ -69,8 +70,9 @@ The observational (station) data on which the analyses were based have an associ
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
           layers: "annual_rainfall",
-          dataCustodian: "Bureau of Meteorology webclim@bom.gov.au",
-          description: `Data service visualisation of high resolution annual rainfall gridded data from 1910 onwards provided by the Bureau of Meteorology. The girds show the rainfall values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
+          dataCustodian:
+            "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
+          description: `Data service visualisation of high resolution annual rainfall gridded data from 1910 onwards provided by the Bureau of Meteorology. The grids show the rainfall values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
 <br/>
 The analysis (grids) used for the service production are computer generated using a sophisticated analysis technique. It incorporates an optimised Barnes successive correction technique that applies a weighted averaging process to the station data. Topographical information is included by the use of rainfall ratio (actual rainfall divided by monthly average) in the analysis process.
 
@@ -84,7 +86,7 @@ The observational (station) data on which the analyses were based have an associ
             bomLicensingSection("Annual rainfall 1910-2017"),
             {
               name: "Service Contact",
-              content: "Data61 ana.belgun@data61.csiro.au"
+              content: "info@terria.io"
             }
           ],
           featureInfoTemplate: {
@@ -110,15 +112,16 @@ The observational (station) data on which the analyses were based have an associ
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
           layers: "monthly_minimum_temperature",
-          dataCustodian: "Bureau of Meteorology webclim@bom.gov.au",
-          description: `Data service visualisation of high resolution monthly minimum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The girds show the minimum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
+          dataCustodian:
+            "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
+          description: `Data service visualisation of high resolution monthly minimum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The grids show the minimum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
 <br/>
 Gridded datasets were generated using a spline interpolated analysis. The grid point resolution of the data is 0.05 degrees (approx. 5km). All available temperature stations were used in the analyses, and the input station data underwent standard quality control. The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.`,
           info: [
             bomLicensingSection("Monthly minimum temperature 1910-2017"),
             {
               name: "Service Contact",
-              content: "Data61 ana.belgun@data61.csiro.au"
+              content: "info@terria.io"
             }
           ],
           featureInfoTemplate: {
@@ -134,15 +137,16 @@ Gridded datasets were generated using a spline interpolated analysis. The grid p
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
           layers: "monthly_maximum_temperature",
-          dataCustodian: "Bureau of Meteorology webclim@bom.gov.au",
-          description: `Data service visualisation of high resolution monthly maximum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The girds show the maximum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
+          dataCustodian:
+            "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
+          description: `Data service visualisation of high resolution monthly maximum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The grids show the maximum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
 <br/>
 Gridded datasets were generated using a spline interpolated analysis. The grid point resolution of the data is 0.05 degrees (approx. 5km). All available temperature stations were used in the analyses, and the input station data underwent standard quality control. The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.`,
           info: [
             bomLicensingSection("Monthly maximum temperature 1910-2017"),
             {
               name: "Service Contact",
-              content: "Data61 ana.belgun@data61.csiro.au"
+              content: "info@terria.io"
             }
           ],
           featureInfoTemplate: {
@@ -158,8 +162,9 @@ Gridded datasets were generated using a spline interpolated analysis. The grid p
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
           layers: "annual_minimum_temperature",
-          dataCustodian: "Bureau of Meteorology webclim@bom.gov.au",
-          description: `Data service visualisation of high resolution annual minimum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The girds show the minimum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
+          dataCustodian:
+            "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
+          description: `Data service visualisation of high resolution annual minimum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The grids show the minimum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
 
 The analyses (grids) are computer generated using a sophisticated analysis technique. It incorporates an optimised Barnes successive correction technique that applies a weighted averaging process to the station data. Topographical information is included in the use of anomalies (departures from average) in the analysis process. On the maps each grid-point represents an approximately square area with sides of about 5km (0.05 degrees). The size of the grids is limited by the data density across Australia.
 
@@ -170,7 +175,7 @@ The observational (station) data on which the analyses were based have an associ
             bomLicensingSection("Annual minimum temperature 1910-2017"),
             {
               name: "Service Contact",
-              content: "Data61 ana.belgun@data61.csiro.au"
+              content: "info@terria.io"
             }
           ],
           featureInfoTemplate: {
@@ -186,8 +191,9 @@ The observational (station) data on which the analyses were based have an associ
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
           layers: "annual_maximum_temperature",
-          dataCustodian: "Bureau of Meteorology webclim@bom.gov.au",
-          description: `Data service visualisation of high resolution annual maximum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The girds show the maximum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
+          dataCustodian:
+            "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
+          description: `Data service visualisation of high resolution annual maximum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The grids show the maximum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
 
 The analyses (grids) are computer generated using a sophisticated analysis technique. It incorporates an optimised Barnes successive correction technique that applies a weighted averaging process to the station data. Topographical information is included in the use of anomalies (departures from average) in the analysis process. On the maps each grid-point represents an approximately square area with sides of about 5km (0.05 degrees). The size of the grids is limited by the data density across Australia.
 
@@ -198,7 +204,7 @@ The observational (station) data on which the analyses were based have an associ
             bomLicensingSection("Annual maximum temperature 1910-2017"),
             {
               name: "Service Contact",
-              content: "Data61 ana.belgun@data61.csiro.au"
+              content: "info@terria.io"
             }
           ],
           featureInfoTemplate: {
