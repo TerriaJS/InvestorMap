@@ -42,11 +42,14 @@
     "generate-terriajs-schema": "^1.3.0",
     "gulp": "^3.9.1",
     "gulp-util": "^3.0.7",
+    "husky": "^1.0.0",
     "json5": "^0.5.0",
     "marked": "^0.4.0",
     "nationalmap-catalog": "git://github.com/TerriaJS/NationalMap-Catalog",
     "node-notifier": "^5.1.2",
     "node-sass": "^4.0.0",
+    "prettier": "^1.14.3",
+    "pretty-quick": "^1.7.0",
     "prop-types": "^15.6.0",
     "raw-loader": "^0.5.1",
     "react": "^16.3.2",
@@ -72,10 +75,17 @@
     "start": "bash ./node_modules/terriajs-server/run_server.sh --config-file devserverconfig.json",
     "stop": "bash ./node_modules/terriajs-server/stop_server.sh",
     "postinstall": "echo 'Installation with NPM successful. What to do next:\\n  npm start       # Starts the server on port 3001\\n  gulp watch      # Builds NationalMap and dependencies, and rebuilds if files change.'",
+    "prettier-write": "prettier --write **/*",
     "hot": "webpack-dev-server --inline --config buildprocess/webpack.config.hot.js --hot --host 0.0.0.0",
     "deploy": "rm -rf node_modules && npm install && npm run deploy-without-reinstall",
     "deploy-without-reinstall": "gulp clean && gulp release && npm run deploy-current",
     "deploy-current": "npm run get-deploy-overrides && gulp make-package --serverConfigOverride ./privateserverconfig.json --clientConfigOverride ./wwwroot/privateconfig.json && cd deploy/aws && ./stack create && cd ../..",
     "get-deploy-overrides": "aws s3 --profile $npm_package_config_awsProfile cp $npm_package_config_awsS3ServerConfigOverridePath ./privateserverconfig.json && aws s3 --profile $npm_package_config_awsProfile cp $npm_package_config_awsS3ClientConfigOverridePath ./wwwroot/privateconfig.json"
-  }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "prettier": {}
 }
