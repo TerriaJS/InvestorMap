@@ -38,7 +38,7 @@ module.exports = {
           name: "Monthly rainfall 1910-2017",
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
-          layers: "monthly_rainfall",
+          layers: "bom:monthly_rainfall",
           dataCustodian:
             "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
           description: `Data service visualisation of high resolution monthly rainfall gridded data from 1910 onwards provided by the Bureau of Meteorology. The grids show the rainfall values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
@@ -69,7 +69,7 @@ The observational (station) data on which the analyses were based have an associ
           name: "Annual rainfall 1910-2017",
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
-          layers: "annual_rainfall",
+          layers: "bom:annual_rainfall",
           dataCustodian:
             "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
           description: `Data service visualisation of high resolution annual rainfall gridded data from 1910 onwards provided by the Bureau of Meteorology. The grids show the rainfall values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
@@ -111,7 +111,7 @@ The observational (station) data on which the analyses were based have an associ
           name: "Monthly minimum temperature 1910-2017",
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
-          layers: "monthly_minimum_temperature",
+          layers: "bom:monthly_minimum_temperature",
           dataCustodian:
             "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
           description: `Data service visualisation of high resolution monthly minimum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The grids show the minimum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
@@ -136,7 +136,7 @@ Gridded datasets were generated using a spline interpolated analysis. The grid p
           name: "Monthly maximum temperature 1910-2017",
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
-          layers: "monthly_maximum_temperature",
+          layers: "bom:monthly_maximum_temperature",
           dataCustodian:
             "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
           description: `Data service visualisation of high resolution monthly maximum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The grids show the maximum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
@@ -161,7 +161,7 @@ Gridded datasets were generated using a spline interpolated analysis. The grid p
           name: "Annual minimum temperature 1910-2017",
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
-          layers: "annual_minimum_temperature",
+          layers: "bom:annual_minimum_temperature",
           dataCustodian:
             "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
           description: `Data service visualisation of high resolution annual minimum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The grids show the minimum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
@@ -190,7 +190,7 @@ The observational (station) data on which the analyses were based have an associ
           name: "Annual maximum temperature 1910-2017",
           type: "wms",
           url: "http://geoserver.nationalmap.nicta.com.au/bom/wms",
-          layers: "annual_maximum_temperature",
+          layers: "bom:annual_maximum_temperature",
           dataCustodian:
             "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
           description: `Data service visualisation of high resolution annual maximum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The grids show the maximum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
