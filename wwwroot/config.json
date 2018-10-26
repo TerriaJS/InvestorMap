@@ -33,7 +33,7 @@
         "proj4ServiceBaseUrl": "proj4def/",
         "brandBarElements": [
             "",
-            "<div id='logo-secondary'><span>Investor map</span><span>Beta</span></div><a id='logo-primary' target=\"_blank\" href=\"https://www.austrade.gov.au\"><img src=\"images/ATIC-Mono-WHITE.png\"/></a><a id='logo-data61' target=\"_blank\" href=\"https://terria.io\"><img title='Version: {{version}}' src=\"images/CSIRO-Data61-white.svg\"/></a>",
+            "<div id='logo-secondary'><span>Investor map</span><span>Beta</span></div><a id='logo-primary' target=\"_blank\" href=\"https://www.austrade.gov.au/land-tenure\"><img src=\"images/ATIC-Mono-WHITE.png\"/></a><a id='logo-data61' target=\"_blank\" href=\"https://terria.io\"><img title='Version: {{version}}' src=\"images/CSIRO-Data61-white.svg\"/></a>",
             ""
         ],
         "autoPlay": false,
