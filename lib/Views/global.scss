@@ -29,11 +29,6 @@ body {
       width: calc(100% - 140px);
     }
     .tjs-branding__branding {
-        // a:first-child, a:last-child {
-        //     @media screen and (min-width: $sm) {
-        //         display: inline;
-        //     }
-        // }
         width: calc(100% - 65px);
         @media screen and (min-width: $sm) {
           background-color: hsl(34,100%,49%);
