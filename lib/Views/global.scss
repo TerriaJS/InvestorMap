@@ -25,41 +25,82 @@ body {
     }
 
     // Logo area in top left
-    .tjs-branding__branding {
-        a:first-child, a:last-child {
-            @media screen and (min-width: $sm) {
-                display: inline;
-            }
-        }
-        // Different font size for the branding
-        font-weight: 300;
-        color: white;
-        font-size: 26px;
-        padding-top:2px;
-        padding-left:6px;
-
-        // To make the logo clickable, it should be instead set in config.json, at "brandBarElements"
-        // background:$dark url(http://www.public-domain-image.com/backgrounds/slides/abstract-waves-on-a-blue-background.jpg);
-        background-color: hsl(34,100%,49%);
-        border-left: 5px solid $dark;
-        border-right: 5px solid $dark;
-        border-bottom: 4px solid $dark;
-        border-top: 4px solid $dark;
-        // background-position: top right;
-        // background-size: 100%;
-        // background-repeat: no-repeat;
-        img {
-            @media screen and (min-width: $sm){
-                height: 68px;
-                max-height: 68px;
-            }
-            height: 100%;
-            width: auto;
-            max-width: 100%;
-
-        }
-
+    .tjs-mobile-header__group-left{
+      width: calc(100% - 140px);
     }
+    .tjs-branding__branding {
+        // a:first-child, a:last-child {
+        //     @media screen and (min-width: $sm) {
+        //         display: inline;
+        //     }
+        // }
+        width: calc(100% - 65px);
+        @media screen and (min-width: $sm) {
+          background-color: hsl(34,100%,49%);
+          border-left: 5px solid $dark;
+          border-right: 5px solid $dark;
+          border-bottom: 4px solid $dark;
+          border-top: 4px solid $dark;
+          width: 100%;
+        }
+        color: #ffffff;
+
+        #logo-data61{
+            max-width: 20%;
+            height: 100%;
+            float: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            @media screen and (min-width: $sm) {
+              width: 20%;
+            }
+            img{
+              // prevent logo looking werid in ie11
+              max-height: 40px;
+            }
+        }
+
+        #logo-primary{
+          width: 58%;
+          float: left;
+          height: 120%;
+          text-align: center;
+          margin-top: -5px;
+
+        }
+
+        #logo-secondary{
+          width: 21%;
+          float: left;
+
+          span{
+            display: block;
+            &:first-child{
+              text-transform: uppercase;
+              font-size: 10px;
+              @media screen and (min-width: $sm){
+                font-size: 0.9rem;
+              }
+            }
+            &:last-child {
+              font-size: 6px;
+              border: 1px solid #FFFFFF;
+              border-radius: 15px;
+              font-weight: bold;
+              display: inline-block;
+              float: right;
+              padding: 1px 2px;
+              margin: -5px auto;
+              @media screen and (min-width: $sm){
+                font-size: 0.5rem;
+                padding: 3px 5px;
+              }
+            }
+          }
+        }
+    }
+
     // Background of whole left panel
     .tjs-standard-user-interface__sidePanel {
         background:$dark-darker;
