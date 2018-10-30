@@ -120,7 +120,7 @@ const austradeTenureDatasets = [
 ].map(i =>
   Object.assign({}, i, {
     hideSource: true,
-    tokenUrl: "/esri-token-auth"
+    tokenUrl: "esri-token-auth"
   })
 );
 
