@@ -32,9 +32,7 @@
         "supportEmail": "nationalmap@lists.csiro.au",
         "proj4ServiceBaseUrl": "proj4def/",
         "brandBarElements": [
-            "",
-            "<a target=\"_blank\" href=\"https://www.austrade.gov.au/land-tenure\"><img src=\"images/na-logo.png\" title=\"Version: {{version}}\" /></a>",
-            ""
+            "<a target=\"_blank\" href=\"https://www.austrade.gov.au/land-tenure\"><img src=\"images/investor-banner.svg\" title=\"Version: {{version}}\" /></a>"
         ],
         "autoPlay": false,
         "tabbedCatalog": true,
