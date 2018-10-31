@@ -21,6 +21,14 @@ sub vcl_recv {
     set req.url = regsub(req.url, "^/northernaustralia", "");
   }
 
+  # Rewrite /investormap/* to /*
+  if (req.url == "/investormap") {
+    set req.url = "/";
+  }
+  if (req.url ~ "^/investormap") {
+    set req.url = regsub(req.url, "^/investormap", "");
+  }
+
   # only cache GET requests
   if (req.request == "GET") {
     return (lookup);
