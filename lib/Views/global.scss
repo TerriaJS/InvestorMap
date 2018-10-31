@@ -28,7 +28,7 @@ body {
     .tjs-branding__branding {
         @media screen and (min-width: $sm) {
             padding-top:2px;
-            background-color: rgb(225,83,29);
+            background-color: hsl(34,100%,49%); //rgb(225,83,29);
             border-bottom: 5px solid $dark;
         }
         // Different font size for the branding
