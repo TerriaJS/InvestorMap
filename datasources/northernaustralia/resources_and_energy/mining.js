@@ -17,7 +17,7 @@ module.exports = {
     ]),
     {
       name: "Mineral Occurrences",
-      url: "http://services.ga.gov.au/earthresource/ama/wms",
+      url: "http://services.ga.gov.au/earthresource/wms",
       type: "wms",
       dataCustodian: "[Geoscience Australia](http://www.ga.gov.au/)",
       info: [
@@ -27,11 +27,11 @@ module.exports = {
             "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
         }
       ],
-      layers: "mineral_occurrences"
+      layers: "ama:mineral_occurrences"
     },
     {
       name: "Mines Operating Status",
-      url: "http://services.ga.gov.au/earthresource/ama/wms",
+      url: "http://services.ga.gov.au/earthresource/wms",
       type: "wms",
       dataCustodian: "[Geoscience Australia](http://www.ga.gov.au/)",
       info: [
@@ -41,7 +41,7 @@ module.exports = {
             "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
         }
       ],
-      layers: "mineral_deposits"
+      layers: "ama:mineral_deposits"
     },
     {
       name: "Mines and Mineral Deposits",
