@@ -27,19 +27,19 @@ module.exports = {
       `
 **Resources and Energy**
 
-_Industrialisation and urbanisation within the Asia region will continue to drive demand for Australia’s natural resources._
-
 <img src="images/Resources%20and%20Energy.jpg" width="100%">
 
-Many parts of northern Australia are still unexplored and the region remains highly prospective, offering significant potential for future mineral discoveries. Northern Australia has significant potential for further world-class oil and gas discoveries.
+Australia’s vast mineral and petroleum resources underpin its status as a global leader in the resources and energy sector. Australia is home to an innovative mining equipment, technology and services sector and hosts some of the world’s leading mining, oil and gas conglomerates, offering investors excellent collaboration prospects and access to global supply chains.
 
-Geoscience Australia estimates around 80 per cent of Australia remains under-explored for minerals - most of this unexplored land is in northern Australia.
+Significant exploration opportunities in oil, gas and minerals, and a healthy pipeline of committed projects have generated a high level of demand for operations and maintenance solutions. Rising power prices and a commitment to a less carbon-intensive economy mean there is also a demand for renewables and energy efficient technologies.
 
-Northern Australia contains over 70 per cent of Australia’s known resources of iron ore, lead and zinc. It also contains significant deposits of silver, copper, manganese, nickel, bauxite, tungsten, molybdenum and rare earths.
+These factors, combined with Australia’s proximity to the energy-hungry markets of Asia, the country’s rich intellectual capital and a supportive government, make Australia attractive to investors and new market entrants seeking sustainable, long-term returns.
 
-By 2020 northern Australia is destined to become the world’s largest exporter of Liquefied Natural Gas (LNG).
+**Comprehensive geoscience data**
 
-Northern Australia has world-class solar, wind and bioenergy resources. In remote and off-grid locations, there are significant opportunities for investment in renewable energy to help industry and remote communities to become more energy self-sufficient.
+Australia’s governments have developed major geoscience programs to provide explorers with pre-competitive information and datasets on brownfield and greenfield mineral provinces. Geophysical information, including regional gravity, deep seismic and high-resolution airborne magnetic data, is supplemented with geological maps, databases of geochemical and mineral occurrences and deposits, geographic information system (GIS) datasets, reports and interpretative products.
+
+Geoscience Australia (www.geoscience.gov.au) provides an entry point to fundamental geoscience data and information. The site allows investors and explorers to access geoscience information at a national level and refines searches down to the regional and local level via pathways to the relevant state and territory datasets.
     `.trim()
     ),
     addDescriptionToGroups(
@@ -63,13 +63,17 @@ Australia is the eighth largest tourism market in the world and a major destinat
       `
 **Agriculture and Food**
 
-_With food security a global issue as populations grow, northern Australia is developing as a low-risk supplier of clean, green agricultural commodities and niche high-value food and fibre products._
+<img src="images/Agriculture%20and%20Food.jpg" width="100%"/>
 
-<img src="images/Agriculture%20and%20Food.jpg" width="100%">
+With global food demand booming, Australia is ideally placed to become a premium food supplier and a long-term partner of choice in food security. To help its agribusiness and food sector scale-up and make the most of growth opportunities, Australia is keen to attract investment in innovation, agriculture production incorporating food and fibre products, and advanced food processing.
 
-Over the next 20 years northern Australian agriculture (including aquaculture) and food and fibre processing has significant potential to expand. Research and development will lead to greater yields and profitability, and will explore new products, production methods, technologies and broad innovation.
+As an island continent with strong biosecurity regulations, Australia’s agribusiness and food sector is renowned for clean, green and safe production. Leveraging established connections with Asia, Australia provides investors with unparalleled opportunities to capitalise on the demand from fast-growing consumer markets for healthy, premium and convenient food products.
 
-Northern Australia is an established producer of a wide variety of agriculture and food, but only uses a fraction of natural assets available for sustainable use. The scale of under-utilised natural assets offers compelling reasons for investors to examine Northern Australia’s expanded future role in regional food supply chains.
+As a major agricultural producer, Australia offers potential investors access to high-quality raw inputs and the skills and capabilities needed to undertake world-class research and development (R&D).
+
+**Delivering innovative and premium products for fast-growing global markets**
+
+Although Australia accounts for less than three per cent of global food trade, its advanced agricultural sector produces a healthy surplus – enough to feed three times the country’s population. Australia’s produce is exported worldwide: from traceable raw commodities such as wheat and beef, to sophisticated premium goods such as infant nutritional formula, wines, confectionery and cheese. Australia has a strong history of agricultural and food R&D that has fostered cutting-edge farming techniques and technologies and a sophisticated use of biotechnology. This tradition is built on: › success in farming the world’s driest inhabited continent, through technology innovation and ability to adapt production systems › excellent agricultural R&D – Australia’s plant, animal and agricultural scientists rank among the best in the world › expertise and strength in human health and nutrition research › robust regulatory protection with consistent standards in quarantine, food safety and food labelling. International investment in Australia’s agriculture and food is growing as Australia capitalises on the high demand for its safe, premium food products and creates stronger ties into regional supply chains.
     `.trim()
     )
   ],
