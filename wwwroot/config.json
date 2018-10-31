@@ -16,6 +16,7 @@
             "enabled": true,
             "confirmationRequired": true,
             "title": "Disclaimer",
+            "buttonTitle": "I ACCEPT",
             "prodHostRegex": "nationalmap\\.gov\\.au",
             //devHostRegex: "\\b(staging|preview|test|dev)\\.",
             enableOnLocalhost: true
