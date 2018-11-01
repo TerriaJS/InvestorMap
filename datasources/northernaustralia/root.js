@@ -47,15 +47,11 @@ Geoscience Australia (www.geoscience.gov.au) provides an entry point to fundamen
       `
 **Tourism**
 
-_Northern Australia includes many of Australia’s most recognisable tourism destinations and is home to World Heritage sites, including the Great Barrier Reef and Uluru._
-
 <img src="images/Tourism.jpg" width="100%">
 
-There are opportunities to invest in short-term accommodation, luxury lodges, camping facilities, and integrated resorts. There are also public-private partnership projects, including airports, cruise terminals and roads.
+Australia’s tourism industry has been identified as a growth sector due to our proximity to the fast growing economies in Asia, unique natural wonders and food and wine experiences that are among the best in the world. As one of the world's most transparent real estate markets and with strong growth in visitor numbers and trip spend, Australia’s tourism sector is attracting strong international investment interest.
 
-The Australian Government is determined to see northern Australia develop its full potential as a tourism destination and offers a Tourism Major Project Facilitation Service to help investors obtain faster and more streamlined approvals.
-
-Australia is the eighth largest tourism market in the world and a major destination for business investment. Located in the world’s strongest tourism region and largest aviation market, Australia offers a secure and stable environment for tourism investors.
+Australia’s tourism sector boasts strong revenue from hotel accommodation, high occupancy rates, expanding aviation capacity and sustained growth in visitors forecast from emerging Asian markets. For information about extensive investment opportunities in Australia’s unique and dynamic tourism sector and an overview of the investment environment, visit Tourism Australia’s Tourism Investment website.
   `.trim()
     ),
     addDescriptionToGroups(

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
-    <title>Northern Australia Map - Help & FAQ</title>
+    <title>Investor Map - Help & FAQ</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -35,16 +35,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://nationalmap.gov.au/northernaustralia/">
-            <img alt="Brand" src="../images/na-logo.png">
+          <a class="navbar-brand" href="http://nationalmap.gov.au/investormap/">
+            <img alt="Brand" src="../images/investor-banner.svg"/>
           </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="../about.html">About the Northern Australia Map</a></li>
+            <li><a href="../about.html">About the Investor Map</a></li>
             <li class="active"><a href="help.html">Help & FAQ</a></li>
             <li><a href="privacy.html">Privacy</a></li>
-            <li><a href="http://nationalmap.gov.au/northernaustralia/" target="_blank">Launch the Northern Australia Map</a></li>
+            <li><a href="http://nationalmap.gov.au/investormap/" target="_blank">Launch the Investor Map</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -56,12 +56,13 @@
       <div data-spy="affix">
         <h4 class="nav-header">How to...</h4>
         <ul class="how-to">
-          <li><a href="help.html" data-scroll-nav="0">Get started with Northern Australia Map</a></li>
+          <li><a href="help.html" data-scroll-nav="0">Get started with Investor Map</a></li>
           <li><a data-scroll-nav="1" data-scroll-id="#feature-info">Find out about a displayed feature</a></li>
           <li><a data-scroll-nav="2" data-scroll-id="#add-data">Display my own spatial data</a></li>
-          <li><a data-scroll-nav="3" data-scroll-id ="#download">Download data from Northern Australia Map</a></li>
-          <li><a data-scroll-nav="4" data-scroll-id="#share">Share my Northern Australia Map view with others and/or print</a></li>
+          <li><a data-scroll-nav="3" data-scroll-id ="#download">Download data from Investor Map</a></li>
+          <li><a data-scroll-nav="4" data-scroll-id="#share">Share my Investor Map view with others and/or print</a></li>
           <li><a data-scroll-nav="5" data-scroll-id="#splitter">Work with the Satellite Imagery and the splitter functionality</a></li>
+          <li><a data-scroll-nav="6" data-scroll-id="#charts">Work with charts</a></li>
         </ul>
         <h4 class="nav-header">Key Features</h4>
         <ul class="key-features">
@@ -71,8 +72,8 @@
         </ul>
         <h4 class="nav-header">Frequently Asked Questions</h4>
         <ul class="faq">
-          <li><a href="faq.html">Northern Australia Map Operation</a></li>
-          <li><a href="faq.html#nm-systemdata">Northern Australia Map system and data</a></li>
+          <li><a href="faq.html">Investor Map Operation</a></li>
+          <li><a href="faq.html#nm-systemdata">Investor Map system and data</a></li>
           <li><a href="faq.html#nm-reportingissues">Reporting issues</a></li>
         </ul>
         </div>
@@ -81,17 +82,18 @@
 
 # Help & FAQ
 
+<p><strong>Video to be updated</strong></p>
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="//www.youtube-nocookie.com/embed/2PlemVgT0xo?rel=0"></iframe>
 </div>
 
 <section data-scroll-index="0">
 
-## <a class="anchor" name="getting-started">How to get started with Northern Australia Map</a>
+## <a class="anchor" name="getting-started">How to get started with Investor Map</a>
 
-To launch the Northern Australia Map and display some basic data follow these steps.
+To launch the Investor Map and display some basic data follow these steps.
 
-- Display the Northern Australia Map by using the URL http://nationalmap.gov.au/northernaustralia/.
+- Display the Investor Map by using the URL http://nationalmap.gov.au/investormap.
 - In the left hand panel click the Add Data button to launch the Data Catalogue.
 - Browse through the Data Catalogue to find a data set of interest. Click on the title of your prefered data set to get a preview of that data, along with a description and other relevant metadata. To view your selected data set on a larger map, click the Add to the Map button. The spatial data will be immediately displayed in the map view, and a visual legend for that data will appear in the Data Workbench, located on the left hand side of the page.
 - Note that it may not be immediately obvious where your selected spatial data has loaded on the map if does not cover a large part of Australia. To locate loaded data on the map, go to the Data Workbench (positioned on the left hand side of the page), and click the Zoom to extent link for your desired data set. From here you can also click About this data to get more information about your selected data set.
@@ -103,6 +105,9 @@ To launch the Northern Australia Map and display some basic data follow these st
 - Click on a feature (that is, directly on a point or line, or within a region) to show data about the individual feature.
 
 You can perform these steps in any order as required to tune your display of spatial data.
+
+Below is a view of different options and steps described.
+<img class="img-responsive" src="img/data-workbench.png"/>
 
 </section>
 <section data-scroll-index="1">
@@ -120,7 +125,7 @@ You cannot find out further information about the features which are part of the
 
 ## <a class="anchor" name="add-data">How to display my own spreadsheet or spatial data</a>
 
-Northern Australia Map can display two kinds of spreadsheets:
+Investor Map can display two kinds of spreadsheets:
 
 1.  Spreadsheets with a point location (latitude and longitude) for each row, expressed as two columns: lat and lon. These will be displayed as points (circles).
 2.  Spreadsheets where each row refers to a region such as a local government area (council), state, postcode, or ABS statistical unit such as an SA2 or CED (Commonwealth Electoral Division). Columns must be named according to the CSV-geo-au standard. These will be displayed as regions, highlighting the actual shape of each area.
@@ -131,14 +136,18 @@ Other standard spatial data types such as GeoJSON and KML are also supported.
 
 There are two ways to load your data:
 
-- Drag your data file onto the Northern Australia Map view. The format of the data file will be auto-detected.
+- Drag your data file onto the Investor Map view. The format of the data file will be auto-detected.
 - Click on the Add Data button in the left hand panel. This will launch the Data Catalogue. Select the My Data tab at the top of the modal window and follow the provided instructions.
 
-As for the Northern Australia Map data sets already available in the catalogue, you can click on the regions or points to see the data available for that location. If the file is a CSV file, the data from all columns will be shown in the feature information dialogue when you click.
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/XKP90TcBq6A?rel=0"></iframe>
+</div>
+
+As for the Investor Map data sets already available in the catalogue, you can click on the regions or points to see the data available for that location. If the file is a CSV file, the data from all columns will be shown in the feature information dialogue when you click.
 
 You can also use all of the features of the [Data Workbench](data-workbench.html) on the data you have loaded as well.
 
-To share a view of your data with others, you must first publish it to the web somewhere with a URL, and then load it from there.
+To share a view of your data with others, you must host your data and create a web address (URL) using your provider of choice and then load the URL onto the application, via Add data My Data section of the catalogue. The data will not remain available in the catalogue, once the application is closed.
 
 </section>
 <section data-scroll-index="3">
@@ -153,15 +162,16 @@ There are two types of download:
 </section>
 <section data-scroll-index="4">
 
-## <a class="anchor" name="share">How to share my Northern Australia Map view with others and/or print</a>
+## <a class="anchor" name="share">How to share my Investor Map view with others and/or print</a>
 
 There are three ways:
 
 - Click the Share button, copy the given URL (shown in the first text box) to the clipboard and paste it into an email which you send to the recipient. They can click on it in the email or paste it into their browser to see the same view as you.
-- Click the Share button, copy the HTML fragment (shown in the second text box) and paste it into an HTML file, which you then make available to the recipients. When the recipients display your web page, they will see the Northern Australia Map view within that web page.
+- Click the Share button, copy the HTML fragment (shown in the second text box) and paste it into an HTML file, which you then make available to the recipients. When the recipients display your web page, they will see the Investor Map view within that web page.
+- Click the Share button and simply use the Print Preview and Print.
 - Take a screenshot and email it as an image (see your OS instructions on how to take a screenshot). This will share all information, even if loaded from a local file or URL.
 
-Note that only the third method will show the data you have loaded from a local file.
+Note that only the third and fourth methods will show the data you have loaded from a local file.
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/F07omPYxg4s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -184,6 +194,22 @@ Most Terria maps now include Satellite Imagery in their catalogues. The new Spli
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/H3htpdYAE7w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+</section>
+<section data-scroll-index="6">
+
+## <a class="anchor" name="charts">How to work with charts</a>
+
+Charting is a functionality in TerriaJS which allows users to compare values in time series datasets, using a graph. According to the ABS, time series data is a collection of observations of well-defined data items obtained through repeated measurements over time. To activate the chart functionality:
+
+- Select a time series datasets from the catalogue (Social & Economic data group is a good example);
+- Click on a point or region of interest to activate the feature information panel; for time series data, the panel will include a graph;
+- Click on Expand blue button to see the graph enlarged at the bottom section of the screen;
+- Click on other points or areas on the map and follow the same process to compare the two (or more) lines on the same chart.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/OhjPq7E5cQI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 </section>
@@ -213,7 +239,8 @@ Most Terria maps now include Satellite Imagery in their catalogues. The new Spli
         'add-data': 2,
         'download': 3,
         'share': 4,
-        'splitter': 5
+        'splitter': 5,
+        'charts': 6
       }
       var initIndex = contentIndex[location.hash.substring(1)];
       $.scrollIt({initIndex: initIndex, topOffset: 50});
