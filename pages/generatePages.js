@@ -14,48 +14,51 @@ function makeCollapsibleFaq(html) {
   const $ = cheerio.load(html);
 
   // Iterate over FAQ section headers and questions
-  const questions = $("#accordion").children().filter("h2, h4").map((i, el) => {
-    if (el.tagName.toLowerCase() === "h2") {
-      return el;
-    }
-    //const h4 = $(el);
-    // Wrap question and answer in bootstrap collapsible panels
-    const headingId = `heading${i + 1}`;
-    const collapseId = `collapse${i + 1}`;
+  const questions = $("#accordion")
+    .children()
+    .filter("h2, h4")
+    .map((i, el) => {
+      if (el.tagName.toLowerCase() === "h2") {
+        return el;
+      }
+      //const h4 = $(el);
+      // Wrap question and answer in bootstrap collapsible panels
+      const headingId = `heading${i + 1}`;
+      const collapseId = `collapse${i + 1}`;
 
-    // Replace heading with panel using h4 text
-    const question = $(
-`<div class="panel-heading" role="tab" id="${headingId}">
+      // Replace heading with panel using h4 text
+      const question = $(
+        `<div class="panel-heading" role="tab" id="${headingId}">
   <h4 class="panel-title">
     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
       ${$(el).text()}
     </a>
   </h4>
 </div>`
-    );
+      );
 
-    // Fetch answer elements (until next Q or heading)
-    const answerElements = $(el)
-      .nextUntil("h4")
-      .not("h2");
+      // Fetch answer elements (until next Q or heading)
+      const answerElements = $(el)
+        .nextUntil("h4")
+        .not("h2");
 
-    const answerPanel = $(
-`<div id="${collapseId}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="${headingId}">
+      const answerPanel = $(
+        `<div id="${collapseId}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="${headingId}">
   <div class="panel-body">
   </div>
 </div>`
-    );
-    // Add answer elements to answer panel
-    answerElements.appendTo(answerPanel.children(".panel-body"));
+      );
+      // Add answer elements to answer panel
+      answerElements.appendTo(answerPanel.children(".panel-body"));
 
-    const panel = $(
-      `<div class="panel panel-default"></div>`
-    );
-    panel.append(question, answerPanel);
-    return panel.get();
-  });
+      const panel = $(`<div class="panel panel-default"></div>`);
+      panel.append(question, answerPanel);
+      return panel.get();
+    });
 
-  $("#accordion").empty().append(questions);
+  $("#accordion")
+    .empty()
+    .append(questions);
 
   return $.html();
 }
@@ -79,7 +82,9 @@ function generatePages() {
   });
 }
 
-// For debugging
-//generatePages();
-
 module.exports = generatePages;
+
+if (require.main === module) {
+  // Executed as a script
+  generatePages();
+}

@@ -18,7 +18,7 @@ if (!require('semver').satisfies(process.version, minNode)) {
 
 gulp.task('build', ['build-catalog', 'render-markdown-pages', 'copy-terriajs-assets', 'build-app']);
 gulp.task('release', ['build-catalog', 'render-markdown-pages', 'copy-terriajs-assets', 'release-app', 'make-editor-schema']);
-gulp.task('watch', ['watch-catalog', 'watch-terriajs-assets', 'watch-app']);
+gulp.task('watch', ['watch-catalog', 'watch-markdown-pages', 'watch-terriajs-assets', 'watch-app']);
 gulp.task('default', ['lint', 'build']);
 
 var watchOptions = {
@@ -306,8 +306,13 @@ gulp.task('watch-catalog', ['build-catalog'], function() {
 });
 
 gulp.task('render-markdown-pages', function() {
-    var generatePages = require('./pages/generatePages');
-    generatePages();
+    var spawnSync = require('child_process').spawnSync;
+    var generatePagesJs = require.resolve('./pages/generatePages');
+    spawnSync('node', [generatePagesJs], {stdio: 'inherit'});
+});
+
+gulp.task('watch-markdown-pages', ['render-markdown-pages'], function() {
+    return gulp.watch('pages/**/*', watchOptions, ['render-markdown-pages']);
 });
 
 gulp.task('sync-terriajs-dependencies', function() {
