@@ -2,28 +2,8 @@
 
 const fs = require("fs");
 const root = require("./northernaustralia/root");
+const checkUniqueMemberNames = require("./checkUniqueMemberNames");
 
-// Check for same-level catalog members with the same name and print a warning about them
-function checkUniqueMemberNames(catalogMembers, context = []) {
-  const nameFrequencies = new Map();
-  catalogMembers.map(m => m.name).forEach(name => {
-    nameFrequencies.set(name, (nameFrequencies.get(name) || 0) + 1);
-  });
-  nameFrequencies.forEach((count, name) => {
-    if (count > 1) {
-      console.warn(
-        `Warning: The member name "${name}" occured ${count} times in group: "${context.join(
-          "->"
-        )}"`
-      );
-    }
-  });
-  catalogMembers.forEach(m => {
-    if (m.items != null) {
-      checkUniqueMemberNames(m.items, [...context, m.name]);
-    }
-  });
-}
 // In this catalogue groups and items are duplicated for the different categories
 // Suffix duplicate ids with -alias${n}
 const idMap = new Map();

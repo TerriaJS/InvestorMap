@@ -9,13 +9,16 @@ function mergeRecursive(catalogMembers) {
     let matchIndex = -1;
 
     // ID matching commented out because it doesn't match TerriaJS behaviour
-    // if (m.id != null) { // Check not null or undefined
-    //   matchIndex = members.findIndex(m2 => m2.id === m.id);
-    // } else {
-    matchIndex = members.findIndex(
-      m2 => /*m2.id == null &&*/ m2.name === m.name
-    );
-    // }
+    if (m.id != null) {
+      // Check not null or undefined
+      matchIndex = members.findIndex(
+        m2 => m2.id === m.id || m.id.endsWith(m2.name)
+      );
+    } else {
+      matchIndex = members.findIndex(
+        m2 => /*m2.id == null &&*/ m2.name === m.name
+      );
+    }
 
     const existingM = matchIndex >= 0 ? members[matchIndex] : {};
     // Merge m and existingM
