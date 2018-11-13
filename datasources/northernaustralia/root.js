@@ -19,7 +19,8 @@ module.exports = {
         ),
         require("./shared/soil"),
         require("./shared/satellite_imagery"),
-        require("./shared/climate")
+        require("./shared/climate"),
+        require("./shared/tourism_TRA")
       ]
     },
     addDescriptionToGroups(
