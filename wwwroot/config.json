@@ -33,7 +33,7 @@
         "supportEmail": "nationalmap@lists.csiro.au",
         "proj4ServiceBaseUrl": "proj4def/",
         "brandBarElements": [
-            "<a target=\"_blank\" href=\"https://www.austrade.gov.au/land-tenure\"><img src=\"images/investor-banner.svg\" title=\"Version: {{version}}\" /></a>"
+            "<div><a target=\"_blank\" id='primary-logo' href=\"https://www.austrade.gov.au/land-tenure\"><img src=\"images/investor-banner.svg\" title=\"Version: {{version}}\" /></a><a target=\"_blank\" href=\"https://www.data61.csiro.au\" id='secondary-logo'><img src=\"images/data61-csiro.svg\" title=\"data61 - csiro\" /></a></div>"
         ],
         "autoPlay": false,
         "tabbedCatalog": true,
