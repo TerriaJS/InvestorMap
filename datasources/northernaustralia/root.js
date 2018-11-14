@@ -52,7 +52,7 @@ Geoscience Australia (www.geoscience.gov.au) provides an entry point to fundamen
 
 Australia’s tourism industry has been identified as a growth sector due to our proximity to the fast growing economies in Asia, unique natural wonders and food and wine experiences that are among the best in the world. As one of the world's most transparent real estate markets and with strong growth in visitor numbers and trip spend, Australia’s tourism sector is attracting strong international investment interest.
 
-Australia’s tourism sector boasts strong revenue from hotel accommodation, high occupancy rates, expanding aviation capacity and sustained growth in visitors forecast from emerging Asian markets. For information about extensive investment opportunities in Australia’s unique and dynamic tourism sector and an overview of the investment environment, visit Tourism Australia’s Tourism Investment website.
+Australia’s tourism sector boasts strong revenue from hotel accommodation, high occupancy rates, expanding aviation capacity and sustained growth in visitors forecast from emerging Asian markets. For information about extensive investment opportunities in Australia’s unique and dynamic tourism sector and an overview of the investment environment, visit [Austrade and Tourism Australia’s Tourism Investment website](http://www.tourisminvestment.com.au/en).
   `.trim()
     ),
     addDescriptionToGroups(
