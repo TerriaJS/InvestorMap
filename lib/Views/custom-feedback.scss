@@ -3,10 +3,10 @@
 @import '~terriajs/lib/Sass/common/_buttons.scss';
 
 .feedbackButton {
-  background: #fff;
+  background: $color-primary;
   font-family: $font-base;
   font-size: $font-size-mid-small;
-  color: $dark;
+  color: #ffffff;
   border-radius: 20px;
   box-shadow: $box-shadow;
 }
@@ -20,6 +20,7 @@
     height: 30px;
     display: inline-block;
     vertical-align: bottom;
+    color: #ffffff;
   }
 
   span {
