@@ -4,15 +4,24 @@ const getFromCatalogPath = require("../../getFromCatalogPath");
 
 const externalCatalogs = require("../shared/externalCatalogs");
 
-function getElectricity(aremi) {
+function getElectricity() {
   const electricity = Object.assign(
     {},
-    getFromCatalogPath(aremi, ["Electricity Infrastructure", "Transmission"]),
+    getFromCatalogPath(externalCatalogs.aremi, [
+      "Electricity Infrastructure",
+      "Transmission"
+    ]),
     { name: "Electricity" }
   );
-  electricity.items = electricity.items.filter(
-    item => item.name !== "Western Australia"
-  );
+
+  electricity.items = [
+    ...electricity.items.filter(item => item.name !== "Western Australia"),
+    getFromCatalogPath(externalCatalogs.nationalmap, [
+      "National Datasets",
+      "Utility",
+      "Powerlines"
+    ])
+  ];
   return electricity;
 }
 
@@ -20,7 +29,7 @@ module.exports = {
   name: "Infrastructure",
   type: "group",
   items: [
-    getElectricity(externalCatalogs.aremi),
+    getElectricity(),
     require("./transport"),
     {
       name: "Liquid Fuel Facilities",
