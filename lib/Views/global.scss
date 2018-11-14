@@ -98,10 +98,33 @@ body {
         &-primary {
             font-family: $font-base;
         }
-        &:hover {
-            color: $color-primary;
-        }
     }
+
+    .tjs-viewing-controls__btn{
+      &:hover, &:focus{
+        color: lighten($color-primary, 50%);
+      }
+    }
+
+    .tjs-data-catalog-item__btn-catalog-item--is-previewed,
+    .tjs-data-catalog-item__btn-catalog-item:focus,
+    .tjs-data-catalog-item__btn-catalog-item:hover{
+      color: $color-primary;
+    }
+
+    .tjs-data-catalog-item__btn-action{
+      &:hover, &:focus{
+        svg{
+          fill: $color-primary;
+        }
+      }
+    }
+
+    .tjs-data-catalog-group__isPreviewed{
+      background: $color-primary;
+    }
+
+
 
     // Buttons like "Share" within the map area.
     .tjs-_buttons__btn--map {
