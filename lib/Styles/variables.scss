@@ -11,7 +11,7 @@
 
 // These variables are for buttons and text.
 // "color-secondary" should be a lighter color than "color-primary" but still readable contrasted with white.
-$color-primary: hsl(34,100%,49%);
+$color-primary: #e35205;
 $color-secondary: lighten($color-primary, 20%);
 
 /*

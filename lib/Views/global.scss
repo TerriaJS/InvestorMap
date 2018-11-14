@@ -26,9 +26,13 @@ body {
 
     // Logo area in top left
     .tjs-branding__branding {
+      div{
+        width: 100%;
+        height: 100%;
+      }
         @media screen and (min-width: $sm) {
             padding:6px;
-            background-color: hsl(34,100%,49%); //rgb(225,83,29);
+            background-color: $color-primary; //rgb(225,83,29);
             border-bottom: 5px solid $dark;
         }
         // Different font size for the branding
@@ -44,10 +48,37 @@ body {
         // background-repeat: no-repeat;
         img {
             @media screen and (min-width: $sm){
-                width: 100%;
             }
         }
 
+        @media screen and (min-width: $sm) {
+          #primary-logo{
+            width: 255px;
+            height: 100%;
+            float: left;
+            display: block;
+          }
+
+          #secondary-logo{
+            width: 57px;
+            width: calc(100% - 280px);
+            height: 100%;
+            float: left;
+            position: relative;
+            img{
+              position: absolute;
+              bottom: 0;
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+
+        @media screen and (max-width: 410px) {
+          #secondary-logo{
+            display: none;
+          }
+        }
     }
     // Background of whole left panel
     .tjs-standard-user-interface__sidePanel {
@@ -170,7 +201,7 @@ body {
         width:100%;
 
         a {
-            color: hsl(31, 92%, 58%);
+            color: $color-primary;
         }
     }
 
