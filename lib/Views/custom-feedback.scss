@@ -28,3 +28,65 @@
     line-height: 2.2;
   }
 }
+
+.header {
+  position: relative;
+  background: $dark-lighter;
+  color: $text-light;
+  padding: $padding;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+}
+
+.field {
+  composes: field;
+  margin-bottom: $padding;
+}
+
+.action {
+  text-align: right;
+}
+
+.btnCancel {
+  composes: btn;
+  border: 1px solid $grey;
+  border-radius: $radius-medium;
+  padding: $padding-small $padding*2;
+  &:hover {
+    border: 1px solid $color-primary;
+    color: $color-primary;
+  }
+}
+
+.btnClose {
+  composes: btn;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  svg {
+    fill: $text-light;
+    height: 30px;
+    width: 30px;
+    &:hover {
+      fill: $color-primary;
+    }
+  }
+}
+
+.btnSubmit {
+  background: $color-primary;
+  color: $text-light;
+  margin-left: 10px;
+  border-radius: $radius-medium;
+  padding: $padding-small $padding*2;
+  &:hover, &--hover {
+    background: get-hover-color($color-primary);
+  }
+}
+
+.label {
+  display: block;
+}
