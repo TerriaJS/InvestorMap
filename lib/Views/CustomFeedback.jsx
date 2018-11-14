@@ -21,7 +21,6 @@ const CustomFeedback = createReactClass({
     getInitialState() {
         return {
             isSending: false,
-            sendShareURL: true,
             name: '',
             email: '',
             comment: '',
@@ -36,6 +35,22 @@ const CustomFeedback = createReactClass({
     onDismiss() {
         this.props.viewState.feedbackFormIsVisible = false;
         this.setState(this.getInitialState());
+    },
+
+    switchFeedbackType(type){
+      this.setState({
+        feedbackType: type
+      });
+      this.resetField();
+    },
+
+    resetField(){
+      this.setState({
+        isSending: false,
+        name: '',
+        email: '',
+        comment: '',
+      })
     },
 
     onSubmit(evt) {
@@ -73,9 +88,9 @@ const CustomFeedback = createReactClass({
 
     render() {
         return (
-            <div className='investormap_feedback'>
+            <div className={Styles.feedback}>
             <If condition={this.props.viewState.feedbackFormIsVisible}>
-              <div className='feedback__inner'>
+              <div className={Styles.feedback__inner}>
                 <div className={Styles.header}>
                     <h4 className={Styles.title}> <Icon glyph={Icon.GLYPHS.feedback}/>Contact Austrade</h4>
                     <button className={Styles.btnClose} onClick={this.onDismiss} title='close feedback'>
@@ -84,11 +99,11 @@ const CustomFeedback = createReactClass({
                 </div>
                   <If condition={!this.state.feedbackType}>
                     <div className={Styles.body}>
-                        <button className={Styles.feedbackOption}>
+                        <button className={Styles.feedbackOption} onClick={this.switchFeedbackType.bind(this, 'investment')}>
                           <h5>Make an investment enquiry</h5>
                           <div>If you#39re a foreign investor planning to establish or expand your business operations in Australia, Austrade can provide you with professional assistance, free of charge</div>
                         </button>
-                        <button className={Styles.feedbackOption}>
+                        <button className={Styles.feedbackOption} onClick={this.switchFeedbackType.bind(this, 'feedback')}>
                           <h5>Provide feedback</h5>
                           <div>Provide feedback on your map experience to Austrade and the software developers.</div>
                         </button>
@@ -138,12 +153,14 @@ const CustomFeedback = createReactClass({
               </div>
 
             </If>
+            <If condition={!this.props.viewState.feedbackFormIsVisible}>
               <div className={Styles.feedbackButton}>
                   <button type='button' className={Styles.btnFeedback} onClick={this.onOpenFeedback}>
                       <Icon glyph={Icon.GLYPHS.feedback}/>
                       <span>Contact Austrade</span>
                   </button>
               </div>
+            </If>
             </div>
         );
     },
