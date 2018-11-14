@@ -14,14 +14,9 @@ function getElectricity() {
     { name: "Electricity" }
   );
 
-  electricity.items = [
-    ...electricity.items.filter(item => item.name !== "Western Australia"),
-    getFromCatalogPath(externalCatalogs.nationalmap, [
-      "National Datasets",
-      "Utility",
-      "Powerlines"
-    ])
-  ];
+  electricity.items = electricity.items.filter(
+    item => item.name !== "Western Australia"
+  );
   return electricity;
 }
 
