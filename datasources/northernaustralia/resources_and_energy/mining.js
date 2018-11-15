@@ -9,6 +9,37 @@ module.exports = {
   type: "group",
   preserveOrder: true,
   items: [
+    {
+      name: "Lithium Mines",
+      type: "csv",
+      url: "datasets/LithiumMines.csv",
+      tableStyle: {
+        dataVariable: "OPERATING_STATUS",
+        columns: {
+          id: { type: "HIDDEN" },
+          ENO: { type: "HIDDEN" },
+          NAME: { type: "HIDDEN" },
+          SYNONYMS: { type: "HIDDEN" },
+          ACCURACY: { type: "HIDDEN" },
+          SIGNIFICANT: { type: "HIDDEN" },
+          SIGNIFICANCE_VALUE: { type: "HIDDEN" },
+          SIGNIFICANCE_CALC_METHOD: { type: "HIDDEN" },
+          ACCESS_CODE: { type: "HIDDEN" }
+        }
+      },
+      featureInfoTemplate: {
+        template: `
+<strong>{{NAME}} ({{OPERATING_STATUS}})</strong>
+<table>
+<tr><td>Commodities</td>      <td>{{COMMODNAMES}}</td></tr>
+<tr><td>Operating Status</td> <td>{{OPERATING_STATUS}}</td></tr>
+</table>
+{{#WEB SITE}}
+<strong>See <a href="{{WEB SITE}}">{{WEB SITE}}</a></strong>
+{{/WEB SITE}}
+        `
+      }
+    },
     getFromCatalogPath(externalCatalogs.nationalmap, [
       "National Datasets",
       "Land",
