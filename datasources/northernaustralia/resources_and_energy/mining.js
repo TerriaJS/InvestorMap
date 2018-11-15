@@ -31,12 +31,8 @@ module.exports = {
         template: `
 <strong>{{NAME}} ({{OPERATING_STATUS}})</strong>
 <table>
-<tr><td>ENO</td>      <td>{{ENO}}</tr>
-<tr><td>COMMODIDS</td>      <td>{{COMMODIDS}}</tr>
-<tr><td>COMMODNAMES</td>    <td>{{COMMODNAMES}}</tr>
-{{#SIGNIFICANT}}
-<tr><td>SIGNIFICANT</td>    <td>{{SIGNIFICANT}}</tr>
-{{/SIGNIFICANT}}
+<tr><td>Commodities</td>      <td>{{COMMODNAMES}}</td></tr>
+<tr><td>Operating Status</td> <td>{{OPERATING_STATUS}}</td></tr>
 </table>
 {{#WEB SITE}}
 <strong>See <a href="{{WEB SITE}}">{{WEB SITE}}</a></strong>
