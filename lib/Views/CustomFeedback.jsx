@@ -60,27 +60,25 @@ const CustomFeedback = createReactClass({
             this.setState({
                 isSending: true
             });
-
             // submit form
-            // sendFeedback({
-            //     terria: this.props.viewState.terria,
-            //     name: this.state.name,
-            //     email: this.state.email,
-            //     sendShareURL: this.state.sendShareURL,
-            //     comment: this.state.comment
-            // }).then(succeeded => {
-            //     if (succeeded) {
-            //         this.setState({
-            //             isSending: false,
-            //             comment: ''
-            //         });
-            //         this.props.viewState.feedbackFormIsVisible = false;
-            //     } else {
-            //         this.setState({
-            //             isSending: false
-            //         });
-            //     }
-            // });
+            sendFeedback({
+                terria: this.props.viewState.terria,
+                name: this.state.name,
+                email: this.state.email,
+                comment: this.state.comment
+            }).then(succeeded => {
+                if (succeeded) {
+                    this.setState({
+                        isSending: false,
+                        comment: ''
+                    });
+                    this.props.viewState.feedbackFormIsVisible = false;
+                } else {
+                    this.setState({
+                        isSending: false
+                    });
+                }
+            });
         }
 
         return false;
