@@ -6,6 +6,8 @@ import createReactClass from 'create-react-class';
 import parseCustomMarkdownToReact from 'terriajs/lib/ReactViews/Custom/parseCustomMarkdownToReact';
 import PropTypes from 'prop-types';
 import sendFeedback from 'terriajs/lib/Models/sendFeedback.js';
+import FeedbackForm from './FeedbackForm';
+import InvestForm from './InvestForm';
 import Styles from './custom-feedback.scss';
 import Icon from "terriajs/lib/ReactViews/Icon.jsx";
 import classNames from "classnames";
@@ -108,44 +110,11 @@ const CustomFeedback = createReactClass({
                     </div>
                   </If>
                   <If condition={this.state.feedbackType == 'feedback'}>
-                    <div className={Styles.body}>
-                        <div>If you would like to provide feedback on your map experience to Austrade and the software developers or make any comments on the data please do so below. (replacing first par below).</div>
-                        <form onSubmit={this.onSubmit}>
-                            <label className={Styles.label}>Name (optional)</label>
-                            <input type="text" name="name" className={Styles.field} value={this.state.name} onChange={this.handleChange} />
-                            <label className={Styles.label}>Email address (optional)<br /><em>We can&#39;t follow up without it!</em></label>
-                            <input type="text" name="email" className={Styles.field} value={this.state.email} onChange={this.handleChange} />
-                            <label className={Styles.label}>Comment or question</label>
-                            <textarea className={Styles.field} name="comment" value={this.state.comment} onChange={this.handleChange} />
-                            <div className={Styles.action}>
-                                <button type="button" className={Styles.btnCancel} onClick={this.onDismiss}>Cancel</button>
-                                <button type="submit" className={Styles.btnSubmit} disabled={this.state.isSending}>{this.state.isSending ? 'Sending...' : 'Send'}</button>
-                            </div>
-                        </form>
-                    </div>
+                    <FeedbackForm viewState={this.props.viewState}/>
                   </If>
 
                   <If condition={this.state.feedbackType == 'investment'}>
-                    <div className={Styles.body}>
-                        <div>Please complete the form below and one of our specialists will help you open the doors to a country with unlimited investment potential.</div>
-                        <form onSubmit={this.onSubmit}>
-                            <label className={Styles.label}>Name *</label>
-                            <input type="text" name="name" className={Styles.field} value={this.state.name} onChange={this.handleChange} />
-                            <label className={Styles.label}>Organisation *</label>
-                            <input type="text" name="organisation" className={Styles.field} value={this.state.organisation} onChange={this.handleChange} />
-                            <label className={Styles.label}>Email address*</label>
-                            <input type="text" name="email" className={Styles.field} value={this.state.email} onChange={this.handleChange} />
-                            <label className={Styles.label}>Country</label>
-                            <input type="text" name="country" className={Styles.field} value={this.state.country} onChange={this.handleChange} />
-                            <label className={Styles.label}>Any comments</label>
-                            <textarea className={Styles.field} name="comment" value={this.state.comment} onChange={this.handleChange} />
-                            <div>* Required fields</div>
-                            <div className={Styles.action}>
-                                <button type="button" className={Styles.btnCancel} onClick={this.onDismiss}>Cancel</button>
-                                <button type="submit" className={Styles.btnSubmit} disabled={this.state.isSending}>{this.state.isSending ? 'Sending...' : 'Send'}</button>
-                            </div>
-                        </form>
-                    </div>
+                    <InvestForm viewState={this.props.viewState}/>
                   </If>
 
               </div>

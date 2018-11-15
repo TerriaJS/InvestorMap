@@ -6,7 +6,7 @@ import createReactClass from 'create-react-class';
 import parseCustomMarkdownToReact from 'terriajs/lib/ReactViews/Custom/parseCustomMarkdownToReact';
 import PropTypes from 'prop-types';
 import sendFeedback from 'terriajs/lib/Models/sendFeedback.js';
-import Styles from './feedback-form.scss';
+import Styles from './custom-feedback.scss';
 import Icon from "terriajs/lib/ReactViews/Icon.jsx";
 import classNames from "classnames";
 
@@ -21,11 +21,16 @@ const FeedbackForm = createReactClass({
     getInitialState() {
         return {
             isSending: false,
-            sendShareURL: true,
             name: '',
             email: '',
-            comment: ''
+            comment: '',
         };
+    },
+
+    handleChange(e){
+      this.setState({
+            [e.target.getAttribute('name')]: e.target.value
+      });
     },
 
     onDismiss() {
@@ -40,14 +45,13 @@ const FeedbackForm = createReactClass({
             this.setState({
                 isSending: true
             });
-
             // submit form
             sendFeedback({
                 terria: this.props.viewState.terria,
                 name: this.state.name,
                 email: this.state.email,
-                sendShareURL: this.state.sendShareURL,
-                comment: this.state.comment
+                comment: this.state.comment,
+                feedbackType: "feedback"
             }).then(succeeded => {
                 if (succeeded) {
                     this.setState({
@@ -66,54 +70,23 @@ const FeedbackForm = createReactClass({
         return false;
     },
 
-    handleChange(e) {
-        this.setState({
-            [e.target.getAttribute('name')]: e.target.value
-        });
-    },
-
-    changeSendShareUrl(e) {
-        this.setState({
-            sendShareURL: !this.state.sendShareURL
-        });
-    },
-
     render() {
-        const preamble = parseCustomMarkdownToReact(this.props.viewState.terria.configParameters.feedbackPreamble || 'We would love to hear from you!');
-        const feedbackFormClassNames = classNames(Styles.form, {
-            [Styles.isOpen]: this.props.viewState.feedbackFormIsVisible
-        });
         return (
-            <div className='feedback__inner'>
-                <div className={feedbackFormClassNames}>
-                    <div className={Styles.header}>
-                        <h4 className={Styles.title}>Feedback</h4>
-                        <button className={Styles.btnClose} onClick={this.onDismiss} title='close feedback'>
-                            <Icon glyph={Icon.GLYPHS.close} />
-                        </button>
-                    </div>
+                <div className={Styles.body}>
+                    <div>If you would like to provide feedback on your map experience to Austrade and the software developers or make any comments on the data please do so below. (replacing first par below).</div>
                     <form onSubmit={this.onSubmit}>
-                        <div className={Styles.description}>{preamble}</div>
-                        <label className={Styles.label}>Your name (optional)</label>
+                        <label className={Styles.label}>Name (optional)</label>
                         <input type="text" name="name" className={Styles.field} value={this.state.name} onChange={this.handleChange} />
                         <label className={Styles.label}>Email address (optional)<br /><em>We can&#39;t follow up without it!</em></label>
                         <input type="text" name="email" className={Styles.field} value={this.state.email} onChange={this.handleChange} />
                         <label className={Styles.label}>Comment or question</label>
                         <textarea className={Styles.field} name="comment" value={this.state.comment} onChange={this.handleChange} />
-                        <div className={Styles.shareUrl}>
-                            <button onClick={this.changeSendShareUrl} type='button'>
-                                {this.state.sendShareURL ? <Icon glyph={Icon.GLYPHS.checkboxOn} /> : <Icon glyph={Icon.GLYPHS.checkboxOff} />}
-                                Share my map view with {this.props.viewState.terria.appName} developers<br />
-                                <small>This helps us to troubleshoot issues by letting us see what you&#39;re seeing</small>
-                            </button>
-                        </div>
                         <div className={Styles.action}>
                             <button type="button" className={Styles.btnCancel} onClick={this.onDismiss}>Cancel</button>
                             <button type="submit" className={Styles.btnSubmit} disabled={this.state.isSending}>{this.state.isSending ? 'Sending...' : 'Send'}</button>
                         </div>
                     </form>
                 </div>
-            </div>
         );
     },
 });
