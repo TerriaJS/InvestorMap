@@ -1,6 +1,6 @@
 {
     "initializationUrls" : [
-        "proxy/_60s/http://static.nationalmap.nicta.com.au/northernaustralia/init/2018-11-02.json"
+        "proxy/_60s/http://static.nationalmap.nicta.com.au/northernaustralia/init/2018-11-15.json"
     ],
     "parameters": {
         "feedbackUrl": "feedback",
