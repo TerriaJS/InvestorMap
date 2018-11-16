@@ -76,7 +76,7 @@ const FeedbackForm = createReactClass({
     render() {
         return (
                 <div className={Styles.body}>
-                    <div className={Styles.error}>{this.state.error && this.state.error}</div>
+                    {this.state.error && <div className={Styles.error}>{this.state.error}</div>}
                     <p>If you would like to provide feedback on your map experience to Austrade and the software developers or make any comments on the data please do so below. (replacing first par below).</p>
                     <form onSubmit={this.onSubmit}>
                         <label className={Styles.label}>Name (optional)</label>

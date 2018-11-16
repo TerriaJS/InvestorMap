@@ -82,7 +82,7 @@ const InvestForm = createReactClass({
     render() {
         return (
           <div className={Styles.body}>
-              <div className={Styles.error}>{this.state.error && this.state.error}</div>
+              {this.state.error && <div className={Styles.error}>{this.state.error}</div>}
               <p>Please complete the form below and one of our specialists will help you open the doors to a country with unlimited investment potential.</p>
               <form onSubmit={this.onSubmit}>
                   <label className={Styles.label}>Name *</label>
