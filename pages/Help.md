@@ -82,9 +82,8 @@
 
 # Help & FAQ
 
-<p><strong>Video to be updated</strong></p>
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="//www.youtube-nocookie.com/embed/2PlemVgT0xo?rel=0"></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/dXqWlSvRzwU?rel=0"></iframe>
 </div>
 
 <section data-scroll-index="0">
