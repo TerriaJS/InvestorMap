@@ -4,14 +4,39 @@
 
 .feedback{
   color: #636e72;
+  z-index: 9999;
+  position: relative;
 }
 
-.feedback__inner{
-    position: fixed;
-    right: 20px;
-    bottom: 30px;
-    width: 300px;
-    background: #ffffff;
+.feedback__type{
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  width: 300px;
+  background: #ffffff;
+  transition: all 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 99;
+}
+
+.feedback__type__offscreen{
+  bottom: -600px;
+}
+
+.feedback__form{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 300px;
+  background: #ffffff;
+  transition: all 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 99;
+}
+
+.feedback__form__offscreen{
+  right: -400px
 }
 
 .feedbackOption{

@@ -1,5 +1,4 @@
 'use strict';
-
 import ObserveModelMixin from 'terriajs/lib/ReactViews/ObserveModelMixin';
 import React from 'react';
 import createReactClass from 'create-react-class';
@@ -87,47 +86,51 @@ const CustomFeedback = createReactClass({
     },
 
     render() {
+      const feedbackTypeClassName = classNames(Styles.feedback__type, {
+            [Styles.feedback__type__offscreen]: !this.props.viewState.feedbackFormIsVisible || this.state.feedbackType,
+        });
+      const formClassName = classNames(Styles.feedback__form, {
+            [Styles.feedback__form__offscreen]: !this.props.viewState.feedbackFormIsVisible || !this.state.feedbackType,
+        });
+
+      const header = (<div className={Styles.header}>
+                          <h4 className={Styles.title}> <Icon glyph={Icon.GLYPHS.feedback}/>Contact Austrade</h4>
+                          <button className={Styles.btnClose} onClick={this.onDismiss} title='close feedback'>
+                              <Icon glyph={Icon.GLYPHS.close} />
+                          </button>
+                      </div>);
+
         return (
             <div className={Styles.feedback}>
-            <If condition={this.props.viewState.feedbackFormIsVisible}>
-              <div className={Styles.feedback__inner}>
-                <div className={Styles.header}>
-                    <h4 className={Styles.title}> <Icon glyph={Icon.GLYPHS.feedback}/>Contact Austrade</h4>
-                    <button className={Styles.btnClose} onClick={this.onDismiss} title='close feedback'>
-                        <Icon glyph={Icon.GLYPHS.close} />
+            <div className={formClassName}>
+              {header}
+              <If condition={this.state.feedbackType == 'feedback'}>
+                <FeedbackForm viewState={this.props.viewState} onDismiss={this.onDismiss}/>
+              </If>
+
+              <If condition={this.state.feedbackType == 'investment'}>
+                <InvestForm viewState={this.props.viewState} onDismiss={this.onDismiss}/>
+              </If>
+            </div>
+            <div className={feedbackTypeClassName}>
+                {header}
+                <div>
+                    <button className={Styles.feedbackOption} onClick={this.switchFeedbackType.bind(this, 'investment')}>
+                      <h5>Make an investment enquiry</h5>
+                      <div>If you'a foreign investor planning to establish or expand your business operations in Australia, Austrade can provide you with professional assistance, free of charge</div>
+                    </button>
+                    <button className={Styles.feedbackOption} onClick={this.switchFeedbackType.bind(this, 'feedback')}>
+                      <h5>Provide feedback</h5>
+                      <div>Provide feedback on your map experience to Austrade and the software developers.</div>
                     </button>
                 </div>
-                  <If condition={!this.state.feedbackType}>
-                    <div>
-                        <button className={Styles.feedbackOption} onClick={this.switchFeedbackType.bind(this, 'investment')}>
-                          <h5>Make an investment enquiry</h5>
-                          <div>If you'a foreign investor planning to establish or expand your business operations in Australia, Austrade can provide you with professional assistance, free of charge</div>
-                        </button>
-                        <button className={Styles.feedbackOption} onClick={this.switchFeedbackType.bind(this, 'feedback')}>
-                          <h5>Provide feedback</h5>
-                          <div>Provide feedback on your map experience to Austrade and the software developers.</div>
-                        </button>
-                    </div>
-                  </If>
-                  <If condition={this.state.feedbackType == 'feedback'}>
-                    <FeedbackForm viewState={this.props.viewState} onDismiss={this.onDismiss}/>
-                  </If>
-
-                  <If condition={this.state.feedbackType == 'investment'}>
-                    <InvestForm viewState={this.props.viewState} onDismiss={this.onDismiss}/>
-                  </If>
-
-              </div>
-
-            </If>
-            <If condition={!this.props.viewState.feedbackFormIsVisible}>
-              <div className={Styles.feedbackButton}>
-                  <button type='button' className={Styles.btnFeedback} onClick={this.onOpenFeedback}>
-                      <Icon glyph={Icon.GLYPHS.feedback}/>
-                      <span>Contact Austrade</span>
-                  </button>
-              </div>
-            </If>
+            </div>
+            <div className={Styles.feedbackButton}>
+                <button type='button' className={Styles.btnFeedback} onClick={this.onOpenFeedback}>
+                    <Icon glyph={Icon.GLYPHS.feedback}/>
+                    <span>Contact Austrade</span>
+                </button>
+            </div>
             </div>
         );
     },
