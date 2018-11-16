@@ -2,6 +2,10 @@
 @import '~terriajs/lib/Sass/common/mixins';
 @import '~terriajs/lib/Sass/common/_buttons.scss';
 
+.feedback{
+  color: #636e72;
+}
+
 .feedback__inner{
     position: fixed;
     right: 20px;
@@ -93,6 +97,7 @@
   composes: field;
   margin-bottom: $padding;
   width: 100%;
+  border: 1px solid #95a5a6;
 }
 
 .action {
