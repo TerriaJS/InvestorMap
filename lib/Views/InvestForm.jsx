@@ -26,24 +26,26 @@ const InvestForm = createReactClass({
             email: '',
             country: '',
             comment: '',
+            error: null
         };
     },
 
     onDismiss() {
-        this.props.viewState.feedbackFormIsVisible = false;
         this.setState(this.getInitialState());
+        this.props.onDismiss();
     },
 
     handleChange(e){
       this.setState({
-            [e.target.getAttribute('name')]: e.target.value
+            [e.target.getAttribute('name')]: e.target.value,
+            error: null
       });
     },
 
     onSubmit(evt) {
         evt.preventDefault();
 
-        if (this.state.comment.length > 0) {
+        if (this.state.name.length > 0 && this.state.organisation.length > 0 && this.state.email.length ) {
             this.setState({
                 isSending: true
             });
@@ -69,15 +71,19 @@ const InvestForm = createReactClass({
                     });
                 }
             });
+        } else {
+          const error = `${this.state.name.length > 0? "": "name "} ${this.state.organisation.length > 0? "": "organisation "} ${this.state.email.length > 0? "": "email "} cannot be empty`
+          this.setState({
+              error: error
+          })
         }
-
-        return false;
     },
 
     render() {
         return (
           <div className={Styles.body}>
-              <div>Please complete the form below and one of our specialists will help you open the doors to a country with unlimited investment potential.</div>
+              <div className={Styles.error}>{this.state.error && this.state.error}</div>
+              <p>Please complete the form below and one of our specialists will help you open the doors to a country with unlimited investment potential.</p>
               <form onSubmit={this.onSubmit}>
                   <label className={Styles.label}>Name *</label>
                   <input type="text" name="name" className={Styles.field} value={this.state.name} onChange={this.handleChange} />
@@ -89,7 +95,7 @@ const InvestForm = createReactClass({
                   <input type="text" name="country" className={Styles.field} value={this.state.country} onChange={this.handleChange} />
                   <label className={Styles.label}>Any comments</label>
                   <textarea className={Styles.field} name="comment" value={this.state.comment} onChange={this.handleChange} />
-                  <div>* Required fields</div>
+                  <p>* Required fields</p>
                   <div className={Styles.action}>
                       <button type="button" className={Styles.btnCancel} onClick={this.onDismiss}>Cancel</button>
                       <button type="submit" className={Styles.btnSubmit} disabled={this.state.isSending}>{this.state.isSending ? 'Sending...' : 'Send'}</button>

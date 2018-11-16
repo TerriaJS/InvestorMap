@@ -4,10 +4,31 @@
 
 .feedback__inner{
     position: fixed;
-    right: 0;
+    right: 20px;
+    bottom: 30px;
     width: 300px;
     background: #ffffff;
 }
+
+.feedbackOption{
+  display: block;
+  background: #ffffff;
+  border: 0;
+  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+  div{
+    font-size: 0.9rem;
+    margin-bottom: 1.7rem;
+  }
+
+  h5{
+    color: $color-primary;
+    font-size: 1.3rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+}
+
 .feedbackButton {
   background: $color-primary;
   font-family: $font-base;
@@ -15,6 +36,10 @@
   color: #ffffff;
   border-radius: 20px;
   box-shadow: $box-shadow;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 0;
 }
 
 .btnFeedback {
@@ -26,7 +51,7 @@
     height: 30px;
     display: inline-block;
     vertical-align: bottom;
-    color: #ffffff;
+    fill: #ffffff;
   }
 
   span {
@@ -37,25 +62,37 @@
 
 .header {
   position: relative;
-  background: $dark-lighter;
+  text-align: left;
+  background: $color-primary;
   color: $text-light;
   padding: $padding;
 }
 
 .title {
-  text-align: center;
   margin: 0;
+  line-height: 2;
   svg {
     width: 30px;
     height: 30px;
     display: inline-block;
     vertical-align: bottom;
+    fill: #ffffff;
+  }
+}
+
+
+.body{
+  padding: 15px;
+  font-size: 0.9rem;
+  p{
+    margin-top: 0;
   }
 }
 
 .field {
   composes: field;
   margin-bottom: $padding;
+  width: 100%;
 }
 
 .action {
@@ -64,9 +101,11 @@
 
 .btnCancel {
   composes: btn;
-  border: 1px solid $grey;
+  border: 1px solid $color-primary;
+  color: $color-primary;
   border-radius: $radius-medium;
   padding: $padding-small $padding*2;
+  float: left;
   &:hover {
     border: 1px solid $color-primary;
     color: $color-primary;
@@ -76,15 +115,12 @@
 .btnClose {
   composes: btn;
   position: absolute;
-  right: 0;
-  top: 5px;
+  right: 10px;
+  top: 16px;
   svg {
     fill: $text-light;
-    height: 30px;
-    width: 30px;
-    &:hover {
-      fill: $color-primary;
-    }
+    height: 20px;
+    width: 20px;
   }
 }
 
@@ -94,6 +130,7 @@
   margin-left: 10px;
   border-radius: $radius-medium;
   padding: $padding-small $padding*2;
+  border: 1px solid $color-primary;
   &:hover, &--hover {
     background: get-hover-color($color-primary);
   }
@@ -101,4 +138,15 @@
 
 .label {
   display: block;
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.error{
+    background: #e74c3c;
+    padding: 5px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 3px;
 }

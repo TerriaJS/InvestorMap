@@ -24,23 +24,24 @@ const FeedbackForm = createReactClass({
             name: '',
             email: '',
             comment: '',
+            error: null
         };
     },
 
     handleChange(e){
       this.setState({
-            [e.target.getAttribute('name')]: e.target.value
+            [e.target.getAttribute('name')]: e.target.value,
+            error: null
       });
     },
 
     onDismiss() {
-        this.props.viewState.feedbackFormIsVisible = false;
         this.setState(this.getInitialState());
+        this.props.onDismiss();
     },
 
     onSubmit(evt) {
         evt.preventDefault();
-
         if (this.state.comment.length > 0) {
             this.setState({
                 isSending: true
@@ -65,19 +66,22 @@ const FeedbackForm = createReactClass({
                     });
                 }
             });
+        } else {
+          this.setState({
+            error: 'comment cannot be empty'
+          })
         }
-
-        return false;
     },
 
     render() {
         return (
                 <div className={Styles.body}>
-                    <div>If you would like to provide feedback on your map experience to Austrade and the software developers or make any comments on the data please do so below. (replacing first par below).</div>
+                    <div className={Styles.error}>{this.state.error && this.state.error}</div>
+                    <p>If you would like to provide feedback on your map experience to Austrade and the software developers or make any comments on the data please do so below. (replacing first par below).</p>
                     <form onSubmit={this.onSubmit}>
                         <label className={Styles.label}>Name (optional)</label>
                         <input type="text" name="name" className={Styles.field} value={this.state.name} onChange={this.handleChange} />
-                        <label className={Styles.label}>Email address (optional)<br /><em>We can&#39;t follow up without it!</em></label>
+                        <label className={Styles.label}>Email address (optional)<br /><small>We can&#39;t follow up without it!</small></label>
                         <input type="text" name="email" className={Styles.field} value={this.state.email} onChange={this.handleChange} />
                         <label className={Styles.label}>Comment or question</label>
                         <textarea className={Styles.field} name="comment" value={this.state.comment} onChange={this.handleChange} />

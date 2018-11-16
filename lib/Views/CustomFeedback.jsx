@@ -98,10 +98,10 @@ const CustomFeedback = createReactClass({
                     </button>
                 </div>
                   <If condition={!this.state.feedbackType}>
-                    <div className={Styles.body}>
+                    <div>
                         <button className={Styles.feedbackOption} onClick={this.switchFeedbackType.bind(this, 'investment')}>
                           <h5>Make an investment enquiry</h5>
-                          <div>If you#39re a foreign investor planning to establish or expand your business operations in Australia, Austrade can provide you with professional assistance, free of charge</div>
+                          <div>If you'a foreign investor planning to establish or expand your business operations in Australia, Austrade can provide you with professional assistance, free of charge</div>
                         </button>
                         <button className={Styles.feedbackOption} onClick={this.switchFeedbackType.bind(this, 'feedback')}>
                           <h5>Provide feedback</h5>
@@ -110,11 +110,11 @@ const CustomFeedback = createReactClass({
                     </div>
                   </If>
                   <If condition={this.state.feedbackType == 'feedback'}>
-                    <FeedbackForm viewState={this.props.viewState}/>
+                    <FeedbackForm viewState={this.props.viewState} onDismiss={this.onDismiss}/>
                   </If>
 
                   <If condition={this.state.feedbackType == 'investment'}>
-                    <InvestForm viewState={this.props.viewState}/>
+                    <InvestForm viewState={this.props.viewState} onDismiss={this.onDismiss}/>
                   </If>
 
               </div>
