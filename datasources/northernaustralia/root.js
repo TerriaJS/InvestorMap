@@ -20,8 +20,7 @@ module.exports = {
         require("./shared/soil"),
         require("./shared/satellite_imagery"),
         require("./shared/climate"),
-        require("./shared/landscape_water"),
-        require("./shared/tourism_TRA")
+        require("./shared/landscape_water")
       ]
     },
     addDescriptionToGroups(
