@@ -21,7 +21,7 @@ module.exports = {
   type: "group",
   items: [
     {
-      name: "Australian Accomodation Monitor 2016-2017",
+      name: "Australian Accommodation Monitor 2016-2017",
       type: "csv",
       url: "datasets/2016-2017TourismRegionSummary.csv",
       description:
