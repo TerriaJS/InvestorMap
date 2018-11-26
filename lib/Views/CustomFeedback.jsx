@@ -4,7 +4,6 @@ import React from 'react';
 import createReactClass from 'create-react-class';
 import parseCustomMarkdownToReact from 'terriajs/lib/ReactViews/Custom/parseCustomMarkdownToReact';
 import PropTypes from 'prop-types';
-import sendFeedback from 'terriajs/lib/Models/sendFeedback.js';
 import FeedbackForm from './FeedbackForm';
 import InvestForm from './InvestForm';
 import Styles from './custom-feedback.scss';
@@ -52,37 +51,6 @@ const CustomFeedback = createReactClass({
         email: '',
         comment: '',
       })
-    },
-
-    onSubmit(evt) {
-        evt.preventDefault();
-
-        if (this.state.comment.length > 0) {
-            this.setState({
-                isSending: true
-            });
-            // submit form
-            sendFeedback({
-                terria: this.props.viewState.terria,
-                name: this.state.name,
-                email: this.state.email,
-                comment: this.state.comment
-            }).then(succeeded => {
-                if (succeeded) {
-                    this.setState({
-                        isSending: false,
-                        comment: ''
-                    });
-                    this.props.viewState.feedbackFormIsVisible = false;
-                } else {
-                    this.setState({
-                        isSending: false
-                    });
-                }
-            });
-        }
-
-        return false;
     },
 
     render() {

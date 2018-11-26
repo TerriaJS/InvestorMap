@@ -5,7 +5,7 @@ import React from 'react';
 import createReactClass from 'create-react-class';
 import parseCustomMarkdownToReact from 'terriajs/lib/ReactViews/Custom/parseCustomMarkdownToReact';
 import PropTypes from 'prop-types';
-import sendFeedback from 'terriajs/lib/Models/sendFeedback.js';
+import sendFeedback from '../Models/sendFeedback.js';
 import Styles from './custom-feedback.scss';
 import Icon from "terriajs/lib/ReactViews/Icon.jsx";
 import classNames from "classnames";
