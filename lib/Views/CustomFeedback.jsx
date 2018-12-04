@@ -2,11 +2,8 @@
 import ObserveModelMixin from 'terriajs/lib/ReactViews/ObserveModelMixin';
 import React from 'react';
 import createReactClass from 'create-react-class';
-import parseCustomMarkdownToReact from 'terriajs/lib/ReactViews/Custom/parseCustomMarkdownToReact';
 import PropTypes from 'prop-types';
-import sendFeedback from 'terriajs/lib/Models/sendFeedback.js';
 import FeedbackForm from './FeedbackForm';
-import InvestForm from './InvestForm';
 import Styles from './custom-feedback.scss';
 import Icon from "terriajs/lib/ReactViews/Icon.jsx";
 import classNames from "classnames";
@@ -19,13 +16,14 @@ const CustomFeedback = createReactClass({
         viewState: PropTypes.object.isRequired
     },
 
+    // 3 states:
+    // 1. Feedback hidden: viewState.feedbackFormIsVisible === false
+    // 2. At feedback menu: viewState.feedbackFormIsVisible === true && state.menuVisible === true
+    // 2. At developer feedback form: viewState.feedbackFormIsVisible === true && state.menuVisible === false
+
     getInitialState() {
         return {
-            isSending: false,
-            name: '',
-            email: '',
-            comment: '',
-            feedbackType: undefined
+            menuVisible: true
         };
     },
 
@@ -38,59 +36,18 @@ const CustomFeedback = createReactClass({
         this.setState(this.getInitialState());
     },
 
-    switchFeedbackType(type){
+    switchToForm(){
       this.setState({
-        feedbackType: type
+        menuVisible: false
       });
-      this.resetField();
-    },
-
-    resetField(){
-      this.setState({
-        isSending: false,
-        name: '',
-        email: '',
-        comment: '',
-      })
-    },
-
-    onSubmit(evt) {
-        evt.preventDefault();
-
-        if (this.state.comment.length > 0) {
-            this.setState({
-                isSending: true
-            });
-            // submit form
-            sendFeedback({
-                terria: this.props.viewState.terria,
-                name: this.state.name,
-                email: this.state.email,
-                comment: this.state.comment
-            }).then(succeeded => {
-                if (succeeded) {
-                    this.setState({
-                        isSending: false,
-                        comment: ''
-                    });
-                    this.props.viewState.feedbackFormIsVisible = false;
-                } else {
-                    this.setState({
-                        isSending: false
-                    });
-                }
-            });
-        }
-
-        return false;
     },
 
     render() {
       const feedbackTypeClassName = classNames(Styles.feedback__type, {
-            [Styles.feedback__type__offscreen]: !this.props.viewState.feedbackFormIsVisible || this.state.feedbackType,
+            [Styles.feedback__type__offscreen]: !this.props.viewState.feedbackFormIsVisible || !this.state.menuVisible,
         });
       const formClassName = classNames(Styles.feedback__form, {
-            [Styles.feedback__form__offscreen]: !this.props.viewState.feedbackFormIsVisible || !this.state.feedbackType,
+            [Styles.feedback__form__offscreen]: !this.props.viewState.feedbackFormIsVisible || this.state.menuVisible,
         });
 
       const header = (<div className={Styles.header}>
@@ -104,22 +61,18 @@ const CustomFeedback = createReactClass({
             <div className={Styles.feedback}>
             <div className={formClassName}>
               {header}
-              <If condition={this.state.feedbackType == 'feedback'}>
+              <If condition={!this.state.menuVisible}>
                 <FeedbackForm viewState={this.props.viewState} onDismiss={this.onDismiss}/>
-              </If>
-
-              <If condition={this.state.feedbackType == 'investment'}>
-                <InvestForm viewState={this.props.viewState} onDismiss={this.onDismiss}/>
               </If>
             </div>
             <div className={feedbackTypeClassName}>
                 {header}
                 <div>
-                    <button className={Styles.feedbackOption} onClick={this.switchFeedbackType.bind(this, 'investment')}>
+                    <button className={Styles.feedbackOption} onClick={() => window.open('https://www.austrade.gov.au/International/Invest/Investment-Specialists/Enquiry-Form', 'InvestmentEnquiry')}>
                       <h5>Make an investment enquiry</h5>
-                      <div>If you'a foreign investor planning to establish or expand your business operations in Australia, Austrade can provide you with professional assistance, free of charge</div>
+                      <div>If you're a foreign investor planning to establish or expand your business operations in Australia, Austrade can provide you with professional assistance, free of charge</div>
                     </button>
-                    <button className={Styles.feedbackOption} onClick={this.switchFeedbackType.bind(this, 'feedback')}>
+                    <button className={Styles.feedbackOption} onClick={this.switchToForm}>
                       <h5>Provide feedback</h5>
                       <div>Provide feedback on your map experience to Austrade and the software developers.</div>
                     </button>

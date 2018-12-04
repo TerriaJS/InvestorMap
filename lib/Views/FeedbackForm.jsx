@@ -3,12 +3,9 @@
 import ObserveModelMixin from 'terriajs/lib/ReactViews/ObserveModelMixin';
 import React from 'react';
 import createReactClass from 'create-react-class';
-import parseCustomMarkdownToReact from 'terriajs/lib/ReactViews/Custom/parseCustomMarkdownToReact';
 import PropTypes from 'prop-types';
 import sendFeedback from 'terriajs/lib/Models/sendFeedback.js';
 import Styles from './custom-feedback.scss';
-import Icon from "terriajs/lib/ReactViews/Icon.jsx";
-import classNames from "classnames";
 
 const FeedbackForm = createReactClass({
     displayName: 'FeedbackForm',
@@ -69,7 +66,7 @@ const FeedbackForm = createReactClass({
         } else {
           this.setState({
             error: 'comment cannot be empty'
-          })
+          });
         }
     },
 
@@ -77,7 +74,7 @@ const FeedbackForm = createReactClass({
         return (
                 <div className={Styles.body}>
                     {this.state.error && <div className={Styles.error}>{this.state.error}</div>}
-                    <p>If you would like to provide feedback on your map experience to Austrade and the software developers or make any comments on the data please do so below. (replacing first par below).</p>
+                    <p>If you would like to provide feedback on your map experience to Austrade and the software developers or make any comments on the data please do so below.</p>
                     <form onSubmit={this.onSubmit}>
                         <label className={Styles.label}>Name (optional)</label>
                         <input type="text" name="name" className={Styles.field} value={this.state.name} onChange={this.handleChange} />
