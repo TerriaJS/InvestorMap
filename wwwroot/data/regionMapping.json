@@ -2426,6 +2426,27 @@
             ],
             "description": "Australian Electoral Comission Commonwealth Electoral Boundaries for ABS   Australian Marriage Law Survey",
             "regionIdsFile": "data/regionids/region_map-AEC_FED_2017_AMLS_FED_ABB.json"
+        },
+        "TRA_2018": {
+            "layerName": "Tourism_Regions_2018",
+            "server": "https://vector-tiles-2018-11-08.terria.io/Tourism_Regions_2018/{z}/{x}/{y}.pbf",
+            "serverType": "MVT",
+            "serverMaxNativeZoom": 12,
+            "serverMaxZoom": 28,
+            "bbox": [
+                112.92111394900019,
+                -43.740509602057514,
+                159.1092190140001,
+                -9.142175976703571
+            ],
+            "uniqueIdProp": "FID",
+            "regionProp": "TR_NAME",
+            "nameProp": "TR_NAME",
+            "aliases": [
+                "tr_tra_name_2018"
+            ],
+            "description": "Austrade TRA Tourism Regions 2018",
+            "regionIdsFile": "data/regionids/region_map-Tourism_Regions_2018_TR_NAME.json"
         }
     }
 }
