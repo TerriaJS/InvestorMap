@@ -39,11 +39,13 @@ module.exports = {
         ...require("./sdmx_items")
       ]
     },
+    require("../shared/climate"),
     {
       name: "Water",
       type: "group",
       preserveOrder: true,
       items: [
+        require("../shared/landscape_water"),
         {
           name: "Geofabric",
           type: "wms-getCapabilities",
