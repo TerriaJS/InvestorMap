@@ -5,7 +5,8 @@ import version from '../../version';
 import StandardUserInterface from 'terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx';
 import MenuItem from 'terriajs/lib/ReactViews/StandardUserInterface/customizable/MenuItem';
 import RelatedMaps from './RelatedMaps';
-import { Menu, Nav } from 'terriajs/lib/ReactViews/StandardUserInterface/customizable/Groups';
+import CustomFeedback from './CustomFeedback';
+import { Menu, Nav, Feedback} from 'terriajs/lib/ReactViews/StandardUserInterface/customizable/Groups';
 import MeasureTool from 'terriajs/lib/ReactViews/Map/Navigation/MeasureTool';
 
 import './global.scss';
@@ -20,6 +21,9 @@ export default function UserInterface(props) {
             <Nav>
                 <MeasureTool terria={props.viewState.terria} key="measure-tool"/>
             </Nav>
+            <Feedback>
+                <CustomFeedback viewState={props.viewState}/>
+            </Feedback>
         </StandardUserInterface>
     );
 }

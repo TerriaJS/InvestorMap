@@ -1,0 +1,185 @@
+@import '~terriajs-variables';
+@import '~terriajs/lib/Sass/common/mixins';
+@import '~terriajs/lib/Sass/common/_buttons.scss';
+
+.feedback{
+  color: #636e72;
+  z-index: 9999;
+  position: relative;
+}
+
+.feedback__type{
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  width: 300px;
+  background: #ffffff;
+  transition: all 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 99;
+}
+
+.feedback__type__offscreen{
+  bottom: -600px;
+}
+
+.feedback__form{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 300px;
+  background: #ffffff;
+  transition: all 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 99;
+  overflow-y: auto;
+}
+
+.feedback__form__offscreen{
+  right: -400px
+}
+
+.feedbackOption{
+  display: block;
+  background: #ffffff;
+  border: 0;
+  border-bottom: 1px solid rgba(#dddddd, 0.8);
+  div{
+    font-size: 0.9rem;
+    margin-bottom: 1.7rem;
+  }
+
+  h5{
+    color: $color-primary;
+    font-size: 1.3rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+}
+
+.feedbackButton {
+  background: $color-primary;
+  font-family: $font-base;
+  font-size: $font-size-mid-small;
+  color: #ffffff;
+  border-radius: 20px;
+  box-shadow: $box-shadow;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 0;
+}
+
+.btnFeedback {
+  composes: btn;
+  padding: 5px;
+
+  svg {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: bottom;
+    fill: #ffffff;
+  }
+
+  span {
+    vertical-align: top;
+    line-height: 2.2;
+  }
+}
+
+.header {
+  position: relative;
+  text-align: left;
+  background: $color-primary;
+  color: $text-light;
+  padding: $padding;
+}
+
+.title {
+  margin: 0;
+  line-height: 2;
+  svg {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: bottom;
+    fill: #ffffff;
+  }
+}
+
+
+.body{
+  padding: 15px;
+  font-size: 0.9rem;
+  p{
+    margin-top: 0;
+  }
+}
+
+.field {
+  composes: field;
+  margin-bottom: $padding;
+  width: 100%;
+  border: 1px solid #95a5a6;
+  padding: 8px 5px;
+  box-sizing: border-box;
+}
+
+.action {
+  text-align: right;
+}
+
+.btnCancel {
+  composes: btn;
+  border: 1px solid $color-primary;
+  color: $color-primary;
+  border-radius: $radius-medium;
+  padding: $padding-small $padding*2;
+  float: left;
+  &:hover {
+    border: 1px solid $color-primary;
+    color: $color-primary;
+  }
+}
+
+.btnClose {
+  composes: btn;
+  position: absolute;
+  right: 10px;
+  top: 16px;
+  svg {
+    fill: $text-light;
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.btnSubmit {
+  background: $color-primary;
+  color: $text-light;
+  margin-left: 10px;
+  border-radius: $radius-medium;
+  padding: $padding-small $padding*2;
+  border: 1px solid $color-primary;
+  &:hover, &--hover {
+    background: get-hover-color($color-primary);
+  }
+}
+
+.label {
+  display: block;
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.error{
+    background: #e74c3c;
+    padding: 5px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
