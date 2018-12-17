@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/TerriaJS/NorthernAustralia"
+    "url": "http://github.com/TerriaJS/InvestorMap"
   },
   "dependencies": {
     "terriajs-server": "^2.8.0"
