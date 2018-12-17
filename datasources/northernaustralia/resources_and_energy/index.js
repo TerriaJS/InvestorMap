@@ -8,7 +8,7 @@ function importRenewables() {
     "Renewable Energy"
   ]);
   const solar = renewablesJson.items.find(m => m.name === "Solar");
-  solar.items = solar.items.filter(m => m.name.includes("climatology"));
+  solar.items = solar.items.filter(m => m.name.match(/(climatology|DNI)/));
   const wind = renewablesJson.items.find(m => m.name === "Wind");
   wind.items = [
     wind.items.find(m => m.name === "Average Wind Speed at 100 metres")

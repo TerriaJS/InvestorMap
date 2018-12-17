@@ -5,7 +5,9 @@
 .feedback{
   color: #636e72;
   z-index: 9999;
-  position: relative;
+  position: absolute;
+  bottom: 100px;
+  right: 20px;
 }
 
 .feedback__type{
@@ -66,9 +68,6 @@
   color: #ffffff;
   border-radius: 20px;
   box-shadow: $box-shadow;
-  position: fixed;
-  bottom: 100px;
-  right: 20px;
   z-index: 0;
 }
 
