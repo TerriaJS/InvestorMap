@@ -1,7 +1,7 @@
 "use strict";
 
 const fs = require("fs");
-const root = require("./northernaustralia/root");
+const root = require("./investormap/root");
 const checkUniqueMemberNames = require("./checkUniqueMemberNames");
 
 // In this catalogue groups and items are duplicated for the different categories
@@ -29,12 +29,9 @@ const processed = Object.assign({}, root, {
 
 function buildCatalog() {
   checkUniqueMemberNames(processed.catalog);
+  fs.writeFileSync("wwwroot/init/investormap.json", JSON.stringify(processed));
   fs.writeFileSync(
-    "wwwroot/init/northernaustralia.json",
-    JSON.stringify(processed)
-  );
-  fs.writeFileSync(
-    "wwwroot/init/northernaustralia_big.json",
+    "wwwroot/init/investormap_big.json",
     JSON.stringify(processed, null, 2)
   );
 }
