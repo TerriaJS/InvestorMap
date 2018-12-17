@@ -19,7 +19,7 @@
     "awsS3PackagesPath": "s3://nationalmap-apps/nationalmap",
     "awsRegion": "ap-southeast-2",
     "awsEc2InstanceType": "t2.small",
-    "awsEc2ImageId": "ami-9d73a4ff",
+    "awsEc2ImageId": "ami-0d9ca8d416482590e",
     "awsKeyName": "natmap-kring",
     "awsS3ServerConfigOverridePath": "s3://nationalmap-apps/northernaustralia/privateserverconfig-2018-10-24.json",
     "awsS3ClientConfigOverridePath": "s3://nationalmap-apps/northernaustralia/privateclientconfig-2018-10-16.json"
@@ -60,8 +60,12 @@
     "semver": "^5.0.0",
     "style-loader": "^0.19.1",
     "svg-sprite-loader": "^3.4.0",
+<<<<<<< HEAD
     "sync-request": "^6.0.0",
     "terriajs": "6.3.5",
+=======
+    "terriajs": "6.3.3",
+>>>>>>> nm/master
     "terriajs-catalog-editor": "^0.2.0",
     "terriajs-cesium": "1.51.0",
     "terriajs-schema": "latest",
