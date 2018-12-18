@@ -2,10 +2,6 @@
 InvestorMap
 ============
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/TerriaJS/investormap.svg)](https://greenkeeper.io/)
-
-[![Build Status](https://travis-ci.org/TerriaJS/investormap.svg?branch=master)](https://travis-ci.org/TerriaJS/investormap)
-
 The [Investor Map](https://www.nationalmap.gov.au/investormap/) is a website for map-based access to spatial data from Australian government agencies. It is an initiative of the Australian Trade and Investment Commission (Austrade), developed by Data61 CSIRO in collaboration with Geoscience Australia.
 
 Austrade is the Australian Government’s international trade promotion and investment attraction agency. It generates market information and insights, promotes Australian capability, and facilitates connections through its extensive global network.
