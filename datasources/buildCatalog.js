@@ -39,6 +39,6 @@ function buildCatalog() {
 module.exports = buildCatalog;
 
 if (require.main === module) {
-  // Executed as a script
+  // Executed as a script, as opposed to through `gulp build-catalog`
   buildCatalog();
 }

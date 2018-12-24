@@ -1,0 +1,179 @@
+{
+  "catalog": [
+    {
+      "items": [
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:natsem_wellbeing_indicators_synthetic_sa2_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling &copy; 2018",
+          "name": "NATSEM Health and Wellbeing Indicators: Synthetic Estimates SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC 4.0](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:pha_ckd_deaths_by_sex_2011_2015",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "The Australian Institute of Health and Welfare (AIHW)",
+          "name": "AIHW: Chronic Kidney Disease Deaths by Sex by PHA 2011-2015",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC-SA 3.0 AU](/images/by-nc-sa.png)<br>[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacitcity": "0.6",
+          "layers": "nationalmap:pha_ckd_prevalence_by_sex_2011_2012",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "The Australian Institute of Health and Welfare (AIHW)",
+          "name": "AIHW: Chronic Kidney Disease Prevalence by Sex by PHA 2011-2012",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC-SA 3.0 AU](/images/by-nc-sa.png)<br>[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:sa3_cancer_incidence_2009_2013",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "The Australian Institute of Health and Welfare (AIHW)",
+          "name": "AIHW: Cancer Incidence by SA3 2009-2013",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 3.0 AU](/images/by.png)<br>[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](https://creativecommons.org/licenses/by/3.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:sa3_cancer_mortality_2011_2015",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "The Australian Institute of Health and Welfare (AIHW)",
+          "name": "AIHW: Cancer Mortality by SA3 2011-2015",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 3.0 AU](/images/by.png)<br>[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](https://creativecommons.org/licenses/by/3.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:phidu_avoidable_mortality_by_cause_lga_2011_15",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Torrens University Australia - Public Health Information Development Unit &copy; 2018",
+          "name": "PHIDU: Avoidable Mortality by Cause by LGA 2011-2015",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC-SA 3.0 AU](/images/by-nc-sa.png)<br>[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:phidu_premature_mortality_by_cause_lga_2011_15",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Torrens University Australia - Public Health Information Development Unit &copy; 2018",
+          "name": "PHIDU: Premature Mortality by Cause by LGA 2011-2015",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC-SA 3.0 AU](/images/by-nc-sa.png)<br>[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:phidu_child_youth_health_lga_2011_16",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Torrens University Australia - Public Health Information Development Unit &copy; 2018",
+          "name": "PHIDU: Child and Youth Health by LGA 2011-2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC-SA 3.0 AU](/images/by-nc-sa.png)<br>[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:phidu_prevalence_selected_chronic_diseases_lga_2011_12",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Torrens University Australia - Public Health Information Development Unit &copy; 2018",
+          "name": "PHIDU: Prevalence of Selected Chronic Diseases by LGA 2011-2012",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC-SA 3.0 AU](/images/by-nc-sa.png)<br>[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:phidu_admissions_principal_diagnosis_persons_lga_2014_15",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Torrens University Australia - Public Health Information Development Unit &copy; 2018",
+          "name": "PHIDU: Admssions by Principal Diagnosis by LGA 2014-2015",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC-SA 3.0 AU](/images/by-nc-sa.png)<br>[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:phidu_estimates_risk_factors_adults_lga_2014_15",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Torrens University Australia - Public Health Information Development Unit &copy; 2018",
+          "name": "PHIDU: Prevalence of Selected Health Risk Factors by LGA 2014-2015",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC-SA 3.0 AU](/images/by-nc-sa.png)<br>[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:phidu",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Adelaide - Public Health Information Development Unit &copy; 2014",
+          "name": "PHIDU: Prevalence of Selected Health Risk Factors/Chronic Diseases by SA2 2011-2013",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC-SA 3.0 AU](/images/by-nc-sa.png)<br>[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)"
+            }
+          ]
+        }
+      ],
+      "type": "group",
+      "name": "Health and Wellbeing",
+      "isOpen": "true"
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "catalog": [
+    {
+      "items": [
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:natsem_financial_indicators_synthetic_sa2_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling &copy; 2018",
+          "name": "NATSEM Financial Indicators: Sythetic Estimates SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC 4.0](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:natsem_social_indicators_dependency_rate_sa2_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling &copy; 2018",
+          "name": "NATSEM Social and Economic Indicators: Dependency Rate SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 4.0](/images/by.png)<br>[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:natsem_social_indicators_migration_rate_sa2_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling &copy; 2018",
+          "name": "NATSEM Social and Economic Indicators: Migration Rate SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 4.0](/images/by.png)<br>[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:natsem_social_indicators_employment_sa2_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling &copy; 2018",
+          "name": "NATSEM Social and Economic Indicators: Employment Rate SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 4.0](/images/by.png)<br>[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:natsem_social_indicators_estimates_sa2_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling &copy; 2018",
+          "name": "NATSEM Social and Economic Indicators: Synthetic Estimates SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC 4.0](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:natsem_social_indicators_volunteering_sa2_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling &copy; 2018",
+          "name": "NATSEM Social and Economic Indicators: Volunteering SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 4.0](/images/by.png)<br>[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:natsem_social_indicators_unemployment_sa2_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling &copy; 2018",
+          "name": "NATSEM Social and Economic Indicators: Unemployment Rate SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 4.0](/images/by.png)<br>[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:natsem_indigenous_indicators_sa2_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling &copy; 2018",
+          "name": "NATSEM Social and Economic Indicators: Indigenous Indicators SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 4.0](/images/by.png)<br>[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:lga_estimating_homelessness_2011",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia - Australian Bureau of Statistics &copy; 2018",
+          "name": "ABS Estimating Homelessness by LGA 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            },
+            {
+              "name": "Field Metadata",
+              "content": "| title |description |\n| --- | --- |\n| lga_code11 | Local Government Area (LGA) code 2011. |\n| lga_name11 | Local Government Area (LGA) name 2011. |\n| hl_p_homeless_tot | Homeless Operational Group - All homeless persons. |\n| wkb_geometry | Geometry field. |\n"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:lga_estimating_homelessness_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia - Australian Bureau of Statistics &copy; 2018",
+          "name": "ABS Estimating Homelessness by LGA 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            },
+            {
+              "name": "Field Metadata",
+              "content": "| title |description |\n| --- | --- |\n| lga_code16 | Local Government Area (LGA) code 2016. |\n| lga_name16 | Local Government Area (LGA) name 2016. |\n| hl_p_homeless_tot | Homeless Operational Group - All homeless persons. |\n| wkb_geometry | Geometry field. |\n"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:sa2_estimating_homelessness_2011",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia - Australian Bureau of Statistics &copy; 2018",
+          "name": "ABS Estimating Homelessness by SA2 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            },
+            {
+              "name": "Field Metadata",
+              "content": "| title |description |\n| --- | --- |\n| sa2_main11 | Statistical Area Level 2 (SA2) code 2011. |\n| sa2_name_2011 | Statistical Area Level 2 (SA2) name 2011. |\n| hl_p_homeless_tot | Homeless Operational Group - All homeless persons. |\n| wkb_geometry | Geometry field. |\n"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:sa2_estimating_homelessness_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia - Australian Bureau of Statistics &copy; 2018",
+          "name": "ABS Estimating Homelessness by SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            },
+            {
+              "name": "Field Metadata",
+              "content": "| title |description |\n| --- | --- |\n| sa2_main16 | Statistical Area Level 2 (SA2) code 2016. |\n| sa2_name_2016 | Statistical Area Level 2 (SA2) name 2016. |\n| hl_p_homeless_tot | Homeless Operational Group - All homeless persons. |\n| wkb_geometry | Geometry field. |\n"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:rai_city_3br",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "SGS Ecomonics & Planning",
+          "name": "SGS City-Adjusted Rental Affordability Index 3 Bedroom 2017",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC 2.0 AU](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 2.0 Australia (CC BY-NC 2.0 AU)](https://creativecommons.org/licenses/by-nc/2.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:rai_city_total",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "SGS Ecomonics & Planning",
+          "name": "SGS City-Adjusted Rental Affordability Index Total 2017",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC 2.0 AU](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 2.0 Australia (CC BY-NC 2.0 AU)](https://creativecommons.org/licenses/by-nc/2.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:rai_national_3br",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "SGS Ecomonics & Planning",
+          "name": "SGS National Rental Affordability Index 3 Bedroom 2017",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC 2.0 AU](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 2.0 Australia (CC BY-NC 2.0 AU)](https://creativecommons.org/licenses/by-nc/2.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:rai_national_total",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "SGS Ecomonics & Planning",
+          "name": "SGS National Rental Affordability Index Total 2017",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC 2.0 AU](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 2.0 Australia (CC BY-NC 2.0 AU)](https://creativecommons.org/licenses/by-nc/2.0/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:sa1_seifa_ieo_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia - Australian Bureau of Statistics &copy; 2018",
+          "name": "ABS SEIFA IEO by SA1 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:sa1_seifa_ier_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia - Australian Bureau of Statistics &copy; 2018",
+          "name": "ABS SEIFA IER by SA1 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:sa1_seifa_irsd_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia - Australian Bureau of Statistics &copy; 2018",
+          "name": "ABS SEIFA IRSD by SA1 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:sa1_seifa_irsad_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia - Australian Bureau of Statistics &copy; 2018",
+          "name": "ABS SEIFA IRSAD by SA1 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:sa2_seifa_ieo_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia - Australian Bureau of Statistics &copy; 2018",
+          "name": "ABS SEIFA IEO by SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:sa2_seifa_ier_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia - Australian Bureau of Statistics &copy; 2018",
+          "name": "ABS SEIFA IER by SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:sa2_seifa_irsd_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia - Australian Bureau of Statistics &copy; 2018",
+          "name": "ABS SEIFA IRSD by SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:sa2_seifa_irsad_2016",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia - Australian Bureau of Statistics &copy; 2018",
+          "name": "ABS SEIFA IRSAD by SA2 2016",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_ieo_aust_sa1",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
+          "name": "ABS SEIFA IEO by SA1 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_ieo_aust_sa2",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
+          "name": "ABS SEIFA IEO by SA2 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_ier_aust_sa1",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
+          "name": "ABS SEIFA IER by SA1 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_ier_aust_sa2",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
+          "name": "ABS SEIFA IER by SA2 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_irsad_aust_sa1",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
+          "name": "ABS SEIFA IRSAD by SA1 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_irsad_aust_sa2",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
+          "name": "ABS SEIFA IRSAD by SA2 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_irsd_aust_sa1",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
+          "name": "ABS SEIFA IRSD by SA1 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:seifa_irsd_aust_sa2",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "Commonwealth of Australia (Australian Bureau of Statistics) 2011",
+          "name": "ABS SEIFA IRSD by SA2 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:natsem_oecd_iifs",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling &copy; 2011",
+          "name": "NATSEM OECD Indicators: Synthetic Estimates SA2 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC 4.0](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:natsem_oecd_employment",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling, (2011)",
+          "name": "NATSEM OECD Indicators: Employment SA2 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC 4.0](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
+            }
+          ]
+        },
+        {
+          "opacity": "0.6",
+          "layers": "nationalmap:natsem_oecd_unemployment",
+          "url": "https://map.aurin.org.au/geoserver/ows",
+          "type": "wms",
+          "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling, (2011)",
+          "name": "NATSEM OECD Indicators: Unemployment SA2 2011",
+          "info": [
+            {
+              "name": "Licence",
+              "content": "![CC BY-NC 4.0](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
+            }
+          ]
+        }
+      ],
+      "type": "group",
+      "name": "Socio-Economic Indices",
+      "isOpen": "true"
+    }
+  ]
+}
