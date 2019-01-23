@@ -24,5 +24,9 @@ module.exports = {
         "https://raw.githubusercontent.com/envris/National-Map-Viewer/master/soe_generated.json"
       ).getBody("utf8")
     )
-  )
+  ),
+  aurin_socioeconomic: require("./aurin_003_Socio-Economic_Indices.json"),
+  aurin_vulnerability: require("./aurin_004_Vulnerability_Indicators.json"),
+  aurin_wellbeing: require("./aurin_002_Health_And_Wellbeing.json"),
+  aurin_population_density: require("./aurin_001_Population_Density.json")
 };

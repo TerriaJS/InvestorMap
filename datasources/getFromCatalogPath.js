@@ -1,5 +1,8 @@
 "use strict";
-
+/*
+  json: Complete catalog file.
+  path: array of path name elements to be navigated in order, top down.
+*/
 function getFromCatalogPath(json, path) {
   const catalog = json.catalog;
   if (!catalog) {
