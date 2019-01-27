@@ -21,6 +21,7 @@ module.exports = {
         require("./shared/satellite_imagery"),
         require("./shared/climate"),
         require("./shared/landscape_water"),
+        ...require("./shared/misc.js"),
         require("./abs")
       ]
     },
