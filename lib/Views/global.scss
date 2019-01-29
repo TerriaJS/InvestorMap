@@ -239,5 +239,13 @@ body {
             background: $color-secondary !important;
         }
     }
+    
+    .tjs-full_screen_button__btn{
+            &:before{
+                    display: 'block';
+                    content: 'Hide';
+
+            }
+    }
 
 }
