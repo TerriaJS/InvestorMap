@@ -26,7 +26,8 @@
         "static.nationalmap.nicta.com.au",
         "tern.org.au",
         "www.abc.net.au",
-        "www.dptiapps.com.au"
+        "www.dptiapps.com.au",
+        "droughtreliefpublic.blob.core.windows.net"
     ],
     "initPaths": [
         "node_modules/nationalmap-catalog/build"
