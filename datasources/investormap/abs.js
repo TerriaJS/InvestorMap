@@ -10,7 +10,8 @@ module.exports = {
         {
           type: "csv",
           name: "Employment by Industry",
-          url: "data/abs/industryofemployment.csv",
+          url:
+            "https://droughtreliefpublic.blob.core.windows.net/nationalmapdatapublic/socio-economic-indicators/Industry%20of%20employment.csv",
           description:
             "A person’s industry of employment relates to the activities undertaken by the business for which they work. Where a person works in more than one job, the industry classification relates to their main job – the one in which they usually work the most hours. Data is presented as the percentage of the population residing in the LGA employed by an industry.",
           tableStyle: {
