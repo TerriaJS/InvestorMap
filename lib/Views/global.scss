@@ -239,6 +239,10 @@ body {
             background: $color-secondary !important;
         }
     }
+
+    .tjs-full_screen_button__minifiedFullscreenBtnWrapper{
+        top: 20px;
+    }
     .tjs-full_screen_button__toggleWorkbench{
         display: block;
         color: #ffffff;
