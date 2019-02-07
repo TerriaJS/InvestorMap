@@ -382,7 +382,7 @@ gulp.task('push-config-and-catalog', function() {
     runCmd('git', ['commit', '-m', 'Update initialization URL'], true);
     runCmd('git', ['push', 'origin', '_testing'], true);
     const date=releaseLabel();
-    runCmd('gitz', ['tag', '-a', `${DATE}`, '-m', `${date} release`], true);
+    runCmd('git', ['tag', '-a', `${date}`, '-m', `${date} release`], true);
 });
 
 gulp.task('release-catalog', ['build-catalog', 'publish-catalog', 'update-init-url', 'push-config-and-catalog']);
