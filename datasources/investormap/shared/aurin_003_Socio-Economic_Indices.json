@@ -2,7 +2,7 @@
   "catalog": [
     {
       "items": [
-        {
+       {
           "opacity": "0.6",
           "layers": "nationalmap:natsem_financial_indicators_synthetic_sa2_2016",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -14,9 +14,9 @@
               "name": "Licence",
               "content": "![CC BY-NC 4.0](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
             }
-          ]
-        },
-        {
+         ]
+       },
+       {
           "opacity": "0.6",
           "layers": "nationalmap:natsem_social_indicators_dependency_rate_sa2_2016",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -28,9 +28,9 @@
               "name": "Licence",
               "content": "![CC BY 4.0](/images/by.png)<br>[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
             }
-          ]
-        },
-        {
+         ]
+       },
+       {
           "opacity": "0.6",
           "layers": "nationalmap:natsem_social_indicators_migration_rate_sa2_2016",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -42,9 +42,9 @@
               "name": "Licence",
               "content": "![CC BY 4.0](/images/by.png)<br>[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
             }
-          ]
-        },
-        {
+         ]
+       },
+       {
           "opacity": "0.6",
           "layers": "nationalmap:natsem_social_indicators_employment_sa2_2016",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -56,9 +56,9 @@
               "name": "Licence",
               "content": "![CC BY 4.0](/images/by.png)<br>[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
             }
-          ]
-        },
-        {
+         ]
+       },
+       {
           "opacity": "0.6",
           "layers": "nationalmap:natsem_social_indicators_estimates_sa2_2016",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -70,9 +70,9 @@
               "name": "Licence",
               "content": "![CC BY-NC 4.0](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
             }
-          ]
-        },
-        {
+         ]
+       },
+       {
           "opacity": "0.6",
           "layers": "nationalmap:natsem_social_indicators_volunteering_sa2_2016",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -84,9 +84,9 @@
               "name": "Licence",
               "content": "![CC BY 4.0](/images/by.png)<br>[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
             }
-          ]
-        },
-        {
+         ]
+       },
+       {
           "opacity": "0.6",
           "layers": "nationalmap:natsem_social_indicators_unemployment_sa2_2016",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -98,9 +98,9 @@
               "name": "Licence",
               "content": "![CC BY 4.0](/images/by.png)<br>[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
             }
-          ]
-        },
-        {
+         ]
+       },
+       {
           "opacity": "0.6",
           "layers": "nationalmap:natsem_indigenous_indicators_sa2_2016",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -112,9 +112,9 @@
               "name": "Licence",
               "content": "![CC BY 4.0](/images/by.png)<br>[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)"
             }
-          ]
-        },
-        {
+         ]
+       },
+       {
           "opacity": "0.6",
           "layers": "nationalmap:lga_estimating_homelessness_2011",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -125,8 +125,7 @@
             {
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
-            },
-            {
+            }, {
               "name": "Field Metadata",
               "content": "| title |description |\n| --- | --- |\n| lga_code11 | Local Government Area (LGA) code 2011. |\n| lga_name11 | Local Government Area (LGA) name 2011. |\n| hl_p_homeless_tot | Homeless Operational Group - All homeless persons. |\n| wkb_geometry | Geometry field. |\n"
             }
@@ -143,8 +142,7 @@
             {
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
-            },
-            {
+            }, {
               "name": "Field Metadata",
               "content": "| title |description |\n| --- | --- |\n| lga_code16 | Local Government Area (LGA) code 2016. |\n| lga_name16 | Local Government Area (LGA) name 2016. |\n| hl_p_homeless_tot | Homeless Operational Group - All homeless persons. |\n| wkb_geometry | Geometry field. |\n"
             }
@@ -161,8 +159,7 @@
             {
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
-            },
-            {
+            }, {
               "name": "Field Metadata",
               "content": "| title |description |\n| --- | --- |\n| sa2_main11 | Statistical Area Level 2 (SA2) code 2011. |\n| sa2_name_2011 | Statistical Area Level 2 (SA2) name 2011. |\n| hl_p_homeless_tot | Homeless Operational Group - All homeless persons. |\n| wkb_geometry | Geometry field. |\n"
             }
@@ -179,13 +176,12 @@
             {
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
-            },
-            {
+            }, {
               "name": "Field Metadata",
               "content": "| title |description |\n| --- | --- |\n| sa2_main16 | Statistical Area Level 2 (SA2) code 2016. |\n| sa2_name_2016 | Statistical Area Level 2 (SA2) name 2016. |\n| hl_p_homeless_tot | Homeless Operational Group - All homeless persons. |\n| wkb_geometry | Geometry field. |\n"
             }
           ]
-        },
+        }, 
         {
           "opacity": "0.6",
           "layers": "nationalmap:rai_city_3br",
@@ -198,7 +194,7 @@
               "name": "Licence",
               "content": "![CC BY-NC 2.0 AU](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 2.0 Australia (CC BY-NC 2.0 AU)](https://creativecommons.org/licenses/by-nc/2.0/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -212,7 +208,7 @@
               "name": "Licence",
               "content": "![CC BY-NC 2.0 AU](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 2.0 Australia (CC BY-NC 2.0 AU)](https://creativecommons.org/licenses/by-nc/2.0/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -226,7 +222,7 @@
               "name": "Licence",
               "content": "![CC BY-NC 2.0 AU](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 2.0 Australia (CC BY-NC 2.0 AU)](https://creativecommons.org/licenses/by-nc/2.0/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -240,7 +236,7 @@
               "name": "Licence",
               "content": "![CC BY-NC 2.0 AU](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 2.0 Australia (CC BY-NC 2.0 AU)](https://creativecommons.org/licenses/by-nc/2.0/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -254,7 +250,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -268,7 +264,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -282,7 +278,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -296,7 +292,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -310,7 +306,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -324,7 +320,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -338,7 +334,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -352,7 +348,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -366,7 +362,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -380,7 +376,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -394,7 +390,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -408,7 +404,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -422,7 +418,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -436,7 +432,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -450,7 +446,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -464,7 +460,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -478,7 +474,7 @@
               "name": "Licence",
               "content": "![CC BY-NC 4.0](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -492,7 +488,7 @@
               "name": "Licence",
               "content": "![CC BY-NC 4.0](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -506,7 +502,7 @@
               "name": "Licence",
               "content": "![CC BY-NC 4.0](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
             }
-          ]
+	  ]
         }
       ],
       "type": "group",

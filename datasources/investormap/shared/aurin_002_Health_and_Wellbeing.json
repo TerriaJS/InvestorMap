@@ -4,17 +4,17 @@
       "items": [
         {
           "opacity": "0.6",
-          "layers": "nationalmap:natsem_wellbeing_indicators_synthetic_sa2_2016",
+          "layers": "nationalmap:natsem_life_satisfaction_indicators_synthetic_sa2_2016",
           "url": "https://map.aurin.org.au/geoserver/ows",
           "type": "wms",
           "dataCustodian": "University of Canberra - National Centre for Social and Economic Modelling &copy; 2018",
-          "name": "NATSEM Health and Wellbeing Indicators: Synthetic Estimates SA2 2016",
+          "name": "NATSEM Life Satisfaction Indicators: Synthetic Estimates SA2 2016",
           "info": [
             {
               "name": "Licence",
               "content": "![CC BY-NC 4.0](/images/by-nc.png)<br>[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)"
             }
-          ]
+         ]
         },
         {
           "opacity": "0.6",
@@ -27,11 +27,11 @@
             {
               "name": "Licence",
               "content": "![CC BY-NC-SA 3.0 AU](/images/by-nc-sa.png)<br>[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)"
-            }
-          ]
+            } 
+	  ]
         },
-        {
-          "opacitcity": "0.6",
+	{
+	  "opacitcity": "0.6",
           "layers": "nationalmap:pha_ckd_prevalence_by_sex_2011_2012",
           "url": "https://map.aurin.org.au/geoserver/ows",
           "type": "wms",
@@ -41,11 +41,11 @@
             {
               "name": "Licence",
               "content": "![CC BY-NC-SA 3.0 AU](/images/by-nc-sa.png)<br>[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)"
-            }
-          ]
+            }    
+	  ]
         },
-        {
-          "opacity": "0.6",
+	{
+	  "opacity": "0.6",
           "layers": "nationalmap:sa3_cancer_incidence_2009_2013",
           "url": "https://map.aurin.org.au/geoserver/ows",
           "type": "wms",
@@ -56,7 +56,7 @@
               "name": "Licence",
               "content": "![CC BY 3.0 AU](/images/by.png)<br>[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](https://creativecommons.org/licenses/by/3.0/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -70,9 +70,9 @@
               "name": "Licence",
               "content": "![CC BY 3.0 AU](/images/by.png)<br>[Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)](https://creativecommons.org/licenses/by/3.0/au/)"
             }
-          ]
+	  ]
         },
-        {
+ 	{
           "opacity": "0.6",
           "layers": "nationalmap:phidu_avoidable_mortality_by_cause_lga_2011_15",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -86,7 +86,7 @@
             }
           ]
         },
-        {
+  	{
           "opacity": "0.6",
           "layers": "nationalmap:phidu_premature_mortality_by_cause_lga_2011_15",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -100,7 +100,7 @@
             }
           ]
         },
-        {
+  	{
           "opacity": "0.6",
           "layers": "nationalmap:phidu_child_youth_health_lga_2011_16",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -113,8 +113,8 @@
               "content": "![CC BY-NC-SA 3.0 AU](/images/by-nc-sa.png)<br>[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU)](https://creativecommons.org/licenses/by-nc-sa/3.0/au/)"
             }
           ]
-        },
-        {
+        }, 
+ 	{
           "opacity": "0.6",
           "layers": "nationalmap:phidu_prevalence_selected_chronic_diseases_lga_2011_12",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -128,7 +128,7 @@
             }
           ]
         },
-        {
+ 	{
           "opacity": "0.6",
           "layers": "nationalmap:phidu_admissions_principal_diagnosis_persons_lga_2014_15",
           "url": "https://map.aurin.org.au/geoserver/ows",
@@ -142,7 +142,7 @@
             }
           ]
         },
-        {
+ 	{
           "opacity": "0.6",
           "layers": "nationalmap:phidu_estimates_risk_factors_adults_lga_2014_15",
           "url": "https://map.aurin.org.au/geoserver/ows",
