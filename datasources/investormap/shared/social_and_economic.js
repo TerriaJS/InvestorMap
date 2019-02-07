@@ -77,6 +77,16 @@ const socioeconomicIndicesGroup = socialAndEconomic.items.find(i =>
   i.name.match(/Socio-Economic Indices/i)
 );
 
+const absItemRenames = {
+  'by Local Government Area'     : 'ABS SEIFA by LGA 2011',
+  'by Postal Area Code'          : 'ABS SEIFA by Postal Area 2011',
+  'by State Suburb Code'         : 'ABS SEIFA by State Suburb 2011',
+  'by Statistical Area (level 2)': 'ABS SEIFA by SA2 2011',
+}
+socioeconomicIndicesGroup.items.forEach(item => {
+  item.name = absItemRenames[item.name] || item.name;
+});
+
 socioeconomicIndicesGroup.items.push(...getAurinSocioeconomic());
 
 module.exports = socialAndEconomic;
