@@ -15,7 +15,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -30,7 +30,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -45,7 +45,7 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
+	  ]
         },
         {
           "opacity": "0.6",
@@ -60,8 +60,8 @@
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
             }
-          ]
-        },
+	  ]
+        }, 
         {
           "name": "Estimated Residential Population (ERP)",
           "type": "csv",
@@ -81,8 +81,7 @@
             {
               "name": "Licence",
               "content": "![CC BY 2.5 AU](/images/by.png)<br>[Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU)](https://creativecommons.org/licenses/by/2.5/au/)"
-            },
-            {
+            }, {
               "name": "Data Description",
               "content": "Estimated Resident Population (ERP) is the official measure of the Australian population. ERP for sub-state regions (including SA2s and LGAs) is published annually, with a reference date of 30 June. ERP is the official measure of the Australian population, based on the concept of usual residence. It refers to all people, regardless of nationality, citizenship or legal status, who usually live in Australia, with the exception of foreign diplomatic personnel and their families. It includes usual residents who are overseas for less than 12 months over a 16-month period. It excludes those who are in Australia for less than 12 months over a 16-month period. Data is final for 1991 to 2011, revised for 2012 to 2014, and preliminary for 2015. Periodicity: Annual. Data current as of 30/03/2016.<br><br> Refer to the data source for further information, the [Australian Bureau of Statistics](http://www.abs.gov.au/AUSSTATS/abs@.nsf/Explanatory%20Notes/3218.0) or contact the National Information and Referral Services on 1300 135 070. <br><br>See: [AURIN CKAN](http://data.aurin.org.au/dataset/au-govt-abs-erp-2004-2015-aust-sa2-sa2)"
             }

@@ -50,7 +50,7 @@ function getAurinSocioeconomic() {
     ...layersFromCatalog(
       externalCatalogs.aurin_wellbeing,
       "Health and Wellbeing",
-      ["NATSEM Health and Wellbeing Indicators: Synthetic Estimates SA2 2016"]
+      ["NATSEM Life Satisfaction Indicators: Synthetic Estimates SA2 2016"]
     )
   );
   ret.push({
