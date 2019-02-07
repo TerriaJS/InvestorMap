@@ -7,6 +7,7 @@ var fs = require('fs');
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var path = require('path');
+const shell = require('shelljs');
 
 var minNode = require('./package.json').engines.node;
 if (!require('semver').satisfies(process.version, minNode)) {
@@ -336,6 +337,55 @@ gulp.task('check-terriajs-dependencies', function() {
     syncDependencies(appPackageJson.devDependencies, terriaPackageJson, true);
 });
 
+function runCmd(cmd, args, echo) {
+    const spawnSync = require('child_process').spawnSync;
+    const ret = spawnSync(cmd, args);
+    if (echo) {
+        console.log(ret.stdout.toString());
+    }
+    if (ret.status) {
+        console.error(ret.stderr.toString());
+        throw('"' + args.join(' ') + '" exited with code ' + ret.status);
+    }
+    return ret;
+}
+
+function releaseLabel() {
+    return process.env.DATE || runCmd('date', ['+%Y-%m-%d']).stdout.toString().trim();
+}
+
+gulp.task('publish-catalog', function() {
+    const date = releaseLabel();
+    runCmd('gzip', ['--force', '--keep', 'wwwroot/init/investormap.json']);
+    runCmd('aws', ['s3', 
+        '--profile', 'nationalmap', 
+        'cp', 
+        '--content-encoding', 'gzip', 
+        '--content-type', 'application/json', 
+        'wwwroot/init/investormap.json.gz', 
+        `s3://static.nationalmap.nicta.com.au/investormap/init/${date}.json`], 
+    true);
+    shell.rm('wwwroot/init/investormap.json.gz');
+    const initUrl = `http://static.nationalmap.nicta.com.au/investormap/init/${date}.json`;
+    console.log(`Published ${initUrl}`);    
+});
+
+gulp.task('update-init-url', function() {
+    const date = releaseLabel();
+    shell.sed('-i', /init\/\d+-\d+-\d+.json/, `init/${date}.json`, 'wwwroot/config.json');
+    console.log(`Updated wwwroot/config.json to use init/${date}.json`);
+});
+
+gulp.task('push-config-and-catalog', function() {
+    shell.exec('git add wwwroot/init/investormap*.json');
+    runCmd('git', ['add', 'wwwroot/config.json']);
+    runCmd('git', ['commit', '-m', 'Update initialization URL'], true);
+    runCmd('git', ['push', 'origin', '_testing'], true);
+    const date=releaseLabel();
+    runCmd('gitz', ['tag', '-a', `${DATE}`, '-m', `${date} release`], true);
+});
+
+gulp.task('release-catalog', ['build-catalog', 'publish-catalog', 'update-init-url', 'push-config-and-catalog']);
 
 function syncDependencies(dependencies, targetJson, justWarn) {
     for (var dependency in dependencies) {
