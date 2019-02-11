@@ -240,4 +240,30 @@ body {
         }
     }
 
+    .tjs-full_screen_button__minifiedFullscreenBtnWrapper{
+        top: 14px;
+    }
+    .tjs-full_screen_button__toggleWorkbench{
+        display: block;
+        color: #ffffff;
+        transform: translateZ(1000px) rotate(90deg);
+        z-index: 10;
+        position: absolute;
+        left: 0px;
+        text-transform: uppercase;
+        top: 17px;
+        font-size: 14px;
+        pointer-events: none;
+        cursor: pointer;
+    }
+    .tjs-full_screen_button__minified{
+       &, &:hover, &:focus{
+        padding: 20px 15px 20px 0;
+        border-radius: 0 5px 5px 0;
+        transform: perspective(10px) rotateY(5deg);
+      }
+      svg{
+       margin-left: -2px;
+      }
+   }
 }
