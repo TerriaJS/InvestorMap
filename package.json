@@ -62,7 +62,7 @@
     "style-loader": "^0.19.1",
     "svg-sprite-loader": "^3.4.0",
     "sync-request": "^6.0.0",
-    "terriajs": "github:terriajs/terriajs#2917c4e9e04a1fc5c0fc",
+    "terriajs": "6.4.0",
     "terriajs-catalog-editor": "^0.2.0",
     "terriajs-cesium": "1.53.0",
     "terriajs-schema": "latest",
