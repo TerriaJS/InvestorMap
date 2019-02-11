@@ -6,8 +6,12 @@
   color: #636e72;
   z-index: 9999;
   position: absolute;
-  bottom: 100px;
+  bottom: 25px;
   right: 20px;
+  margin-bottom: 4px;
+  @media screen and (min-width: $sm) {
+    bottom: 96px;
+  }
 }
 
 .feedback__type{
