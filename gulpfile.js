@@ -337,15 +337,15 @@ gulp.task('check-terriajs-dependencies', function() {
     syncDependencies(appPackageJson.devDependencies, terriaPackageJson, true);
 });
 
-function runCmd(cmd, args, echo) {
+function runCmd(cmd, args, echo, ignoreStatus) {
     const spawnSync = require('child_process').spawnSync;
     const ret = spawnSync(cmd, args);
     if (echo) {
         console.log(ret.stdout.toString());
     }
-    if (ret.status) {
+    if (ret.status && !ignoreStatus) {
         console.error(ret.stderr.toString());
-        throw('"' + args.join(' ') + '" exited with code ' + ret.status);
+        throw('"' + cmd + args.map(a => `'${a}'`).join(' ') + '" exited with code ' + ret.status);
     }
     return ret;
 }
@@ -379,8 +379,8 @@ gulp.task('update-init-url', function() {
 gulp.task('push-config-and-catalog', function() {
     shell.exec('git add wwwroot/init/investormap*.json');
     runCmd('git', ['add', 'wwwroot/config.json']);
-    runCmd('git', ['commit', '-m', 'Update initialization URL'], true);
-    runCmd('git', ['push', 'origin', '_testing'], true);
+    runCmd('git', ['commit', '-m', 'Update initialization URL'], true, true);
+    runCmd('git', ['push', 'origin', 'master'], true);
     const date=releaseLabel();
     runCmd('git', ['tag', '-a', `${date}`, '-m', `${date} release`], true);
 });
