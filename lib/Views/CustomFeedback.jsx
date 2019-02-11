@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 import FeedbackForm from './FeedbackForm';
 import Styles from './custom-feedback.scss';
 import Icon from "terriajs/lib/ReactViews/Icon.jsx";
+import { Medium } from 'terriajs/lib/ReactViews/Generic/Responsive.jsx';
 import classNames from "classnames";
 
 const CustomFeedback = createReactClass({
@@ -51,7 +52,10 @@ const CustomFeedback = createReactClass({
         });
 
       const header = (<div className={Styles.header}>
-                          <h4 className={Styles.title}> <Icon glyph={Icon.GLYPHS.feedback}/>Contact Austrade</h4>
+                          <h4 className={Styles.title}>
+                            <Icon glyph={Icon.GLYPHS.feedback}/>
+                            Contact Austrade
+                          </h4>
                           <button className={Styles.btnClose} onClick={this.onDismiss} title='close feedback'>
                               <Icon glyph={Icon.GLYPHS.close} />
                           </button>
@@ -81,7 +85,7 @@ const CustomFeedback = createReactClass({
             <div className={Styles.feedbackButton}>
                 <button type='button' className={Styles.btnFeedback} onClick={this.onOpenFeedback}>
                     <Icon glyph={Icon.GLYPHS.feedback}/>
-                    <span>Contact Austrade</span>
+                   <Medium><span>Contact Austrade</span></Medium>
                 </button>
             </div>
             </div>
