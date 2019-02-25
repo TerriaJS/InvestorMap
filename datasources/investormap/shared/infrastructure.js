@@ -30,7 +30,7 @@ module.exports = {
       name: "Liquid Fuel Facilities",
       type: "wms-getCapabilities",
       url:
-        "http://services.ga.gov.au/site_3/services/Liquid_Fuel_Facilities/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+        "http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WMSServer?request=GetCapabilities&service=WMS"
     }
   ]
 };

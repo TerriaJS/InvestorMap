@@ -25,7 +25,7 @@ module.exports = {
           name: "Waste Water Treatment Facilities",
           type: "wms",
           url:
-            "http://services.ga.gov.au/site_3/services/Wastewater_Treatment_Facilities/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+            "http://services.ga.gov.au/gis/services/Wastewater_Treatment_Facilities/MapServer/WMSServer?request=GetCapabilities&service=WMS",
           layers: "National_Wastewater_Treatment_Facilities"
         }
       ]
