@@ -26,14 +26,14 @@ module.exports = {
           name: "Land Cover",
           type: "wms",
           url:
-            "http://services.ga.gov.au/site_1/services/Land_Cover_WM/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+            "http://services.ga.gov.au/gis/services/Land_Cover_WM/MapServer/WMSServer?request=GetCapabilities&service=WMS",
           layers: "Land_Cover_Class"
         },
         {
           name: "Homesteads 1M",
           type: "esri-mapServer",
           url:
-            "http://services.ga.gov.au/site_7/rest/services/NM_Labelling_and_Boundaries/MapServer/",
+            "http://services.ga.gov.au/gis/rest/services/NM_Labelling_and_Boundaries/MapServer/",
           layers: "23"
         },
         ...require("./sdmx_items")

@@ -100,7 +100,7 @@ module.exports = {
       name: "Surface Geology",
       type: "wms-getCapabilities",
       url:
-        "http://services.ga.gov.au/site_1/services/GA_Surface_Geology/MapServer/WMSServer",
+        "http://services.ga.gov.au/gis/services/GA_Surface_Geology/MapServer/WMSServer",
       dataCustodian: "[Geoscience Australia](http://www.ga.gov.au/)",
       info: [
         {
