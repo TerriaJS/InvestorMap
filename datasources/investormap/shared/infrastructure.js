@@ -11,7 +11,7 @@ function getElectricity() {
       "Electricity Infrastructure",
       "Transmission"
     ]),
-    { name: "Electricity" }
+    { name: "Transmission" }
   );
 
   electricity.items = electricity.items.filter(
@@ -20,11 +20,36 @@ function getElectricity() {
   return electricity;
 }
 
+function getNetworkOpportunities() {
+  const networkOpportunities = Object.assign(
+    {},
+    getFromCatalogPath(externalCatalogs.aremi, [
+      "Electricity Infrastructure",
+      "Network Opportunities"
+    ]),
+    { name: "Network Opportunities" }
+  );
+
+  networkOpportunities.items = networkOpportunities.items.filter(
+    item =>
+      item.name !== "New Generator Connection Capacity" &&
+      item.name !== "Supporting Information" &&
+      item.name !== "2016 Constraint Maps"
+  );
+
+  return networkOpportunities;
+}
+
 module.exports = {
   name: "Infrastructure",
   type: "group",
   items: [
-    getElectricity(),
+    {
+      name: "Electricity",
+      type: "group",
+      items: [getElectricity(), getNetworkOpportunities()]
+    },
+    // getElectricity(),
     require("./transport"),
     {
       name: "Liquid Fuel Facilities",
