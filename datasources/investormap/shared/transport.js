@@ -12,7 +12,7 @@ module.exports = {
           name: "Airport Runway Centrelines and Landing Grounds",
           type: "esri-mapServer",
           url:
-            "http://services.ga.gov.au/site_7/rest/services/NM_Transport_Infrastructure/MapServer",
+            "http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer",
           layers:
             "Airport_Runway_Centrelines_and_Landing_Grounds_Line_Features",
           opacity: 1.0,
@@ -36,7 +36,7 @@ module.exports = {
           name: "Aviation Facilities",
           type: "wms-getCapabilities",
           url:
-            "http://services.ga.gov.au/site_3/services/Aviation_Facilities/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+            "http://services.ga.gov.au/gis/services/Aviation_Facilities/MapServer/WMSServer?request=GetCapabilities&service=WMS"
         }
       ]
     },
