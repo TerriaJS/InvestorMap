@@ -2489,7 +2489,7 @@
         },
         "TRA_2018": {
             "layerName": "Tourism_Regions_2018",
-            "server": "https://vector-tiles-2018-11-08.terria.io/Tourism_Regions_2018/{z}/{x}/{y}.pbf",
+            "server": "https://vector-tiles.terria.io/Tourism_Regions_2018/{z}/{x}/{y}.pbf",
             "serverType": "MVT",
             "serverMaxNativeZoom": 12,
             "serverMaxZoom": 28,

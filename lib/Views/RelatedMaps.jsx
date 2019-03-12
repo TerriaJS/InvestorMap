@@ -58,6 +58,19 @@ function RelatedMaps(props) {
                 </p>
             </div>
 
+            <div className={classNames(PanelStyles.section, Styles.section)}>
+                <a target="_blank" href="https://map.drought.gov.au">
+                    <img className={Styles.image} src={(require('../../wwwroot/images/droughtmap.jpg'))}
+                        alt="National Drought Map"/>
+                </a>
+                
+                <a target="_blank" className={Styles.link} href="https://map.drought.gov.au">National Drought Map</a>
+
+                <p>
+                    The DroughtMap is a platform built for the Australian joint Agency Drought Taskforce to assist with planning and 
+                    management of drought effects in Australia.
+                </p>
+            </div>
 
             <div className={classNames(PanelStyles.section, Styles.section)}>
                 <a target="_blank" href="http://www.neii.gov.au/viewer/">
