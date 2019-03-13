@@ -221,7 +221,10 @@ body {
         background:hsl(214, 15%, 19%); // so it's visible over legends etc (this should be a variable)
         left: -20px;
         width:100%;
-
+        box-sizing: border-box;
+        margin-top: 20px;
+        margin-left: 20px;
+        z-index: 20;
         a {
             color: $color-primary;
         }

@@ -176,8 +176,6 @@ module.exports = terria.start({
     var div = document.createElement('div');
     div.innerHTML = homeLink;
     div.className = 'austrade';
-    div.style.marginTop = '20px';
-    div.style.marginLeft = '20px';
 
     const sidePanelBody = document.getElementsByClassName("tjs-side-panel__body")[0];
     if (sidePanelBody !== undefined) {
