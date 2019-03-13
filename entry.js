@@ -16,7 +16,7 @@ function loadMainScript() {
             resolve(require('./index'));
         }, function(error) {
             reject(error);
-        }, 'index'); 
+        }, 'index');
     });
 }
 
@@ -39,7 +39,9 @@ function createLoader() {
     loaderDiv.style.backgroundColor ='#383F4D';
     document.body.appendChild(loaderDiv);
 
-    loadMainScript().then(() => {
+    loadMainScript().catch(() => {
+        // Ignore errors and try to show the map anyway
+    }).then(() => {
         loaderDiv.classList.add('loader-ui-hide');
         setTimeout(()=> {
             document.body.removeChild(loaderDiv);
