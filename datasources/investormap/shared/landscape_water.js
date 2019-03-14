@@ -10,6 +10,7 @@ module.exports = {
       layers: "ss_pct",
       url:
         "http://www.bom.gov.au/jsp/awra/thredds/wms/AWRACMS/deciles/month/ss_pct.nc",
+      cacheDuration: "1m",
       type: "wms",
       legendUrl: "data/legends/Lower_soil_moisture.png",
       ignoreUnknownTileErrors: true,
@@ -29,6 +30,7 @@ module.exports = {
       layers: "ss_pct",
       url:
         "http://www.bom.gov.au/jsp/awra/thredds/wms/AWRACMS/deciles/year/ss_pct.nc",
+      cacheDuration: "1m",
       type: "wms",
       legendUrl: "data/legends/Lower_soil_moisture.png",
       ignoreUnknownTileErrors: true,
@@ -48,6 +50,7 @@ module.exports = {
       layers: "rain_day",
       url:
         "http://www.bom.gov.au/jsp/awra/thredds/wms/AWRACMS/deciles/month/rain_day.nc",
+      cacheDuration: "1m",
       type: "wms",
       legendUrl: "data/legends/Precipitation.png",
       ignoreUnknownTileErrors: true,
@@ -67,6 +70,7 @@ module.exports = {
       layers: "rain_day",
       url:
         "http://www.bom.gov.au/jsp/awra/thredds/wms/AWRACMS/deciles/year/rain_day.nc",
+      cacheDuration: "1m",
       type: "wms",
       legendUrl: "data/legends/Precipitation.png",
       ignoreUnknownTileErrors: true,
