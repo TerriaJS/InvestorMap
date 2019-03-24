@@ -4,6 +4,47 @@ const getFromCatalogPath = require("../../getFromCatalogPath");
 
 const externalCatalogs = require("../shared/externalCatalogs");
 
+function geoscienceAustraliaStyleLayers() {
+  // split out styles as individual catalog items. See https://github.com/TerriaJS/InvestorMap/issues/150
+  const styles = [
+    ["phosphate", "Phosphate"],
+    ["uranium", "Uranium"],
+    ["iron_ore", "Iron ore"],
+    ["manganese", "Manganese"],
+    ["lithium", "Lithium"],
+    ["mineral_sands", "Mineral sands"],
+    ["copper", "Copper"],
+    ["bauxite_alumina", "Bauxite & Alumina"],
+    ["graphite", "Graphite"],
+    ["brown_coal", "Brown coal"],
+    ["lead", "Lead"],
+    ["black_coal", "Black coal"],
+    ["vanadium", "Vanadium"],
+    ["nickel", "Nickel"],
+    ["zinc", "Zinc"],
+    ["platinum_group", "Platinum group metals"],
+    ["rare_earth_elements", "Rare earths"],
+    ["precious_metals", "Gold and silver (and other precious metals)"],
+    ["cobalt", "Cobalt"]
+  ];
+  return styles.map(([styleId, title]) => ({
+    name: title,
+    url: "http://52.62.101.149:8080/geoserver/wms",
+    type: "wms",
+    dataCustodian: "[Geoscience Australia](http://www.ga.gov.au/)",
+    info: [
+      {
+        name: "Licence",
+        content:
+          "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+      }
+    ],
+    layers: "erl:CommodityResourceView",
+    styles: `data61:${styleId}`,
+    availableStyles: [] // prevent drop down of other styles
+  }));
+}
+
 module.exports = {
   name: "Mining",
   type: "group",
@@ -15,6 +56,11 @@ module.exports = {
       "Agriculture and Mining",
       "Mineral Exploration"
     ]),
+    {
+      name: "Mineral Resources and Reserves",
+      type: "group",
+      items: geoscienceAustraliaStyleLayers()
+    },
     {
       name: "Mineral Occurrences",
       url: "http://services.ga.gov.au/earthresource/wms",
