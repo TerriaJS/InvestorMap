@@ -50,17 +50,38 @@ module.exports = {
   type: "group",
   preserveOrder: true,
   items: [
+    {
+      name: "Mines and Mineral Deposits – All",
+      type: "csv",
+      url: "data/Resources_and_Energy/mineral_deposits.csv",
+      tableStyle: {
+        dataVariable: "COMMODNAMES",
+        columns: {
+          id: { type: "HIDDEN" },
+          X: { type: "HIDDEN" },
+          Y: { type: "HIDDEN" },
+          ENO: { type: "HIDDEN" },
+          NAME: { type: "HIDDEN" },
+          SYNONYMS: { type: "HIDDEN" },
+          ACCURACY: { type: "HIDDEN" },
+          SIGNIFICANT: { type: "HIDDEN" },
+          SIGNIFICANCE_VALUE: { type: "HIDDEN" },
+          SIGNIFICANCE_CALC_METHOD: { type: "HIDDEN" },
+          ACCESS_CODE: { type: "HIDDEN" }
+        }
+      }
+    },
+    {
+      name: "Mineral Resources and Reserves – Selected",
+      type: "group",
+      items: geoscienceAustraliaStyleLayers()
+    },
     getFromCatalogPath(externalCatalogs.nationalmap, [
       "National Datasets",
       "Land",
       "Agriculture and Mining",
       "Mineral Exploration"
     ]),
-    {
-      name: "Mineral Resources and Reserves",
-      type: "group",
-      items: geoscienceAustraliaStyleLayers()
-    },
     {
       name: "Mineral Occurrences",
       url: "http://services.ga.gov.au/earthresource/wms",
@@ -88,59 +109,6 @@ module.exports = {
         }
       ],
       layers: "ama:mineral_deposits"
-    },
-    {
-      name: "Mines and Mineral Deposits",
-      type: "csv",
-      url: "data/Resources_and_Energy/mineral_deposits.csv",
-      tableStyle: {
-        dataVariable: "COMMODNAMES",
-        columns: {
-          id: { type: "HIDDEN" },
-          X: { type: "HIDDEN" },
-          Y: { type: "HIDDEN" },
-          ENO: { type: "HIDDEN" },
-          NAME: { type: "HIDDEN" },
-          SYNONYMS: { type: "HIDDEN" },
-          ACCURACY: { type: "HIDDEN" },
-          SIGNIFICANT: { type: "HIDDEN" },
-          SIGNIFICANCE_VALUE: { type: "HIDDEN" },
-          SIGNIFICANCE_CALC_METHOD: { type: "HIDDEN" },
-          ACCESS_CODE: { type: "HIDDEN" }
-        }
-      }
-    },
-    {
-      name: "Lithium Projects",
-      type: "csv",
-      url: "datasets/LithiumMines.csv",
-      tableStyle: {
-        dataVariable: "OPERATING_STATUS",
-        columns: {
-          id: { type: "HIDDEN" },
-          ENO: { type: "HIDDEN" },
-          NAME: { type: "HIDDEN" },
-          SYNONYMS: { type: "HIDDEN" },
-          ACCURACY: { type: "HIDDEN" },
-          SIGNIFICANT: { type: "HIDDEN" },
-          SIGNIFICANCE_VALUE: { type: "HIDDEN" },
-          SIGNIFICANCE_CALC_METHOD: { type: "HIDDEN" },
-          ACCESS_CODE: { type: "HIDDEN" },
-          "WEB SITE": { type: "HIDDEN" }
-        }
-      },
-      featureInfoTemplate: {
-        template: `
-<strong>{{NAME}} ({{OPERATING_STATUS}})</strong>
-<table>
-<tr><td>Commodities</td>      <td>{{COMMODNAMES}}</td></tr>
-<tr><td>Operating Status</td> <td>{{OPERATING_STATUS}}</td></tr>
-</table>
-{{#WEB SITE}}
-<strong>See <a href="{{WEB SITE}}">{{WEB SITE}}</a></strong>
-{{/WEB SITE}}
-        `
-      }
     },
     {
       name: "Surface Geology",
