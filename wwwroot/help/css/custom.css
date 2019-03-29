@@ -201,13 +201,13 @@ h2 > a {
 
   .affix {
       position: fixed;
-      text
+
   }
 
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
+/* @media (min-width: @screen-md-min) { ... } */
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -225,42 +225,15 @@ h2 > a {
 }
 
 .navbar-brand {
-<<<<<<< HEAD
-  padding-top: 15px;
-  padding-bottom: 15px;
-||||||| merged common ancestors
-  margin-right: 80px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-=======
   margin-right: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
->>>>>>> nm/master
 }
 
 .navbar-brand {
   height: 50px;
 }
 
-<<<<<<< HEAD
-.navbar-brand img {
-  width: 250px;
-}
-
-.content {
-  margin-top: 80px;
-}
-||||||| merged common ancestors
-.navbar-brand img {
-  width: 170px;
-}
-
-.content {
-  margin-top: 80px;
-}
-=======
->>>>>>> nm/master
 
 .nav-header:first-of-type {
   margin-top: 25px;
@@ -276,4 +249,20 @@ section{
 
 
 
+}
+
+#about-data-providers {
+  margin-left: 80px;
+  line-height: 30px;
+}
+
+#about-data-providers li {
+  list-style-type: none;
+
+}
+
+#about-data-providers img {
+  width: 50px;
+  margin-left: -40px;
+  margin-right: 10px;
 }
