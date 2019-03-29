@@ -49,7 +49,9 @@ On the maps each grid-point represents a rectangular area with sides 0.05⁰ lat
 
 This grid-point analysis technique provides an objective average for each grid square and enables useful estimates in data-sparse areas such as central Australia. However, in data-rich areas such as southeast Australia or in regions with strong gradients, “data smoothing” will occur resulting in grid-point values that may differ slightly from the exact rainfall amount measured at the contributing stations.
 <br/>
-The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.`,
+The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.
+
+Note: The gridded data shown over ocean areas are statistical artefacts of the analysis scheme and not actual rainfall values`,
           info: [
             bomLicensingSection("Monthly rainfall 1910-2017"),
             {
@@ -81,7 +83,8 @@ On the maps each grid-point represents a rectangular area with sides 0.05⁰ lat
 This grid-point analysis technique provides an objective average for each grid square and enables useful estimates in data-sparse areas such as central Australia. However, in data-rich areas such as southeast Australia or in regions with strong gradients, “data smoothing” will occur resulting in grid-point values that may differ slightly from the exact rainfall amount measured at the contributing stations.
 <br/>
 The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.
-`,
+
+Note: The gridded data shown over ocean areas are statistical artefacts of the analysis scheme and not actual rainfall values`,
           info: [
             bomLicensingSection("Annual rainfall 1910-2017"),
             {
@@ -116,7 +119,10 @@ The observational (station) data on which the analyses were based have an associ
             "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
           description: `Data service visualisation of high resolution monthly minimum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The grids show the minimum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
 <br/>
-Gridded datasets were generated using a spline interpolated analysis. The grid point resolution of the data is 0.05 degrees (approx. 5km). All available temperature stations were used in the analyses, and the input station data underwent standard quality control. The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.`,
+Gridded datasets were generated using a spline interpolated analysis. The grid point resolution of the data is 0.05 degrees (approx. 5km). All available temperature stations were used in the analyses, and the input station data underwent standard quality control. The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.
+
+Note: The gridded data shown over ocean areas are statistical artefacts of the analysis scheme and not actual temperature values.`,
+
           info: [
             bomLicensingSection("Monthly minimum temperature 1910-2017"),
             {
@@ -141,7 +147,9 @@ Gridded datasets were generated using a spline interpolated analysis. The grid p
             "Bureau of Meteorology: http://www.bom.gov.au/climate/data-services/data-requests.shtml",
           description: `Data service visualisation of high resolution monthly maximum temperature gridded datasets from 1910 onwards provided by the Bureau of Meteorology. The grids show the maximum temperatures values across Australia in the form of two-dimensional array data. The data extends from 1910 onwards. North Bounding Latitude: -9.975; South Bounding Latitude: -44.525; East Bounding Longitude: 156.275; West Bounding Longitude: 111.975.
 <br/>
-Gridded datasets were generated using a spline interpolated analysis. The grid point resolution of the data is 0.05 degrees (approx. 5km). All available temperature stations were used in the analyses, and the input station data underwent standard quality control. The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.`,
+Gridded datasets were generated using a spline interpolated analysis. The grid point resolution of the data is 0.05 degrees (approx. 5km). All available temperature stations were used in the analyses, and the input station data underwent standard quality control. The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.
+
+Note: The gridded data shown over ocean areas are statistical artefacts of the analysis scheme and not actual temperature values.`,
           info: [
             bomLicensingSection("Monthly maximum temperature 1910-2017"),
             {
@@ -170,7 +178,9 @@ The analyses (grids) are computer generated using a sophisticated analysis techn
 
 The grid-point analysis technique provides an objective average for each grid square and enables useful estimates in data-sparse areas such as central Australia, However, in data-rich areas such as southeast Australia or in regions with strong gradients, “data smoothing” will occur resulting in grid-point values that may differ slightly from the exact temperature measured at contributing stations.
 
-The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.`,
+The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.
+
+Note: The gridded data shown over ocean areas are statistical artefacts of the analysis scheme and not actual temperature values.`,
           info: [
             bomLicensingSection("Annual minimum temperature 1910-2017"),
             {
@@ -199,7 +209,9 @@ The analyses (grids) are computer generated using a sophisticated analysis techn
 
 The grid-point analysis technique provides an objective average for each grid square and enables useful estimates in data-sparse areas such as central Australia, However, in data-rich areas such as southeast Australia or in regions with strong gradients, “data smoothing” will occur resulting in grid-point values that may differ slightly from the exact temperature measured at contributing stations.
 
-The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.`,
+The observational (station) data on which the analyses were based have an associated accuracy of the order of 0.01 degrees (approximately 1km) or better.
+
+Note: The gridded data shown over ocean areas are statistical artefacts of the analysis scheme and not actual temperature values.`,
           info: [
             bomLicensingSection("Annual maximum temperature 1910-2017"),
             {
