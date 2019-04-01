@@ -86,7 +86,8 @@
     "deploy-current": "npm run get-deploy-overrides && gulp make-package --serverConfigOverride ./privateserverconfig.json --clientConfigOverride ./wwwroot/privateconfig.json && cd deploy/aws && ./stack create && cd ../.. && npm run sha256",
     "get-deploy-overrides": "aws s3 --profile $npm_package_config_awsProfile cp $npm_package_config_awsS3ServerConfigOverridePath ./privateserverconfig.json && aws s3 --profile $npm_package_config_awsProfile cp $npm_package_config_awsS3ClientConfigOverridePath ./wwwroot/privateconfig.json",
     "prettier-write": "prettier --write **/*",
-    "release-catalog": "gulp release-catalog"
+    "release-catalog": "gulp release-catalog",
+    "sha256": "echo 'SHA256 sums:'; if [ `which shasum` ]; then shasum -a 256 deploy/packages/*.tar.gz ; else sha256sum deploy/packages/*.tar.gz ; fi"
   },
   "husky": {
     "hooks": {
