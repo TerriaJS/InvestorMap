@@ -1,4 +1,5 @@
-import { Menu, Nav, ExperimentalMenu } from 'terriajs/lib/ReactViews/StandardUserInterface/customizable/Groups';
+import { Menu, Nav, ExperimentalMenu, Feedback } from 'terriajs/lib/ReactViews/StandardUserInterface/customizable/Groups';
+import CustomFeedback from './CustomFeedback';
 import MeasureTool from 'terriajs/lib/ReactViews/Map/Navigation/MeasureTool';
 import MenuItem from 'terriajs/lib/ReactViews/StandardUserInterface/customizable/MenuItem';
 import PropTypes from 'prop-types';
