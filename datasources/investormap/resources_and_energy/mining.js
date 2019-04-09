@@ -123,20 +123,6 @@ module.exports = {
             "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
         }
       ]
-    },
-    {
-      name: "WA: Minedex",
-      type: "wms",
-      url:
-        "https://services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer",
-      layers: "11"
-    },
-    {
-      name: "WA: Mining tenements",
-      type: "wms",
-      url:
-        "https://services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer",
-      layers: "8"
     }
   ]
 };
