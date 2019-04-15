@@ -1,0 +1,463 @@
+tr_tra_name_2018,Date,Visitors (000),Nights (000),Expenditure ($M),Average nights,Average spend per trip,Average spend per night
+Sydney,2013,2885,61400,5963,21.3,2067,97
+Blue Mountains,2013,78,440,37,5.6,471,84
+Capital Country,2013,24,466,28,19.4,1159,61
+Central Coast,2013,43,652,33,15.2,769,51
+Central NSW,2013,36,666,31,18.5,869,47
+Hunter,2013,134,2117,136,15.8,1016,64
+New England North West,2013,36,982,45,27.3,1249,45
+North Coast NSW,2013,257,2938,153,11.4,594,52
+Outback NSW,2013,12,183,,15.3,,
+Riverina,2013,23,574,18,25,795,31
+Snowy Mountains,2013,20,191,,9.6,,
+South Coast,2013,113,1955,149,17.3,1318,76
+The Murray,2013,21,301,20,14.3,961,68
+Melbourne,2013,1868,42874,4399,23,2355,103
+Ballarat,2013,21,283,21,13.5,980,74
+Bendigo Loddon,2013,16,144,10,9,596,67
+Central Highlands,2013,23,87,8,3.8,328,87
+Central Murray,2013,14,251,,17.9,,
+Geelong and the Bellarine,2013,43,486,33,11.3,782,68
+Gippsland,2013,34,330,17,9.7,508,52
+Goulburn,2013,15,398,19,26.5,1265,49
+Great Ocean Road,2013,141,890,51,6.3,359,57
+High Country,2013,16,159,12,9.9,742,77
+Lakes,2013,33,129,7,3.9,219,55
+Macedon,2013,6,94,4,15.7,575,38
+Mallee,2013,21,648,23,30.9,1133,36
+Melbourne East,2013,30,687,40,22.9,1309,58
+Murray East,2013,,,,,,
+Peninsula,2013,40,584,26,14.6,639,44
+Phillip Island,2013,31,107,9,3.5,290,84
+Spa Country,2013,,,,,,
+Upper Yarra,2013,,,,,,
+Western Grampians,2013,9,81,,9,,
+Wimmera,2013,,,,,,
+Brisbane,2013,1023,22183,1643,21.7,1607,74
+Bundaberg,2013,32,935,32,29.2,997,34
+Southern Queensland Country,2013,42,1270,59,30.2,1399,47
+Fraser Coast,2013,117,646,40,5.5,346,63
+Gold Coast,2013,766,7344,881,9.6,1150,120
+Mackay,2013,44,866,31,19.7,711,36
+Townsville,2013,100,1504,86,15,865,57
+Outback Queensland,2013,29,684,20,23.6,683,29
+Sunshine Coast,2013,216,2244,181,10.4,836,81
+Tropical North Queensland,2013,670,6072,818,9.1,1222,135
+Whitsundays,2013,178,1323,106,7.4,597,80
+Capricorn,2013,62,652,31,10.5,491,47
+Gladstone,2013,49,635,24,13,490,37
+Adelaide,2013,362,9524,646,26.3,1782,68
+Adelaide Hills,2013,9,155,,17.2,,
+Barossa,2013,10,123,,12.3,,
+Clare Valley,2013,,,,,,
+Eyre Peninsula,2013,13,224,,17.2,,
+Fleurieu Peninsula,2013,22,205,11,9.3,470,51
+Limestone Coast,2013,40,237,,5.9,,
+"Murray River, Lakes and Coorong",2013,10,98,8,9.8,792,83
+Riverland,2013,9,218,9,24.2,1063,43
+Yorke Peninsula,2013,,,,,,
+Flinders Ranges and Outback,2013,36,293,,8.1,,
+Kangaroo Island,2013,37,143,29,3.9,763,200
+Experience Perth,2013,749,21356,1877,28.5,2507,88
+Australia's Golden Outback,2013,43,927,54,21.6,1252,58
+Australia's North West,2013,66,2314,105,35.1,1594,45
+Australia's South West,2013,130,1757,126,13.5,965,72
+Australia's Coral Coast,2013,62,1094,66,17.6,1067,60
+Hobart and the South,2013,128,1726,143,13.5,1118,83
+East Coast,2013,28,88,21,3.1,768,243
+Launceston and the North,2013,52,597,43,11.5,832,72
+North West,2013,33,381,21,11.5,647,56
+West Coast,2013,15,43,5,2.9,328,111
+Darwin,2013,129,2466,155,19.1,1202,63
+Barkly,2013,18,45,1,2.5,29,12
+Alice Springs,2013,119,844,58,7.1,490,69
+Litchfield Kakadu Arnhem,2013,29,172,16,5.9,553,93
+Katherine Daly,2013,30,272,21,9.1,705,77
+Lasseter,2013,134,359,159,2.7,1183,442
+MacDonnell,2013,7,18,1,2.6,214,83
+Canberra,2013,186,4241,320,22.8,1720,75
+Sydney,2014,3063,63794,6263,20.8,2045,98
+Blue Mountains,2014,88,383,45,4.4,510,117
+Capital Country,2014,21,644,,30.7,,
+Central Coast,2014,41,825,34,20.1,826,41
+Central NSW,2014,40,893,32,22.3,789,35
+Hunter,2014,150,2723,170,18.2,1131,62
+New England North West,2014,31,747,49,24.1,1590,66
+North Coast NSW,2014,268,2946,167,11,620,57
+Outback NSW,2014,11,249,,22.6,,
+Riverina,2014,18,582,21,32.3,1125,36
+Snowy Mountains,2014,17,166,9,9.8,535,54
+South Coast,2014,116,1773,120,15.3,1040,68
+The Murray,2014,20,214,12,10.7,596,56
+Melbourne,2014,2030,43381,4533,21.4,2232,104
+Ballarat,2014,22,208,,9.5,,
+Bendigo Loddon,2014,21,275,14,13.1,695,52
+Central Highlands,2014,28,74,5,2.6,162,62
+Central Murray,2014,11,167,7,15.2,627,40
+Geelong and the Bellarine,2014,41,651,44,15.9,1067,68
+Gippsland,2014,32,557,33,17.4,1033,59
+Goulburn,2014,13,381,,29.3,,
+Great Ocean Road,2014,154,649,74,4.2,477,114
+High Country,2014,20,363,,18.2,,
+Lakes,2014,26,189,5,7.3,201,28
+Macedon,2014,,,,,,
+Mallee,2014,19,690,26,36.3,1426,38
+Melbourne East,2014,34,896,35,26.4,1018,39
+Murray East,2014,,,,,,
+Peninsula,2014,44,688,40,15.6,901,58
+Phillip Island,2014,33,147,13,4.5,390,89
+Spa Country,2014,,,,,,
+Upper Yarra,2014,,,,,,
+Western Grampians,2014,7,51,,7.3,,
+Wimmera,2014,,,,,,
+Brisbane,2014,1031,21341,1533,20.7,1487,72
+Bundaberg,2014,34,858,29,25.2,869,34
+Southern Queensland Country,2014,45,1324,71,29.4,1580,53
+Fraser Coast,2014,122,648,39,5.3,323,61
+Gold Coast,2014,815,8050,968,9.9,1188,120
+Mackay,2014,44,664,26,15.1,598,40
+Townsville,2014,111,1230,74,11.1,672,60
+Outback Queensland,2014,36,747,27,20.8,746,36
+Sunshine Coast,2014,248,2817,214,11.4,861,76
+Tropical North Queensland,2014,718,6260,887,8.7,1235,142
+Whitsundays,2014,199,1376,142,6.9,712,103
+Capricorn,2014,59,466,23,7.9,387,49
+Gladstone,2014,57,799,32,14,564,40
+Adelaide,2014,346,7676,606,22.2,1750,79
+Adelaide Hills,2014,10,119,7,11.9,709,62
+Barossa,2014,13,58,9,4.5,692,154
+Clare Valley,2014,,,,,,
+Eyre Peninsula,2014,15,146,12,9.7,799,80
+Fleurieu Peninsula,2014,20,118,11,5.9,566,94
+Limestone Coast,2014,41,242,13,5.9,323,54
+"Murray River, Lakes and Coorong",2014,9,129,,14.3,,
+Riverland,2014,8,146,6,18.3,735,38
+Yorke Peninsula,2014,,,,,,
+Flinders Ranges and Outback,2014,36,242,,6.7,,
+Kangaroo Island,2014,36,95,26,2.6,732,274
+Experience Perth,2014,793,22649,1980,28.6,2496,87
+Australia's Golden Outback,2014,46,902,45,19.6,977,50
+Australia's North West,2014,71,2298,103,32.4,1445,45
+Australia's South West,2014,129,2066,138,16,1075,67
+Australia's Coral Coast,2014,60,854,70,14.2,1178,82
+Hobart and the South,2014,150,1921,140,12.8,933,73
+East Coast,2014,31,94,17,3,545,180
+Launceston and the North,2014,73,660,59,9,806,89
+North West,2014,36,387,19,10.8,528,49
+West Coast,2014,19,41,17,2.2,918,418
+Darwin,2014,153,3267,196,21.4,1284,60
+Barkly,2014,13,30,3,2.3,211,89
+Alice Springs,2014,109,698,46,6.4,421,66
+Litchfield Kakadu Arnhem,2014,32,159,25,5,767,155
+Katherine Daly,2014,30,316,9,10.5,288,27
+Lasseter,2014,127,361,168,2.8,1322,465
+MacDonnell,2014,6,24,,4,,
+Canberra,2014,179,4541,363,25.4,2030,80
+Sydney,2015,3231,71206,7340,22,2272,103
+Blue Mountains,2015,98,517,61,5.3,625,118
+Capital Country,2015,25,583,26,23.3,1048,45
+Central Coast,2015,46,947,54,20.6,1173,57
+Central NSW,2015,38,899,46,23.7,1185,51
+Hunter,2015,161,2598,175,16.1,1083,67
+New England North West,2015,31,824,38,26.6,1242,46
+North Coast NSW,2015,287,3131,179,10.9,623,57
+Outback NSW,2015,11,342,,31.1,,
+Riverina,2015,24,605,37,25.2,1565,61
+Snowy Mountains,2015,22,346,15,15.7,699,45
+South Coast,2015,130,2771,235,21.3,1805,85
+The Murray,2015,19,318,,16.7,,
+Melbourne,2015,2292,50711,5932,22.1,2588,117
+Ballarat,2015,24,274,12,11.4,504,44
+Bendigo Loddon,2015,17,199,18,11.7,1068,90
+Central Highlands,2015,36,121,6,3.4,161,48
+Central Murray,2015,12,279,,23.3,,
+Geelong and the Bellarine,2015,57,904,87,15.9,1514,96
+Gippsland,2015,45,608,29,13.5,630,47
+Goulburn,2015,15,270,11,18,689,39
+Great Ocean Road,2015,182,1022,93,5.6,507,91
+High Country,2015,24,233,14,9.7,566,59
+Lakes,2015,31,171,9,5.5,307,55
+Macedon,2015,,,,,,
+Mallee,2015,25,804,30,32.2,1228,38
+Melbourne East,2015,39,726,37,18.6,970,51
+Murray East,2015,,,,,,
+Peninsula,2015,56,775,51,13.8,896,65
+Phillip Island,2015,45,177,,3.9,,
+Spa Country,2015,,,,,,
+Upper Yarra,2015,,,,,,
+Western Grampians,2015,9,89,,9.9,,
+Wimmera,2015,,,,,,
+Brisbane,2015,1159,25722,1965,22.2,1695,76
+Bundaberg,2015,39,1172,42,30.1,1067,36
+Southern Queensland Country,2015,45,1627,59,36.2,1317,36
+Fraser Coast,2015,121,458,34,3.8,284,75
+Gold Coast,2015,861,9391,1180,10.9,1370,126
+Mackay,2015,42,650,26,15.5,611,39
+Townsville,2015,118,1686,102,14.3,870,61
+Outback Queensland,2015,29,509,15,17.6,525,30
+Sunshine Coast,2015,247,2656,189,10.8,764,71
+Tropical North Queensland,2015,754,6523,991,8.7,1316,152
+Whitsundays,2015,197,1259,187,6.4,951,149
+Capricorn,2015,67,678,25,10.1,377,37
+Gladstone,2015,50,714,36,14.3,723,51
+Adelaide,2015,375,8503,807,22.7,2149,95
+Adelaide Hills,2015,7,64,5,9.1,708,77
+Barossa,2015,12,430,,35.8,,
+Clare Valley,2015,,,,,,
+Eyre Peninsula,2015,19,188,9,9.9,503,50
+Fleurieu Peninsula,2015,25,237,12,9.5,485,50
+Limestone Coast,2015,42,201,17,4.8,403,84
+"Murray River, Lakes and Coorong",2015,8,125,,15.6,,
+Riverland,2015,7,192,6,27.4,881,34
+Yorke Peninsula,2015,,,,,,
+Flinders Ranges and Outback,2015,33,186,12,5.6,354,63
+Kangaroo Island,2015,40,167,19,4.2,483,114
+Experience Perth,2015,818,22494,1892,27.5,2314,84
+Australia's Golden Outback,2015,45,802,52,17.8,1143,65
+Australia's North West,2015,77,1799,83,23.4,1069,46
+Australia's South West,2015,160,2399,162,15,1013,68
+Australia's Coral Coast,2015,70,937,78,13.4,1120,83
+Hobart and the South,2015,174,1715,215,9.9,1235,126
+East Coast,2015,38,110,11,2.9,297,101
+Launceston and the North,2015,79,892,60,11.3,767,68
+North West,2015,47,483,,10.3,,
+West Coast,2015,16,33,12,2.1,798,373
+Darwin,2015,131,2594,159,19.8,1210,61
+Barkly,2015,14,25,13,1.8,918,499
+Alice Springs,2015,106,576,48,5.4,458,84
+Litchfield Kakadu Arnhem,2015,28,148,22,5.3,774,145
+Katherine Daly,2015,32,197,9,6.2,288,47
+Lasseter,2015,147,463,175,3.1,1188,378
+MacDonnell,2015,7,37,,5.3,,
+Canberra,2015,196,5088,387,26,1971,76
+Sydney,2016,3653,73683,8444,20.2,2312,115
+Blue Mountains,2016,104,608,53,5.8,508,87
+Capital Country,2016,33,474,20,14.4,598,42
+Central Coast,2016,49,650,35,13.3,715,54
+Central NSW,2016,40,498,25,12.5,619,50
+Hunter,2016,171,2966,191,17.3,1118,64
+New England North West,2016,36,1124,65,31.2,1813,58
+North Coast NSW,2016,324,3490,195,10.8,603,56
+Outback NSW,2016,10,83,4,8.3,375,46
+Riverina,2016,28,619,25,22.1,912,41
+Snowy Mountains,2016,16,378,,23.6,,
+South Coast,2016,147,2220,212,15.1,1448,96
+The Murray,2016,27,305,15,11.3,553,48
+Melbourne,2016,2510,55547,6312,22.1,2515,114
+Ballarat,2016,31,426,,13.7,,
+Bendigo Loddon,2016,20,266,13,13.3,631,48
+Central Highlands,2016,38,168,,4.4,,
+Central Murray,2016,13,211,10,16.2,772,48
+Geelong and the Bellarine,2016,54,723,66,13.4,1226,92
+Gippsland,2016,40,429,23,10.7,579,53
+Goulburn,2016,25,671,,26.8,,
+Great Ocean Road,2016,195,790,90,4.1,465,114
+High Country,2016,29,420,28,14.5,971,66
+Lakes,2016,37,152,7,4.1,187,46
+Macedon,2016,8,138,7,17.3,831,47
+Mallee,2016,26,755,27,29,1055,36
+Melbourne East,2016,46,700,35,15.2,766,50
+Murray East,2016,,,,,,
+Peninsula,2016,57,932,56,16.4,973,60
+Phillip Island,2016,43,118,14,2.7,335,122
+Spa Country,2016,,,,,,
+Upper Yarra,2016,,,,,,
+Western Grampians,2016,10,75,,7.5,,
+Wimmera,2016,,,,,,
+Brisbane,2016,1230,25227,2049,20.5,1665,81
+Bundaberg,2016,40,949,34,23.7,866,36
+Southern Queensland Country,2016,41,1199,58,29.2,1427,49
+Fraser Coast,2016,140,787,38,5.6,275,49
+Gold Coast,2016,986,9129,1149,9.3,1166,126
+Mackay,2016,46,526,,11.4,,
+Townsville,2016,124,1644,85,13.3,684,52
+Outback Queensland,2016,29,350,10,12.1,334,28
+Sunshine Coast,2016,283,2798,256,9.9,906,92
+Tropical North Queensland,2016,868,6302,1080,7.3,1245,171
+Whitsundays,2016,236,1559,197,6.6,836,126
+Capricorn,2016,72,540,32,7.5,444,59
+Gladstone,2016,51,532,,10.4,,
+Adelaide,2016,392,8174,828,20.9,2113,101
+Adelaide Hills,2016,8,127,,15.9,,
+Barossa,2016,12,75,,6.3,,
+Clare Valley,2016,,,,,,
+Eyre Peninsula,2016,19,136,7,7.2,346,49
+Fleurieu Peninsula,2016,22,276,16,12.5,720,59
+Limestone Coast,2016,46,328,15,7.1,321,45
+"Murray River, Lakes and Coorong",2016,9,112,,12.4,,
+Riverland,2016,7,260,,37.1,,
+Yorke Peninsula,2016,,,,,,
+Flinders Ranges and Outback,2016,40,293,17,7.3,428,59
+Kangaroo Island,2016,42,122,46,2.9,1097,377
+Experience Perth,2016,914,22628,1988,24.8,2175,88
+Australia's Golden Outback,2016,57,873,35,15.3,616,40
+Australia's North West,2016,70,1712,71,24.5,1015,42
+Australia's South West,2016,183,2359,189,12.9,1032,80
+Australia's Coral Coast,2016,87,916,102,10.5,1177,111
+Hobart and the South,2016,193,1907,208,9.9,1079,109
+East Coast,2016,52,169,18,3.3,347,106
+Launceston and the North,2016,93,843,91,9.1,968,107
+North West,2016,53,370,30,7,559,80
+West Coast,2016,20,44,22,2.2,1071,490
+Darwin,2016,135,2340,145,17.3,1077,62
+Barkly,2016,16,28,5,1.8,322,186
+Alice Springs,2016,105,428,55,4.1,521,128
+Litchfield Kakadu Arnhem,2016,42,192,33,4.6,788,173
+Katherine Daly,2016,42,272,15,6.5,361,55
+Lasseter,2016,149,391,153,2.6,1027,392
+MacDonnell,2016,,,,,,
+Canberra,2016,209,4396,447,21,2141,102
+Sydney,2017,3965,79274,9256,20,2335,117
+Blue Mountains,2017,126,702,59,5.6,471,84
+Capital Country,2017,32,525,,16.4,,
+Central Coast,2017,64,956,,14.9,,
+Central NSW,2017,39,737,32,18.9,835,44
+Hunter,2017,194,2698,215,13.9,1107,80
+New England North West,2017,43,1006,56,23.4,1302,56
+North Coast NSW,2017,350,3908,243,11.2,694,62
+Outback NSW,2017,11,214,,19.5,,
+Riverina,2017,30,878,44,29.3,1455,50
+Snowy Mountains,2017,23,302,17,13.1,762,58
+South Coast,2017,180,2482,242,13.8,1342,98
+The Murray,2017,25,286,16,11.4,647,57
+Melbourne,2017,2730,57597,6978,21.1,2555,121
+Ballarat,2017,27,392,,14.5,,
+Bendigo Loddon,2017,18,218,,12.1,,
+Central Highlands,2017,40,131,8,3.3,206,62
+Central Murray,2017,13,119,10,9.2,782,87
+Geelong and the Bellarine,2017,57,951,88,16.7,1547,93
+Gippsland,2017,45,504,18,11.2,390,35
+Goulburn,2017,17,413,15,24.3,873,37
+Great Ocean Road,2017,218,952,104,4.4,478,109
+High Country,2017,32,472,21,14.8,658,45
+Lakes,2017,39,120,,3.1,,
+Macedon,2017,11,413,,37.5,,
+Mallee,2017,23,758,26,33,1143,35
+Melbourne East,2017,44,805,51,18.3,1157,63
+Murray East,2017,,,,,,
+Peninsula,2017,64,1128,86,17.6,1353,76
+Phillip Island,2017,52,169,16,3.3,301,93
+Spa Country,2017,10,124,,12.4,,
+Upper Yarra,2017,,,,,,
+Western Grampians,2017,8,52,,6.5,,
+Wimmera,2017,,,,,,
+Brisbane,2017,1316,26179,2256,19.9,1714,86
+Bundaberg,2017,45,1204,51,26.8,1136,42
+Southern Queensland Country,2017,49,1345,67,27.4,1349,50
+Fraser Coast,2017,149,696,46,4.7,310,66
+Gold Coast,2017,1035,9295,1203,9,1162,129
+Mackay,2017,50,423,14,8.5,279,33
+Townsville,2017,146,1348,103,9.2,707,77
+Outback Queensland,2017,24,500,17,20.8,690,34
+Sunshine Coast,2017,300,3073,235,10.2,784,77
+Tropical North Queensland,2017,887,6388,1069,7.2,1205,167
+Whitsundays,2017,237,1225,187,5.2,793,153
+Capricorn,2017,73,621,24,8.5,328,39
+Gladstone,2017,58,758,17,13.1,299,23
+Adelaide,2017,422,8924,1030,21.1,2442,115
+Adelaide Hills,2017,9,166,,18.4,,
+Barossa,2017,12,148,,12.3,,
+Clare Valley,2017,,,,,,
+Eyre Peninsula,2017,19,183,,9.6,,
+Fleurieu Peninsula,2017,25,238,14,9.5,565,59
+Limestone Coast,2017,44,265,15,6,333,55
+"Murray River, Lakes and Coorong",2017,11,113,5,10.3,459,45
+Riverland,2017,9,245,7,27.2,796,28
+Yorke Peninsula,2017,,,,,,
+Flinders Ranges and Outback,2017,45,311,12,6.9,272,39
+Kangaroo Island,2017,44,149,24,3.4,546,160
+Experience Perth,2017,904,21118,1934,23.4,2140,92
+Australia's Golden Outback,2017,41,484,24,11.8,582,49
+Australia's North West,2017,61,1377,66,22.6,1087,48
+Australia's South West,2017,158,2209,140,14,883,63
+Australia's Coral Coast,2017,77,876,95,11.4,1231,108
+Hobart and the South,2017,243,2833,311,11.7,1281,110
+East Coast,2017,61,156,43,2.6,701,274
+Launceston and the North,2017,109,1047,88,9.6,808,84
+North West,2017,69,512,34,7.4,489,66
+West Coast,2017,29,62,10,2.1,337,155
+Darwin,2017,131,2169,143,16.6,1090,66
+Barkly,2017,17,116,,6.8,,
+Alice Springs,2017,127,606,62,4.8,488,102
+Litchfield Kakadu Arnhem,2017,35,108,46,3.1,1322,429
+Katherine Daly,2017,36,242,20,6.7,539,81
+Lasseter,2017,166,429,185,2.6,1119,432
+MacDonnell,2017,10,25,,2.5,,
+Canberra,2017,245,5221,550,21.3,2250,105
+Sydney,2018,4091,81284,9708,19.9,2373,119
+Blue Mountains,2018,121,573,46,4.7,377,80
+Capital Country,2018,36,497,26,13.8,719,53
+Central Coast,2018,69,851,52,12.3,754,61
+Central NSW,2018,43,915,40,21.3,931,43
+Hunter,2018,208,3137,211,15.1,1016,67
+New England North West,2018,36,904,62,25.1,1756,69
+North Coast NSW,2018,355,3770,230,10.6,647,61
+Outback NSW,2018,14,305,,21.8,,
+Riverina,2018,23,721,29,31.3,1244,40
+Snowy Mountains,2018,23,278,17,12.1,706,60
+South Coast,2018,194,2647,269,13.6,1388,102
+The Murray,2018,27,321,21,11.9,760,64
+Melbourne,2018,2889,64745,7887,22.4,2730,122
+Ballarat,2018,23,250,,10.9,,
+Bendigo Loddon,2018,28,343,21,12.3,766,61
+Central Highlands,2018,42,249,,5.9,,
+Central Murray,2018,15,377,,25.1,,
+Geelong and the Bellarine,2018,56,851,101,15.2,1801,119
+Gippsland,2018,49,545,44,11.1,899,81
+Goulburn,2018,21,546,20,26,941,36
+Great Ocean Road,2018,239,1060,115,4.4,480,108
+High Country,2018,38,486,26,12.8,702,54
+Lakes,2018,49,253,6,5.2,121,23
+Macedon,2018,13,166,8,12.8,670,51
+Mallee,2018,23,850,30,37,1270,35
+Melbourne East,2018,44,816,,18.5,,
+Murray East,2018,,,,,,
+Peninsula,2018,61,869,59,14.2,973,68
+Phillip Island,2018,62,194,23,3.1,369,118
+Spa Country,2018,,,,,,
+Upper Yarra,2018,,,,,,
+Western Grampians,2018,,,,,,
+Wimmera,2018,,,,,,
+Brisbane,2018,1400,28718,2734,20.5,1954,95
+Bundaberg,2018,47,947,47,20.1,1009,50
+Southern Queensland Country,2018,56,1501,58,26.8,1038,38
+Fraser Coast,2018,130,510,41,3.9,317,81
+Gold Coast,2018,1047,10021,1418,9.6,1354,141
+Mackay,2018,56,418,19,7.5,336,45
+Townsville,2018,136,1264,66,9.3,482,52
+Outback Queensland,2018,29,541,22,18.7,745,40
+Sunshine Coast,2018,311,2778,246,8.9,793,89
+Tropical North Queensland,2018,863,6288,1071,7.3,1241,170
+Whitsundays,2018,234,1294,211,5.5,901,163
+Capricorn,2018,71,541,37,7.6,531,69
+Gladstone,2018,58,222,22,3.8,381,99
+Adelaide,2018,406,8033,970,19.8,2391,121
+Adelaide Hills,2018,12,165,5,13.8,439,31
+Barossa,2018,15,80,7,5.3,470,89
+Clare Valley,2018,,,,,,
+Eyre Peninsula,2018,20,88,5,4.4,235,52
+Fleurieu Peninsula,2018,25,262,15,10.5,622,59
+Limestone Coast,2018,43,298,,6.9,,
+"Murray River, Lakes and Coorong",2018,12,289,,24.1,,
+Riverland,2018,10,203,,20.3,,
+Yorke Peninsula,2018,,,,,,
+Flinders Ranges and Outback,2018,43,252,16,5.9,387,65
+Kangaroo Island,2018,46,106,37,2.3,813,352
+Experience Perth,2018,916,19759,1853,21.6,2023,94
+Australia's Golden Outback,2018,60,608,34,10.1,573,57
+Australia's North West,2018,63,1458,93,23.1,1479,64
+Australia's South West,2018,195,1879,154,9.6,789,82
+Australia's Coral Coast,2018,87,1096,93,12.6,1068,84
+Hobart and the South,2018,275,3316,379,12.1,1377,114
+East Coast,2018,70,238,23,3.4,333,99
+Launceston and the North,2018,119,772,77,6.5,648,100
+North West,2018,80,535,34,6.7,427,64
+West Coast,2018,29,45,30,1.6,1034,675
+Darwin,2018,123,1812,154,14.7,1245,85
+Barkly,2018,13,85,,6.5,,
+Alice Springs,2018,113,617,66,5.5,581,106
+Litchfield Kakadu Arnhem,2018,36,186,30,5.2,834,160
+Katherine Daly,2018,27,273,,10.1,,
+Lasseter,2018,180,570,198,3.2,1100,348
+MacDonnell,2018,9,20,9,2.2,936,429
+Canberra,2018,252,5838,686,23.2,2727,118
