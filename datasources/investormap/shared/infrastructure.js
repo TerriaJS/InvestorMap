@@ -5,7 +5,7 @@ const getFromCatalogPath = require("../../getFromCatalogPath");
 const externalCatalogs = require("../shared/externalCatalogs");
 
 function getTransmission() {
-  const electricity = Object.assign(
+  const transmission = Object.assign(
     {},
     getFromCatalogPath(externalCatalogs.aremi, [
       "Electricity Infrastructure",
@@ -14,10 +14,10 @@ function getTransmission() {
     { name: "Transmission" }
   );
 
-  electricity.items = electricity.items.filter(
+  transmission.items = transmission.items.filter(
     item => item.name !== "Western Australia"
   );
-  return electricity;
+  return transmission;
 }
 
 function getGeneration() {
