@@ -4,7 +4,7 @@ const getFromCatalogPath = require("../../getFromCatalogPath");
 
 const externalCatalogs = require("../shared/externalCatalogs");
 
-function getElectricity() {
+function getTransmission() {
   const electricity = Object.assign(
     {},
     getFromCatalogPath(externalCatalogs.aremi, [
@@ -18,6 +18,26 @@ function getElectricity() {
     item => item.name !== "Western Australia"
   );
   return electricity;
+}
+
+function getGeneration() {
+  const currentGeneration = Object.assign(
+    {},
+    getFromCatalogPath(externalCatalogs.aremi, [
+      "Electricity Infrastructure",
+      "Generation",
+      "Current Power Generation - NEM"
+    ]),
+    { name: "Current Power Generation - NEM" }
+  );
+
+  const generation = {
+    name: "Generation",
+    type: "group",
+    items: [currentGeneration]
+  };
+
+  return generation;
 }
 
 function getNetworkOpportunities() {
@@ -47,9 +67,8 @@ module.exports = {
     {
       name: "Electricity",
       type: "group",
-      items: [getElectricity(), getNetworkOpportunities()]
+      items: [getTransmission(), getNetworkOpportunities(), getGeneration()]
     },
-    // getElectricity(),
     require("./transport"),
     {
       name: "Liquid Fuel Facilities",
