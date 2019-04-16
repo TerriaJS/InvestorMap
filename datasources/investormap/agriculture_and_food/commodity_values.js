@@ -4,6 +4,21 @@ const mkdirp = require("mkdirp");
 
 const categories = {};
 
+const outdir = `${__dirname}/../../../wwwroot/data/commodities`;
+
+/*
+This script processes "Agricultural Commodities by Value" spreadsheets produced by the ABS, and found here:
+https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/7503.02016-17?OpenDocument
+
+Assuming the format of that spreadsheet doesn't change, this can be repeated each year to update the data.
+
+It generates a lot of csvs under wwwroot/data/commodities, and also the catalog items that reference them.
+
+1. Put the source files in srcdata/
+2. Update the filenames in the calls to processFile()
+3. Hopefully that's it. :)
+*/
+
 function processFile(
   srcFilename,
   regionCodeLength,
@@ -36,20 +51,20 @@ function processFile(
     ) {
       return null; // keep states out of our NRMs and vice versa
     }
-    // const [category, subcategory] = row['Commodity description'].split(' - ');
     const [category] = row["Commodity description"].split(" - ");
-    // ew, skip all the intervening categories? repeat primary category if no subcats?
+    // Three issues with what we do next:
+    // 1) We flatten out all the middle levels of subcategory
+    // 2) If there are no subcategories at all, the primary category gets repeated as a subcategory
+    // 3) If there are two different sub-subcategories with the same name, one will clobber the other.
+
+    // But the alternative (supporting all the middle-level subcategories) is much more complex to implement.
     const [subcategory] = row["Commodity description"].split(" - ").reverse();
     row.Commodity = category;
     row["Commodity subcategory"] = subcategory || "";
     categories[regionField][category] = categories[regionField][category] || {};
-    // categories[category][row['Region code']][subcategory] = row;
     categories[regionField][category][subcategory] =
       categories[regionField][category][subcategory] || [];
     categories[regionField][category][subcategory].push(row);
-
-    // console.log(category)
-    // console.log(subcategory);
 
     row[regionField] = row["Region code"];
     row[regionLabelField] = row["Region label"];
@@ -77,27 +92,11 @@ function processFile(
       const out = dsv.csvFormat(filteredRows);
       const outDirectory = `${outdir}/${regionField}/${category}`;
       mkdirp.sync(outDirectory);
-      // console.log(outDirectory);
 
       fs.writeFileSync(`${outDirectory}/${subcategory}.csv`, out, "utf8");
     });
   });
-
-  // Object.keys(categories).forEach(category => {
-  //     const filteredRows = rows.filter(row => row.Commodity === category);
-  //     filteredRows.columns = rows.columns;
-  //     const out = dsv.csvFormat(filteredRows);
-  //     fs.writeFileSync(`${outdir}/${outFilename}_${category}.csv`, out, 'utf8');
-  // });
-
-  // const out = dsv.csvFormat(rows);
-  // fs.writeFileSync(`${outdir}/${outFilename}`, out, 'utf8');
 }
-const outdir = `${__dirname}/../../../wwwroot/data/commodities`;
-mkdirp.sync(outdir);
-processFile("75030do003_201617.csv", 3, "SA4", "SA4 name");
-processFile("75030do003_201617.csv", 1, "State_Code", "State");
-processFile("75030do004_201617.csv", 3, "NRMR_Code", "NRMR name");
 
 function catalogGroupByRegionField(regionField) {
   function catalogGroupByCategory(category) {
@@ -141,6 +140,11 @@ function catalogGroupByRegionField(regionField) {
   };
 }
 
+mkdirp.sync(outdir);
+processFile("75030do003_201617.csv", 3, "SA4", "SA4 name");
+processFile("75030do003_201617.csv", 1, "State_Code", "State");
+processFile("75030do004_201617.csv", 3, "NRMR_Code", "NRMR name");
+
 module.exports = [
   {
     type: "group",
@@ -148,7 +152,3 @@ module.exports = [
     items: Object.keys(categories).map(catalogGroupByRegionField)
   }
 ];
-
-/*
-/sa4/Broadacre crops/Cereal crops/Wheat for grain.csv
-*/
