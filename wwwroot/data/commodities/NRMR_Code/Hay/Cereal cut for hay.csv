@@ -1,48 +1,47 @@
-Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,Commodity,Commodity subcategory,NRMR_Code,NRMR name,Local value($),Local value($) - Relative Standard Errors,Gross value ($) - Relative Standard Errors
-3308058,Hay - Cereal cut for hay,9620496.36,^,9620496.36,^,Hay,Cereal cut for hay,101,Central Tablelands,,,
-3308058,Hay - Cereal cut for hay,26214002.83,^,26214002.83,^,Hay,Cereal cut for hay,102,Central West,,,
-3308058,Hay - Cereal cut for hay,56318.4,*,56318.4,*,Hay,Cereal cut for hay,103,Greater Sydney,,,
-3308058,Hay - Cereal cut for hay,312386.46,**,312386.46,**,Hay,Cereal cut for hay,104,Hunter,,,
-3308058,Hay - Cereal cut for hay,28677598.04,^,28677598.04,^,Hay,Cereal cut for hay,105,Murray,,,
-3308058,Hay - Cereal cut for hay,1096693.28,**,1096693.28,**,Hay,Cereal cut for hay,106,North Coast,,,
-3308058,Hay - Cereal cut for hay,11514969.39,^,11514969.39,^,Hay,Cereal cut for hay,108,North West NSW,,,
-3308058,Hay - Cereal cut for hay,3835318.3,**,3835318.3,**,Hay,Cereal cut for hay,109,Northern Tablelands,,,
-3308058,Hay - Cereal cut for hay,18185752.69,^,18185752.69,^,Hay,Cereal cut for hay,110,Riverina,,,
-3308058,Hay - Cereal cut for hay,3679281.44,**,3679281.44,**,Hay,Cereal cut for hay,111,South East NSW,,,
-3308058,Hay - Cereal cut for hay,3339218.61,*,3339218.61,*,Hay,Cereal cut for hay,112,Western,,,
-3308058,Hay - Cereal cut for hay,11334249.73,*,11334249.73,*,Hay,Cereal cut for hay,201,Corangamite,,,
-3308058,Hay - Cereal cut for hay,115894.74,^,115894.74,^,Hay,Cereal cut for hay,202,East Gippsland,,,
-3308058,Hay - Cereal cut for hay,16355837.41,^,16355837.41,^,Hay,Cereal cut for hay,203,Glenelg Hopkins,,,
-3308058,Hay - Cereal cut for hay,56820729.18,^,56820729.18,^,Hay,Cereal cut for hay,204,Goulburn Broken,,,
-3308058,Hay - Cereal cut for hay,31066858.52,*,31066858.52,*,Hay,Cereal cut for hay,205,Mallee,,,
-3308058,Hay - Cereal cut for hay,104889034.2,^,104889034.2,^,Hay,Cereal cut for hay,206,North Central,,,
-3308058,Hay - Cereal cut for hay,1700413.52,^,1700413.52,^,Hay,Cereal cut for hay,207,North East,,,
-3308058,Hay - Cereal cut for hay,1733070.98,**,1733070.98,**,Hay,Cereal cut for hay,208,Port Phillip and Western Port,,,
-3308058,Hay - Cereal cut for hay,3104521.72,*,3104521.72,*,Hay,Cereal cut for hay,209,West Gippsland,,,
-3308058,Hay - Cereal cut for hay,42472716.04,*,42472716.04,*,Hay,Cereal cut for hay,210,Wimmera,,,
-3308058,Hay - Cereal cut for hay,653338.31,**,653338.31,**,Hay,Cereal cut for hay,301,Burnett Mary,,,
-3308058,Hay - Cereal cut for hay,5195975.18,^,5195975.18,^,Hay,Cereal cut for hay,303,Condamine,,,
-3308058,Hay - Cereal cut for hay,48615.87,^,48615.87,^,Hay,Cereal cut for hay,305,Desert Channels,,,
-3308058,Hay - Cereal cut for hay,5465394.43,*,5465394.43,*,Hay,Cereal cut for hay,306,Fitzroy Basin,,,
-3308058,Hay - Cereal cut for hay,251629.13,^,251629.13,^,Hay,Cereal cut for hay,307,North Queensland Dry Tropics,,,
-3308058,Hay - Cereal cut for hay,3088272.63,^,3088272.63,^,Hay,Cereal cut for hay,309,Queensland Murray Darling Basin,,,
-3308058,Hay - Cereal cut for hay,674817.65,*,674817.65,*,Hay,Cereal cut for hay,311,South East Queensland,,,
-3308058,Hay - Cereal cut for hay,123984.53,,123984.53,,Hay,Cereal cut for hay,312,South West Queensland,,,
-3308058,Hay - Cereal cut for hay,234959.19,**,234959.19,**,Hay,Cereal cut for hay,313,Southern Gulf,,,
-3308058,Hay - Cereal cut for hay,18662539.01,^,18662539.01,^,Hay,Cereal cut for hay,401,Adelaide and Mount Lofty Ranges,,,
-3308058,Hay - Cereal cut for hay,7388046.14,^,7388046.14,^,Hay,Cereal cut for hay,403,Eyre Peninsula,,,
-3308058,Hay - Cereal cut for hay,1993995.25,^,1993995.25,^,Hay,Cereal cut for hay,404,Kangaroo Island,,,
-3308058,Hay - Cereal cut for hay,131523976.4,^,131523976.4,^,Hay,Cereal cut for hay,405,Northern and Yorke,,,
-3308058,Hay - Cereal cut for hay,368707.99,,368707.99,,Hay,Cereal cut for hay,406,South Australian Arid Lands,,,
-3308058,Hay - Cereal cut for hay,51845982.94,^,51845982.94,^,Hay,Cereal cut for hay,407,South Australian Murray Darling Basin,,,
-3308058,Hay - Cereal cut for hay,24237917.23,^,24237917.23,^,Hay,Cereal cut for hay,408,South East,,,
-3308058,Hay - Cereal cut for hay,46693742,^,46693742,^,Hay,Cereal cut for hay,501,Northern Agricultural,,,
-3308058,Hay - Cereal cut for hay,41102042.16,^,41102042.16,^,Hay,Cereal cut for hay,502,Peel-Harvey,,,
-3308058,Hay - Cereal cut for hay,14126.62,^,14126.62,^,Hay,Cereal cut for hay,503,Perth,,,
-3308058,Hay - Cereal cut for hay,282256,,282256,,Hay,Cereal cut for hay,504,Rangelands,,,
-3308058,Hay - Cereal cut for hay,17509140.79,^,17509140.79,^,Hay,Cereal cut for hay,505,South Coast,,,
-3308058,Hay - Cereal cut for hay,30761558.88,^,30761558.88,^,Hay,Cereal cut for hay,506,South West,,,
-3308058,Hay - Cereal cut for hay,124396761.4,^,124396761.4,^,Hay,Cereal cut for hay,507,Wheatbelt,,,
-3308058,Hay - Cereal cut for hay,544945.8,*,544945.8,*,Hay,Cereal cut for hay,601,Cradle Coast,,,
-3308058,Hay - Cereal cut for hay,1140820.32,,1140820.32,,Hay,Cereal cut for hay,602,North,,,
-3308058,Hay - Cereal cut for hay,272940.68,*,272940.68,*,Hay,Cereal cut for hay,603,South,,,
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,NRMR_Code,NRMR name
+3308058,Hay - Cereal cut for hay,9620496.36,^,9620496.36,^,101,Central Tablelands
+3308058,Hay - Cereal cut for hay,26214002.83,^,26214002.83,^,102,Central West
+3308058,Hay - Cereal cut for hay,56318.4,*,56318.4,*,103,Greater Sydney
+3308058,Hay - Cereal cut for hay,312386.46,**,312386.46,**,104,Hunter
+3308058,Hay - Cereal cut for hay,28677598.04,^,28677598.04,^,105,Murray
+3308058,Hay - Cereal cut for hay,1096693.28,**,1096693.28,**,106,North Coast
+3308058,Hay - Cereal cut for hay,11514969.39,^,11514969.39,^,108,North West NSW
+3308058,Hay - Cereal cut for hay,3835318.3,**,3835318.3,**,109,Northern Tablelands
+3308058,Hay - Cereal cut for hay,18185752.69,^,18185752.69,^,110,Riverina
+3308058,Hay - Cereal cut for hay,3679281.44,**,3679281.44,**,111,South East NSW
+3308058,Hay - Cereal cut for hay,3339218.61,*,3339218.61,*,112,Western
+3308058,Hay - Cereal cut for hay,11334249.73,*,11334249.73,*,201,Corangamite
+3308058,Hay - Cereal cut for hay,115894.74,^,115894.74,^,202,East Gippsland
+3308058,Hay - Cereal cut for hay,16355837.41,^,16355837.41,^,203,Glenelg Hopkins
+3308058,Hay - Cereal cut for hay,56820729.18,^,56820729.18,^,204,Goulburn Broken
+3308058,Hay - Cereal cut for hay,31066858.52,*,31066858.52,*,205,Mallee
+3308058,Hay - Cereal cut for hay,104889034.2,^,104889034.2,^,206,North Central
+3308058,Hay - Cereal cut for hay,1700413.52,^,1700413.52,^,207,North East
+3308058,Hay - Cereal cut for hay,1733070.98,**,1733070.98,**,208,Port Phillip and Western Port
+3308058,Hay - Cereal cut for hay,3104521.72,*,3104521.72,*,209,West Gippsland
+3308058,Hay - Cereal cut for hay,42472716.04,*,42472716.04,*,210,Wimmera
+3308058,Hay - Cereal cut for hay,653338.31,**,653338.31,**,301,Burnett Mary
+3308058,Hay - Cereal cut for hay,5195975.18,^,5195975.18,^,303,Condamine
+3308058,Hay - Cereal cut for hay,48615.87,^,48615.87,^,305,Desert Channels
+3308058,Hay - Cereal cut for hay,5465394.43,*,5465394.43,*,306,Fitzroy Basin
+3308058,Hay - Cereal cut for hay,251629.13,^,251629.13,^,307,North Queensland Dry Tropics
+3308058,Hay - Cereal cut for hay,3088272.63,^,3088272.63,^,309,Queensland Murray Darling Basin
+3308058,Hay - Cereal cut for hay,674817.65,*,674817.65,*,311,South East Queensland
+3308058,Hay - Cereal cut for hay,123984.53,,123984.53,,312,South West Queensland
+3308058,Hay - Cereal cut for hay,234959.19,**,234959.19,**,313,Southern Gulf
+3308058,Hay - Cereal cut for hay,18662539.01,^,18662539.01,^,401,Adelaide and Mount Lofty Ranges
+3308058,Hay - Cereal cut for hay,7388046.14,^,7388046.14,^,403,Eyre Peninsula
+3308058,Hay - Cereal cut for hay,1993995.25,^,1993995.25,^,404,Kangaroo Island
+3308058,Hay - Cereal cut for hay,131523976.4,^,131523976.4,^,405,Northern and Yorke
+3308058,Hay - Cereal cut for hay,368707.99,,368707.99,,406,South Australian Arid Lands
+3308058,Hay - Cereal cut for hay,51845982.94,^,51845982.94,^,407,South Australian Murray Darling Basin
+3308058,Hay - Cereal cut for hay,24237917.23,^,24237917.23,^,408,South East
+3308058,Hay - Cereal cut for hay,46693742,^,46693742,^,501,Northern Agricultural
+3308058,Hay - Cereal cut for hay,41102042.16,^,41102042.16,^,502,Peel-Harvey
+3308058,Hay - Cereal cut for hay,14126.62,^,14126.62,^,503,Perth
+3308058,Hay - Cereal cut for hay,282256,,282256,,504,Rangelands
+3308058,Hay - Cereal cut for hay,17509140.79,^,17509140.79,^,505,South Coast
+3308058,Hay - Cereal cut for hay,30761558.88,^,30761558.88,^,506,South West
+3308058,Hay - Cereal cut for hay,544945.8,*,544945.8,*,601,Cradle Coast
+3308058,Hay - Cereal cut for hay,1140820.32,,1140820.32,,602,North
+3308058,Hay - Cereal cut for hay,272940.68,*,272940.68,*,603,South

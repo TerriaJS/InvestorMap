@@ -1,0 +1,78 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,SA4,SA4 name
+9019959,Total agriculture,838405075.3,,787116074.8,,101,Capital Region
+9019959,Total agriculture,158264734,^,148584433.3,^,102,Central Coast
+9019959,Total agriculture,1741994001,,1600347207,,103,Central West
+9019959,Total agriculture,206291850.5,,194200043,,104,Coffs Harbour - Grafton
+9019959,Total agriculture,1921312364,,1781729848,,105,Far West and Orana
+9019959,Total agriculture,398051782.7,,378879266,,106,Hunter Valley excluding Newcastle
+9019959,Total agriculture,29521946.75,*,28486164.28,*,107,Illawarra
+9019959,Total agriculture,343634238.5,^,325928781.9,^,108,Mid North Coast
+9019959,Total agriculture,1989822846,,1834654027,,109,Murray
+9019959,Total agriculture,3035576334,,2835577934,,110,New England and North West
+9019959,Total agriculture,12759496.37,^,11744439.92,^,111,Newcastle and Lake Macquarie
+9019959,Total agriculture,499160635.1,,470924671.7,,112,Richmond - Tweed
+9019959,Total agriculture,2517828331,,2316351019,,113,Riverina
+9019959,Total agriculture,138334364,^,133952300.8,^,114,Southern Highlands and Shoalhaven
+9019959,Total agriculture,203312673.3,,183405987.7,,115,Sydney - Baulkham Hills and Hawkesbury
+9019959,Total agriculture,42779980.69,*,40261555.2,*,116,Sydney - Blacktown
+9019959,Total agriculture,111086.02,**,94423.13,**,119,Sydney - Inner South West
+9019959,Total agriculture,2750857.93,**,2484610.27,**,121,Sydney - North Sydney and Hornsby
+9019959,Total agriculture,6646101.6,,6124004.34,,122,Sydney - Northern Beaches
+9019959,Total agriculture,108446781,^,102094500.2,^,123,Sydney - Outer South West
+9019959,Total agriculture,139149199.9,,127727257.3,^,124,Sydney - Outer West and Blue Mountains
+9019959,Total agriculture,166835443.1,,154335398.7,,127,Sydney - South West
+9019959,Total agriculture,688576028.8,,640659779.4,,201,Ballarat
+9019959,Total agriculture,824750891.2,,775720054.6,,202,Bendigo
+9019959,Total agriculture,421979038.6,^,395350012.5,^,203,Geelong
+9019959,Total agriculture,828356449.5,,775910965,,204,Hume
+9019959,Total agriculture,1717265598,,1611645399,,205,Latrobe - Gippsland
+9019959,Total agriculture,2228172.24,*,1945201.31,*,208,Melbourne - Inner South
+9019959,Total agriculture,176008861.6,,155894919.5,,209,Melbourne - North East
+9019959,Total agriculture,27300914.03,*,25311269.58,*,210,Melbourne - North West
+9019959,Total agriculture,325654840.5,,291726348.6,,211,Melbourne - Outer East
+9019959,Total agriculture,435623289.4,,402241075.4,,212,Melbourne - South East
+9019959,Total agriculture,174594810.2,^,150214340.9,^,213,Melbourne - West
+9019959,Total agriculture,295947022.2,^,276654555,^,214,Mornington Peninsula
+9019959,Total agriculture,4108447530,,3810441127,,215,North West
+9019959,Total agriculture,1543148000,,1447808183,,216,Shepparton
+9019959,Total agriculture,2445728443,,2327828396,,217,Warrnambool and South West
+9019959,Total agriculture,69710801.74,^,65760021.79,^,301,Brisbane - East
+9019959,Total agriculture,1291621.99,**,1171983.95,**,302,Brisbane - North
+9019959,Total agriculture,10454396.5,^,9704643.91,^,303,Brisbane - South
+9019959,Total agriculture,358960.71,*,319923.85,*,304,Brisbane - West
+9019959,Total agriculture,1126477221,,1042431438,,306,Cairns
+9019959,Total agriculture,3781182391,,3489869035,,307,Darling Downs - Maranoa
+9019959,Total agriculture,1469723823,,1355476933,,308,Central Queensland
+9019959,Total agriculture,50741692.31,^,47160018.2,^,309,Gold Coast
+9019959,Total agriculture,469492643.5,,411984518.7,,310,Ipswich
+9019959,Total agriculture,173970526.5,^,164872923.7,^,311,Logan - Beaudesert
+9019959,Total agriculture,1392827627,,1293442684,,312,Mackay - Isaac - Whitsunday
+9019959,Total agriculture,321257992.7,,296469525.3,,313,Moreton Bay - North
+9019959,Total agriculture,7793358.29,**,7562057.7,**,314,Moreton Bay - South
+9019959,Total agriculture,2205370959,,2015329776,,315,Queensland - Outback
+9019959,Total agriculture,218027926.1,,204196428.2,,316,Sunshine Coast
+9019959,Total agriculture,276036200.8,,228198960.8,,317,Toowoomba
+9019959,Total agriculture,1061395171,,993430909.1,,318,Townsville
+9019959,Total agriculture,1377654449,,1255615381,,319,Wide Bay
+9019959,Total agriculture,204190278.6,,185396687.7,,401,Adelaide - Central and Hills
+9019959,Total agriculture,162793137.5,,143585096.8,,402,Adelaide - North
+9019959,Total agriculture,66888213.85,,63383678.75,,403,Adelaide - South
+9019959,Total agriculture,2193187294,,2063710775,,405,Barossa - Yorke - Mid North
+9019959,Total agriculture,1226817064,,1138207214,,406,South Australia - Outback
+9019959,Total agriculture,3375808886,,3152271538,,407,South Australia - South East
+9019959,Total agriculture,813751760.4,,743467075.6,,501,Bunbury
+9019959,Total agriculture,25881564.35,^,24014107.22,^,502,Mandurah
+9019959,Total agriculture,51883858.85,,48546187.72,,504,Perth - North East
+9019959,Total agriculture,134482421.3,,122987181.5,,505,Perth - North West
+9019959,Total agriculture,133435182,,124255338.7,,506,Perth - South East
+9019959,Total agriculture,47454204.15,^,41809250.51,^,507,Perth - South West
+9019959,Total agriculture,5041755827,,4708502706,,509,Western Australia - Wheat Belt
+9019959,Total agriculture,440237734.6,,398279453.5,,510,Western Australia - Outback (North)
+9019959,Total agriculture,2302287988,,2142571453,,511,Western Australia - Outback (South)
+9019959,Total agriculture,53410967.1,,49575083.66,,601,Hobart
+9019959,Total agriculture,600394737.3,,567977072,,602,Launceston and North East
+9019959,Total agriculture,236608379.1,,220370607.8,,603,South East
+9019959,Total agriculture,579321189.1,,548562987.6,,604,West and North West
+9019959,Total agriculture,76968970.05,,67750016.34,,701,Darwin
+9019959,Total agriculture,533177783.1,,482614049.1,,702,Northern Territory - Outback
+9019959,Total agriculture,11184014.8,,10436447.18,,801,Australian Capital Territory

@@ -1,46 +1,45 @@
-Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,Commodity,Commodity subcategory,NRMR_Code,NRMR name,Local value($),Local value($) - Relative Standard Errors,Gross value ($) - Relative Standard Errors
-1919559,"Nurseries, cut flowers or cultivated turf - Total",14178105.47,^,13135451.72,^,"Nurseries, cut flowers or cultivated turf",Total,101,Central Tablelands,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",7603558.78,,7143164.9,,"Nurseries, cut flowers or cultivated turf",Total,102,Central West,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",233322558.4,,217335576.5,,"Nurseries, cut flowers or cultivated turf",Total,103,Greater Sydney,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",42237260.16,^,39391870.88,^,"Nurseries, cut flowers or cultivated turf",Total,104,Hunter,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",7044011.51,^,6339610.36,^,"Nurseries, cut flowers or cultivated turf",Total,105,Murray,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",90338878.71,^,82515390.8,^,"Nurseries, cut flowers or cultivated turf",Total,106,North Coast,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",2211764.54,,2210595.99,,"Nurseries, cut flowers or cultivated turf",Total,108,North West NSW,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",2266166.29,*,2039549.66,*,"Nurseries, cut flowers or cultivated turf",Total,109,Northern Tablelands,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",22422504.71,,20471266.51,,"Nurseries, cut flowers or cultivated turf",Total,110,Riverina,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",22648284.36,^,21431721.78,^,"Nurseries, cut flowers or cultivated turf",Total,111,South East NSW,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",5483594.9,**,4935235.41,**,"Nurseries, cut flowers or cultivated turf",Total,112,Western,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",44703472.73,^,40233125.46,^,"Nurseries, cut flowers or cultivated turf",Total,201,Corangamite,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",6803830.95,,6535351.52,,"Nurseries, cut flowers or cultivated turf",Total,202,East Gippsland,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",7337157.36,**,6603441.62,**,"Nurseries, cut flowers or cultivated turf",Total,203,Glenelg Hopkins,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",51781058.35,*,47278474.53,*,"Nurseries, cut flowers or cultivated turf",Total,204,Goulburn Broken,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",43872472.17,^,39517224.51,^,"Nurseries, cut flowers or cultivated turf",Total,205,Mallee,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",13611592.76,,12607416.66,,"Nurseries, cut flowers or cultivated turf",Total,206,North Central,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",8247599.97,^,7481757.52,^,"Nurseries, cut flowers or cultivated turf",Total,207,North East,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",308211943.7,,279157495.5,,"Nurseries, cut flowers or cultivated turf",Total,208,Port Phillip and Western Port,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",47609113.89,*,42857276.54,*,"Nurseries, cut flowers or cultivated turf",Total,209,West Gippsland,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",47806676.26,,43026008.64,,"Nurseries, cut flowers or cultivated turf",Total,210,Wimmera,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",24620777.34,,22421076.76,,"Nurseries, cut flowers or cultivated turf",Total,301,Burnett Mary,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",4068207.34,*,3706699.67,*,"Nurseries, cut flowers or cultivated turf",Total,303,Condamine,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",,,np,,"Nurseries, cut flowers or cultivated turf",Total,306,Fitzroy Basin,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",24229124.67,**,22060039.51,**,"Nurseries, cut flowers or cultivated turf",Total,307,North Queensland Dry Tropics,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",,,np,,"Nurseries, cut flowers or cultivated turf",Total,308,Northern Gulf,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",,,np,,"Nurseries, cut flowers or cultivated turf",Total,309,Queensland Murray Darling Basin,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",9297376.31,^,8544699.65,^,"Nurseries, cut flowers or cultivated turf",Total,310,Reef Catchments,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",125866977.4,,115988063.7,,"Nurseries, cut flowers or cultivated turf",Total,311,South East Queensland,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",19799510.24,*,18234022.45,*,"Nurseries, cut flowers or cultivated turf",Total,314,Terrain NRM,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",37081187.46,^,33373068.72,^,"Nurseries, cut flowers or cultivated turf",Total,401,Adelaide and Mount Lofty Ranges,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",25926584.74,,24321684.14,,"Nurseries, cut flowers or cultivated turf",Total,407,South Australian Murray Darling Basin,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",10725367.12,,9795217.29,,"Nurseries, cut flowers or cultivated turf",Total,408,South East,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",12620566.03,*,12444424.05,*,"Nurseries, cut flowers or cultivated turf",Total,501,Northern Agricultural,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",27369027.96,*,24970514.13,*,"Nurseries, cut flowers or cultivated turf",Total,502,Peel-Harvey,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",70976232.67,^,64251920.15,^,"Nurseries, cut flowers or cultivated turf",Total,503,Perth,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",6179253.36,*,5640376.67,*,"Nurseries, cut flowers or cultivated turf",Total,504,Rangelands,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",1610080.2,^,1449072.18,^,"Nurseries, cut flowers or cultivated turf",Total,505,South Coast,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",23327900.42,*,20995110.38,*,"Nurseries, cut flowers or cultivated turf",Total,506,South West,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",26603013.26,^,24036404.88,^,"Nurseries, cut flowers or cultivated turf",Total,507,Wheatbelt,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",13330498.26,,11997448.43,,"Nurseries, cut flowers or cultivated turf",Total,601,Cradle Coast,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",,,np,,"Nurseries, cut flowers or cultivated turf",Total,602,North,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",,,np,,"Nurseries, cut flowers or cultivated turf",Total,603,South,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",7735801.42,,7063117.59,,"Nurseries, cut flowers or cultivated turf",Total,701,Northern Territory,,,
-1919559,"Nurseries, cut flowers or cultivated turf - Total",,,np,,"Nurseries, cut flowers or cultivated turf",Total,801,ACT,,,
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,NRMR_Code,NRMR name
+1919559,"Nurseries, cut flowers or cultivated turf - Total",14178105.47,^,13135451.72,^,101,Central Tablelands
+1919559,"Nurseries, cut flowers or cultivated turf - Total",7603558.78,,7143164.9,,102,Central West
+1919559,"Nurseries, cut flowers or cultivated turf - Total",233322558.4,,217335576.5,,103,Greater Sydney
+1919559,"Nurseries, cut flowers or cultivated turf - Total",42237260.16,^,39391870.88,^,104,Hunter
+1919559,"Nurseries, cut flowers or cultivated turf - Total",7044011.51,^,6339610.36,^,105,Murray
+1919559,"Nurseries, cut flowers or cultivated turf - Total",90338878.71,^,82515390.8,^,106,North Coast
+1919559,"Nurseries, cut flowers or cultivated turf - Total",2211764.54,,2210595.99,,108,North West NSW
+1919559,"Nurseries, cut flowers or cultivated turf - Total",2266166.29,*,2039549.66,*,109,Northern Tablelands
+1919559,"Nurseries, cut flowers or cultivated turf - Total",22422504.71,,20471266.51,,110,Riverina
+1919559,"Nurseries, cut flowers or cultivated turf - Total",22648284.36,^,21431721.78,^,111,South East NSW
+1919559,"Nurseries, cut flowers or cultivated turf - Total",5483594.9,**,4935235.41,**,112,Western
+1919559,"Nurseries, cut flowers or cultivated turf - Total",44703472.73,^,40233125.46,^,201,Corangamite
+1919559,"Nurseries, cut flowers or cultivated turf - Total",6803830.95,,6535351.52,,202,East Gippsland
+1919559,"Nurseries, cut flowers or cultivated turf - Total",7337157.36,**,6603441.62,**,203,Glenelg Hopkins
+1919559,"Nurseries, cut flowers or cultivated turf - Total",51781058.35,*,47278474.53,*,204,Goulburn Broken
+1919559,"Nurseries, cut flowers or cultivated turf - Total",43872472.17,^,39517224.51,^,205,Mallee
+1919559,"Nurseries, cut flowers or cultivated turf - Total",13611592.76,,12607416.66,,206,North Central
+1919559,"Nurseries, cut flowers or cultivated turf - Total",8247599.97,^,7481757.52,^,207,North East
+1919559,"Nurseries, cut flowers or cultivated turf - Total",308211943.7,,279157495.5,,208,Port Phillip and Western Port
+1919559,"Nurseries, cut flowers or cultivated turf - Total",47609113.89,*,42857276.54,*,209,West Gippsland
+1919559,"Nurseries, cut flowers or cultivated turf - Total",47806676.26,,43026008.64,,210,Wimmera
+1919559,"Nurseries, cut flowers or cultivated turf - Total",24620777.34,,22421076.76,,301,Burnett Mary
+1919559,"Nurseries, cut flowers or cultivated turf - Total",4068207.34,*,3706699.67,*,303,Condamine
+1919559,"Nurseries, cut flowers or cultivated turf - Total",,,,,306,Fitzroy Basin
+1919559,"Nurseries, cut flowers or cultivated turf - Total",24229124.67,**,22060039.51,**,307,North Queensland Dry Tropics
+1919559,"Nurseries, cut flowers or cultivated turf - Total",,,,,308,Northern Gulf
+1919559,"Nurseries, cut flowers or cultivated turf - Total",,,,,309,Queensland Murray Darling Basin
+1919559,"Nurseries, cut flowers or cultivated turf - Total",9297376.31,^,8544699.65,^,310,Reef Catchments
+1919559,"Nurseries, cut flowers or cultivated turf - Total",125866977.4,,115988063.7,,311,South East Queensland
+1919559,"Nurseries, cut flowers or cultivated turf - Total",19799510.24,*,18234022.45,*,314,Terrain NRM
+1919559,"Nurseries, cut flowers or cultivated turf - Total",37081187.46,^,33373068.72,^,401,Adelaide and Mount Lofty Ranges
+1919559,"Nurseries, cut flowers or cultivated turf - Total",25926584.74,,24321684.14,,407,South Australian Murray Darling Basin
+1919559,"Nurseries, cut flowers or cultivated turf - Total",10725367.12,,9795217.29,,408,South East
+1919559,"Nurseries, cut flowers or cultivated turf - Total",12620566.03,*,12444424.05,*,501,Northern Agricultural
+1919559,"Nurseries, cut flowers or cultivated turf - Total",27369027.96,*,24970514.13,*,502,Peel-Harvey
+1919559,"Nurseries, cut flowers or cultivated turf - Total",70976232.67,^,64251920.15,^,503,Perth
+1919559,"Nurseries, cut flowers or cultivated turf - Total",6179253.36,*,5640376.67,*,504,Rangelands
+1919559,"Nurseries, cut flowers or cultivated turf - Total",1610080.2,^,1449072.18,^,505,South Coast
+1919559,"Nurseries, cut flowers or cultivated turf - Total",23327900.42,*,20995110.38,*,506,South West
+1919559,"Nurseries, cut flowers or cultivated turf - Total",13330498.26,,11997448.43,,601,Cradle Coast
+1919559,"Nurseries, cut flowers or cultivated turf - Total",,,,,602,North
+1919559,"Nurseries, cut flowers or cultivated turf - Total",,,,,603,South
+1919559,"Nurseries, cut flowers or cultivated turf - Total",7735801.42,,7063117.59,,701,Northern Territory
+1919559,"Nurseries, cut flowers or cultivated turf - Total",,,,,801,ACT

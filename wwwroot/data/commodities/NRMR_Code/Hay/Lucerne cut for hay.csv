@@ -1,45 +1,44 @@
-Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,Commodity,Commodity subcategory,NRMR_Code,NRMR name,Local value($),Local value($) - Relative Standard Errors,Gross value ($) - Relative Standard Errors
-1005158,Hay - Lucerne cut for hay,19084034.63,^,19084034.63,^,Hay,Lucerne cut for hay,101,Central Tablelands,,,
-1005158,Hay - Lucerne cut for hay,16399079.85,^,16399079.85,^,Hay,Lucerne cut for hay,102,Central West,,,
-1005158,Hay - Lucerne cut for hay,3884256.13,**,3884256.13,**,Hay,Lucerne cut for hay,103,Greater Sydney,,,
-1005158,Hay - Lucerne cut for hay,10182189.08,*,10182189.08,*,Hay,Lucerne cut for hay,104,Hunter,,,
-1005158,Hay - Lucerne cut for hay,17149258.83,*,17149258.83,*,Hay,Lucerne cut for hay,105,Murray,,,
-1005158,Hay - Lucerne cut for hay,291697.11,**,291697.11,**,Hay,Lucerne cut for hay,106,North Coast,,,
-1005158,Hay - Lucerne cut for hay,10888811.44,^,10888811.44,^,Hay,Lucerne cut for hay,108,North West NSW,,,
-1005158,Hay - Lucerne cut for hay,1489005.44,*,1489005.44,*,Hay,Lucerne cut for hay,109,Northern Tablelands,,,
-1005158,Hay - Lucerne cut for hay,21319770.59,^,21319770.59,^,Hay,Lucerne cut for hay,110,Riverina,,,
-1005158,Hay - Lucerne cut for hay,5318147.93,^,5318147.93,^,Hay,Lucerne cut for hay,111,South East NSW,,,
-1005158,Hay - Lucerne cut for hay,349355.87,*,349355.87,*,Hay,Lucerne cut for hay,112,Western,,,
-1005158,Hay - Lucerne cut for hay,2159367.72,*,2159367.72,*,Hay,Lucerne cut for hay,201,Corangamite,,,
-1005158,Hay - Lucerne cut for hay,2148667.45,*,2148667.45,*,Hay,Lucerne cut for hay,202,East Gippsland,,,
-1005158,Hay - Lucerne cut for hay,4336354.86,*,4336354.86,*,Hay,Lucerne cut for hay,203,Glenelg Hopkins,,,
-1005158,Hay - Lucerne cut for hay,23621236.53,^,23621236.53,^,Hay,Lucerne cut for hay,204,Goulburn Broken,,,
-1005158,Hay - Lucerne cut for hay,38765.64,*,38765.64,*,Hay,Lucerne cut for hay,205,Mallee,,,
-1005158,Hay - Lucerne cut for hay,22389149.85,*,22389149.85,*,Hay,Lucerne cut for hay,206,North Central,,,
-1005158,Hay - Lucerne cut for hay,1827210.9,^,1827210.9,^,Hay,Lucerne cut for hay,207,North East,,,
-1005158,Hay - Lucerne cut for hay,492068.05,*,492068.05,*,Hay,Lucerne cut for hay,208,Port Phillip and Western Port,,,
-1005158,Hay - Lucerne cut for hay,2502305.03,*,2502305.03,*,Hay,Lucerne cut for hay,209,West Gippsland,,,
-1005158,Hay - Lucerne cut for hay,3002564.11,*,3002564.11,*,Hay,Lucerne cut for hay,210,Wimmera,,,
-1005158,Hay - Lucerne cut for hay,6287122.14,*,6287122.14,*,Hay,Lucerne cut for hay,301,Burnett Mary,,,
-1005158,Hay - Lucerne cut for hay,7092457.78,^,7092457.78,^,Hay,Lucerne cut for hay,303,Condamine,,,
-1005158,Hay - Lucerne cut for hay,4306260.58,^,4306260.58,^,Hay,Lucerne cut for hay,306,Fitzroy Basin,,,
-1005158,Hay - Lucerne cut for hay,1281887.53,*,1281887.53,*,Hay,Lucerne cut for hay,309,Queensland Murray Darling Basin,,,
-1005158,Hay - Lucerne cut for hay,14495280.83,*,14495280.83,*,Hay,Lucerne cut for hay,311,South East Queensland,,,
-1005158,Hay - Lucerne cut for hay,80633.14,**,80633.14,**,Hay,Lucerne cut for hay,313,Southern Gulf,,,
-1005158,Hay - Lucerne cut for hay,20921.54,**,20921.54,**,Hay,Lucerne cut for hay,314,Terrain NRM,,,
-1005158,Hay - Lucerne cut for hay,534300.87,*,534300.87,*,Hay,Lucerne cut for hay,401,Adelaide and Mount Lofty Ranges,,,
-1005158,Hay - Lucerne cut for hay,30859.6,*,30859.6,*,Hay,Lucerne cut for hay,403,Eyre Peninsula,,,
-1005158,Hay - Lucerne cut for hay,39937.19,^,39937.19,^,Hay,Lucerne cut for hay,404,Kangaroo Island,,,
-1005158,Hay - Lucerne cut for hay,2722225.63,*,2722225.63,*,Hay,Lucerne cut for hay,405,Northern and Yorke,,,
-1005158,Hay - Lucerne cut for hay,3339898.17,^,3339898.17,^,Hay,Lucerne cut for hay,407,South Australian Murray Darling Basin,,,
-1005158,Hay - Lucerne cut for hay,19460120.07,^,19460120.07,^,Hay,Lucerne cut for hay,408,South East,,,
-1005158,Hay - Lucerne cut for hay,615985.08,^,615985.08,^,Hay,Lucerne cut for hay,501,Northern Agricultural,,,
-1005158,Hay - Lucerne cut for hay,173848.12,,173848.12,,Hay,Lucerne cut for hay,502,Peel-Harvey,,,
-1005158,Hay - Lucerne cut for hay,74104.07,^,74104.07,^,Hay,Lucerne cut for hay,504,Rangelands,,,
-1005158,Hay - Lucerne cut for hay,95877.58,*,95877.58,*,Hay,Lucerne cut for hay,505,South Coast,,,
-1005158,Hay - Lucerne cut for hay,600532.37,**,600532.37,**,Hay,Lucerne cut for hay,506,South West,,,
-1005158,Hay - Lucerne cut for hay,281379,**,281379,**,Hay,Lucerne cut for hay,507,Wheatbelt,,,
-1005158,Hay - Lucerne cut for hay,1188900.31,*,1188900.31,*,Hay,Lucerne cut for hay,601,Cradle Coast,,,
-1005158,Hay - Lucerne cut for hay,5794856.22,^,5794856.22,^,Hay,Lucerne cut for hay,602,North,,,
-1005158,Hay - Lucerne cut for hay,1587908.88,,1587908.88,,Hay,Lucerne cut for hay,603,South,,,
-1005158,Hay - Lucerne cut for hay,3530.61,*,3530.61,*,Hay,Lucerne cut for hay,701,Northern Territory,,,
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,NRMR_Code,NRMR name
+1005158,Hay - Lucerne cut for hay,19084034.63,^,19084034.63,^,101,Central Tablelands
+1005158,Hay - Lucerne cut for hay,16399079.85,^,16399079.85,^,102,Central West
+1005158,Hay - Lucerne cut for hay,3884256.13,**,3884256.13,**,103,Greater Sydney
+1005158,Hay - Lucerne cut for hay,10182189.08,*,10182189.08,*,104,Hunter
+1005158,Hay - Lucerne cut for hay,17149258.83,*,17149258.83,*,105,Murray
+1005158,Hay - Lucerne cut for hay,291697.11,**,291697.11,**,106,North Coast
+1005158,Hay - Lucerne cut for hay,10888811.44,^,10888811.44,^,108,North West NSW
+1005158,Hay - Lucerne cut for hay,1489005.44,*,1489005.44,*,109,Northern Tablelands
+1005158,Hay - Lucerne cut for hay,21319770.59,^,21319770.59,^,110,Riverina
+1005158,Hay - Lucerne cut for hay,5318147.93,^,5318147.93,^,111,South East NSW
+1005158,Hay - Lucerne cut for hay,349355.87,*,349355.87,*,112,Western
+1005158,Hay - Lucerne cut for hay,2159367.72,*,2159367.72,*,201,Corangamite
+1005158,Hay - Lucerne cut for hay,2148667.45,*,2148667.45,*,202,East Gippsland
+1005158,Hay - Lucerne cut for hay,4336354.86,*,4336354.86,*,203,Glenelg Hopkins
+1005158,Hay - Lucerne cut for hay,23621236.53,^,23621236.53,^,204,Goulburn Broken
+1005158,Hay - Lucerne cut for hay,38765.64,*,38765.64,*,205,Mallee
+1005158,Hay - Lucerne cut for hay,22389149.85,*,22389149.85,*,206,North Central
+1005158,Hay - Lucerne cut for hay,1827210.9,^,1827210.9,^,207,North East
+1005158,Hay - Lucerne cut for hay,492068.05,*,492068.05,*,208,Port Phillip and Western Port
+1005158,Hay - Lucerne cut for hay,2502305.03,*,2502305.03,*,209,West Gippsland
+1005158,Hay - Lucerne cut for hay,3002564.11,*,3002564.11,*,210,Wimmera
+1005158,Hay - Lucerne cut for hay,6287122.14,*,6287122.14,*,301,Burnett Mary
+1005158,Hay - Lucerne cut for hay,7092457.78,^,7092457.78,^,303,Condamine
+1005158,Hay - Lucerne cut for hay,4306260.58,^,4306260.58,^,306,Fitzroy Basin
+1005158,Hay - Lucerne cut for hay,1281887.53,*,1281887.53,*,309,Queensland Murray Darling Basin
+1005158,Hay - Lucerne cut for hay,14495280.83,*,14495280.83,*,311,South East Queensland
+1005158,Hay - Lucerne cut for hay,80633.14,**,80633.14,**,313,Southern Gulf
+1005158,Hay - Lucerne cut for hay,20921.54,**,20921.54,**,314,Terrain NRM
+1005158,Hay - Lucerne cut for hay,534300.87,*,534300.87,*,401,Adelaide and Mount Lofty Ranges
+1005158,Hay - Lucerne cut for hay,30859.6,*,30859.6,*,403,Eyre Peninsula
+1005158,Hay - Lucerne cut for hay,39937.19,^,39937.19,^,404,Kangaroo Island
+1005158,Hay - Lucerne cut for hay,2722225.63,*,2722225.63,*,405,Northern and Yorke
+1005158,Hay - Lucerne cut for hay,3339898.17,^,3339898.17,^,407,South Australian Murray Darling Basin
+1005158,Hay - Lucerne cut for hay,19460120.07,^,19460120.07,^,408,South East
+1005158,Hay - Lucerne cut for hay,615985.08,^,615985.08,^,501,Northern Agricultural
+1005158,Hay - Lucerne cut for hay,173848.12,,173848.12,,502,Peel-Harvey
+1005158,Hay - Lucerne cut for hay,74104.07,^,74104.07,^,504,Rangelands
+1005158,Hay - Lucerne cut for hay,95877.58,*,95877.58,*,505,South Coast
+1005158,Hay - Lucerne cut for hay,600532.37,**,600532.37,**,506,South West
+1005158,Hay - Lucerne cut for hay,1188900.31,*,1188900.31,*,601,Cradle Coast
+1005158,Hay - Lucerne cut for hay,5794856.22,^,5794856.22,^,602,North
+1005158,Hay - Lucerne cut for hay,1587908.88,,1587908.88,,603,South
+1005158,Hay - Lucerne cut for hay,3530.61,*,3530.61,*,701,Northern Territory

@@ -1,109 +1,68 @@
-Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,Commodity,Commodity subcategory,SA4,SA4 name,Local value($),Local value($) - Relative Standard Errors,Gross value ($) - Relative Standard Errors
-3630059,Vegetables for human consumption - Total,6010581.64,,5085760.4,,Vegetables for human consumption,Total,101,Capital Region,,,
-3610658,Vegetables for human consumption - Lettuces - Total,2311.91,*,2183.34,*,Vegetables for human consumption,Total,101,Capital Region,,,
-3630059,Vegetables for human consumption - Total,19754160.84,*,16690274.35,*,Vegetables for human consumption,Total,102,Central Coast,,,
-3610658,Vegetables for human consumption - Lettuces - Total,161802.2,**,152804.21,**,Vegetables for human consumption,Total,102,Central Coast,,,
-3630059,Vegetables for human consumption - Total,51682213.95,,41463681.73,,Vegetables for human consumption,Total,103,Central West,,,
-3610658,Vegetables for human consumption - Lettuces - Total,1269312.83,,1198724.99,,Vegetables for human consumption,Total,103,Central West,,,
-3630059,Vegetables for human consumption - Total,5036726.02,*,4350113.22,*,Vegetables for human consumption,Total,104,Coffs Harbour - Grafton,,,
-3630059,Vegetables for human consumption - Total,3497649.08,*,2838862.37,*,Vegetables for human consumption,Total,105,Far West and Orana,,,
-3630059,Vegetables for human consumption - Total,3598187.96,^,3071369.92,^,Vegetables for human consumption,Total,106,Hunter Valley excluding Newcastle,,,
-3630059,Vegetables for human consumption - Total,1656719.45,*,1403628.75,*,Vegetables for human consumption,Total,107,Illawarra,,,
-3610658,Vegetables for human consumption - Lettuces - Total,625.75,**,590.96,**,Vegetables for human consumption,Total,107,Illawarra,,,
-3630059,Vegetables for human consumption - Total,4754103.11,*,3995811.21,*,Vegetables for human consumption,Total,108,Mid North Coast,,,
-3630059,Vegetables for human consumption - Total,82860492.19,^,70302255.19,^,Vegetables for human consumption,Total,109,Murray,,,
-3610658,Vegetables for human consumption - Lettuces - Total,818367.49,,772857.2,,Vegetables for human consumption,Total,109,Murray,,,
-3630059,Vegetables for human consumption - Total,41927883.68,^,35255249.04,^,Vegetables for human consumption,Total,110,New England and North West,,,
-3630059,Vegetables for human consumption - Total,12445491.17,^,10596697.52,^,Vegetables for human consumption,Total,112,Richmond - Tweed,,,
-3610658,Vegetables for human consumption - Lettuces - Total,1055292.24,**,996606.31,**,Vegetables for human consumption,Total,112,Richmond - Tweed,,,
-3630059,Vegetables for human consumption - Total,101427151.6,,85907204.58,,Vegetables for human consumption,Total,113,Riverina,,,
-3610658,Vegetables for human consumption - Lettuces - Total,428434.66,*,404608.96,*,Vegetables for human consumption,Total,113,Riverina,,,
-3630059,Vegetables for human consumption - Total,4290657.6,^,3801271.58,^,Vegetables for human consumption,Total,114,Southern Highlands and Shoalhaven,,,
-3610658,Vegetables for human consumption - Lettuces - Total,7969.82,*,7526.61,*,Vegetables for human consumption,Total,114,Southern Highlands and Shoalhaven,,,
-3630059,Vegetables for human consumption - Total,75231050.04,,63725773.45,,Vegetables for human consumption,Total,115,Sydney - Baulkham Hills and Hawkesbury,,,
-3610658,Vegetables for human consumption - Lettuces - Total,3794365.02,**,3583356.34,**,Vegetables for human consumption,Total,115,Sydney - Baulkham Hills and Hawkesbury,,,
-3630059,Vegetables for human consumption - Total,4287108.3,**,3644042.34,**,Vegetables for human consumption,Total,116,Sydney - Blacktown,,,
-3630059,Vegetables for human consumption - Total,111086.02,**,94423.13,**,Vegetables for human consumption,Total,119,Sydney - Inner South West,,,
-3630059,Vegetables for human consumption - Total,15442784.49,^,12789595.08,^,Vegetables for human consumption,Total,123,Sydney - Outer South West,,,
-3610658,Vegetables for human consumption - Lettuces - Total,2786057.17,**,2631121.57,**,Vegetables for human consumption,Total,123,Sydney - Outer South West,,,
-3630059,Vegetables for human consumption - Total,26017012.69,^,21683833.69,^,Vegetables for human consumption,Total,124,Sydney - Outer West and Blue Mountains,,,
-3610658,Vegetables for human consumption - Lettuces - Total,1310200.95,**,1237339.28,**,Vegetables for human consumption,Total,124,Sydney - Outer West and Blue Mountains,,,
-3630059,Vegetables for human consumption - Total,47368195.42,^,40388534.56,^,Vegetables for human consumption,Total,127,Sydney - South West,,,
-3610658,Vegetables for human consumption - Lettuces - Total,2937599.8,**,2774236.75,**,Vegetables for human consumption,Total,127,Sydney - South West,,,
-3630059,Vegetables for human consumption - Total,78895228.22,^,71316282.73,^,Vegetables for human consumption,Total,201,Ballarat,,,
-3610658,Vegetables for human consumption - Lettuces - Total,608.67,*,503.2,*,Vegetables for human consumption,Total,201,Ballarat,,,
-3630059,Vegetables for human consumption - Total,2980976.42,^,2694894.66,^,Vegetables for human consumption,Total,202,Bendigo,,,
-3630059,Vegetables for human consumption - Total,8946033.3,,7460210.91,,Vegetables for human consumption,Total,203,Geelong,,,
-3610658,Vegetables for human consumption - Lettuces - Total,6569744.48,,5431337.46,,Vegetables for human consumption,Total,203,Geelong,,,
-3630059,Vegetables for human consumption - Total,20471405.34,*,17408776.07,*,Vegetables for human consumption,Total,204,Hume,,,
-3610658,Vegetables for human consumption - Lettuces - Total,132772.41,*,109765.58,*,Vegetables for human consumption,Total,204,Hume,,,
-3630059,Vegetables for human consumption - Total,234277426,,194554468.3,,Vegetables for human consumption,Total,205,Latrobe - Gippsland,,,
-3610658,Vegetables for human consumption - Lettuces - Total,38980646.81,,32226070.29,,Vegetables for human consumption,Total,205,Latrobe - Gippsland,,,
-3630059,Vegetables for human consumption - Total,702648.74,,572230.16,,Vegetables for human consumption,Total,208,Melbourne - Inner South,,,
-3630059,Vegetables for human consumption - Total,102506846.5,,88180094.02,,Vegetables for human consumption,Total,209,Melbourne - North East,,,
-3630059,Vegetables for human consumption - Total,22779253.3,,19396464.3,,Vegetables for human consumption,Total,211,Melbourne - Outer East,,,
-3630059,Vegetables for human consumption - Total,95881580.31,,81713405.39,,Vegetables for human consumption,Total,212,Melbourne - South East,,,
-3610658,Vegetables for human consumption - Lettuces - Total,10624629.84,,8783591.24,,Vegetables for human consumption,Total,212,Melbourne - South East,,,
-3630059,Vegetables for human consumption - Total,114382868.5,^,94048724.17,^,Vegetables for human consumption,Total,213,Melbourne - West,,,
-3610658,Vegetables for human consumption - Lettuces - Total,15565289.79,^,12868132.36,^,Vegetables for human consumption,Total,213,Melbourne - West,,,
-3630059,Vegetables for human consumption - Total,44429171.22,,37068205.22,,Vegetables for human consumption,Total,214,Mornington Peninsula,,,
-3610658,Vegetables for human consumption - Lettuces - Total,15423856.6,,12751206.75,,Vegetables for human consumption,Total,214,Mornington Peninsula,,,
-3630059,Vegetables for human consumption - Total,93273076.15,^,77271281.69,^,Vegetables for human consumption,Total,215,North West,,,
-3610658,Vegetables for human consumption - Lettuces - Total,7091839.48,,5862963.7,,Vegetables for human consumption,Total,215,North West,,,
-3630059,Vegetables for human consumption - Total,120976138.6,^,104438743.1,^,Vegetables for human consumption,Total,216,Shepparton,,,
-3610658,Vegetables for human consumption - Lettuces - Total,50811.57,*,42006.93,*,Vegetables for human consumption,Total,216,Shepparton,,,
-3630059,Vegetables for human consumption - Total,3412931.17,*,3033882.84,*,Vegetables for human consumption,Total,217,Warrnambool and South West,,,
-3630059,Vegetables for human consumption - Total,4143852.19,^,3272671.42,^,Vegetables for human consumption,Total,301,Brisbane - East,,,
-3610658,Vegetables for human consumption - Lettuces - Total,961759.42,,781527.86,,Vegetables for human consumption,Total,301,Brisbane - East,,,
-3630059,Vegetables for human consumption - Total,,,np,,Vegetables for human consumption,Total,303,Brisbane - South,,,
-3610658,Vegetables for human consumption - Lettuces - Total,2238933.1,*,1819362.06,*,Vegetables for human consumption,Total,303,Brisbane - South,,,
-3630059,Vegetables for human consumption - Total,20445557.36,^,17745516.44,^,Vegetables for human consumption,Total,306,Cairns,,,
-3630059,Vegetables for human consumption - Total,200138917.7,,165870090.7,,Vegetables for human consumption,Total,307,Darling Downs - Maranoa,,,
-3610658,Vegetables for human consumption - Lettuces - Total,,,np,,Vegetables for human consumption,Total,307,Darling Downs - Maranoa,,,
-3630059,Vegetables for human consumption - Total,,,np,,Vegetables for human consumption,Total,308,Central Queensland,,,
-3630059,Vegetables for human consumption - Total,,,np,,Vegetables for human consumption,Total,309,Gold Coast,,,
-3610658,Vegetables for human consumption - Lettuces - Total,,,np,,Vegetables for human consumption,Total,309,Gold Coast,,,
-3630059,Vegetables for human consumption - Total,232093856.8,,183607402.2,,Vegetables for human consumption,Total,310,Ipswich,,,
-3610658,Vegetables for human consumption - Lettuces - Total,,,np,,Vegetables for human consumption,Total,310,Ipswich,,,
-3630059,Vegetables for human consumption - Total,22439753.36,,19142666.07,,Vegetables for human consumption,Total,311,Logan - Beaudesert,,,
-3630059,Vegetables for human consumption - Total,193360917.7,,160636812.6,,Vegetables for human consumption,Total,312,Mackay - Isaac - Whitsunday,,,
-3630059,Vegetables for human consumption - Total,,,np,,Vegetables for human consumption,Total,313,Moreton Bay - North,,,
-3610658,Vegetables for human consumption - Lettuces - Total,125901.23,**,102307.63,**,Vegetables for human consumption,Total,313,Moreton Bay - North,,,
-3630059,Vegetables for human consumption - Total,,,np,,Vegetables for human consumption,Total,315,Queensland - Outback,,,
-3630059,Vegetables for human consumption - Total,13816934.31,*,11702143.12,*,Vegetables for human consumption,Total,316,Sunshine Coast,,,
-3610658,Vegetables for human consumption - Lettuces - Total,89915.62,**,73065.63,**,Vegetables for human consumption,Total,316,Sunshine Coast,,,
-3630059,Vegetables for human consumption - Total,211180037.5,,166610514.2,,Vegetables for human consumption,Total,317,Toowoomba,,,
-3610658,Vegetables for human consumption - Lettuces - Total,39699656.66,,32260030.07,,Vegetables for human consumption,Total,317,Toowoomba,,,
-3630059,Vegetables for human consumption - Total,105476968.3,^,83257993.37,^,Vegetables for human consumption,Total,318,Townsville,,,
-3630059,Vegetables for human consumption - Total,212904368.3,,181034683.4,,Vegetables for human consumption,Total,319,Wide Bay,,,
-3610658,Vegetables for human consumption - Lettuces - Total,4069305.58,,3306726.84,,Vegetables for human consumption,Total,319,Wide Bay,,,
-3630059,Vegetables for human consumption - Total,19177470.9,,17162207.65,,Vegetables for human consumption,Total,401,Adelaide - Central and Hills,,,
-3610658,Vegetables for human consumption - Lettuces - Total,3784.12,*,3178.09,*,Vegetables for human consumption,Total,401,Adelaide - Central and Hills,,,
-3630059,Vegetables for human consumption - Total,94577276.21,,79726226.44,,Vegetables for human consumption,Total,402,Adelaide - North,,,
-3610658,Vegetables for human consumption - Lettuces - Total,3165129.28,*,2658227.66,*,Vegetables for human consumption,Total,402,Adelaide - North,,,
-3630059,Vegetables for human consumption - Total,13553507.06,,11771005.44,,Vegetables for human consumption,Total,403,Adelaide - South,,,
-3630059,Vegetables for human consumption - Total,55243898.6,^,47460675.19,^,Vegetables for human consumption,Total,405,Barossa - Yorke - Mid North,,,
-3610658,Vegetables for human consumption - Lettuces - Total,326490.13,,274202.1,,Vegetables for human consumption,Total,405,Barossa - Yorke - Mid North,,,
-3630059,Vegetables for human consumption - Total,13278664.21,,11390544.86,,Vegetables for human consumption,Total,406,South Australia - Outback,,,
-3630059,Vegetables for human consumption - Total,365256481.1,,320092705,,Vegetables for human consumption,Total,407,South Australia - South East,,,
-3610658,Vegetables for human consumption - Lettuces - Total,7698214.13,,6465330.15,,Vegetables for human consumption,Total,407,South Australia - South East,,,
-3630059,Vegetables for human consumption - Total,137503075.5,,111045206.3,,Vegetables for human consumption,Total,501,Bunbury,,,
-3610658,Vegetables for human consumption - Lettuces - Total,4827833.58,*,4016401.77,*,Vegetables for human consumption,Total,501,Bunbury,,,
-3630059,Vegetables for human consumption - Total,104552.55,,88905.85,,Vegetables for human consumption,Total,504,Perth - North East,,,
-3630059,Vegetables for human consumption - Total,22140498.62,^,18539507.63,^,Vegetables for human consumption,Total,505,Perth - North West,,,
-3610658,Vegetables for human consumption - Lettuces - Total,1612722.54,,1341666.31,,Vegetables for human consumption,Total,505,Perth - North West,,,
-3630059,Vegetables for human consumption - Total,6683982.4,^,5283808.68,^,Vegetables for human consumption,Total,506,Perth - South East,,,
-3610658,Vegetables for human consumption - Lettuces - Total,2739187.29,^,2278801.97,^,Vegetables for human consumption,Total,506,Perth - South East,,,
-3630059,Vegetables for human consumption - Total,,,np,,Vegetables for human consumption,Total,507,Perth - South West,,,
-3630059,Vegetables for human consumption - Total,65547427.76,^,50112608.34,^,Vegetables for human consumption,Total,509,Western Australia - Wheat Belt,,,
-3610658,Vegetables for human consumption - Lettuces - Total,16014521.51,,13322901.77,,Vegetables for human consumption,Total,509,Western Australia - Wheat Belt,,,
-3630059,Vegetables for human consumption - Total,,,np,,Vegetables for human consumption,Total,510,Western Australia - Outback (North),,,
-3630059,Vegetables for human consumption - Total,32338319.03,^,27214855.95,^,Vegetables for human consumption,Total,511,Western Australia - Outback (South),,,
-3630059,Vegetables for human consumption - Total,16602056.63,,14354831.24,,Vegetables for human consumption,Total,601,Hobart,,,
-3610658,Vegetables for human consumption - Lettuces - Total,1305875.28,^,1089864.96,^,Vegetables for human consumption,Total,601,Hobart,,,
-3630059,Vegetables for human consumption - Total,87581937.29,,83035373.16,,Vegetables for human consumption,Total,602,Launceston and North East,,,
-3630059,Vegetables for human consumption - Total,1855928.95,**,1631841.73,**,Vegetables for human consumption,Total,603,South East,,,
-3630059,Vegetables for human consumption - Total,158402039.8,,144461286.9,,Vegetables for human consumption,Total,604,West and North West,,,
-3630059,Vegetables for human consumption - Total,7582307.61,,6446170.82,,Vegetables for human consumption,Total,701,Darwin,,,
-3630059,Vegetables for human consumption - Total,36266146.64,,30958277.38,,Vegetables for human consumption,Total,702,Northern Territory - Outback,,,
-3610658,Vegetables for human consumption - Lettuces - Total,14646.5,**,11866,**,Vegetables for human consumption,Total,702,Northern Territory - Outback,,,
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,SA4,SA4 name
+3630059,Vegetables for human consumption - Total,6010581.64,,5085760.4,,101,Capital Region
+3630059,Vegetables for human consumption - Total,19754160.84,*,16690274.35,*,102,Central Coast
+3630059,Vegetables for human consumption - Total,51682213.95,,41463681.73,,103,Central West
+3630059,Vegetables for human consumption - Total,5036726.02,*,4350113.22,*,104,Coffs Harbour - Grafton
+3630059,Vegetables for human consumption - Total,3497649.08,*,2838862.37,*,105,Far West and Orana
+3630059,Vegetables for human consumption - Total,3598187.96,^,3071369.92,^,106,Hunter Valley excluding Newcastle
+3630059,Vegetables for human consumption - Total,1656719.45,*,1403628.75,*,107,Illawarra
+3630059,Vegetables for human consumption - Total,4754103.11,*,3995811.21,*,108,Mid North Coast
+3630059,Vegetables for human consumption - Total,82860492.19,^,70302255.19,^,109,Murray
+3630059,Vegetables for human consumption - Total,41927883.68,^,35255249.04,^,110,New England and North West
+3630059,Vegetables for human consumption - Total,12445491.17,^,10596697.52,^,112,Richmond - Tweed
+3630059,Vegetables for human consumption - Total,101427151.6,,85907204.58,,113,Riverina
+3630059,Vegetables for human consumption - Total,4290657.6,^,3801271.58,^,114,Southern Highlands and Shoalhaven
+3630059,Vegetables for human consumption - Total,75231050.04,,63725773.45,,115,Sydney - Baulkham Hills and Hawkesbury
+3630059,Vegetables for human consumption - Total,4287108.3,**,3644042.34,**,116,Sydney - Blacktown
+3630059,Vegetables for human consumption - Total,111086.02,**,94423.13,**,119,Sydney - Inner South West
+3630059,Vegetables for human consumption - Total,15442784.49,^,12789595.08,^,123,Sydney - Outer South West
+3630059,Vegetables for human consumption - Total,26017012.69,^,21683833.69,^,124,Sydney - Outer West and Blue Mountains
+3630059,Vegetables for human consumption - Total,47368195.42,^,40388534.56,^,127,Sydney - South West
+3630059,Vegetables for human consumption - Total,78895228.22,^,71316282.73,^,201,Ballarat
+3630059,Vegetables for human consumption - Total,2980976.42,^,2694894.66,^,202,Bendigo
+3630059,Vegetables for human consumption - Total,8946033.3,,7460210.91,,203,Geelong
+3630059,Vegetables for human consumption - Total,20471405.34,*,17408776.07,*,204,Hume
+3630059,Vegetables for human consumption - Total,234277426,,194554468.3,,205,Latrobe - Gippsland
+3630059,Vegetables for human consumption - Total,702648.74,,572230.16,,208,Melbourne - Inner South
+3630059,Vegetables for human consumption - Total,102506846.5,,88180094.02,,209,Melbourne - North East
+3630059,Vegetables for human consumption - Total,22779253.3,,19396464.3,,211,Melbourne - Outer East
+3630059,Vegetables for human consumption - Total,95881580.31,,81713405.39,,212,Melbourne - South East
+3630059,Vegetables for human consumption - Total,114382868.5,^,94048724.17,^,213,Melbourne - West
+3630059,Vegetables for human consumption - Total,44429171.22,,37068205.22,,214,Mornington Peninsula
+3630059,Vegetables for human consumption - Total,93273076.15,^,77271281.69,^,215,North West
+3630059,Vegetables for human consumption - Total,120976138.6,^,104438743.1,^,216,Shepparton
+3630059,Vegetables for human consumption - Total,3412931.17,*,3033882.84,*,217,Warrnambool and South West
+3630059,Vegetables for human consumption - Total,4143852.19,^,3272671.42,^,301,Brisbane - East
+3630059,Vegetables for human consumption - Total,,,,,303,Brisbane - South
+3630059,Vegetables for human consumption - Total,20445557.36,^,17745516.44,^,306,Cairns
+3630059,Vegetables for human consumption - Total,200138917.7,,165870090.7,,307,Darling Downs - Maranoa
+3630059,Vegetables for human consumption - Total,,,,,308,Central Queensland
+3630059,Vegetables for human consumption - Total,,,,,309,Gold Coast
+3630059,Vegetables for human consumption - Total,232093856.8,,183607402.2,,310,Ipswich
+3630059,Vegetables for human consumption - Total,22439753.36,,19142666.07,,311,Logan - Beaudesert
+3630059,Vegetables for human consumption - Total,193360917.7,,160636812.6,,312,Mackay - Isaac - Whitsunday
+3630059,Vegetables for human consumption - Total,,,,,313,Moreton Bay - North
+3630059,Vegetables for human consumption - Total,,,,,315,Queensland - Outback
+3630059,Vegetables for human consumption - Total,13816934.31,*,11702143.12,*,316,Sunshine Coast
+3630059,Vegetables for human consumption - Total,211180037.5,,166610514.2,,317,Toowoomba
+3630059,Vegetables for human consumption - Total,105476968.3,^,83257993.37,^,318,Townsville
+3630059,Vegetables for human consumption - Total,212904368.3,,181034683.4,,319,Wide Bay
+3630059,Vegetables for human consumption - Total,19177470.9,,17162207.65,,401,Adelaide - Central and Hills
+3630059,Vegetables for human consumption - Total,94577276.21,,79726226.44,,402,Adelaide - North
+3630059,Vegetables for human consumption - Total,13553507.06,,11771005.44,,403,Adelaide - South
+3630059,Vegetables for human consumption - Total,55243898.6,^,47460675.19,^,405,Barossa - Yorke - Mid North
+3630059,Vegetables for human consumption - Total,13278664.21,,11390544.86,,406,South Australia - Outback
+3630059,Vegetables for human consumption - Total,365256481.1,,320092705,,407,South Australia - South East
+3630059,Vegetables for human consumption - Total,137503075.5,,111045206.3,,501,Bunbury
+3630059,Vegetables for human consumption - Total,104552.55,,88905.85,,504,Perth - North East
+3630059,Vegetables for human consumption - Total,22140498.62,^,18539507.63,^,505,Perth - North West
+3630059,Vegetables for human consumption - Total,6683982.4,^,5283808.68,^,506,Perth - South East
+3630059,Vegetables for human consumption - Total,65547427.76,^,50112608.34,^,509,Western Australia - Wheat Belt
+3630059,Vegetables for human consumption - Total,,,,,510,Western Australia - Outback (North)
+3630059,Vegetables for human consumption - Total,32338319.03,^,27214855.95,^,511,Western Australia - Outback (South)
+3630059,Vegetables for human consumption - Total,16602056.63,,14354831.24,,601,Hobart
+3630059,Vegetables for human consumption - Total,87581937.29,,83035373.16,,602,Launceston and North East
+3630059,Vegetables for human consumption - Total,1855928.95,**,1631841.73,**,603,South East
+3630059,Vegetables for human consumption - Total,158402039.8,,144461286.9,,604,West and North West
+3630059,Vegetables for human consumption - Total,7582307.61,,6446170.82,,701,Darwin
+3630059,Vegetables for human consumption - Total,36266146.64,,30958277.38,,702,Northern Territory - Outback

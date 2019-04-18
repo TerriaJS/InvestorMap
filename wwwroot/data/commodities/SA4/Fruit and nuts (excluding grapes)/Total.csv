@@ -1,64 +1,63 @@
-Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,Commodity,Commodity subcategory,SA4,SA4 name,Local value($),Local value($) - Relative Standard Errors,Gross value ($) - Relative Standard Errors
-4309359,Fruit and nuts (excluding grapes) - Total,17552978.39,^,15586650.03,^,Fruit and nuts (excluding grapes),Total,101,Capital Region,,,
-4309359,Fruit and nuts (excluding grapes) - Total,7091257.2,^,6052092.63,^,Fruit and nuts (excluding grapes),Total,102,Central Coast,,,
-4309359,Fruit and nuts (excluding grapes) - Total,40543320.22,,35747710.51,,Fruit and nuts (excluding grapes),Total,103,Central West,,,
-4309359,Fruit and nuts (excluding grapes) - Total,91622536.04,^,89467758.7,^,Fruit and nuts (excluding grapes),Total,104,Coffs Harbour - Grafton,,,
-4309359,Fruit and nuts (excluding grapes) - Total,2189396.88,*,1811430.89,*,Fruit and nuts (excluding grapes),Total,105,Far West and Orana,,,
-4309359,Fruit and nuts (excluding grapes) - Total,76538.71,*,73135.68,*,Fruit and nuts (excluding grapes),Total,106,Hunter Valley excluding Newcastle,,,
-4309359,Fruit and nuts (excluding grapes) - Total,586373.39,*,507193.52,*,Fruit and nuts (excluding grapes),Total,107,Illawarra,,,
-4309359,Fruit and nuts (excluding grapes) - Total,27388038.12,*,24242422.1,*,Fruit and nuts (excluding grapes),Total,108,Mid North Coast,,,
-4309359,Fruit and nuts (excluding grapes) - Total,108702026.8,^,94814705.62,^,Fruit and nuts (excluding grapes),Total,109,Murray,,,
-4309359,Fruit and nuts (excluding grapes) - Total,14809186.72,,12854841.61,,Fruit and nuts (excluding grapes),Total,110,New England and North West,,,
-4309359,Fruit and nuts (excluding grapes) - Total,131160028.1,,126846912.4,,Fruit and nuts (excluding grapes),Total,112,Richmond - Tweed,,,
-4309359,Fruit and nuts (excluding grapes) - Total,270209469.5,,234919142.4,,Fruit and nuts (excluding grapes),Total,113,Riverina,,,
-4309359,Fruit and nuts (excluding grapes) - Total,608340.07,*,570244.26,*,Fruit and nuts (excluding grapes),Total,114,Southern Highlands and Shoalhaven,,,
-4309359,Fruit and nuts (excluding grapes) - Total,7324496.65,^,6619457.62,^,Fruit and nuts (excluding grapes),Total,115,Sydney - Baulkham Hills and Hawkesbury,,,
-4309359,Fruit and nuts (excluding grapes) - Total,1059863.32,*,991081.01,*,Fruit and nuts (excluding grapes),Total,123,Sydney - Outer South West,,,
-4309359,Fruit and nuts (excluding grapes) - Total,2163386.91,*,1971547.75,*,Fruit and nuts (excluding grapes),Total,124,Sydney - Outer West and Blue Mountains,,,
-4309359,Fruit and nuts (excluding grapes) - Total,309784.33,*,272770.65,*,Fruit and nuts (excluding grapes),Total,127,Sydney - South West,,,
-4309359,Fruit and nuts (excluding grapes) - Total,194173.88,**,187038.98,**,Fruit and nuts (excluding grapes),Total,201,Ballarat,,,
-4309359,Fruit and nuts (excluding grapes) - Total,8597453.87,^,7475331.16,^,Fruit and nuts (excluding grapes),Total,202,Bendigo,,,
-4309359,Fruit and nuts (excluding grapes) - Total,19973.91,*,17391.56,*,Fruit and nuts (excluding grapes),Total,203,Geelong,,,
-4309359,Fruit and nuts (excluding grapes) - Total,41200602.9,,37001418.64,,Fruit and nuts (excluding grapes),Total,204,Hume,,,
-4309359,Fruit and nuts (excluding grapes) - Total,7455741.22,*,6471121.8,*,Fruit and nuts (excluding grapes),Total,205,Latrobe - Gippsland,,,
-4309359,Fruit and nuts (excluding grapes) - Total,15672383.71,*,14895728.18,*,Fruit and nuts (excluding grapes),Total,209,Melbourne - North East,,,
-4309359,Fruit and nuts (excluding grapes) - Total,444563.99,**,399466.1,**,Fruit and nuts (excluding grapes),Total,210,Melbourne - North West,,,
-4309359,Fruit and nuts (excluding grapes) - Total,113549966.7,^,99713982.34,^,Fruit and nuts (excluding grapes),Total,211,Melbourne - Outer East,,,
-4309359,Fruit and nuts (excluding grapes) - Total,10073096.98,^,8714779.9,^,Fruit and nuts (excluding grapes),Total,212,Melbourne - South East,,,
-4309359,Fruit and nuts (excluding grapes) - Total,4107262.74,,3554035.84,,Fruit and nuts (excluding grapes),Total,213,Melbourne - West,,,
-4309359,Fruit and nuts (excluding grapes) - Total,27780812.16,^,24278278.21,^,Fruit and nuts (excluding grapes),Total,214,Mornington Peninsula,,,
-4309359,Fruit and nuts (excluding grapes) - Total,514145236.2,,489756703.1,,Fruit and nuts (excluding grapes),Total,215,North West,,,
-4309359,Fruit and nuts (excluding grapes) - Total,341438704.6,,298859272.1,,Fruit and nuts (excluding grapes),Total,216,Shepparton,,,
-4309359,Fruit and nuts (excluding grapes) - Total,1598970.61,*,1468418.03,*,Fruit and nuts (excluding grapes),Total,217,Warrnambool and South West,,,
-4309359,Fruit and nuts (excluding grapes) - Total,107479.46,**,93590.73,**,Fruit and nuts (excluding grapes),Total,304,Brisbane - West,,,
-4309359,Fruit and nuts (excluding grapes) - Total,604872638.6,,537106514,,Fruit and nuts (excluding grapes),Total,306,Cairns,,,
-4309359,Fruit and nuts (excluding grapes) - Total,131993530.7,^,114757478,^,Fruit and nuts (excluding grapes),Total,307,Darling Downs - Maranoa,,,
-4309359,Fruit and nuts (excluding grapes) - Total,26330283.78,^,22540683.84,^,Fruit and nuts (excluding grapes),Total,308,Central Queensland,,,
-4309359,Fruit and nuts (excluding grapes) - Total,2815639.8,**,2669354.87,**,Fruit and nuts (excluding grapes),Total,309,Gold Coast,,,
-4309359,Fruit and nuts (excluding grapes) - Total,5570281.23,**,4791249.98,**,Fruit and nuts (excluding grapes),Total,310,Ipswich,,,
-4309359,Fruit and nuts (excluding grapes) - Total,5183331.22,^,4381375.31,^,Fruit and nuts (excluding grapes),Total,312,Mackay - Isaac - Whitsunday,,,
-4309359,Fruit and nuts (excluding grapes) - Total,99708738.77,,84372833.66,,Fruit and nuts (excluding grapes),Total,313,Moreton Bay - North,,,
-4309359,Fruit and nuts (excluding grapes) - Total,87179615.91,,74552496.95,,Fruit and nuts (excluding grapes),Total,315,Queensland - Outback,,,
-4309359,Fruit and nuts (excluding grapes) - Total,69946656.59,,62102030.76,,Fruit and nuts (excluding grapes),Total,316,Sunshine Coast,,,
-4309359,Fruit and nuts (excluding grapes) - Total,3077907.23,,2648544.3,,Fruit and nuts (excluding grapes),Total,317,Toowoomba,,,
-4309359,Fruit and nuts (excluding grapes) - Total,17284006.28,^,14393574.78,^,Fruit and nuts (excluding grapes),Total,318,Townsville,,,
-4309359,Fruit and nuts (excluding grapes) - Total,403791893.9,,355179966.9,,Fruit and nuts (excluding grapes),Total,319,Wide Bay,,,
-4309359,Fruit and nuts (excluding grapes) - Total,91614856.65,,79192831.21,,Fruit and nuts (excluding grapes),Total,401,Adelaide - Central and Hills,,,
-4309359,Fruit and nuts (excluding grapes) - Total,5041126.14,*,5034678.97,*,Fruit and nuts (excluding grapes),Total,402,Adelaide - North,,,
-4309359,Fruit and nuts (excluding grapes) - Total,2300654.42,^,2024816.13,^,Fruit and nuts (excluding grapes),Total,403,Adelaide - South,,,
-4309359,Fruit and nuts (excluding grapes) - Total,405861.11,*,349502.68,*,Fruit and nuts (excluding grapes),Total,405,Barossa - Yorke - Mid North,,,
-4309359,Fruit and nuts (excluding grapes) - Total,346283893.1,,300818532.9,,Fruit and nuts (excluding grapes),Total,407,South Australia - South East,,,
-4309359,Fruit and nuts (excluding grapes) - Total,174668370.3,,149303191.5,,Fruit and nuts (excluding grapes),Total,501,Bunbury,,,
-4309359,Fruit and nuts (excluding grapes) - Total,17142875.9,,15987407.66,,Fruit and nuts (excluding grapes),Total,504,Perth - North East,,,
-4309359,Fruit and nuts (excluding grapes) - Total,17808094,^,16329024.38,^,Fruit and nuts (excluding grapes),Total,505,Perth - North West,,,
-4309359,Fruit and nuts (excluding grapes) - Total,20518719.46,^,17534731.43,^,Fruit and nuts (excluding grapes),Total,506,Perth - South East,,,
-4309359,Fruit and nuts (excluding grapes) - Total,152906.55,**,131658.25,**,Fruit and nuts (excluding grapes),Total,507,Perth - South West,,,
-4309359,Fruit and nuts (excluding grapes) - Total,59932131.99,,54160430.16,,Fruit and nuts (excluding grapes),Total,509,Western Australia - Wheat Belt,,,
-4309359,Fruit and nuts (excluding grapes) - Total,7124233.76,^,6358125.39,^,Fruit and nuts (excluding grapes),Total,510,Western Australia - Outback (North),,,
-4309359,Fruit and nuts (excluding grapes) - Total,23598915.37,*,20610974.76,*,Fruit and nuts (excluding grapes),Total,511,Western Australia - Outback (South),,,
-4309359,Fruit and nuts (excluding grapes) - Total,3168340.38,*,2739336.76,*,Fruit and nuts (excluding grapes),Total,601,Hobart,,,
-4309359,Fruit and nuts (excluding grapes) - Total,44716970.49,^,39167447.27,^,Fruit and nuts (excluding grapes),Total,602,Launceston and North East,,,
-4309359,Fruit and nuts (excluding grapes) - Total,85685692.15,,77708194.71,,Fruit and nuts (excluding grapes),Total,603,South East,,,
-4309359,Fruit and nuts (excluding grapes) - Total,20325496.09,,18076608.92,,Fruit and nuts (excluding grapes),Total,604,West and North West,,,
-4309359,Fruit and nuts (excluding grapes) - Total,34954645.97,,29844782.52,,Fruit and nuts (excluding grapes),Total,701,Darwin,,,
-4309359,Fruit and nuts (excluding grapes) - Total,11076511.03,,9277429.02,,Fruit and nuts (excluding grapes),Total,702,Northern Territory - Outback,,,
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,SA4,SA4 name
+4309359,Fruit and nuts (excluding grapes) - Total,17552978.39,^,15586650.03,^,101,Capital Region
+4309359,Fruit and nuts (excluding grapes) - Total,7091257.2,^,6052092.63,^,102,Central Coast
+4309359,Fruit and nuts (excluding grapes) - Total,40543320.22,,35747710.51,,103,Central West
+4309359,Fruit and nuts (excluding grapes) - Total,91622536.04,^,89467758.7,^,104,Coffs Harbour - Grafton
+4309359,Fruit and nuts (excluding grapes) - Total,2189396.88,*,1811430.89,*,105,Far West and Orana
+4309359,Fruit and nuts (excluding grapes) - Total,76538.71,*,73135.68,*,106,Hunter Valley excluding Newcastle
+4309359,Fruit and nuts (excluding grapes) - Total,586373.39,*,507193.52,*,107,Illawarra
+4309359,Fruit and nuts (excluding grapes) - Total,27388038.12,*,24242422.1,*,108,Mid North Coast
+4309359,Fruit and nuts (excluding grapes) - Total,108702026.8,^,94814705.62,^,109,Murray
+4309359,Fruit and nuts (excluding grapes) - Total,14809186.72,,12854841.61,,110,New England and North West
+4309359,Fruit and nuts (excluding grapes) - Total,131160028.1,,126846912.4,,112,Richmond - Tweed
+4309359,Fruit and nuts (excluding grapes) - Total,270209469.5,,234919142.4,,113,Riverina
+4309359,Fruit and nuts (excluding grapes) - Total,608340.07,*,570244.26,*,114,Southern Highlands and Shoalhaven
+4309359,Fruit and nuts (excluding grapes) - Total,7324496.65,^,6619457.62,^,115,Sydney - Baulkham Hills and Hawkesbury
+4309359,Fruit and nuts (excluding grapes) - Total,1059863.32,*,991081.01,*,123,Sydney - Outer South West
+4309359,Fruit and nuts (excluding grapes) - Total,2163386.91,*,1971547.75,*,124,Sydney - Outer West and Blue Mountains
+4309359,Fruit and nuts (excluding grapes) - Total,309784.33,*,272770.65,*,127,Sydney - South West
+4309359,Fruit and nuts (excluding grapes) - Total,194173.88,**,187038.98,**,201,Ballarat
+4309359,Fruit and nuts (excluding grapes) - Total,8597453.87,^,7475331.16,^,202,Bendigo
+4309359,Fruit and nuts (excluding grapes) - Total,19973.91,*,17391.56,*,203,Geelong
+4309359,Fruit and nuts (excluding grapes) - Total,41200602.9,,37001418.64,,204,Hume
+4309359,Fruit and nuts (excluding grapes) - Total,7455741.22,*,6471121.8,*,205,Latrobe - Gippsland
+4309359,Fruit and nuts (excluding grapes) - Total,15672383.71,*,14895728.18,*,209,Melbourne - North East
+4309359,Fruit and nuts (excluding grapes) - Total,444563.99,**,399466.1,**,210,Melbourne - North West
+4309359,Fruit and nuts (excluding grapes) - Total,113549966.7,^,99713982.34,^,211,Melbourne - Outer East
+4309359,Fruit and nuts (excluding grapes) - Total,10073096.98,^,8714779.9,^,212,Melbourne - South East
+4309359,Fruit and nuts (excluding grapes) - Total,4107262.74,,3554035.84,,213,Melbourne - West
+4309359,Fruit and nuts (excluding grapes) - Total,27780812.16,^,24278278.21,^,214,Mornington Peninsula
+4309359,Fruit and nuts (excluding grapes) - Total,514145236.2,,489756703.1,,215,North West
+4309359,Fruit and nuts (excluding grapes) - Total,341438704.6,,298859272.1,,216,Shepparton
+4309359,Fruit and nuts (excluding grapes) - Total,1598970.61,*,1468418.03,*,217,Warrnambool and South West
+4309359,Fruit and nuts (excluding grapes) - Total,107479.46,**,93590.73,**,304,Brisbane - West
+4309359,Fruit and nuts (excluding grapes) - Total,604872638.6,,537106514,,306,Cairns
+4309359,Fruit and nuts (excluding grapes) - Total,131993530.7,^,114757478,^,307,Darling Downs - Maranoa
+4309359,Fruit and nuts (excluding grapes) - Total,26330283.78,^,22540683.84,^,308,Central Queensland
+4309359,Fruit and nuts (excluding grapes) - Total,2815639.8,**,2669354.87,**,309,Gold Coast
+4309359,Fruit and nuts (excluding grapes) - Total,5570281.23,**,4791249.98,**,310,Ipswich
+4309359,Fruit and nuts (excluding grapes) - Total,5183331.22,^,4381375.31,^,312,Mackay - Isaac - Whitsunday
+4309359,Fruit and nuts (excluding grapes) - Total,99708738.77,,84372833.66,,313,Moreton Bay - North
+4309359,Fruit and nuts (excluding grapes) - Total,87179615.91,,74552496.95,,315,Queensland - Outback
+4309359,Fruit and nuts (excluding grapes) - Total,69946656.59,,62102030.76,,316,Sunshine Coast
+4309359,Fruit and nuts (excluding grapes) - Total,3077907.23,,2648544.3,,317,Toowoomba
+4309359,Fruit and nuts (excluding grapes) - Total,17284006.28,^,14393574.78,^,318,Townsville
+4309359,Fruit and nuts (excluding grapes) - Total,403791893.9,,355179966.9,,319,Wide Bay
+4309359,Fruit and nuts (excluding grapes) - Total,91614856.65,,79192831.21,,401,Adelaide - Central and Hills
+4309359,Fruit and nuts (excluding grapes) - Total,5041126.14,*,5034678.97,*,402,Adelaide - North
+4309359,Fruit and nuts (excluding grapes) - Total,2300654.42,^,2024816.13,^,403,Adelaide - South
+4309359,Fruit and nuts (excluding grapes) - Total,405861.11,*,349502.68,*,405,Barossa - Yorke - Mid North
+4309359,Fruit and nuts (excluding grapes) - Total,346283893.1,,300818532.9,,407,South Australia - South East
+4309359,Fruit and nuts (excluding grapes) - Total,174668370.3,,149303191.5,,501,Bunbury
+4309359,Fruit and nuts (excluding grapes) - Total,17142875.9,,15987407.66,,504,Perth - North East
+4309359,Fruit and nuts (excluding grapes) - Total,17808094,^,16329024.38,^,505,Perth - North West
+4309359,Fruit and nuts (excluding grapes) - Total,20518719.46,^,17534731.43,^,506,Perth - South East
+4309359,Fruit and nuts (excluding grapes) - Total,59932131.99,,54160430.16,,509,Western Australia - Wheat Belt
+4309359,Fruit and nuts (excluding grapes) - Total,7124233.76,^,6358125.39,^,510,Western Australia - Outback (North)
+4309359,Fruit and nuts (excluding grapes) - Total,23598915.37,*,20610974.76,*,511,Western Australia - Outback (South)
+4309359,Fruit and nuts (excluding grapes) - Total,3168340.38,*,2739336.76,*,601,Hobart
+4309359,Fruit and nuts (excluding grapes) - Total,44716970.49,^,39167447.27,^,602,Launceston and North East
+4309359,Fruit and nuts (excluding grapes) - Total,85685692.15,,77708194.71,,603,South East
+4309359,Fruit and nuts (excluding grapes) - Total,20325496.09,,18076608.92,,604,West and North West
+4309359,Fruit and nuts (excluding grapes) - Total,34954645.97,,29844782.52,,701,Darwin
+4309359,Fruit and nuts (excluding grapes) - Total,11076511.03,,9277429.02,,702,Northern Territory - Outback

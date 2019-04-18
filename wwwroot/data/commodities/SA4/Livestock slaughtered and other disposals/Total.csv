@@ -1,75 +1,74 @@
-Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,Commodity,Commodity subcategory,SA4,SA4 name,Local value($),Local value($) - Relative Standard Errors,Gross value ($) - Relative Standard Errors
-9015959,Livestock slaughtered and other disposals - Total,378770273.7,,353657775,,Livestock slaughtered and other disposals,Total,101,Capital Region,,,
-9015959,Livestock slaughtered and other disposals - Total,82461415.1,^,81055202.1,^,Livestock slaughtered and other disposals,Total,102,Central Coast,,,
-9015959,Livestock slaughtered and other disposals - Total,507172839.9,,471313195.8,,Livestock slaughtered and other disposals,Total,103,Central West,,,
-9015959,Livestock slaughtered and other disposals - Total,57327596.33,^,53301616.51,^,Livestock slaughtered and other disposals,Total,104,Coffs Harbour - Grafton,,,
-9015959,Livestock slaughtered and other disposals - Total,522526471,,483983882.9,,Livestock slaughtered and other disposals,Total,105,Far West and Orana,,,
-9015959,Livestock slaughtered and other disposals - Total,282501566.2,^,268263400.6,^,Livestock slaughtered and other disposals,Total,106,Hunter Valley excluding Newcastle,,,
-9015959,Livestock slaughtered and other disposals - Total,8409796.39,*,7813716.92,*,Livestock slaughtered and other disposals,Total,107,Illawarra,,,
-9015959,Livestock slaughtered and other disposals - Total,149575956.1,^,142132871.3,^,Livestock slaughtered and other disposals,Total,108,Mid North Coast,,,
-9015959,Livestock slaughtered and other disposals - Total,459603938.6,,431438013.7,,Livestock slaughtered and other disposals,Total,109,Murray,,,
-9015959,Livestock slaughtered and other disposals - Total,862328295.7,,805010603.5,,Livestock slaughtered and other disposals,Total,110,New England and North West,,,
-9015959,Livestock slaughtered and other disposals - Total,4301275.03,^,4229634.19,^,Livestock slaughtered and other disposals,Total,111,Newcastle and Lake Macquarie,,,
-9015959,Livestock slaughtered and other disposals - Total,151081031.6,,144109195.4,,Livestock slaughtered and other disposals,Total,112,Richmond - Tweed,,,
-9015959,Livestock slaughtered and other disposals - Total,498428656.2,,469056813.5,,Livestock slaughtered and other disposals,Total,113,Riverina,,,
-9015959,Livestock slaughtered and other disposals - Total,37870976.06,^,35619425.14,^,Livestock slaughtered and other disposals,Total,114,Southern Highlands and Shoalhaven,,,
-9015959,Livestock slaughtered and other disposals - Total,10576861.99,*,10386323.96,*,Livestock slaughtered and other disposals,Total,115,Sydney - Baulkham Hills and Hawkesbury,,,
-9015959,Livestock slaughtered and other disposals - Total,26896934.45,*,26416101.48,*,Livestock slaughtered and other disposals,Total,116,Sydney - Blacktown,,,
-9015959,Livestock slaughtered and other disposals - Total,285715.54,**,265467.72,**,Livestock slaughtered and other disposals,Total,121,Sydney - North Sydney and Hornsby,,,
-9015959,Livestock slaughtered and other disposals - Total,4478136.85,,4159536.76,,Livestock slaughtered and other disposals,Total,122,Sydney - Northern Beaches,,,
-9015959,Livestock slaughtered and other disposals - Total,58471334.41,^,57281466.13,^,Livestock slaughtered and other disposals,Total,123,Sydney - Outer South West,,,
-9015959,Livestock slaughtered and other disposals - Total,31595480.75,^,30992122.8,^,Livestock slaughtered and other disposals,Total,124,Sydney - Outer West and Blue Mountains,,,
-9015959,Livestock slaughtered and other disposals - Total,69957455.1,^,68656120.7,^,Livestock slaughtered and other disposals,Total,127,Sydney - South West,,,
-9015959,Livestock slaughtered and other disposals - Total,235312827.9,,218106735.6,,Livestock slaughtered and other disposals,Total,201,Ballarat,,,
-9015959,Livestock slaughtered and other disposals - Total,371899144.5,^,350654710.8,^,Livestock slaughtered and other disposals,Total,202,Bendigo,,,
-9015959,Livestock slaughtered and other disposals - Total,221171963.2,,210937491,,Livestock slaughtered and other disposals,Total,203,Geelong,,,
-9015959,Livestock slaughtered and other disposals - Total,484171518.3,,449366493,,Livestock slaughtered and other disposals,Total,204,Hume,,,
-9015959,Livestock slaughtered and other disposals - Total,681040779.6,,627303172.2,,Livestock slaughtered and other disposals,Total,205,Latrobe - Gippsland,,,
-9015959,Livestock slaughtered and other disposals - Total,16938502.56,*,16086855.38,*,Livestock slaughtered and other disposals,Total,209,Melbourne - North East,,,
-9015959,Livestock slaughtered and other disposals - Total,15331772.4,*,14207389.17,*,Livestock slaughtered and other disposals,Total,210,Melbourne - North West,,,
-9015959,Livestock slaughtered and other disposals - Total,19028889.14,^,18346297.27,^,Livestock slaughtered and other disposals,Total,211,Melbourne - Outer East,,,
-9015959,Livestock slaughtered and other disposals - Total,118648008.5,^,112902541.1,^,Livestock slaughtered and other disposals,Total,212,Melbourne - South East,,,
-9015959,Livestock slaughtered and other disposals - Total,19477774.05,^,18857618.67,^,Livestock slaughtered and other disposals,Total,213,Melbourne - West,,,
-9015959,Livestock slaughtered and other disposals - Total,166005215.7,*,163007947,*,Livestock slaughtered and other disposals,Total,214,Mornington Peninsula,,,
-9015959,Livestock slaughtered and other disposals - Total,619642064.6,,572160605.3,,Livestock slaughtered and other disposals,Total,215,North West,,,
-9015959,Livestock slaughtered and other disposals - Total,306761422.7,,283645257.9,,Livestock slaughtered and other disposals,Total,216,Shepparton,,,
-9015959,Livestock slaughtered and other disposals - Total,1136983747,,1039493894,,Livestock slaughtered and other disposals,Total,217,Warrnambool and South West,,,
-9015959,Livestock slaughtered and other disposals - Total,42976629.59,^,42248878.56,^,Livestock slaughtered and other disposals,Total,301,Brisbane - East,,,
-9015959,Livestock slaughtered and other disposals - Total,483322.59,**,476483.83,**,Livestock slaughtered and other disposals,Total,302,Brisbane - North,,,
-9015959,Livestock slaughtered and other disposals - Total,6579168.73,^,6487046.31,^,Livestock slaughtered and other disposals,Total,303,Brisbane - South,,,
-9015959,Livestock slaughtered and other disposals - Total,96982580.97,,90834731.48,,Livestock slaughtered and other disposals,Total,306,Cairns,,,
-9015959,Livestock slaughtered and other disposals - Total,1507661496,,1401014493,,Livestock slaughtered and other disposals,Total,307,Darling Downs - Maranoa,,,
-9015959,Livestock slaughtered and other disposals - Total,1037864211,,950465394.6,,Livestock slaughtered and other disposals,Total,308,Central Queensland,,,
-9015959,Livestock slaughtered and other disposals - Total,2863347.49,^,2734750.2,^,Livestock slaughtered and other disposals,Total,309,Gold Coast,,,
-9015959,Livestock slaughtered and other disposals - Total,182269689.2,^,174835533.3,^,Livestock slaughtered and other disposals,Total,310,Ipswich,,,
-9015959,Livestock slaughtered and other disposals - Total,114795077.2,^,109582572.5,^,Livestock slaughtered and other disposals,Total,311,Logan - Beaudesert,,,
-9015959,Livestock slaughtered and other disposals - Total,615188990.2,^,563186082.7,^,Livestock slaughtered and other disposals,Total,312,Mackay - Isaac - Whitsunday,,,
-9015959,Livestock slaughtered and other disposals - Total,164881511.7,^,160662183.3,^,Livestock slaughtered and other disposals,Total,313,Moreton Bay - North,,,
-9015959,Livestock slaughtered and other disposals - Total,1420997.84,**,1302007.74,**,Livestock slaughtered and other disposals,Total,314,Moreton Bay - South,,,
-9015959,Livestock slaughtered and other disposals - Total,2021180220,,1850968455,,Livestock slaughtered and other disposals,Total,315,Queensland - Outback,,,
-9015959,Livestock slaughtered and other disposals - Total,88386763.79,,86731530.62,,Livestock slaughtered and other disposals,Total,316,Sunshine Coast,,,
-9015959,Livestock slaughtered and other disposals - Total,21434180.42,*,20227223.91,*,Livestock slaughtered and other disposals,Total,317,Toowoomba,,,
-9015959,Livestock slaughtered and other disposals - Total,381601970.4,^,349697131.5,^,Livestock slaughtered and other disposals,Total,318,Townsville,,,
-9015959,Livestock slaughtered and other disposals - Total,443943342,,409814597.8,,Livestock slaughtered and other disposals,Total,319,Wide Bay,,,
-9015959,Livestock slaughtered and other disposals - Total,44339256.04,^,42289257.59,^,Livestock slaughtered and other disposals,Total,401,Adelaide - Central and Hills,,,
-9015959,Livestock slaughtered and other disposals - Total,31750230.39,^,30026077.74,^,Livestock slaughtered and other disposals,Total,402,Adelaide - North,,,
-9015959,Livestock slaughtered and other disposals - Total,5724358.47,^,5475939.13,^,Livestock slaughtered and other disposals,Total,403,Adelaide - South,,,
-9015959,Livestock slaughtered and other disposals - Total,549203191.7,,517568810.8,,Livestock slaughtered and other disposals,Total,405,Barossa - Yorke - Mid North,,,
-9015959,Livestock slaughtered and other disposals - Total,284042209.3,,259319347.5,,Livestock slaughtered and other disposals,Total,406,South Australia - Outback,,,
-9015959,Livestock slaughtered and other disposals - Total,1133211447,,1051344023,,Livestock slaughtered and other disposals,Total,407,South Australia - South East,,,
-9015959,Livestock slaughtered and other disposals - Total,145769110.1,,132873831.3,,Livestock slaughtered and other disposals,Total,501,Bunbury,,,
-9015959,Livestock slaughtered and other disposals - Total,18809190.77,^,17233662.7,^,Livestock slaughtered and other disposals,Total,502,Mandurah,,,
-9015959,Livestock slaughtered and other disposals - Total,17442810.99,^,16923875.44,^,Livestock slaughtered and other disposals,Total,504,Perth - North East,,,
-9015959,Livestock slaughtered and other disposals - Total,33400027.31,,32924649.16,,Livestock slaughtered and other disposals,Total,505,Perth - North West,,,
-9015959,Livestock slaughtered and other disposals - Total,66005342.11,,64424849.36,,Livestock slaughtered and other disposals,Total,506,Perth - South East,,,
-9015959,Livestock slaughtered and other disposals - Total,,,np,,Livestock slaughtered and other disposals,Total,507,Perth - South West,,,
-9015959,Livestock slaughtered and other disposals - Total,785118508.3,,721029625,,Livestock slaughtered and other disposals,Total,509,Western Australia - Wheat Belt,,,
-9015959,Livestock slaughtered and other disposals - Total,,,np,,Livestock slaughtered and other disposals,Total,510,Western Australia - Outback (North),,,
-9015959,Livestock slaughtered and other disposals - Total,266817130.3,,243347921,,Livestock slaughtered and other disposals,Total,511,Western Australia - Outback (South),,,
-9015959,Livestock slaughtered and other disposals - Total,,,np,,Livestock slaughtered and other disposals,Total,601,Hobart,,,
-9015959,Livestock slaughtered and other disposals - Total,,,np,,Livestock slaughtered and other disposals,Total,602,Launceston and North East,,,
-9015959,Livestock slaughtered and other disposals - Total,,,np,,Livestock slaughtered and other disposals,Total,603,South East,,,
-9015959,Livestock slaughtered and other disposals - Total,154262885.3,,142341895.3,,Livestock slaughtered and other disposals,Total,604,West and North West,,,
-9015959,Livestock slaughtered and other disposals - Total,26427772.38,^,24097527.66,^,Livestock slaughtered and other disposals,Total,701,Darwin,,,
-9015959,Livestock slaughtered and other disposals - Total,467187957.5,,424296210.4,,Livestock slaughtered and other disposals,Total,702,Northern Territory - Outback,,,
-9015959,Livestock slaughtered and other disposals - Total,,,np,,Livestock slaughtered and other disposals,Total,801,Australian Capital Territory,,,
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,SA4,SA4 name
+9015959,Livestock slaughtered and other disposals - Total,378770273.7,,353657775,,101,Capital Region
+9015959,Livestock slaughtered and other disposals - Total,82461415.1,^,81055202.1,^,102,Central Coast
+9015959,Livestock slaughtered and other disposals - Total,507172839.9,,471313195.8,,103,Central West
+9015959,Livestock slaughtered and other disposals - Total,57327596.33,^,53301616.51,^,104,Coffs Harbour - Grafton
+9015959,Livestock slaughtered and other disposals - Total,522526471,,483983882.9,,105,Far West and Orana
+9015959,Livestock slaughtered and other disposals - Total,282501566.2,^,268263400.6,^,106,Hunter Valley excluding Newcastle
+9015959,Livestock slaughtered and other disposals - Total,8409796.39,*,7813716.92,*,107,Illawarra
+9015959,Livestock slaughtered and other disposals - Total,149575956.1,^,142132871.3,^,108,Mid North Coast
+9015959,Livestock slaughtered and other disposals - Total,459603938.6,,431438013.7,,109,Murray
+9015959,Livestock slaughtered and other disposals - Total,862328295.7,,805010603.5,,110,New England and North West
+9015959,Livestock slaughtered and other disposals - Total,4301275.03,^,4229634.19,^,111,Newcastle and Lake Macquarie
+9015959,Livestock slaughtered and other disposals - Total,151081031.6,,144109195.4,,112,Richmond - Tweed
+9015959,Livestock slaughtered and other disposals - Total,498428656.2,,469056813.5,,113,Riverina
+9015959,Livestock slaughtered and other disposals - Total,37870976.06,^,35619425.14,^,114,Southern Highlands and Shoalhaven
+9015959,Livestock slaughtered and other disposals - Total,10576861.99,*,10386323.96,*,115,Sydney - Baulkham Hills and Hawkesbury
+9015959,Livestock slaughtered and other disposals - Total,26896934.45,*,26416101.48,*,116,Sydney - Blacktown
+9015959,Livestock slaughtered and other disposals - Total,285715.54,**,265467.72,**,121,Sydney - North Sydney and Hornsby
+9015959,Livestock slaughtered and other disposals - Total,4478136.85,,4159536.76,,122,Sydney - Northern Beaches
+9015959,Livestock slaughtered and other disposals - Total,58471334.41,^,57281466.13,^,123,Sydney - Outer South West
+9015959,Livestock slaughtered and other disposals - Total,31595480.75,^,30992122.8,^,124,Sydney - Outer West and Blue Mountains
+9015959,Livestock slaughtered and other disposals - Total,69957455.1,^,68656120.7,^,127,Sydney - South West
+9015959,Livestock slaughtered and other disposals - Total,235312827.9,,218106735.6,,201,Ballarat
+9015959,Livestock slaughtered and other disposals - Total,371899144.5,^,350654710.8,^,202,Bendigo
+9015959,Livestock slaughtered and other disposals - Total,221171963.2,,210937491,,203,Geelong
+9015959,Livestock slaughtered and other disposals - Total,484171518.3,,449366493,,204,Hume
+9015959,Livestock slaughtered and other disposals - Total,681040779.6,,627303172.2,,205,Latrobe - Gippsland
+9015959,Livestock slaughtered and other disposals - Total,16938502.56,*,16086855.38,*,209,Melbourne - North East
+9015959,Livestock slaughtered and other disposals - Total,15331772.4,*,14207389.17,*,210,Melbourne - North West
+9015959,Livestock slaughtered and other disposals - Total,19028889.14,^,18346297.27,^,211,Melbourne - Outer East
+9015959,Livestock slaughtered and other disposals - Total,118648008.5,^,112902541.1,^,212,Melbourne - South East
+9015959,Livestock slaughtered and other disposals - Total,19477774.05,^,18857618.67,^,213,Melbourne - West
+9015959,Livestock slaughtered and other disposals - Total,166005215.7,*,163007947,*,214,Mornington Peninsula
+9015959,Livestock slaughtered and other disposals - Total,619642064.6,,572160605.3,,215,North West
+9015959,Livestock slaughtered and other disposals - Total,306761422.7,,283645257.9,,216,Shepparton
+9015959,Livestock slaughtered and other disposals - Total,1136983747,,1039493894,,217,Warrnambool and South West
+9015959,Livestock slaughtered and other disposals - Total,42976629.59,^,42248878.56,^,301,Brisbane - East
+9015959,Livestock slaughtered and other disposals - Total,483322.59,**,476483.83,**,302,Brisbane - North
+9015959,Livestock slaughtered and other disposals - Total,6579168.73,^,6487046.31,^,303,Brisbane - South
+9015959,Livestock slaughtered and other disposals - Total,96982580.97,,90834731.48,,306,Cairns
+9015959,Livestock slaughtered and other disposals - Total,1507661496,,1401014493,,307,Darling Downs - Maranoa
+9015959,Livestock slaughtered and other disposals - Total,1037864211,,950465394.6,,308,Central Queensland
+9015959,Livestock slaughtered and other disposals - Total,2863347.49,^,2734750.2,^,309,Gold Coast
+9015959,Livestock slaughtered and other disposals - Total,182269689.2,^,174835533.3,^,310,Ipswich
+9015959,Livestock slaughtered and other disposals - Total,114795077.2,^,109582572.5,^,311,Logan - Beaudesert
+9015959,Livestock slaughtered and other disposals - Total,615188990.2,^,563186082.7,^,312,Mackay - Isaac - Whitsunday
+9015959,Livestock slaughtered and other disposals - Total,164881511.7,^,160662183.3,^,313,Moreton Bay - North
+9015959,Livestock slaughtered and other disposals - Total,1420997.84,**,1302007.74,**,314,Moreton Bay - South
+9015959,Livestock slaughtered and other disposals - Total,2021180220,,1850968455,,315,Queensland - Outback
+9015959,Livestock slaughtered and other disposals - Total,88386763.79,,86731530.62,,316,Sunshine Coast
+9015959,Livestock slaughtered and other disposals - Total,21434180.42,*,20227223.91,*,317,Toowoomba
+9015959,Livestock slaughtered and other disposals - Total,381601970.4,^,349697131.5,^,318,Townsville
+9015959,Livestock slaughtered and other disposals - Total,443943342,,409814597.8,,319,Wide Bay
+9015959,Livestock slaughtered and other disposals - Total,44339256.04,^,42289257.59,^,401,Adelaide - Central and Hills
+9015959,Livestock slaughtered and other disposals - Total,31750230.39,^,30026077.74,^,402,Adelaide - North
+9015959,Livestock slaughtered and other disposals - Total,5724358.47,^,5475939.13,^,403,Adelaide - South
+9015959,Livestock slaughtered and other disposals - Total,549203191.7,,517568810.8,,405,Barossa - Yorke - Mid North
+9015959,Livestock slaughtered and other disposals - Total,284042209.3,,259319347.5,,406,South Australia - Outback
+9015959,Livestock slaughtered and other disposals - Total,1133211447,,1051344023,,407,South Australia - South East
+9015959,Livestock slaughtered and other disposals - Total,145769110.1,,132873831.3,,501,Bunbury
+9015959,Livestock slaughtered and other disposals - Total,18809190.77,^,17233662.7,^,502,Mandurah
+9015959,Livestock slaughtered and other disposals - Total,17442810.99,^,16923875.44,^,504,Perth - North East
+9015959,Livestock slaughtered and other disposals - Total,33400027.31,,32924649.16,,505,Perth - North West
+9015959,Livestock slaughtered and other disposals - Total,66005342.11,,64424849.36,,506,Perth - South East
+9015959,Livestock slaughtered and other disposals - Total,785118508.3,,721029625,,509,Western Australia - Wheat Belt
+9015959,Livestock slaughtered and other disposals - Total,,,,,510,Western Australia - Outback (North)
+9015959,Livestock slaughtered and other disposals - Total,266817130.3,,243347921,,511,Western Australia - Outback (South)
+9015959,Livestock slaughtered and other disposals - Total,,,,,601,Hobart
+9015959,Livestock slaughtered and other disposals - Total,,,,,602,Launceston and North East
+9015959,Livestock slaughtered and other disposals - Total,,,,,603,South East
+9015959,Livestock slaughtered and other disposals - Total,154262885.3,,142341895.3,,604,West and North West
+9015959,Livestock slaughtered and other disposals - Total,26427772.38,^,24097527.66,^,701,Darwin
+9015959,Livestock slaughtered and other disposals - Total,467187957.5,,424296210.4,,702,Northern Territory - Outback
+9015959,Livestock slaughtered and other disposals - Total,,,,,801,Australian Capital Territory

@@ -37,7 +37,8 @@ module.exports = {
           layers: "23"
         },
         ...require("./sdmx_items"),
-        ...require("./commodity_values")
+        ...require("./commodity_values"),
+        ...require("./land_management")
       ]
     },
     require("../shared/climate"),
