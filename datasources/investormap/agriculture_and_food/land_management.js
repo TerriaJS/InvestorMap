@@ -11,12 +11,10 @@ function transformRow(row) {
 // Flattens the structure so we don't have groups comprised of a single item
 function compress(group) {
   if (group.items) {
-    // console.log(group.name);
     if (group.items.length === 1 && group.items[0].type === "csv") {
       const item = group.items[0];
       const name = group.name;
       delete group.items;
-      // console.log('Replace ', group.name, ' with ', item.name);
       Object.assign(group, item);
       group.name = name;
     } else {
@@ -71,7 +69,6 @@ const categories = {
   )
 };
 
-console.log(categories.State_Code);
 module.exports = [
   {
     type: "group",

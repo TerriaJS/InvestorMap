@@ -47,8 +47,6 @@ module.exports.processAbsRegionFile = function(
         return null; // keep states out of our NRMs and vice versa
       }
       if (row["Region code"] == "507") {
-        // console.log('cull');
-
         // I don't know what 507 is but it doesn't work.
         return null;
       }
@@ -149,9 +147,15 @@ module.exports.regionCategoriesToItems = function(
   }
 
   function catalogGroupByRegionField(regionField, category) {
+    const label =
+      {
+        NRMR_Code: "By Natural Resource Management Region (NRMR)",
+        State_Code: "By State"
+      }[regionField] || `By ${regionField}`;
+
     return {
       type: "group",
-      name: `By ${regionField}`,
+      name: label,
       items: Object.keys(category).map(c =>
         catalogGroupByCategory(category[c], [c], regionField)
       )
@@ -159,8 +163,6 @@ module.exports.regionCategoriesToItems = function(
   }
 
   return Object.keys(regionCategories).map(regionField => {
-    console.log(Object.keys(regionCategories[regionField]));
-
     return catalogGroupByRegionField(
       regionField,
       regionCategories[regionField]
