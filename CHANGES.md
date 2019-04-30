@@ -3,8 +3,8 @@ Change Log
 
 ### 2019-04-30
   * Mining commodities fixed with new end point from GA.
-  * ABS agricultural commodities – 2 datasets.
-  * Power generation – NEM (as on AREMI).
+  * ABS agricultural commodities - 2 datasets.
+  * Power generation - NEM (as on AREMI).
   * Removal of WA mindex layers.
 
 ### 2019-02-18
