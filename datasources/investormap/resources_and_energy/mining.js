@@ -29,7 +29,7 @@ function geoscienceAustraliaStyleLayers() {
   ];
   return styles.map(([styleId, title]) => ({
     name: title,
-    url: "http://52.62.101.149:8080/geoserver/wms",
+    url: "http://13.239.3.13:8080/geoserver/wms",
     type: "wms",
     dataCustodian: "[Geoscience Australia](http://www.ga.gov.au/)",
     info: [

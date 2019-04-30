@@ -28,7 +28,7 @@
         "www.abc.net.au",
         "www.dptiapps.com.au",
         "droughtreliefpublic.blob.core.windows.net",
-        "52.62.101.149:8080"
+        "13.239.3.13:8080"
     ],
     "initPaths": [
         "node_modules/nationalmap-catalog/build"
