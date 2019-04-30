@@ -41,8 +41,8 @@ module.exports.processAbsRegionFile = function(
 
     // Fix issue with unknown region "New South Wales and Australian Capital Territory"
     for (let i = 0, adds = 0, len = lines.length; i < len; i++) {
+      // Determines 9991 is a region code
       if (lines[i].indexOf("9991") == 0) {
-        // determines 9991 is a region code
         // Replace NSW and ACT values with NSW
         lines[i] = lines[i].replace(
           "New South Wales and Australian Capital Territory",
