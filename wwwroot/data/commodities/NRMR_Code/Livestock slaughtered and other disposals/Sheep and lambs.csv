@@ -1,0 +1,50 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,NRMR_Code,NRMR name
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,79067522.85,,72715093.63,,101,Central Tablelands
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,176774270.2,,162572539.9,,102,Central West
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,333553.76,*,306758.88,*,103,Greater Sydney
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,3812547.7,*,3506200.13,*,104,Hunter
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,83776644.58,,77046068.02,,105,Murray
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,56938.34,*,52363.81,*,106,North Coast
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,36811346.04,,33853978.1,,108,North West NSW
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,61848174.93,^,56879538.74,^,109,Northern Tablelands
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,170284586,,156604246.8,,110,Riverina
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,98659630.33,,90733323.5,,111,South East NSW
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,121125339.6,,111394632,,112,Western
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,159851077.6,^,145394113.8,^,201,Corangamite
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,24382370.47,^,22177172.93,^,202,East Gippsland
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,591288148.6,,537812204.9,,203,Glenelg Hopkins
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,135013875.6,^,122802735.9,^,204,Goulburn Broken
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,60639192.84,^,55154877.45,^,205,Mallee
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,278488598.2,,253300970,,206,North Central
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,28037521.33,^,25501756.7,^,207,North East
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,15910460.13,*,14471555.34,*,208,Port Phillip and Western Port
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,48823338.93,*,44407906.01,*,209,West Gippsland
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,190052027.7,,172862712,,210,Wimmera
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,14643.03,**,13212.26,**,301,Burnett Mary
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,148632.09,*,134109.22,*,303,Condamine
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,2955439.25,,2666662.79,,305,Desert Channels
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,8489.46,**,7659.96,**,306,Fitzroy Basin
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,5481.42,**,4945.83,**,308,Northern Gulf
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,3370534.71,^,3041199.21,^,309,Queensland Murray Darling Basin
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,1127.27,**,1017.12,**,310,Reef Catchments
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,1503.51,^,1356.6,^,311,South East Queensland
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,2491862.1,^,2248381.84,^,312,South West Queensland
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,147223,**,132837.82,**,313,Southern Gulf
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,19188125.46,^,17452510.32,^,401,Adelaide and Mount Lofty Ranges
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,1123113.05,,1021453.58,,402,Alinytjara Wilurara
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,92119031.23,,83787942.07,,403,Eyre Peninsula
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,29310653.73,,26659652.63,,404,Kangaroo Island
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,117340336.7,,106729665.5,,405,Northern and Yorke
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,53850227.31,,48981056.9,,406,South Australian Arid Lands
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,93834181.1,,85345741.6,,407,South Australian Murray Darling Basin
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,172293921.7,,156714865.6,,408,South East
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,72432981.7,,66138570.37,,501,Northern Agricultural
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,36520666.55,,33350463.58,,502,Peel-Harvey
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,285979.59,^,260394.89,^,503,Perth
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,8866052.78,^,8094520.17,^,504,Rangelands
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,120379632,,109901279.1,,505,South Coast
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,144968250.1,,132363830.7,,506,South West
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,1425246.54,,1282396.47,,601,Cradle Coast
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,28994397.82,,26088337.91,,602,North
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,28267401.18,,25434206.93,,603,South
+9100258,Livestock slaughtered and other disposals - Sheep and lambs,1668556.03,,1534573.31,,801,ACT

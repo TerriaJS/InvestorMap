@@ -1,0 +1,61 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,SA4,SA4 name
+1910758,Broadacre crops - Total,129048640.1,^,117211629.7,^,101,Capital Region
+1910758,Broadacre crops - Total,4606.32,**,4145.91,**,102,Central Coast
+1910758,Broadacre crops - Total,712700060.5,,641670964.1,,103,Central West
+1910758,Broadacre crops - Total,30962841.01,^,26548143.15,^,104,Coffs Harbour - Grafton
+1910758,Broadacre crops - Total,1086535664,,997815438.3,,105,Far West and Orana
+1910758,Broadacre crops - Total,7314557.22,^,6572523.63,^,106,Hunter Valley excluding Newcastle
+1910758,Broadacre crops - Total,1223323.61,**,1186929.46,**,108,Mid North Coast
+1910758,Broadacre crops - Total,895141832.5,,810463144.4,,109,Murray
+1910758,Broadacre crops - Total,1933399542,,1806485019,,110,New England and North West
+1910758,Broadacre crops - Total,69544016.47,^,60008060.99,^,112,Richmond - Tweed
+1910758,Broadacre crops - Total,1270759480,,1158798306,,113,Riverina
+1910758,Broadacre crops - Total,1552287.19,**,1427486.98,**,114,Southern Highlands and Shoalhaven
+1910758,Broadacre crops - Total,1595508.47,,1442851.04,,122,Sydney - Northern Beaches
+1910758,Broadacre crops - Total,84494.25,*,75371.04,*,123,Sydney - Outer South West
+1910758,Broadacre crops - Total,39047.63,,33219.8,,124,Sydney - Outer West and Blue Mountains
+1910758,Broadacre crops - Total,1844545.87,,1642254.49,,127,Sydney - South West
+1910758,Broadacre crops - Total,200509272.7,^,183004504.8,^,201,Ballarat
+1910758,Broadacre crops - Total,197111287.9,^,175814145.2,^,202,Bendigo
+1910758,Broadacre crops - Total,50778599.41,*,46192096.95,*,203,Geelong
+1910758,Broadacre crops - Total,51163889.91,*,46813926.44,*,204,Hume
+1910758,Broadacre crops - Total,12361894.29,*,11230890.01,*,205,Latrobe - Gippsland
+1910758,Broadacre crops - Total,231090.91,**,205646.89,**,209,Melbourne - North East
+1910758,Broadacre crops - Total,4707304.19,**,4272356.32,**,210,Melbourne - North West
+1910758,Broadacre crops - Total,182266.36,,162198.12,,212,Melbourne - South East
+1910758,Broadacre crops - Total,7956629.26,^,7331144.69,^,213,Melbourne - West
+1910758,Broadacre crops - Total,647054.55,**,575811.31,**,214,Mornington Peninsula
+1910758,Broadacre crops - Total,1843659884,,1663110235,,215,North West
+1910758,Broadacre crops - Total,123405664.5,^,112320103.7,^,216,Shepparton
+1910758,Broadacre crops - Total,114424617.1,^,104330863.1,^,217,Warrnambool and South West
+1910758,Broadacre crops - Total,7488,,6739.56,,301,Brisbane - East
+1910758,Broadacre crops - Total,336442982.8,,331080696.6,,306,Cairns
+1910758,Broadacre crops - Total,1580091709,,1480069735,,307,Darling Downs - Maranoa
+1910758,Broadacre crops - Total,328522186,,310677363.4,,308,Central Queensland
+1910758,Broadacre crops - Total,8862525.81,*,8734777.69,*,309,Gold Coast
+1910758,Broadacre crops - Total,5975061.22,*,5535034,*,310,Ipswich
+1910758,Broadacre crops - Total,2322385.24,**,2161650.29,**,311,Logan - Beaudesert
+1910758,Broadacre crops - Total,564274805.5,,551427640.4,,312,Mackay - Isaac - Whitsunday
+1910758,Broadacre crops - Total,756.86,*,681.21,*,313,Moreton Bay - North
+1910758,Broadacre crops - Total,22206740.01,,21322836.1,,315,Queensland - Outback
+1910758,Broadacre crops - Total,1470921.51,*,1449022.82,*,316,Sunshine Coast
+1910758,Broadacre crops - Total,14773719.25,**,13996479.98,**,317,Toowoomba
+1910758,Broadacre crops - Total,522504789.8,,514841429.5,,318,Townsville
+1910758,Broadacre crops - Total,226992616.6,,222197805.2,,319,Wide Bay
+1910758,Broadacre crops - Total,146566.86,*,137355.55,*,401,Adelaide - Central and Hills
+1910758,Broadacre crops - Total,5699170.99,^,5296486.69,^,402,Adelaide - North
+1910758,Broadacre crops - Total,383674.56,**,359170.6,**,403,Adelaide - South
+1910758,Broadacre crops - Total,1191879684,,1110350345,,405,Barossa - Yorke - Mid North
+1910758,Broadacre crops - Total,780155957.3,,724244607.8,,406,South Australia - Outback
+1910758,Broadacre crops - Total,532052127.7,,494759792.9,,407,South Australia - South East
+1910758,Broadacre crops - Total,13014106.06,*,12121935.97,*,501,Bunbury
+1910758,Broadacre crops - Total,3107293454,,2891687731,,509,Western Australia - Wheat Belt
+1910758,Broadacre crops - Total,7767552.79,,7288428.46,,510,Western Australia - Outback (North)
+1910758,Broadacre crops - Total,1805684179,,1684519219,,511,Western Australia - Outback (South)
+1910758,Broadacre crops - Total,588400.45,*,551799.34,*,601,Hobart
+1910758,Broadacre crops - Total,49794105.68,,45677306.72,,602,Launceston and North East
+1910758,Broadacre crops - Total,12441345.16,^,11367244.24,^,603,South East
+1910758,Broadacre crops - Total,14789568.03,,13595938.12,,604,West and North West
+1910758,Broadacre crops - Total,303270.65,*,272943.85,*,701,Darwin
+1910758,Broadacre crops - Total,1146288.61,,1042397.1,,702,Northern Territory - Outback
+1910758,Broadacre crops - Total,53965.99,,49240.91,,801,Australian Capital Territory

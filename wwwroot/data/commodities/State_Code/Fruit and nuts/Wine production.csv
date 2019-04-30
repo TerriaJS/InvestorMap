@@ -1,0 +1,8 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,Commodity,Commodity subcategory,State_Code,State,Local value($),Local value($) - Relative Standard Errors,Gross value ($) - Relative Standard Errors
+5109958,Fruit and nuts - Grapes - Wine production,186685815.3,,186685815.3,,Fruit and nuts,Wine production,1,New South Wales,,,
+5109958,Fruit and nuts - Grapes - Wine production,132727404.7,*,132727404.7,*,Fruit and nuts,Wine production,2,Victoria,,,
+5109958,Fruit and nuts - Grapes - Wine production,901267.13,,901267.13,,Fruit and nuts,Wine production,3,Queensland,,,
+5109958,Fruit and nuts - Grapes - Wine production,534678305.8,,534678305.8,,Fruit and nuts,Wine production,4,South Australia,,,
+5109958,Fruit and nuts - Grapes - Wine production,91409724.75,^,91409724.75,^,Fruit and nuts,Wine production,5,Western Australia,,,
+5109958,Fruit and nuts - Grapes - Wine production,24200236.95,^,24200236.95,^,Fruit and nuts,Wine production,6,Tasmania,,,
+5109958,Fruit and nuts - Grapes - Wine production,35167.54,,35167.54,,Fruit and nuts,Wine production,8,Australian Capital Territory,,,

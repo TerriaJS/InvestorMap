@@ -1,0 +1,47 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,SA4,SA4 name
+9100358,Livestock slaughtered and other disposals - Pigs,35673383.68,,34508351.7,,101,Capital Region
+9100358,Livestock slaughtered and other disposals - Pigs,3754848.58,*,3632221.62,*,103,Central West
+9100358,Livestock slaughtered and other disposals - Pigs,1578.69,**,1527.14,**,104,Coffs Harbour - Grafton
+9100358,Livestock slaughtered and other disposals - Pigs,923818.94,^,893648.59,^,105,Far West and Orana
+9100358,Livestock slaughtered and other disposals - Pigs,5350968.78,**,5176215.25,**,106,Hunter Valley excluding Newcastle
+9100358,Livestock slaughtered and other disposals - Pigs,154214.06,**,149177.69,**,108,Mid North Coast
+9100358,Livestock slaughtered and other disposals - Pigs,141688288.9,^,137060990.7,^,109,Murray
+9100358,Livestock slaughtered and other disposals - Pigs,5855607.89,**,5664373.71,**,110,New England and North West
+9100358,Livestock slaughtered and other disposals - Pigs,11449632.72,^,11075707.21,^,112,Richmond - Tweed
+9100358,Livestock slaughtered and other disposals - Pigs,19562388.91,,18923514.59,,113,Riverina
+9100358,Livestock slaughtered and other disposals - Pigs,1079.31,**,1044.06,**,114,Southern Highlands and Shoalhaven
+9100358,Livestock slaughtered and other disposals - Pigs,7556.14,**,7309.37,**,115,Sydney - Baulkham Hills and Hawkesbury
+9100358,Livestock slaughtered and other disposals - Pigs,25992204.7,,25148368.52,,201,Ballarat
+9100358,Livestock slaughtered and other disposals - Pigs,74551732.76,^,72131412.89,^,202,Bendigo
+9100358,Livestock slaughtered and other disposals - Pigs,27443346.01,,26552398.57,,203,Geelong
+9100358,Livestock slaughtered and other disposals - Pigs,8129300.58,**,7865383.07,**,204,Hume
+9100358,Livestock slaughtered and other disposals - Pigs,6543043.8,^,6330624.07,^,205,Latrobe - Gippsland
+9100358,Livestock slaughtered and other disposals - Pigs,503228.52,**,486891.22,**,211,Melbourne - Outer East
+9100358,Livestock slaughtered and other disposals - Pigs,3038,**,2939.37,**,213,Melbourne - West
+9100358,Livestock slaughtered and other disposals - Pigs,115676424,^,111920992.2,^,215,North West
+9100358,Livestock slaughtered and other disposals - Pigs,46982164.66,^,45456890.02,^,216,Shepparton
+9100358,Livestock slaughtered and other disposals - Pigs,519813.08,**,502937.37,**,217,Warrnambool and South West
+9100358,Livestock slaughtered and other disposals - Pigs,5804.58,**,5598.78,**,306,Cairns
+9100358,Livestock slaughtered and other disposals - Pigs,214534866.4,^,206928500.4,^,307,Darling Downs - Maranoa
+9100358,Livestock slaughtered and other disposals - Pigs,6734115.83,^,6495356.74,^,308,Central Queensland
+9100358,Livestock slaughtered and other disposals - Pigs,1282728.75,,1237249.41,,310,Ipswich
+9100358,Livestock slaughtered and other disposals - Pigs,12054.93,**,11627.52,**,312,Mackay - Isaac - Whitsunday
+9100358,Livestock slaughtered and other disposals - Pigs,101587.61,**,97985.8,**,315,Queensland - Outback
+9100358,Livestock slaughtered and other disposals - Pigs,2167229.14,,2090389.71,,316,Sunshine Coast
+9100358,Livestock slaughtered and other disposals - Pigs,4714711.92,**,4547551.1,**,317,Toowoomba
+9100358,Livestock slaughtered and other disposals - Pigs,63508657.13,^,61256948.15,^,319,Wide Bay
+9100358,Livestock slaughtered and other disposals - Pigs,,,,,401,Adelaide - Central and Hills
+9100358,Livestock slaughtered and other disposals - Pigs,11767796.11,,10758033.36,,402,Adelaide - North
+9100358,Livestock slaughtered and other disposals - Pigs,143011821.4,,130740363.9,,405,Barossa - Yorke - Mid North
+9100358,Livestock slaughtered and other disposals - Pigs,,,,,406,South Australia - Outback
+9100358,Livestock slaughtered and other disposals - Pigs,191684688.9,,175236744.4,,407,South Australia - South East
+9100358,Livestock slaughtered and other disposals - Pigs,792332.77,,724977.46,,501,Bunbury
+9100358,Livestock slaughtered and other disposals - Pigs,7546794.88,,6905250.42,,502,Mandurah
+9100358,Livestock slaughtered and other disposals - Pigs,2808665.49,,2569904.03,,506,Perth - South East
+9100358,Livestock slaughtered and other disposals - Pigs,147855791.1,,135286738.3,,509,Western Australia - Wheat Belt
+9100358,Livestock slaughtered and other disposals - Pigs,7973.97,^,7296.11,^,510,Western Australia - Outback (North)
+9100358,Livestock slaughtered and other disposals - Pigs,3869415.35,,3540480.75,,511,Western Australia - Outback (South)
+9100358,Livestock slaughtered and other disposals - Pigs,479281.86,*,438244.42,*,601,Hobart
+9100358,Livestock slaughtered and other disposals - Pigs,7509452.02,^,6866471.89,^,602,Launceston and North East
+9100358,Livestock slaughtered and other disposals - Pigs,108999.44,*,99666.6,*,603,South East
+9100358,Livestock slaughtered and other disposals - Pigs,169889.89,,155343.44,,604,West and North West

@@ -1,0 +1,7 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,Commodity,Commodity subcategory,State_Code,State,Local value($),Local value($) - Relative Standard Errors,Gross value ($) - Relative Standard Errors
+4205558,Fruit and nuts - Stone fruit - Nectarines,5293535.82,,4519797.59,,Fruit and nuts,Nectarines,1,New South Wales,,,
+4205558,Fruit and nuts - Stone fruit - Nectarines,83844535.08,,71112043.19,,Fruit and nuts,Nectarines,2,Victoria,,,
+4205558,Fruit and nuts - Stone fruit - Nectarines,1761807.32,^,1457047.25,^,Fruit and nuts,Nectarines,3,Queensland,,,
+4205558,Fruit and nuts - Stone fruit - Nectarines,6751655.69,^,5693462.14,^,Fruit and nuts,Nectarines,4,South Australia,,,
+4205558,Fruit and nuts - Stone fruit - Nectarines,12080885.61,^,10283634.13,^,Fruit and nuts,Nectarines,5,Western Australia,,,
+4205558,Fruit and nuts - Stone fruit - Nectarines,577.54,**,483.56,**,Fruit and nuts,Nectarines,6,Tasmania,,,
