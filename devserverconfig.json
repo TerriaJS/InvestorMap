@@ -27,7 +27,8 @@
         "tern.org.au",
         "www.abc.net.au",
         "www.dptiapps.com.au",
-        "droughtreliefpublic.blob.core.windows.net"
+        "droughtreliefpublic.blob.core.windows.net",
+        "13.239.3.13:8080"
     ],
     "initPaths": [
         "node_modules/nationalmap-catalog/build"

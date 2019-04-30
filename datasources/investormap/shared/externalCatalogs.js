@@ -27,6 +27,6 @@ module.exports = {
   ),
   aurin_socioeconomic: require("./aurin_003_Socio-Economic_Indices.json"),
   aurin_vulnerability: require("./aurin_004_Vulnerability_Indicators.json"),
-  aurin_wellbeing: require("./aurin_002_Health_And_Wellbeing.json"),
+  aurin_wellbeing: require("./aurin_002_Health_and_Wellbeing.json"),
   aurin_population_density: require("./aurin_001_Population_Density.json")
 };
