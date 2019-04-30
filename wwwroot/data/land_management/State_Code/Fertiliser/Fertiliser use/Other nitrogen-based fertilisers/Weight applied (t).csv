@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-AGFERTTYPEATOONB_F,Fertiliser - Fertiliser use - Other nitrogen-based fertilisers - Weight applied (t),"28,725",0,,0,9991,New South Wales and Australian Capital Territory
+AGFERTTYPEATOONB_F,Fertiliser - Fertiliser use - Other nitrogen-based fertilisers - Weight applied (t),"28,725",0,,0,9991,New South Wales
 AGFERTTYPEATOONB_F,Fertiliser - Fertiliser use - Other nitrogen-based fertilisers - Weight applied (t),"42,523",,,0,9992,Victoria
 AGFERTTYPEATOONB_F,Fertiliser - Fertiliser use - Other nitrogen-based fertilisers - Weight applied (t),"93,802",0,,0,9993,Queensland
 AGFERTTYPEATOONB_F,Fertiliser - Fertiliser use - Other nitrogen-based fertilisers - Weight applied (t),"24,120",,591,,9994,South Australia
 AGFERTTYPEATOONB_F,Fertiliser - Fertiliser use - Other nitrogen-based fertilisers - Weight applied (t),"82,637",0,935,0,9995,Western Australia
 AGFERTTYPEATOONB_F,Fertiliser - Fertiliser use - Other nitrogen-based fertilisers - Weight applied (t),"15,630",,310,0,9996,Tasmania
 AGFERTTYPEATOONB_F,Fertiliser - Fertiliser use - Other nitrogen-based fertilisers - Weight applied (t),470,0,29,0,9997,Northern Territory
+AGFERTTYPEATOONB_F,Fertiliser - Fertiliser use - Other nitrogen-based fertilisers - Weight applied (t),"28,725",0,,0,9991,Australian Capital Territory

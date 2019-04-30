@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-AGFERTTYPEATODTS_F,Fertiliser - Fertiliser use - Double and/or triple superphosphate - Weight applied (t),"36,213",,878,,9991,New South Wales and Australian Capital Territory
+AGFERTTYPEATODTS_F,Fertiliser - Fertiliser use - Double and/or triple superphosphate - Weight applied (t),"36,213",,878,,9991,New South Wales
 AGFERTTYPEATODTS_F,Fertiliser - Fertiliser use - Double and/or triple superphosphate - Weight applied (t),"65,995",,,0,9992,Victoria
 AGFERTTYPEATODTS_F,Fertiliser - Fertiliser use - Double and/or triple superphosphate - Weight applied (t),"2,043",,138,,9993,Queensland
 AGFERTTYPEATODTS_F,Fertiliser - Fertiliser use - Double and/or triple superphosphate - Weight applied (t),"26,969",,655,0,9994,South Australia
 AGFERTTYPEATODTS_F,Fertiliser - Fertiliser use - Double and/or triple superphosphate - Weight applied (t),"38,473",,439,,9995,Western Australia
 AGFERTTYPEATODTS_F,Fertiliser - Fertiliser use - Double and/or triple superphosphate - Weight applied (t),"6,338",,216,,9996,Tasmania
 AGFERTTYPEATODTS_F,Fertiliser - Fertiliser use - Double and/or triple superphosphate - Weight applied (t),36,,5,,9997,Northern Territory
+AGFERTTYPEATODTS_F,Fertiliser - Fertiliser use - Double and/or triple superphosphate - Weight applied (t),"36,213",,878,,9991,Australian Capital Territory

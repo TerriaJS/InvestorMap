@@ -1,5 +1,6 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-AGFERTTYPEATOANA_F,Fertiliser - Fertiliser use - Anhydrous ammonia - Weight applied (t),"24,299",,,0,9991,New South Wales and Australian Capital Territory
+AGFERTTYPEATOANA_F,Fertiliser - Fertiliser use - Anhydrous ammonia - Weight applied (t),"24,299",,,0,9991,New South Wales
 AGFERTTYPEATOANA_F,Fertiliser - Fertiliser use - Anhydrous ammonia - Weight applied (t),np,0,,0,9992,Victoria
 AGFERTTYPEATOANA_F,Fertiliser - Fertiliser use - Anhydrous ammonia - Weight applied (t),"11,099",,281,0,9993,Queensland
 AGFERTTYPEATOANA_F,Fertiliser - Fertiliser use - Anhydrous ammonia - Weight applied (t),np,0,,0,9996,Tasmania
+AGFERTTYPEATOANA_F,Fertiliser - Fertiliser use - Anhydrous ammonia - Weight applied (t),"24,299",,,0,9991,Australian Capital Territory

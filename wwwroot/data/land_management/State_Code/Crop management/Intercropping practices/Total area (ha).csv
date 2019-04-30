@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-LMINTCROPNEW_F,Crop management - Intercropping practices - Total area (ha),"319,529",,,0,9991,New South Wales and Australian Capital Territory
+LMINTCROPNEW_F,Crop management - Intercropping practices - Total area (ha),"319,529",,,0,9991,New South Wales
 LMINTCROPNEW_F,Crop management - Intercropping practices - Total area (ha),"206,373",,,,9992,Victoria
 LMINTCROPNEW_F,Crop management - Intercropping practices - Total area (ha),"83,234",,599,0,9993,Queensland
 LMINTCROPNEW_F,Crop management - Intercropping practices - Total area (ha),"137,901",,689,0,9994,South Australia
 LMINTCROPNEW_F,Crop management - Intercropping practices - Total area (ha),"97,856",,378,,9995,Western Australia
 LMINTCROPNEW_F,Crop management - Intercropping practices - Total area (ha),"4,204",0,122,,9996,Tasmania
 LMINTCROPNEW_F,Crop management - Intercropping practices - Total area (ha),931,,17,,9997,Northern Territory
+LMINTCROPNEW_F,Crop management - Intercropping practices - Total area (ha),"319,529",,,0,9991,Australian Capital Territory

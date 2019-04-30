@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-AGPRODAGLAHA_F,Land use - Land mainly used for agricultural production - Total area (ha),"51,657,430",0,,0,9991,New South Wales and Australian Capital Territory
+AGPRODAGLAHA_F,Land use - Land mainly used for agricultural production - Total area (ha),"51,657,430",0,,0,9991,New South Wales
 AGPRODAGLAHA_F,Land use - Land mainly used for agricultural production - Total area (ha),"9,960,567",0,,0,9992,Victoria
 AGPRODAGLAHA_F,Land use - Land mainly used for agricultural production - Total area (ha),"132,771,840",0,,0,9993,Queensland
 AGPRODAGLAHA_F,Land use - Land mainly used for agricultural production - Total area (ha),"47,554,773",0,,0,9994,South Australia
 AGPRODAGLAHA_F,Land use - Land mainly used for agricultural production - Total area (ha),"79,609,836",0,,0,9995,Western Australia
 AGPRODAGLAHA_F,Land use - Land mainly used for agricultural production - Total area (ha),"1,245,862",0,,0,9996,Tasmania
 AGPRODAGLAHA_F,Land use - Land mainly used for agricultural production - Total area (ha),"49,920,384",0,361,0,9997,Northern Territory
+AGPRODAGLAHA_F,Land use - Land mainly used for agricultural production - Total area (ha),"51,657,430",0,,0,9991,Australian Capital Territory

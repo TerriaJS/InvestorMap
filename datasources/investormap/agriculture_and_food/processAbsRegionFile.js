@@ -39,6 +39,25 @@ module.exports.processAbsRegionFile = function(
     categoryTree = {};
     categoryPaths = [];
 
+    for (let i = 0, adds = 0, len = lines.length; i < len; i++) {
+      if (lines[i].includes("9991")) {
+        // Replace NSW and ACT values with NSW
+        lines[i] = lines[i].replace(
+          "New South Wales and Australian Capital Territory",
+          "New South Wales"
+        );
+
+        // Duplicate the NSW and ACT values by appending to the end of the array
+        // and then replace the state with ACT
+        lines.push(lines[i]);
+        lines[len + adds] = lines[len + adds].replace(
+          "New South Wales",
+          "Australian Capital Territory"
+        );
+        adds++;
+      }
+    }
+
     rows = dsv.csvParse(lines.join("\n"), row => {
       if (
         row["Region code"].length !== regionCodeLength ||

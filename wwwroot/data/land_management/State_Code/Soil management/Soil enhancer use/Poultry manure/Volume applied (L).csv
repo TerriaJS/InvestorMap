@@ -1,6 +1,7 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-LMSOILENHALTPM_F,Soil management - Soil enhancer use - Poultry manure - Volume applied (L),"9,004,024",,24,,9991,New South Wales and Australian Capital Territory
+LMSOILENHALTPM_F,Soil management - Soil enhancer use - Poultry manure - Volume applied (L),"9,004,024",,24,,9991,New South Wales
 LMSOILENHALTPM_F,Soil management - Soil enhancer use - Poultry manure - Volume applied (L),"1,006,162",,26,,9992,Victoria
 LMSOILENHALTPM_F,Soil management - Soil enhancer use - Poultry manure - Volume applied (L),np,0,,0,9993,Queensland
 LMSOILENHALTPM_F,Soil management - Soil enhancer use - Poultry manure - Volume applied (L),np,0,,0,9994,South Australia
 LMSOILENHALTPM_F,Soil management - Soil enhancer use - Poultry manure - Volume applied (L),np,0,,0,9996,Tasmania
+LMSOILENHALTPM_F,Soil management - Soil enhancer use - Poultry manure - Volume applied (L),"9,004,024",,24,,9991,Australian Capital Territory

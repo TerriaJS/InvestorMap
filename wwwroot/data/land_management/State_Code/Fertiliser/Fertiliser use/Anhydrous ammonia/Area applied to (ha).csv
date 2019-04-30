@@ -1,5 +1,6 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-AGFERTTYPEAHAANA_F,Fertiliser - Fertiliser use - Anhydrous ammonia - Area applied to (ha),"163,188",,,0,9991,New South Wales and Australian Capital Territory
+AGFERTTYPEAHAANA_F,Fertiliser - Fertiliser use - Anhydrous ammonia - Area applied to (ha),"163,188",,,0,9991,New South Wales
 AGFERTTYPEAHAANA_F,Fertiliser - Fertiliser use - Anhydrous ammonia - Area applied to (ha),np,0,,0,9992,Victoria
 AGFERTTYPEAHAANA_F,Fertiliser - Fertiliser use - Anhydrous ammonia - Area applied to (ha),"97,315",,281,0,9993,Queensland
 AGFERTTYPEAHAANA_F,Fertiliser - Fertiliser use - Anhydrous ammonia - Area applied to (ha),np,0,,0,9996,Tasmania
+AGFERTTYPEAHAANA_F,Fertiliser - Fertiliser use - Anhydrous ammonia - Area applied to (ha),"163,188",,,0,9991,Australian Capital Territory

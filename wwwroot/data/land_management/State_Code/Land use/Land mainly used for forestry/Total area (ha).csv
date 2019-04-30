@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-AGPROD_AHAFOR_F,Land use - Land mainly used for forestry - Total area (ha),"319,674",0,,0,9991,New South Wales and Australian Capital Territory
+AGPROD_AHAFOR_F,Land use - Land mainly used for forestry - Total area (ha),"319,674",0,,0,9991,New South Wales
 AGPROD_AHAFOR_F,Land use - Land mainly used for forestry - Total area (ha),"43,940",0,,0,9992,Victoria
 AGPROD_AHAFOR_F,Land use - Land mainly used for forestry - Total area (ha),"195,049",0,611,0,9993,Queensland
 AGPROD_AHAFOR_F,Land use - Land mainly used for forestry - Total area (ha),"10,461",0,336,0,9994,South Australia
 AGPROD_AHAFOR_F,Land use - Land mainly used for forestry - Total area (ha),"91,976",0,881,0,9995,Western Australia
 AGPROD_AHAFOR_F,Land use - Land mainly used for forestry - Total area (ha),"108,339",0,441,0,9996,Tasmania
 AGPROD_AHAFOR_F,Land use - Land mainly used for forestry - Total area (ha),"4,317",0,11,0,9997,Northern Territory
+AGPROD_AHAFOR_F,Land use - Land mainly used for forestry - Total area (ha),"319,674",0,,0,9991,Australian Capital Territory

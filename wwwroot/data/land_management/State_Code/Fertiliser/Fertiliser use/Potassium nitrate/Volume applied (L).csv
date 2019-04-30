@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-AGFERTTYPEALOPTN_F,Fertiliser - Fertiliser use - Potassium nitrate - Volume applied (L),"344,890",,34,,9991,New South Wales and Australian Capital Territory
+AGFERTTYPEALOPTN_F,Fertiliser - Fertiliser use - Potassium nitrate - Volume applied (L),"344,890",,34,,9991,New South Wales
 AGFERTTYPEALOPTN_F,Fertiliser - Fertiliser use - Potassium nitrate - Volume applied (L),"196,325",,30,,9992,Victoria
 AGFERTTYPEALOPTN_F,Fertiliser - Fertiliser use - Potassium nitrate - Volume applied (L),"150,929",,33,,9993,Queensland
 AGFERTTYPEALOPTN_F,Fertiliser - Fertiliser use - Potassium nitrate - Volume applied (L),"82,785",,47,,9994,South Australia
 AGFERTTYPEALOPTN_F,Fertiliser - Fertiliser use - Potassium nitrate - Volume applied (L),"48,079",0,4,0,9995,Western Australia
 AGFERTTYPEALOPTN_F,Fertiliser - Fertiliser use - Potassium nitrate - Volume applied (L),np,0,,0,9996,Tasmania
 AGFERTTYPEALOPTN_F,Fertiliser - Fertiliser use - Potassium nitrate - Volume applied (L),np,0,,0,9997,Northern Territory
+AGFERTTYPEALOPTN_F,Fertiliser - Fertiliser use - Potassium nitrate - Volume applied (L),"344,890",,34,,9991,Australian Capital Territory

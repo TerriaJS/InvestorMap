@@ -1,7 +1,8 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-AGLANDLSAHAOTH_F,Agricultural land vacated - Use of land after vacation - Other/unknown - Area of land sold (ha),"30,889",,57,,9991,New South Wales and Australian Capital Territory
+AGLANDLSAHAOTH_F,Agricultural land vacated - Use of land after vacation - Other/unknown - Area of land sold (ha),"30,889",,57,,9991,New South Wales
 AGLANDLSAHAOTH_F,Agricultural land vacated - Use of land after vacation - Other/unknown - Area of land sold (ha),"2,033",,49,,9992,Victoria
 AGLANDLSAHAOTH_F,Agricultural land vacated - Use of land after vacation - Other/unknown - Area of land sold (ha),"26,815",,20,,9993,Queensland
 AGLANDLSAHAOTH_F,Agricultural land vacated - Use of land after vacation - Other/unknown - Area of land sold (ha),np,0,,0,9994,South Australia
 AGLANDLSAHAOTH_F,Agricultural land vacated - Use of land after vacation - Other/unknown - Area of land sold (ha),np,0,16,,9995,Western Australia
 AGLANDLSAHAOTH_F,Agricultural land vacated - Use of land after vacation - Other/unknown - Area of land sold (ha),np,0,,0,9996,Tasmania
+AGLANDLSAHAOTH_F,Agricultural land vacated - Use of land after vacation - Other/unknown - Area of land sold (ha),"30,889",,57,,9991,Australian Capital Territory

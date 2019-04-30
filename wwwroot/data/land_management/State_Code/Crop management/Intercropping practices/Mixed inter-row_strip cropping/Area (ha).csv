@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-LMINTCROPAHAMS_F,Crop management - Intercropping practices - Mixed inter-row/strip cropping - Area (ha),"119,019",,271,,9991,New South Wales and Australian Capital Territory
+LMINTCROPAHAMS_F,Crop management - Intercropping practices - Mixed inter-row/strip cropping - Area (ha),"119,019",,271,,9991,New South Wales
 LMINTCROPAHAMS_F,Crop management - Intercropping practices - Mixed inter-row/strip cropping - Area (ha),"104,673",,326,,9992,Victoria
 LMINTCROPAHAMS_F,Crop management - Intercropping practices - Mixed inter-row/strip cropping - Area (ha),"38,801",,155,,9993,Queensland
 LMINTCROPAHAMS_F,Crop management - Intercropping practices - Mixed inter-row/strip cropping - Area (ha),"34,621",,74,,9994,South Australia
 LMINTCROPAHAMS_F,Crop management - Intercropping practices - Mixed inter-row/strip cropping - Area (ha),"62,335",,126,,9995,Western Australia
 LMINTCROPAHAMS_F,Crop management - Intercropping practices - Mixed inter-row/strip cropping - Area (ha),187,,8,,9996,Tasmania
 LMINTCROPAHAMS_F,Crop management - Intercropping practices - Mixed inter-row/strip cropping - Area (ha),91,,7,,9997,Northern Territory
+LMINTCROPAHAMS_F,Crop management - Intercropping practices - Mixed inter-row/strip cropping - Area (ha),"119,019",,271,,9991,Australian Capital Territory

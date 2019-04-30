@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-AGFERTTYPEAHAURE_F,Fertiliser - Fertiliser use - Urea - Area applied to (ha),"3,100,883",0,,0,9991,New South Wales and Australian Capital Territory
+AGFERTTYPEAHAURE_F,Fertiliser - Fertiliser use - Urea - Area applied to (ha),"3,100,883",0,,0,9991,New South Wales
 AGFERTTYPEAHAURE_F,Fertiliser - Fertiliser use - Urea - Area applied to (ha),"1,858,551",0,,0,9992,Victoria
 AGFERTTYPEAHAURE_F,Fertiliser - Fertiliser use - Urea - Area applied to (ha),"864,249",0,,0,9993,Queensland
 AGFERTTYPEAHAURE_F,Fertiliser - Fertiliser use - Urea - Area applied to (ha),"1,691,123",0,,0,9994,South Australia
 AGFERTTYPEAHAURE_F,Fertiliser - Fertiliser use - Urea - Area applied to (ha),"3,548,706",0,,0,9995,Western Australia
 AGFERTTYPEAHAURE_F,Fertiliser - Fertiliser use - Urea - Area applied to (ha),"107,564",0,748,0,9996,Tasmania
 AGFERTTYPEAHAURE_F,Fertiliser - Fertiliser use - Urea - Area applied to (ha),"3,047",0,31,0,9997,Northern Territory
+AGFERTTYPEAHAURE_F,Fertiliser - Fertiliser use - Urea - Area applied to (ha),"3,100,883",0,,0,9991,Australian Capital Territory

@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-LMSOILENHALTLM_F,Soil management - Soil enhancer use - Lime (including lime sand and stone) - Volume applied (L),np,0,105,,9991,New South Wales and Australian Capital Territory
+LMSOILENHALTLM_F,Soil management - Soil enhancer use - Lime (including lime sand and stone) - Volume applied (L),np,0,105,,9991,New South Wales
 LMSOILENHALTLM_F,Soil management - Soil enhancer use - Lime (including lime sand and stone) - Volume applied (L),np,0,90,,9992,Victoria
 LMSOILENHALTLM_F,Soil management - Soil enhancer use - Lime (including lime sand and stone) - Volume applied (L),np,0,18,,9993,Queensland
 LMSOILENHALTLM_F,Soil management - Soil enhancer use - Lime (including lime sand and stone) - Volume applied (L),np,0,,0,9994,South Australia
 LMSOILENHALTLM_F,Soil management - Soil enhancer use - Lime (including lime sand and stone) - Volume applied (L),"204,392",,90,,9995,Western Australia
 LMSOILENHALTLM_F,Soil management - Soil enhancer use - Lime (including lime sand and stone) - Volume applied (L),np,0,,0,9996,Tasmania
 LMSOILENHALTLM_F,Soil management - Soil enhancer use - Lime (including lime sand and stone) - Volume applied (L),"10,553",,4,,9997,Northern Territory
+LMSOILENHALTLM_F,Soil management - Soil enhancer use - Lime (including lime sand and stone) - Volume applied (L),np,0,105,,9991,Australian Capital Territory

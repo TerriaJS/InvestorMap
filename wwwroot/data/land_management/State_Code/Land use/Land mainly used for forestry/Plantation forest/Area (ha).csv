@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-AGPRODFORPLAAHA_F,Land use - Land mainly used for forestry - Plantation forest - Area (ha),"61,848",,474,,9991,New South Wales and Australian Capital Territory
+AGPRODFORPLAAHA_F,Land use - Land mainly used for forestry - Plantation forest - Area (ha),"61,848",,474,,9991,New South Wales
 AGPRODFORPLAAHA_F,Land use - Land mainly used for forestry - Plantation forest - Area (ha),"18,240",,588,,9992,Victoria
 AGPRODFORPLAAHA_F,Land use - Land mainly used for forestry - Plantation forest - Area (ha),"19,601",,168,,9993,Queensland
 AGPRODFORPLAAHA_F,Land use - Land mainly used for forestry - Plantation forest - Area (ha),"4,098",,200,,9994,South Australia
 AGPRODFORPLAAHA_F,Land use - Land mainly used for forestry - Plantation forest - Area (ha),"58,885",,653,0,9995,Western Australia
 AGPRODFORPLAAHA_F,Land use - Land mainly used for forestry - Plantation forest - Area (ha),"28,869",,309,0,9996,Tasmania
 AGPRODFORPLAAHA_F,Land use - Land mainly used for forestry - Plantation forest - Area (ha),"1,328",,6,,9997,Northern Territory
+AGPRODFORPLAAHA_F,Land use - Land mainly used for forestry - Plantation forest - Area (ha),"61,848",,474,,9991,Australian Capital Territory

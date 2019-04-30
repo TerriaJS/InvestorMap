@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-LMSOILENHATO_F,Soil management - Soil enhancer use - All soil enhancers - Weight applied (t),"1,841,358",0,,0,9991,New South Wales and Australian Capital Territory
+LMSOILENHATO_F,Soil management - Soil enhancer use - All soil enhancers - Weight applied (t),"1,841,358",0,,0,9991,New South Wales
 LMSOILENHATO_F,Soil management - Soil enhancer use - All soil enhancers - Weight applied (t),"1,384,966",0,,0,9992,Victoria
 LMSOILENHATO_F,Soil management - Soil enhancer use - All soil enhancers - Weight applied (t),"1,682,589",0,,0,9993,Queensland
 LMSOILENHATO_F,Soil management - Soil enhancer use - All soil enhancers - Weight applied (t),"558,617",0,,0,9994,South Australia
 LMSOILENHATO_F,Soil management - Soil enhancer use - All soil enhancers - Weight applied (t),"2,141,470",0,,0,9995,Western Australia
 LMSOILENHATO_F,Soil management - Soil enhancer use - All soil enhancers - Weight applied (t),"189,235",0,990,0,9996,Tasmania
 LMSOILENHATO_F,Soil management - Soil enhancer use - All soil enhancers - Weight applied (t),"4,801",,93,0,9997,Northern Territory
+LMSOILENHATO_F,Soil management - Soil enhancer use - All soil enhancers - Weight applied (t),"1,841,358",0,,0,9991,Australian Capital Territory

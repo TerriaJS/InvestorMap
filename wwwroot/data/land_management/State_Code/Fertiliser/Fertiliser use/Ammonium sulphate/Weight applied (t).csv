@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-AGFERTTYPEATOAMS_F,Fertiliser - Fertiliser use - Ammonium sulphate - Weight applied (t),"33,477",,800,0,9991,New South Wales and Australian Capital Territory
+AGFERTTYPEATOAMS_F,Fertiliser - Fertiliser use - Ammonium sulphate - Weight applied (t),"33,477",,800,0,9991,New South Wales
 AGFERTTYPEATOAMS_F,Fertiliser - Fertiliser use - Ammonium sulphate - Weight applied (t),"11,717",,513,,9992,Victoria
 AGFERTTYPEATOAMS_F,Fertiliser - Fertiliser use - Ammonium sulphate - Weight applied (t),"8,558",,491,,9993,Queensland
 AGFERTTYPEATOAMS_F,Fertiliser - Fertiliser use - Ammonium sulphate - Weight applied (t),"27,739",,592,,9994,South Australia
 AGFERTTYPEATOAMS_F,Fertiliser - Fertiliser use - Ammonium sulphate - Weight applied (t),"63,910",0,790,0,9995,Western Australia
 AGFERTTYPEATOAMS_F,Fertiliser - Fertiliser use - Ammonium sulphate - Weight applied (t),"1,000",,64,,9996,Tasmania
 AGFERTTYPEATOAMS_F,Fertiliser - Fertiliser use - Ammonium sulphate - Weight applied (t),18,,6,,9997,Northern Territory
+AGFERTTYPEATOAMS_F,Fertiliser - Fertiliser use - Ammonium sulphate - Weight applied (t),"33,477",,800,0,9991,Australian Capital Territory

@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-LMPAST1CULTPAAHA_F,Crop and pasture management - Pasture land cultivated - One cultivation - Area (ha),"176,585",,,0,9991,New South Wales and Australian Capital Territory
+LMPAST1CULTPAAHA_F,Crop and pasture management - Pasture land cultivated - One cultivation - Area (ha),"176,585",,,0,9991,New South Wales
 LMPAST1CULTPAAHA_F,Crop and pasture management - Pasture land cultivated - One cultivation - Area (ha),"90,611",,,0,9992,Victoria
 LMPAST1CULTPAAHA_F,Crop and pasture management - Pasture land cultivated - One cultivation - Area (ha),"87,762",,481,,9993,Queensland
 LMPAST1CULTPAAHA_F,Crop and pasture management - Pasture land cultivated - One cultivation - Area (ha),"84,738",,577,0,9994,South Australia
 LMPAST1CULTPAAHA_F,Crop and pasture management - Pasture land cultivated - One cultivation - Area (ha),"105,851",,495,,9995,Western Australia
 LMPAST1CULTPAAHA_F,Crop and pasture management - Pasture land cultivated - One cultivation - Area (ha),"6,204",0,266,,9996,Tasmania
 LMPAST1CULTPAAHA_F,Crop and pasture management - Pasture land cultivated - One cultivation - Area (ha),403,,13,,9997,Northern Territory
+LMPAST1CULTPAAHA_F,Crop and pasture management - Pasture land cultivated - One cultivation - Area (ha),"176,585",,,0,9991,Australian Capital Territory

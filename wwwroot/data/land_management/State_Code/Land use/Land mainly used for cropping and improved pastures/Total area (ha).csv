@@ -1,8 +1,9 @@
 Data item code,Data item description,Estimate,Estimate - Relative Standard Errors,Number of agricultural businesses,Number of agricultural businesses - Relative Standard Errors,State_Code,State
-AGPROD_AHACRGR_D,Land use - Land mainly used for cropping and improved pastures - Total area (ha),"17,413,183",0,,0,9991,New South Wales and Australian Capital Territory
+AGPROD_AHACRGR_D,Land use - Land mainly used for cropping and improved pastures - Total area (ha),"17,413,183",0,,0,9991,New South Wales
 AGPROD_AHACRGR_D,Land use - Land mainly used for cropping and improved pastures - Total area (ha),"8,513,658",0,,0,9992,Victoria
 AGPROD_AHACRGR_D,Land use - Land mainly used for cropping and improved pastures - Total area (ha),"18,316,401",0,,0,9993,Queensland
 AGPROD_AHACRGR_D,Land use - Land mainly used for cropping and improved pastures - Total area (ha),"7,917,885",0,,0,9994,South Australia
 AGPROD_AHACRGR_D,Land use - Land mainly used for cropping and improved pastures - Total area (ha),"13,559,495",0,,0,9995,Western Australia
 AGPROD_AHACRGR_D,Land use - Land mainly used for cropping and improved pastures - Total area (ha),"796,264",0,,0,9996,Tasmania
 AGPROD_AHACRGR_D,Land use - Land mainly used for cropping and improved pastures - Total area (ha),"123,567",0,200,0,9997,Northern Territory
+AGPROD_AHACRGR_D,Land use - Land mainly used for cropping and improved pastures - Total area (ha),"17,413,183",0,,0,9991,Australian Capital Territory
