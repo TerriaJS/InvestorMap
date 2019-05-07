@@ -67,55 +67,55 @@ const austradeTenureDatasets = [
     name: "Freehold",
     type: "esri-mapServer",
     url:
-      "http://prod-dmap-elb.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Freehold/MapServer"
+      "http://prod-arcgis-stack-1.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Freehold/MapServer"
   },
   {
     name: "Crown land",
     type: "esri-mapServer",
     url:
-      "http://prod-dmap-elb.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Crown_Land/MapServer"
+      "http://prod-arcgis-stack-1.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Crown_Land/MapServer"
   },
   {
     name: "Pastoral lease",
     type: "esri-mapServer",
     url:
-      "http://prod-dmap-elb.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Pastoral_Land/MapServer"
+      "http://prod-arcgis-stack-2.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Pastoral_Land/MapServer"
   },
   {
     name: "Reserves",
     type: "esri-mapServer",
     url:
-      "http://prod-dmap-elb.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Reserve/MapServer"
+      "http://prod-arcgis-stack-2.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Reserve/MapServer"
   },
   {
     name: "Convertible lease",
     type: "esri-mapServer",
     url:
-      "http://prod-dmap-elb.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Convertible_Lease/MapServer"
+      "http://prod-arcgis-stack-1.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Convertible_Lease/MapServer"
   },
   {
     name: "Other lease",
     type: "esri-mapServer",
     url:
-      "http://prod-dmap-elb.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Other_Lease/MapServer"
+      "http://prod-arcgis-stack-1.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Other_Lease/MapServer"
   },
   {
     name: "Secondary tenure type",
     type: "esri-mapServer",
     url:
-      "http://prod-dmap-elb.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Secondary_Tenure/MapServer"
+      "http://prod-arcgis-stack-2.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Secondary_Tenure/MapServer"
   },
   {
     name: "Unknown",
     type: "esri-mapServer",
     url:
-      "http://prod-dmap-elb.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Unknown/MapServer"
+      "http://prod-arcgis-stack-2.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure_Unknown/MapServer"
   },
   {
     name: "Combined tenure map",
     type: "esri-mapServer",
     url:
-      "http://prod-dmap-elb.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure/MapServer"
+      "http://prod-arcgis-stack-1.gis.ga.gov.au/gis/rest/services/Australian_Land_Tenure/MapServer"
   }
 ].map(i =>
   Object.assign({}, i, {
