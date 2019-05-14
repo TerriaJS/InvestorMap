@@ -20,6 +20,7 @@ module.exports = {
         require("./shared/soil"),
         require("./shared/satellite_imagery"),
         require("./shared/climate"),
+        require("./shared/boundaries"),
         ...require("./shared/misc.js"),
         require("./abs")
       ]
