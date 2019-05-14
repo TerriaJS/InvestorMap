@@ -31,27 +31,28 @@ function getGeneration() {
     { name: "Current Power Generation - NEM" }
   );
 
-  const allPowerStations = {
-    name: "All Power Stations",
-    url: "data/Resources_and_Energy/MajorPowerStations_v2.csv",
-    type: "csv",
-    dataCustodian: "[Geoscience Australia](http://www.ga.gov.au/)",
-    info: [
-      {
-        name: "Licence",
-        content:
-          "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-      }
-    ],
-    tableStyle: {
-      dataVariable: "GENERATIONTYPE"
-    }
-  };
-
   const generation = {
     name: "Generation",
     type: "group",
-    items: [currentGeneration, allPowerStations]
+    items: [
+      currentGeneration,
+      {
+        name: "All Power Stations",
+        url: "data/Resources_and_Energy/MajorPowerStations_v2.csv",
+        type: "csv",
+        dataCustodian: "[Geoscience Australia](http://www.ga.gov.au/)",
+        info: [
+          {
+            name: "Licence",
+            content:
+              "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+          }
+        ],
+        tableStyle: {
+          dataVariable: "GENERATIONTYPE"
+        }
+      }
+    ]
   };
 
   return generation;
