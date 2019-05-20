@@ -29,7 +29,7 @@ function geoscienceAustraliaStyleLayers() {
   ];
   return styles.map(([styleId, title]) => ({
     name: title,
-    url: "http://13.239.3.13:8080/geoserver/wms",
+    url: "http://earthresource.gs.cloud.ga.gov.au/wms",
     type: "wms",
     dataCustodian: "[Geoscience Australia](http://www.ga.gov.au/)",
     info: [
@@ -41,6 +41,7 @@ function geoscienceAustraliaStyleLayers() {
     ],
     layers: "erl:CommodityResourceView",
     styles: `data61:${styleId}`,
+    opacity: 1.0,
     availableStyles: [] // prevent drop down of other styles
   }));
 }
