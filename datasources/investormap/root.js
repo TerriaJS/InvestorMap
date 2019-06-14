@@ -18,7 +18,7 @@ module.exports = {
           m => ["Water", "Agriculture"].indexOf(m.name) >= 0
         ),
         require("./shared/soil"),
-        require("./shared/satellite_imagery"),
+        require("./shared/satellite_images"),
         require("./shared/climate"),
         require("./shared/boundaries"),
         ...require("./shared/misc.js"),
