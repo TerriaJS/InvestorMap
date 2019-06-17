@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+### 2019-06-17
+
+  * Set the default viwer mode to 2D.
+
 ### 2019-04-30
   * Mining commodities fixed with new end point from GA.
   * ABS agricultural commodities - 2 datasets.
