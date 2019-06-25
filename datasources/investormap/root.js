@@ -87,5 +87,6 @@ Although Australia accounts for less than three per cent of global food trade, i
     north: -8,
     south: -45
   },
-  baseMapName: "Bing Maps Aerial with Labels"
+  baseMapName: "Bing Maps Aerial with Labels",
+  viewerMode: "2d"
 };
