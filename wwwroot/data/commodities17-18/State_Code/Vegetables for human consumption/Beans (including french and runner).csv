@@ -1,0 +1,7 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,State_Code,State
+3601358,Vegetables for human consumption - Beans (including french and runner),18616271.97,*,16114665,*,1,New South Wales
+3601358,Vegetables for human consumption - Beans (including french and runner),29189939.8,,25631421.22,,2,Victoria
+3601358,Vegetables for human consumption - Beans (including french and runner),130242960.4,,113321663.8,,3,Queensland
+3601358,Vegetables for human consumption - Beans (including french and runner),34925.16,**,30595.14,**,4,South Australia
+3601358,Vegetables for human consumption - Beans (including french and runner),2580537.38,,2246495.51,,5,Western Australia
+3601358,Vegetables for human consumption - Beans (including french and runner),12949344,^,11850249.8,^,6,Tasmania

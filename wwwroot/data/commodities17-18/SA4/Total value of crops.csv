@@ -1,0 +1,77 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,SA4,SA4 name
+9013959,Total value of crops,161250381.4,^,148938557.5,^,101,Capital Region
+9013959,Total value of crops,,,,,102,Central Coast
+9013959,Total value of crops,627707280.1,,571872789.6,,103,Central West
+9013959,Total value of crops,182340518.8,^,172102042.8,^,104,Coffs Harbour - Grafton
+9013959,Total value of crops,563577128.1,,535328008.1,,105,Far West and Orana
+9013959,Total value of crops,27725860.7,^,26009275.04,^,106,Hunter Valley exc Newcastle
+9013959,Total value of crops,,,,,107,Illawarra
+9013959,Total value of crops,76938922.14,*,69145924.37,*,108,Mid North Coast
+9013959,Total value of crops,1185223307,,1097371963,,109,Murray
+9013959,Total value of crops,,,,,110,New England and North West
+9013959,Total value of crops,5434356.55,*,4890920.9,*,111,Newcastle and Lake Macquarie
+9013959,Total value of crops,255027891.8,^,234545508.2,^,112,Richmond - Tweed
+9013959,Total value of crops,1631732883,,1519123438,,113,Riverina
+9013959,Total value of crops,,,,,114,Southern Highlands and Shoalhaven
+9013959,Total value of crops,171937395.7,,154667400.1,^,115,Sydney - Baulkham Hills and Hawkesbury
+9013959,Total value of crops,1365689.26,**,1165478.86,**,116,Sydney - Blacktown
+9013959,Total value of crops,2225799.93,**,2003219.94,**,122,Sydney - Northern Beaches
+9013959,Total value of crops,24394602.92,^,21240737.07,^,123,Sydney - Outer South West
+9013959,Total value of crops,90164113.85,*,82740671.6,*,124,Sydney - Outer West and Blue Mountains
+9013959,Total value of crops,77904731.33,*,67241719.15,*,127,Sydney - South West
+9013959,Total value of crops,241481829.6,^,222572263,^,201,Ballarat
+9013959,Total value of crops,221962746.7,^,205954908.1,^,202,Bendigo
+9013959,Total value of crops,130612178.5,^,118132030.5,^,203,Geelong
+9013959,Total value of crops,173182351.8,,160026229.2,,204,Hume
+9013959,Total value of crops,298192076.8,,254836065.6,,205,Latrobe - Gippsland
+9013959,Total value of crops,10295044.94,*,9099124.75,*,208,Melbourne - Inner South
+9013959,Total value of crops,160127877.6,,139418828.5,,209,Melbourne - North East
+9013959,Total value of crops,8515988.05,*,7534043.35,*,210,Melbourne - North West
+9013959,Total value of crops,331609848.6,^,297842130.5,^,211,Melbourne - Outer East
+9013959,Total value of crops,250765089.3,,217718915.8,,212,Melbourne - South East
+9013959,Total value of crops,104454405.3,^,88633164.61,^,213,Melbourne - West
+9013959,Total value of crops,115399377.3,^,100403235.9,^,214,Mornington Peninsula
+9013959,Total value of crops,2850295433,,2639411615,,215,North West
+9013959,Total value of crops,918263081.1,,822754023.7,,216,Shepparton
+9013959,Total value of crops,178977443,,169374206.6,,217,Warrnambool and South West
+9013959,Total value of crops,29028962.38,^,25244459.88,^,301,Brisbane - East
+9013959,Total value of crops,13037345.42,**,11424316.6,**,303,Brisbane - South
+9013959,Total value of crops,372206.96,**,340842.13,**,304,Brisbane - West
+9013959,Total value of crops,774698.36,*,726851.83,*,305,Brisbane Inner City
+9013959,Total value of crops,894466325.9,,810134267.4,,306,Cairns
+9013959,Total value of crops,1534508655,,1431514172,,307,Darling Downs - Maranoa
+9013959,Total value of crops,574019099.4,,543878753.1,,308,Central Queensland
+9013959,Total value of crops,65330583.77,,58153356.36,,309,Gold Coast
+9013959,Total value of crops,292493568.8,,239345925.8,,310,Ipswich
+9013959,Total value of crops,45958566.4,,41515430.17,,311,Logan - Beaudesert
+9013959,Total value of crops,651032838.5,,598682283.8,,312,Mackay - Isaac - Whitsunday
+9013959,Total value of crops,200821948.1,^,173374949.9,^,313,Moreton Bay - North
+9013959,Total value of crops,4537858.07,**,4152022.5,**,314,Moreton Bay - South
+9013959,Total value of crops,181208561.3,,158954912.7,,315,Queensland - Outback
+9013959,Total value of crops,112645502.3,,100465926.7,,316,Sunshine Coast
+9013959,Total value of crops,250700011.9,,201267991.8,,317,Toowoomba
+9013959,Total value of crops,573671288.5,,534110259.7,,318,Townsville
+9013959,Total value of crops,964830601.8,,861756850.4,,319,Wide Bay
+9013959,Total value of crops,148301757.4,^,131462655.7,^,401,Adelaide - Central and Hills
+9013959,Total value of crops,183260738.4,^,158314021.9,^,402,Adelaide - North
+9013959,Total value of crops,41133234.74,^,39417347.55,^,403,Adelaide - South
+9013959,Total value of crops,64361.2,**,54707.02,**,404,Adelaide - West
+9013959,Total value of crops,1215090019,,1144288085,,405,Barossa - Yorke - Mid North
+9013959,Total value of crops,431849175.9,,402874818.4,,406,South Australia - Outback
+9013959,Total value of crops,1836388593,,1685561947,,407,South Australia - South East
+9013959,Total value of crops,497098223.2,,441188340.4,,501,Bunbury
+9013959,Total value of crops,15056203.06,^,13420092.39,^,502,Mandurah
+9013959,Total value of crops,1968463.26,,1843455.25,,503,Perth - Inner
+9013959,Total value of crops,36965978.64,^,34414231.92,^,504,Perth - North East
+9013959,Total value of crops,68441677.62,^,61203811.37,^,505,Perth - North West
+9013959,Total value of crops,47838220.72,^,42455705.46,^,506,Perth - South East
+9013959,Total value of crops,3424947559,,3195898746,,509,Western Australia - Wheat Belt
+9013959,Total value of crops,52655380.23,,45594646.03,,510,Western Australia - Outback (North)
+9013959,Total value of crops,1421077300,,1327179701,,511,Western Australia - Outback (South)
+9013959,Total value of crops,29478442.89,,27129289.84,,601,Hobart
+9013959,Total value of crops,232952268.2,,216772050.3,,602,Launceston and North East
+9013959,Total value of crops,151511647.4,,138550948.1,,603,South East
+9013959,Total value of crops,188512329.4,,172062708.2,,604,West and North West
+9013959,Total value of crops,54966169.12,,47059211.91,,701,Darwin
+9013959,Total value of crops,74943959.39,,65464674.3,,702,Northern Territory - Outback
+9013959,Total value of crops,4205841.71,*,3794885.37,*,801,Australian Capital Territory

@@ -1,0 +1,44 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,NRMR_Code,NRMR name
+1501758,Broadacre crops - Cereal crops - Barley for grain,2058491.42,^,1836168.31,^,101,Central Tablelands
+1501758,Broadacre crops - Cereal crops - Barley for grain,51618602.34,^,46043641.78,^,102,Central West
+1501758,Broadacre crops - Cereal crops - Barley for grain,1721569.09,**,1535634.58,**,104,Hunter
+1501758,Broadacre crops - Cereal crops - Barley for grain,84685862.83,,75539541.09,,105,Murray
+1501758,Broadacre crops - Cereal crops - Barley for grain,83887599.92,,74827492.92,,108,North West NSW
+1501758,Broadacre crops - Cereal crops - Barley for grain,11492105.57,*,10250924.44,*,109,Northern Tablelands
+1501758,Broadacre crops - Cereal crops - Barley for grain,99618537.72,,88859443.26,,110,Riverina
+1501758,Broadacre crops - Cereal crops - Barley for grain,292720.79,,261106.09,,111,South East NSW
+1501758,Broadacre crops - Cereal crops - Barley for grain,4806763.11,**,4287618.58,**,112,Western
+1501758,Broadacre crops - Cereal crops - Barley for grain,23192642.33,^,20669394.91,^,201,Corangamite
+1501758,Broadacre crops - Cereal crops - Barley for grain,463986.7,^,413507.18,^,202,East Gippsland
+1501758,Broadacre crops - Cereal crops - Barley for grain,8552753.58,^,7622255.32,^,203,Glenelg Hopkins
+1501758,Broadacre crops - Cereal crops - Barley for grain,11479694.72,*,10230759.41,*,204,Goulburn Broken
+1501758,Broadacre crops - Cereal crops - Barley for grain,175071865.5,^,156024892.5,^,205,Mallee
+1501758,Broadacre crops - Cereal crops - Barley for grain,125060174.5,,111454231.8,,206,North Central
+1501758,Broadacre crops - Cereal crops - Barley for grain,775767.07,*,691367.36,*,207,North East
+1501758,Broadacre crops - Cereal crops - Barley for grain,1569282.18,*,1398551.86,*,208,Port Phillip and Western Port
+1501758,Broadacre crops - Cereal crops - Barley for grain,614930.05,,548028.63,,209,West Gippsland
+1501758,Broadacre crops - Cereal crops - Barley for grain,149132467.8,,132907575.9,,210,Wimmera
+1501758,Broadacre crops - Cereal crops - Barley for grain,2353189.61,*,2105163.6,*,301,Burnett Mary
+1501758,Broadacre crops - Cereal crops - Barley for grain,27026345.4,^,24177770.6,^,303,Condamine
+1501758,Broadacre crops - Cereal crops - Barley for grain,235705.91,*,210862.53,*,305,Desert Channels
+1501758,Broadacre crops - Cereal crops - Barley for grain,5822291.93,*,5208622.79,*,306,Fitzroy Basin
+1501758,Broadacre crops - Cereal crops - Barley for grain,547151.68,**,489481.93,**,307,North Queensland Dry Tropics
+1501758,Broadacre crops - Cereal crops - Barley for grain,21311975.66,*,19065695.01,*,309,Queensland Murray Darling Basin
+1501758,Broadacre crops - Cereal crops - Barley for grain,301867.35,^,270050.56,^,311,South East Queensland
+1501758,Broadacre crops - Cereal crops - Barley for grain,220662.7,**,197404.87,**,314,Terrain NRM
+1501758,Broadacre crops - Cereal crops - Barley for grain,14127046.31,^,13027857.07,^,401,Adelaide and Mount Lofty Ranges
+1501758,Broadacre crops - Cereal crops - Barley for grain,59926324.93,^,55263611.27,^,403,Eyre Peninsula
+1501758,Broadacre crops - Cereal crops - Barley for grain,997406.01,,919800.4,,404,Kangaroo Island
+1501758,Broadacre crops - Cereal crops - Barley for grain,210798910.5,^,194397187.9,^,405,Northern and Yorke
+1501758,Broadacre crops - Cereal crops - Barley for grain,4043672.04,^,3729044.29,^,406,South Australian Arid Lands
+1501758,Broadacre crops - Cereal crops - Barley for grain,100587546.7,,92761087.63,,407,South Australian Murray Darling Basin
+1501758,Broadacre crops - Cereal crops - Barley for grain,17256463.62,^,15913782.44,^,408,South East
+1501758,Broadacre crops - Cereal crops - Barley for grain,83066601.51,^,76525341.73,^,501,Northern Agricultural
+1501758,Broadacre crops - Cereal crops - Barley for grain,22683973.51,^,20897674.8,^,502,Peel-Harvey
+1501758,Broadacre crops - Cereal crops - Barley for grain,2361432.92,*,2175476.76,*,503,Perth
+1501758,Broadacre crops - Cereal crops - Barley for grain,278706168.9,,256758846.9,,505,South Coast
+1501758,Broadacre crops - Cereal crops - Barley for grain,131393660,,121046781.1,,506,South West
+1501758,Broadacre crops - Cereal crops - Barley for grain,607629.96,^,571933.12,^,601,Cradle Coast
+1501758,Broadacre crops - Cereal crops - Barley for grain,2641071.04,,2485914.31,,602,North
+1501758,Broadacre crops - Cereal crops - Barley for grain,1406420.87,^,1323796.94,^,603,South
+1501758,Broadacre crops - Cereal crops - Barley for grain,6844.62,*,6105.38,*,801,ACT

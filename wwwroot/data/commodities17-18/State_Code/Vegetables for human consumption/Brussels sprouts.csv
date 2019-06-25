@@ -1,0 +1,7 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,State_Code,State
+3601858,Vegetables for human consumption - Brussels sprouts,23548.21,,21193.39,,1,New South Wales
+3601858,Vegetables for human consumption - Brussels sprouts,4267794.77,^,3885313.72,^,2,Victoria
+3601858,Vegetables for human consumption - Brussels sprouts,2206010.64,*,1993665.37,*,3,Queensland
+3601858,Vegetables for human consumption - Brussels sprouts,24507247.29,*,22083313.93,*,4,South Australia
+3601858,Vegetables for human consumption - Brussels sprouts,84336,,82424.72,,5,Western Australia
+3601858,Vegetables for human consumption - Brussels sprouts,1740711.25,**,1681005.23,**,6,Tasmania
