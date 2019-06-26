@@ -1654,7 +1654,7 @@
         },
         "TR_2019": {
           "layerName": "TR_2019",
-          "server": "https://tile-test.terria.io/TR_2019/{z}/{x}/{y}.pbf",
+          "server": "https://tiles.terria.io/TR_2019/{z}/{x}/{y}.pbf",
           "serverType": "MVT",
           "serverMaxNativeZoom": 12,
           "serverMinZoom": 0,
@@ -1677,7 +1677,7 @@
         },
         "TR_2019_NAME": {
           "layerName": "TR_2019",
-          "server": "https://tile-test.terria.io/TR_2019/{z}/{x}/{y}.pbf",
+          "server": "https://tiles.terria.io/TR_2019/{z}/{x}/{y}.pbf",
           "serverType": "MVT",
           "serverMaxNativeZoom": 12,
           "serverMinZoom": 0,
