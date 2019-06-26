@@ -1652,6 +1652,53 @@
             ],
             "nameProp": "TR_NAME15"
         },
+        "TR_2019": {
+          "layerName": "TR_2019",
+          "server": "https://tile-test.terria.io/TR_2019/{z}/{x}/{y}.pbf",
+          "serverType": "MVT",
+          "serverMaxNativeZoom": 12,
+          "serverMinZoom": 0,
+          "serverMaxZoom": 28,
+          "regionIdsFile": "data/regionids/region_map-TR_2019_TR_2019.json",
+          "regionProp": "TR_CODE19",
+          "nameProp": "TR_NAME19",
+          "aliases": [
+            "tr_code_2019",
+            "tr_2019",
+            "tr"
+          ],
+          "description": "Tourism regions - 2019",
+          "bbox": [
+            112.92111395199997,
+            -43.740509602999985,
+            159.10921900799997,
+            -9.142175976999999
+          ]
+        },
+        "TR_2019_NAME": {
+          "layerName": "TR_2019",
+          "server": "https://tile-test.terria.io/TR_2019/{z}/{x}/{y}.pbf",
+          "serverType": "MVT",
+          "serverMaxNativeZoom": 12,
+          "serverMinZoom": 0,
+          "serverMaxZoom": 28,
+          "regionIdsFile": "data/regionids/region_map-TR_2019_NAME_TR_2019.json",
+          "regionProp": "TR_NAME19",
+          "nameProp": "TR_NAME19",
+          "aliases": [
+            "TR_NAME19",
+            "tr_name_2019",
+            "tr_name",
+            "TR_NAME"
+          ],
+          "description": "Tourism regions - 2019",
+          "bbox": [
+            112.92111395199997,
+            -43.740509602999985,
+            159.10921900799997,
+            -9.142175976999999
+          ]
+        },
         "TR_2013": {
             "layerName": "FID_TR_2013_AUST",
             "server": "https://vector-tiles.terria.io/FID_TR_2013_AUST/{z}/{x}/{y}.pbf",

@@ -1,4 +1,4 @@
-tr_tra_name_2018,Date,Visitors (000),Nights (000),Expenditure ($M),Average nights,Average spend per trip,Average spend per night
+TR_NAME19,Date,Visitors (000),Nights (000),Expenditure ($M),Average nights,Average spend per trip,Average spend per night
 Sydney,2013,2885,61400,5963,21.3,2067,97
 Blue Mountains,2013,78,440,37,5.6,471,84
 Capital Country,2013,24,466,28,19.4,1159,61
@@ -58,7 +58,7 @@ Riverland,2013,9,218,9,24.2,1063,43
 Yorke Peninsula,2013,,,,,,
 Flinders Ranges and Outback,2013,36,293,,8.1,,
 Kangaroo Island,2013,37,143,29,3.9,763,200
-Experience Perth,2013,749,21356,1877,28.5,2507,88
+Destination Perth,2013,749,21356,1877,28.5,2507,88
 Australia's Golden Outback,2013,43,927,54,21.6,1252,58
 Australia's North West,2013,66,2314,105,35.1,1594,45
 Australia's South West,2013,130,1757,126,13.5,965,72

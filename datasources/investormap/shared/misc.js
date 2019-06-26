@@ -10,8 +10,8 @@ const miscItems = [
       getFromCatalogPath(nm, [
         "National Datasets",
         "Surface Water and Marine",
-        "Tidal",
-        "Mangrove Canopy Cover 25m"
+        "Coastal",
+        "Mangrove canopy cover"
       ])
     ]
   }

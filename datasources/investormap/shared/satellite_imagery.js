@@ -4,7 +4,7 @@ const externalCatalogs = require("./externalCatalogs");
 
 const satImageryGroup = getFromCatalogPath(externalCatalogs.nationalmap, [
   "National Datasets",
-  "Satellite Imagery"
+  "Satellite Images"
 ]);
 
 module.exports = satImageryGroup;
