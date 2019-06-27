@@ -1,0 +1,60 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,SA4,SA4 name
+9200348,Livestock products - Eggs,24360561.32,^,21315655.38,^,101,Capital Region
+9200348,Livestock products - Eggs,789211.42,^,690565.31,^,102,Central Coast
+9200348,Livestock products - Eggs,68055863.38,^,59549339.24,^,103,Central West
+9200348,Livestock products - Eggs,4065.27,**,3557.14,**,104,Coffs Harbour - Grafton
+9200348,Livestock products - Eggs,13926.36,**,12185.66,**,105,Far West and Orana
+9200348,Livestock products - Eggs,19941391.32,,17448851.84,,106,Hunter Valley excluding Newcastle
+9200348,Livestock products - Eggs,26232016.26,*,22953191.07,*,108,Mid North Coast
+9200348,Livestock products - Eggs,5782125.16,^,5059398.49,^,109,Murray
+9200348,Livestock products - Eggs,16323052.27,,14282780.77,,110,New England and North West
+9200348,Livestock products - Eggs,3904791.74,,3416719.09,,111,Newcastle and Lake Macquarie
+9200348,Livestock products - Eggs,628904.65,*,550295.81,*,112,Richmond - Tweed
+9200348,Livestock products - Eggs,823187.61,**,720294.71,**,113,Riverina
+9200348,Livestock products - Eggs,8928993.36,**,7812929.39,**,114,Southern Highlands and Shoalhaven
+9200348,Livestock products - Eggs,13333044.56,*,11666503.88,*,115,Sydney - Baulkham Hills and Hawkesbury
+9200348,Livestock products - Eggs,10984070.97,**,9611136.14,**,116,Sydney - Blacktown
+9200348,Livestock products - Eggs,3797530.86,,3322865.11,,123,Sydney - Outer South West
+9200348,Livestock products - Eggs,34955675.92,,30586452.08,,124,Sydney - Outer West and Blue Mountains
+9200348,Livestock products - Eggs,16656418.03,*,14574478.07,*,127,Sydney - South West
+9200348,Livestock products - Eggs,9384514.01,**,8154618.12,**,201,Ballarat
+9200348,Livestock products - Eggs,16380577.51,,14233806.25,,202,Bendigo
+9200348,Livestock products - Eggs,39584769.89,,34396952.42,,203,Geelong
+9200348,Livestock products - Eggs,16590790.58,,14416469.66,,204,Hume
+9200348,Livestock products - Eggs,25848349.91,,22460771.26,,205,Latrobe - Gippsland
+9200348,Livestock products - Eggs,8169455.15,,7098799.89,,209,Melbourne - North East
+9200348,Livestock products - Eggs,1734461.3,**,1507149.92,**,210,Melbourne - North West
+9200348,Livestock products - Eggs,6901994.01,,5997447,,211,Melbourne - Outer East
+9200348,Livestock products - Eggs,34738327.45,,30185664.83,,212,Melbourne - South East
+9200348,Livestock products - Eggs,11405535.48,**,9910772.81,**,213,Melbourne - West
+9200348,Livestock products - Eggs,1480856.1,*,1286781.18,*,214,Mornington Peninsula
+9200348,Livestock products - Eggs,1635469.64,**,1421131.7,**,215,North West
+9200348,Livestock products - Eggs,301352.73,**,261858.68,**,217,Warrnambool and South West
+9200348,Livestock products - Eggs,2451175.68,**,2109110.77,**,301,Brisbane - East
+9200348,Livestock products - Eggs,808299.4,**,695500.12,**,302,Brisbane - North
+9200348,Livestock products - Eggs,3610435.79,**,3106594.56,**,306,Cairns
+9200348,Livestock products - Eggs,194756529.1,^,167577990.2,^,307,Darling Downs - Maranoa
+9200348,Livestock products - Eggs,3215713.26,,2766956.1,,308,Central Queensland
+9200348,Livestock products - Eggs,2619184.98,,2253674.15,,309,Gold Coast
+9200348,Livestock products - Eggs,1832580.72,**,1576841.59,**,312,Mackay - Isaac - Whitsunday
+9200348,Livestock products - Eggs,15143479.19,^,13030186.04,^,313,Moreton Bay - North
+9200348,Livestock products - Eggs,48133.73,*,41416.6,*,317,Toowoomba
+9200348,Livestock products - Eggs,7395142.83,^,6363140.57,^,318,Townsville
+9200348,Livestock products - Eggs,2483962.54,^,2137322.19,^,319,Wide Bay
+9200348,Livestock products - Eggs,5759688.85,**,5064582.57,**,401,Adelaide - Central and Hills
+9200348,Livestock products - Eggs,3715960.53,,3267500.98,,402,Adelaide - North
+9200348,Livestock products - Eggs,6016858.27,,5290715.57,,403,Adelaide - South
+9200348,Livestock products - Eggs,30050525.1,,26423886.7,,405,Barossa - Yorke - Mid North
+9200348,Livestock products - Eggs,592.95,*,521.39,*,406,South Australia - Outback
+9200348,Livestock products - Eggs,5131357.86,,4512081.52,,407,South Australia - South East
+9200348,Livestock products - Eggs,131085.74,*,115269.65,*,501,Bunbury
+9200348,Livestock products - Eggs,2007232.46,**,1765050.77,**,502,Mandurah
+9200348,Livestock products - Eggs,8098637.75,,7121500.43,,504,Perth - North East
+9200348,Livestock products - Eggs,6383508.67,^,5613309.44,^,505,Perth - North West
+9200348,Livestock products - Eggs,5200292.54,^,4572853.69,^,506,Perth - South East
+9200348,Livestock products - Eggs,43930502.28,,38630088.2,,509,Western Australia - Wheat Belt
+9200348,Livestock products - Eggs,10432976.7,,9174190.81,,511,Western Australia - Outback (South)
+9200348,Livestock products - Eggs,3425927.69,^,3098266.48,^,601,Hobart
+9200348,Livestock products - Eggs,14148440.2,^,12795260.72,^,602,Launceston and North East
+9200348,Livestock products - Eggs,214641.92,*,194113.22,*,604,West and North West
+9200348,Livestock products - Eggs,395210,,345982.96,,801,Australian Capital Territory

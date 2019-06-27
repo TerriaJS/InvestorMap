@@ -29,7 +29,7 @@ function geoscienceAustraliaStyleLayers() {
   ];
   return styles.map(([styleId, title]) => ({
     name: title,
-    url: "http://52.62.101.149:8080/geoserver/wms",
+    url: "http://earthresource.gs.cloud.ga.gov.au/wms",
     type: "wms",
     dataCustodian: "[Geoscience Australia](http://www.ga.gov.au/)",
     info: [
@@ -41,6 +41,7 @@ function geoscienceAustraliaStyleLayers() {
     ],
     layers: "erl:CommodityResourceView",
     styles: `data61:${styleId}`,
+    opacity: 1.0,
     availableStyles: [] // prevent drop down of other styles
   }));
 }
@@ -82,34 +83,6 @@ module.exports = {
       "Agriculture and Mining",
       "Mineral Exploration"
     ]),
-    {
-      name: "Mineral Occurrences",
-      url: "http://services.ga.gov.au/earthresource/wms",
-      type: "wms",
-      dataCustodian: "[Geoscience Australia](http://www.ga.gov.au/)",
-      info: [
-        {
-          name: "Licence",
-          content:
-            "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-        }
-      ],
-      layers: "ama:mineral_occurrences"
-    },
-    {
-      name: "Mines Operating Status",
-      url: "http://services.ga.gov.au/earthresource/wms",
-      type: "wms",
-      dataCustodian: "[Geoscience Australia](http://www.ga.gov.au/)",
-      info: [
-        {
-          name: "Licence",
-          content:
-            "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-        }
-      ],
-      layers: "ama:mineral_deposits"
-    },
     {
       name: "Surface Geology",
       type: "wms-getCapabilities",

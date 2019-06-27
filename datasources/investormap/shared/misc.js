@@ -2,18 +2,20 @@
 const getFromCatalogPath = require("../../getFromCatalogPath");
 const nm = require("./externalCatalogs").nationalmap;
 
+const mangroveCanopyCover = getFromCatalogPath(nm, [
+  "National Datasets",
+  "Vegetation",
+  "Mangroves",
+  "Mangrove canopy cover",
+  "Canopy cover"
+]);
+mangroveCanopyCover.name = "Mangrove Canopy Cover 25m";
+
 const miscItems = [
   {
     type: "group",
     name: "Environment",
-    items: [
-      getFromCatalogPath(nm, [
-        "National Datasets",
-        "Surface Water and Marine",
-        "Coastal",
-        "Mangrove canopy cover"
-      ])
-    ]
+    items: [mangroveCanopyCover]
   }
 ];
 

@@ -18,8 +18,9 @@ module.exports = {
           m => ["Water", "Agriculture"].indexOf(m.name) >= 0
         ),
         require("./shared/soil"),
-        require("./shared/satellite_imagery"),
+        require("./shared/satellite_images"),
         require("./shared/climate"),
+        require("./shared/boundaries"),
         ...require("./shared/misc.js"),
         require("./abs")
       ]
@@ -86,5 +87,6 @@ Although Australia accounts for less than three per cent of global food trade, i
     north: -8,
     south: -45
   },
-  baseMapName: "Bing Maps Aerial with Labels"
+  baseMapName: "Bing Maps Aerial with Labels",
+  viewerMode: "2d"
 };

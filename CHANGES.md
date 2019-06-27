@@ -1,6 +1,16 @@
 Change Log
 ==========
 
+### 2019-06-17
+
+  * Set the default viwer mode to 2D.
+
+### 2019-04-30
+  * Mining commodities fixed with new end point from GA.
+  * ABS agricultural commodities - 2 datasets.
+  * Power generation - NEM (as on AREMI).
+  * Removal of WA mindex layers.
+
 ### 2019-02-18
 
 * Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) 6.5.0.  Changes include:

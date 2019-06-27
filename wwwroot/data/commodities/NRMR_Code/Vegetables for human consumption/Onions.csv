@@ -1,0 +1,27 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,NRMR_Code,NRMR name
+3611558,Vegetables for human consumption - Onions,123869.14,^,108541.91,^,101,Central Tablelands
+3611558,Vegetables for human consumption - Onions,2481,**,2174.01,**,103,Greater Sydney
+3611558,Vegetables for human consumption - Onions,5729745.49,^,5020762.49,^,110,Riverina
+3611558,Vegetables for human consumption - Onions,294893.55,**,265879.73,**,201,Corangamite
+3611558,Vegetables for human consumption - Onions,784086.03,,706941.83,,202,East Gippsland
+3611558,Vegetables for human consumption - Onions,784086.03,,706941.83,,204,Goulburn Broken
+3611558,Vegetables for human consumption - Onions,543077.41,*,489645.43,*,205,Mallee
+3611558,Vegetables for human consumption - Onions,437021.06,*,394023.69,*,206,North Central
+3611558,Vegetables for human consumption - Onions,823290.33,,742288.92,,208,Port Phillip and Western Port
+3611558,Vegetables for human consumption - Onions,2630126.31,**,2371354.97,**,209,West Gippsland
+3611558,Vegetables for human consumption - Onions,4433599.06,*,3882788.13,*,303,Condamine
+3611558,Vegetables for human consumption - Onions,578043.19,,506229.63,,308,Northern Gulf
+3611558,Vegetables for human consumption - Onions,4446048.74,^,3893691.12,^,309,Queensland Murray Darling Basin
+3611558,Vegetables for human consumption - Onions,23991670.64,,21011050.59,,311,South East Queensland
+3611558,Vegetables for human consumption - Onions,4455706.88,,3942707.14,,401,Adelaide and Mount Lofty Ranges
+3611558,Vegetables for human consumption - Onions,89212552.96,,78941227.32,,407,South Australian Murray Darling Basin
+3611558,Vegetables for human consumption - Onions,60030651.97,,53119131.63,,408,South East
+3611558,Vegetables for human consumption - Onions,53900.92,^,46865.06,^,501,Northern Agricultural
+3611558,Vegetables for human consumption - Onions,13617042.3,,11839565.6,,502,Peel-Harvey
+3611558,Vegetables for human consumption - Onions,71549.53,**,62209.94,**,503,Perth
+3611558,Vegetables for human consumption - Onions,1508544.79,**,1311629.55,**,504,Rangelands
+3611558,Vegetables for human consumption - Onions,1777.2,*,1545.21,*,505,South Coast
+3611558,Vegetables for human consumption - Onions,5825788.43,,5065329.37,,506,South West
+3611558,Vegetables for human consumption - Onions,23772105.2,^,21175882.01,^,601,Cradle Coast
+3611558,Vegetables for human consumption - Onions,11061209.3,,9853181.32,,602,North
+3611558,Vegetables for human consumption - Onions,730348.75,^,639613.42,^,701,Northern Territory

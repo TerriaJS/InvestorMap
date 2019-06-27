@@ -36,7 +36,9 @@ module.exports = {
             "http://services.ga.gov.au/gis/rest/services/NM_Labelling_and_Boundaries/MapServer/",
           layers: "23"
         },
-        ...require("./sdmx_items")
+        ...require("./sdmx_items"),
+        ...require("./commodity_values"),
+        ...require("./land_management")
       ]
     },
     require("../shared/climate"),
