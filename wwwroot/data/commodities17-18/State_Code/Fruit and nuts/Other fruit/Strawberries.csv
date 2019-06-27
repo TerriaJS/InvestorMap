@@ -1,0 +1,7 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,State_Code,State
+4302258,Fruit and nuts - Other fruit - Strawberries,700607.17,**,597510.5,**,1,New South Wales
+4302258,Fruit and nuts - Other fruit - Strawberries,62385544.65,^,53640619.71,^,2,Victoria
+4302258,Fruit and nuts - Other fruit - Strawberries,193946001,^,165803187.5,^,3,Queensland
+4302258,Fruit and nuts - Other fruit - Strawberries,18962782.81,,16419941,,4,South Australia
+4302258,Fruit and nuts - Other fruit - Strawberries,38923452.48,*,37154224.08,*,5,Western Australia
+4302258,Fruit and nuts - Other fruit - Strawberries,33607970.9,*,28998526.03,*,6,Tasmania

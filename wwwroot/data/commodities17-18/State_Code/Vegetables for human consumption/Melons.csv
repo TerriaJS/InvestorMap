@@ -1,0 +1,7 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,State_Code,State
+3614058,Vegetables for human consumption - Melons,46595337.2,,43256467.01,,1,New South Wales
+3614058,Vegetables for human consumption - Melons,4515941.66,**,3827418.89,**,2,Victoria
+3614058,Vegetables for human consumption - Melons,65548475.63,,55610722.32,,3,Queensland
+3614058,Vegetables for human consumption - Melons,673037.13,,568155.09,,4,South Australia
+3614058,Vegetables for human consumption - Melons,25991726.38,^,22388539.41,^,5,Western Australia
+3614058,Vegetables for human consumption - Melons,25376947.42,,21493053.13,,7,Northern Territory

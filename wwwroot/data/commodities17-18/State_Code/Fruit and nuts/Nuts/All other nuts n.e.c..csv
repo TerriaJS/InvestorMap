@@ -1,0 +1,7 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,State_Code,State
+4209758,Fruit and nuts - Nuts - All other nuts n.e.c.,37247855.16,,34471617.54,,1,New South Wales
+4209758,Fruit and nuts - Nuts - All other nuts n.e.c.,15122037.8,^,14215441.81,^,2,Victoria
+4209758,Fruit and nuts - Nuts - All other nuts n.e.c.,3757874.3,**,3561340.77,**,3,Queensland
+4209758,Fruit and nuts - Nuts - All other nuts n.e.c.,612660.74,*,576179.73,*,4,South Australia
+4209758,Fruit and nuts - Nuts - All other nuts n.e.c.,2219990.34,*,2088248.22,*,5,Western Australia
+4209758,Fruit and nuts - Nuts - All other nuts n.e.c.,6615828.64,,6054949.31,,6,Tasmania

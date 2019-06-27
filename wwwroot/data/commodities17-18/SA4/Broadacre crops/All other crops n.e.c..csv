@@ -1,0 +1,42 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,SA4,SA4 name
+1510458,Broadacre crops - All other crops n.e.c.,869835.32,*,782849.32,*,101,Capital Region
+1510458,Broadacre crops - All other crops n.e.c.,7565736.49,^,6809141.36,^,103,Central West
+1510458,Broadacre crops - All other crops n.e.c.,2319507.21,*,2087549.9,*,105,Far West and Orana
+1510458,Broadacre crops - All other crops n.e.c.,164445.74,*,148000.7,*,106,Hunter Valley exc Newcastle
+1510458,Broadacre crops - All other crops n.e.c.,3196634.08,*,2876961.59,*,109,Murray
+1510458,Broadacre crops - All other crops n.e.c.,4196430.48,^,3776775.52,^,110,New England and North West
+1510458,Broadacre crops - All other crops n.e.c.,406423.03,*,365779.57,*,112,Richmond - Tweed
+1510458,Broadacre crops - All other crops n.e.c.,2808056.73,*,2527243.09,*,113,Riverina
+1510458,Broadacre crops - All other crops n.e.c.,132115.56,**,118903.63,**,114,Southern Highlands and Shoalhaven
+1510458,Broadacre crops - All other crops n.e.c.,775906.39,**,698315.61,**,201,Ballarat
+1510458,Broadacre crops - All other crops n.e.c.,6478794.86,**,5830914.22,**,202,Bendigo
+1510458,Broadacre crops - All other crops n.e.c.,81193.71,**,73074.32,**,203,Geelong
+1510458,Broadacre crops - All other crops n.e.c.,3295725.27,^,2966152.15,^,204,Hume
+1510458,Broadacre crops - All other crops n.e.c.,154568.53,^,139111.65,^,205,Latrobe - Gippsland
+1510458,Broadacre crops - All other crops n.e.c.,8546.59,*,7691.93,*,210,Melbourne - North West
+1510458,Broadacre crops - All other crops n.e.c.,10644.78,**,9580.3,**,213,Melbourne - West
+1510458,Broadacre crops - All other crops n.e.c.,7037571.35,^,6333812.96,^,215,North West
+1510458,Broadacre crops - All other crops n.e.c.,1830994.39,**,1647894.63,**,216,Shepparton
+1510458,Broadacre crops - All other crops n.e.c.,1402075.02,*,1261867.27,*,217,Warrnambool and South West
+1510458,Broadacre crops - All other crops n.e.c.,849.35,**,764.41,**,303,Brisbane - South
+1510458,Broadacre crops - All other crops n.e.c.,111839.49,*,100655.22,*,306,Cairns
+1510458,Broadacre crops - All other crops n.e.c.,13845532.26,*,12460939.73,*,307,Darling Downs - Maranoa
+1510458,Broadacre crops - All other crops n.e.c.,757847.91,**,682060.96,**,308,Central Queensland
+1510458,Broadacre crops - All other crops n.e.c.,111716.84,**,100544.84,**,310,Ipswich
+1510458,Broadacre crops - All other crops n.e.c.,55952.11,**,50356.74,**,312,Mackay - Isaac - Whitsunday
+1510458,Broadacre crops - All other crops n.e.c.,23834.38,**,21450.87,**,313,Moreton Bay - North
+1510458,Broadacre crops - All other crops n.e.c.,967857.71,^,871069.19,^,315,Queensland - Outback
+1510458,Broadacre crops - All other crops n.e.c.,9221.92,,8299.7,,316,Sunshine Coast
+1510458,Broadacre crops - All other crops n.e.c.,230172.03,*,207154.17,*,319,Wide Bay
+1510458,Broadacre crops - All other crops n.e.c.,42431.31,**,38188.05,**,402,Adelaide - North
+1510458,Broadacre crops - All other crops n.e.c.,4685969.94,**,4217359.64,**,405,Barossa - Yorke - Mid North
+1510458,Broadacre crops - All other crops n.e.c.,553556.13,*,498198.95,*,406,South Australia - Outback
+1510458,Broadacre crops - All other crops n.e.c.,2148979.46,*,1934075.41,*,407,South Australia - South East
+1510458,Broadacre crops - All other crops n.e.c.,42270.57,**,38043.4,**,501,Bunbury
+1510458,Broadacre crops - All other crops n.e.c.,997996.2,*,898193.75,*,509,Western Australia - Wheat Belt
+1510458,Broadacre crops - All other crops n.e.c.,540547.32,,486491.06,,510,Western Australia - Outback (North)
+1510458,Broadacre crops - All other crops n.e.c.,234306.18,**,210874.9,**,511,Western Australia - Outback (South)
+1510458,Broadacre crops - All other crops n.e.c.,269444.5,*,242500.05,*,601,Hobart
+1510458,Broadacre crops - All other crops n.e.c.,18524165.05,,16671748.55,,602,Launceston and North East
+1510458,Broadacre crops - All other crops n.e.c.,11646608.2,^,10481947.38,^,603,South East
+1510458,Broadacre crops - All other crops n.e.c.,6780283.66,^,6102255.29,^,604,West and North West

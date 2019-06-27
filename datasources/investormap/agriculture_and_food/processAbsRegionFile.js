@@ -99,12 +99,20 @@ module.exports.processAbsRegionFile = function(
   // Turn each leaf in the tree into a CSV in a directory named by its position
   function writeCsvs() {
     for (let path of categoryPaths) {
-      const out = dsv.csvFormat(_.get(categoryTree, path));
-      const dir = path.slice(0, path.length - 1);
-      const leaf = safeDir([path[path.length - 1]]);
-      const outDirectory = `${outdir}/${regionField}/${safeDir(dir)}`;
-      mkdirp.sync(outDirectory);
-      fs.writeFileSync(`${outDirectory}/${leaf}.csv`, out, "utf8");
+      let value = _.get(categoryTree, path);
+
+      // If leaf is undefined, skip
+      // I think this prevents errors caused by paths existing for some states later in the csv
+      // i.e. `Nurseries, cut flowers or cultivated turf -> Cut flowers -> Undercover` exists for `102 - Central Coast`,
+      // but not `101 - Capital Region` but Capital Region appears first in the CSV.
+      if (value) {
+        const out = dsv.csvFormat(value);
+        const dir = path.slice(0, path.length - 1);
+        const leaf = safeDir([path[path.length - 1]]);
+        const outDirectory = `${outdir}/${regionField}/${safeDir(dir)}`;
+        mkdirp.sync(outDirectory);
+        fs.writeFileSync(`${outDirectory}/${leaf}.csv`, out, "utf8");
+      }
     }
   }
   buildTree();

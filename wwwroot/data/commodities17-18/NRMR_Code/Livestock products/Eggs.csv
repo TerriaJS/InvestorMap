@@ -1,0 +1,35 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,NRMR_Code,NRMR name
+9200348,Livestock products - Eggs,19079774.64,,16340004.22,,101,Central Tablelands
+9200348,Livestock products - Eggs,672.68,**,576.09,**,102,Central West
+9200348,Livestock products - Eggs,70136548.3,^,60065253.22,^,103,Greater Sydney
+9200348,Livestock products - Eggs,63473924.36,,54359352.31,,104,Hunter
+9200348,Livestock products - Eggs,4750042.06,,4067957.24,,105,Murray
+9200348,Livestock products - Eggs,3609895.77,*,3091530.86,*,106,North Coast
+9200348,Livestock products - Eggs,39682417.07,**,33984199.21,**,108,North West NSW
+9200348,Livestock products - Eggs,1699121.77,,1455135.48,,109,Northern Tablelands
+9200348,Livestock products - Eggs,56363049.28,,48269567.14,,110,Riverina
+9200348,Livestock products - Eggs,4299887.06,*,3682442.48,*,111,South East NSW
+9200348,Livestock products - Eggs,42238794.95,,36386605.62,,201,Corangamite
+9200348,Livestock products - Eggs,210048.19,*,180945.99,*,203,Glenelg Hopkins
+9200348,Livestock products - Eggs,56381693.23,,48570003.91,,204,Goulburn Broken
+9200348,Livestock products - Eggs,19664329.23,,16939834.42,,206,North Central
+9200348,Livestock products - Eggs,73617386.68,^,63417690.29,^,208,Port Phillip and Western Port
+9200348,Livestock products - Eggs,4574438.23,,3940649.35,,209,West Gippsland
+9200348,Livestock products - Eggs,8884142.35,**,7653243.53,**,210,Wimmera
+9200348,Livestock products - Eggs,200292180.6,,193580336.2,,303,Condamine
+9200348,Livestock products - Eggs,8064788.66,,7794535.44,,307,North Queensland Dry Tropics
+9200348,Livestock products - Eggs,16206368.82,,15663289.08,,311,South East Queensland
+9200348,Livestock products - Eggs,207988.84,,201019.08,,314,Terrain NRM
+9200348,Livestock products - Eggs,20447579.95,,17711515.44,,401,Adelaide and Mount Lofty Ranges
+9200348,Livestock products - Eggs,2098586.41,,1817777.25,,404,Kangaroo Island
+9200348,Livestock products - Eggs,18573566.62,,16088261.44,,405,Northern and Yorke
+9200348,Livestock products - Eggs,7853377.64,^,6802527.23,^,407,South Australian Murray Darling Basin
+9200348,Livestock products - Eggs,625868.65,**,542121.96,**,408,South East
+9200348,Livestock products - Eggs,43122477.48,,37090747.88,,501,Northern Agricultural
+9200348,Livestock products - Eggs,2344052.29,,2016179.44,,502,Peel-Harvey
+9200348,Livestock products - Eggs,14479370.56,^,12454077.65,^,503,Perth
+9200348,Livestock products - Eggs,2080722.91,*,1789683.09,*,506,South West
+9200348,Livestock products - Eggs,167.96,,148.68,,601,Cradle Coast
+9200348,Livestock products - Eggs,9955818.51,,8812871.02,,602,North
+9200348,Livestock products - Eggs,5354651.95,**,4739927.4,**,603,South
+9200348,Livestock products - Eggs,659478.71,*,566551.45,*,801,ACT
