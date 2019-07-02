@@ -1,6 +1,6 @@
 {
     "initializationUrls" : [
-        "init/investormap.json"
+        "proxy/_60s/http://static.nationalmap.nicta.com.au/investormap/init/2019-07-02.json"
     ],
     "parameters": {
         "feedbackUrl": "feedback",
