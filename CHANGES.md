@@ -1,9 +1,15 @@
 Change Log
 ==========
 
+### 2019-07-02
+
+* Update tourism datasets.
+* Update agricultural commodities layers.
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) v7.6.4.
+
 ### 2019-06-17
 
-  * Set the default viwer mode to 2D.
+  * Set the default viewer mode to 2D.
 
 ### 2019-04-30
   * Mining commodities fixed with new end point from GA.
