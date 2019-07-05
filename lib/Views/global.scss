@@ -316,7 +316,7 @@ body {
                  fill: #ffffff;
          }
          &:hover, &:focus{
-                 background-color: darken($color-primary, 10%);
+                 background-color: lighten($color-primary, 10%);
          }
   }
 
