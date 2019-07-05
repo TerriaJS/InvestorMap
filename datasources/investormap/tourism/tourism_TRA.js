@@ -21,16 +21,16 @@ module.exports = {
   type: "group",
   items: [
     {
-      name: "International Visitors Expenditure 2013-2017",
+      name: "International Visitors Expenditure 2013-2018",
       type: "csv",
-      url: "datasets/2013-2017InternationalTourismExpenditure.csv",
+      url: "datasets/2013-2018InternationalTourismExpenditure.csv",
       description:
         "This map layer presents number of international overnight visitors, nights and expenditure by tourism region for 2013 – 2017. The data is extracted from the International Visitor Survey (IVS) conducted by the Tourism Research Australia."
     },
     {
-      name: "International Visitors by Origin Country 2013-2017 ('000)",
+      name: "International Visitors by Origin Country 2013-2018 ('000)",
       type: "csv",
-      url: "datasets/2013-2017InternationalTourismOrigins.csv",
+      url: "datasets/2013-2018InternationalTourismOrigins.csv",
       description:
         "This map layer presents international visitors by country of residence by tourism region for 2013 – 2017. The data is extracted from the International Visitor Survey (IVS) conducted by the Tourism Research Australia."
     },

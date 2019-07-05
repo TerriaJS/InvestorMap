@@ -1,0 +1,53 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,NRMR_Code,NRMR name
+3307859,Hay - Total,17081962.06,*,17081962.06,*,101,Central Tablelands
+3307859,Hay - Total,27233145.6,^,27233145.6,^,102,Central West
+3307859,Hay - Total,687599.32,*,687599.32,*,103,Greater Sydney
+3307859,Hay - Total,5908240.37,*,5908240.37,*,104,Hunter
+3307859,Hay - Total,51568669.51,^,51568669.51,^,105,Murray
+3307859,Hay - Total,5857537.11,**,5857537.11,**,106,North Coast
+3307859,Hay - Total,15617383.56,^,15617383.56,^,108,North West NSW
+3307859,Hay - Total,3078089.73,*,3078089.73,*,109,Northern Tablelands
+3307859,Hay - Total,31307612.18,^,31307612.18,^,110,Riverina
+3307859,Hay - Total,14756726.96,*,14756726.96,*,111,South East NSW
+3307859,Hay - Total,2024200.81,*,2024200.81,*,112,Western
+3307859,Hay - Total,35310270.17,^,35310270.17,^,201,Corangamite
+3307859,Hay - Total,3587096.3,^,3587096.3,^,202,East Gippsland
+3307859,Hay - Total,55188634.07,,55188634.07,,203,Glenelg Hopkins
+3307859,Hay - Total,80672495.1,^,80672495.1,^,204,Goulburn Broken
+3307859,Hay - Total,41466084.91,*,41466084.91,*,205,Mallee
+3307859,Hay - Total,87386560.88,^,87386560.88,^,206,North Central
+3307859,Hay - Total,10020341.45,^,10020341.45,^,207,North East
+3307859,Hay - Total,10326779.6,^,10326779.6,^,208,Port Phillip and Western Port
+3307859,Hay - Total,16810053.86,^,16810053.86,^,209,West Gippsland
+3307859,Hay - Total,29132791.56,^,29132791.56,^,210,Wimmera
+3307859,Hay - Total,12652293.43,^,12652293.43,^,301,Burnett Mary
+3307859,Hay - Total,,,,,302,Cape York
+3307859,Hay - Total,,,,,303,Condamine
+3307859,Hay - Total,3156360.38,^,3156360.38,^,305,Desert Channels
+3307859,Hay - Total,18800717.88,^,18800717.88,^,306,Fitzroy Basin
+3307859,Hay - Total,1980603.13,*,1980603.13,*,307,North Queensland Dry Tropics
+3307859,Hay - Total,2051277.68,*,2051277.68,*,308,Northern Gulf
+3307859,Hay - Total,6275881.84,^,6275881.84,^,309,Queensland Murray Darling Basin
+3307859,Hay - Total,,,,,310,Reef Catchments
+3307859,Hay - Total,18884898.91,^,18884898.91,^,311,South East Queensland
+3307859,Hay - Total,6260.94,**,6260.94,**,312,South West Queensland
+3307859,Hay - Total,3450500.31,*,3450500.31,*,313,Southern Gulf
+3307859,Hay - Total,,,,,314,Terrain NRM
+3307859,Hay - Total,,,,,401,Adelaide and Mount Lofty Ranges
+3307859,Hay - Total,,,,,403,Eyre Peninsula
+3307859,Hay - Total,4140347.08,,4140347.08,,404,Kangaroo Island
+3307859,Hay - Total,86667608.83,^,86667608.83,^,405,Northern and Yorke
+3307859,Hay - Total,1662868.76,*,1662868.76,*,406,South Australian Arid Lands
+3307859,Hay - Total,33645310.96,^,33645310.96,^,407,South Australian Murray Darling Basin
+3307859,Hay - Total,41353106.26,^,41353106.26,^,408,South East
+3307859,Hay - Total,64840195.46,*,64840195.46,*,501,Northern Agricultural
+3307859,Hay - Total,34362144.95,^,34362144.95,^,502,Peel-Harvey
+3307859,Hay - Total,260416.69,**,260416.69,**,503,Perth
+3307859,Hay - Total,2275277.94,^,2275277.94,^,504,Rangelands
+3307859,Hay - Total,21547415.26,^,21547415.26,^,505,South Coast
+3307859,Hay - Total,,,,,506,South West
+3307859,Hay - Total,13161522.82,^,13161522.82,^,601,Cradle Coast
+3307859,Hay - Total,19396315.31,^,19396315.31,^,602,North
+3307859,Hay - Total,3207821.37,^,3207821.37,^,603,South
+3307859,Hay - Total,11071415.48,^,11071415.48,^,701,Northern Territory
+3307859,Hay - Total,37324.28,^,37324.28,^,801,ACT

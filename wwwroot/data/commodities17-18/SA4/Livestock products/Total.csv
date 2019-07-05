@@ -1,0 +1,69 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,SA4,SA4 name
+9017959,Livestock products - Total,283126436.4,,271178139.9,,101,Capital Region
+9017959,Livestock products - Total,,,,,102,Central Coast
+9017959,Livestock products - Total,390370284.1,,370465662.9,,103,Central West
+9017959,Livestock products - Total,14889521.46,**,14880289,**,104,Coffs Harbour - Grafton
+9017959,Livestock products - Total,254322627.7,,244379309.8,,105,Far West and Orana
+9017959,Livestock products - Total,101879781.3,^,97940382.03,^,106,Hunter Valley exc Newcastle
+9017959,Livestock products - Total,,,,,107,Illawarra
+9017959,Livestock products - Total,157852225.2,*,152687296.4,*,108,Mid North Coast
+9017959,Livestock products - Total,304397305.7,,295618134.2,,109,Murray
+9017959,Livestock products - Total,,,,,110,New England and North West
+9017959,Livestock products - Total,5451269.95,*,4668491.93,*,111,Newcastle and Lake Macquarie
+9017959,Livestock products - Total,35327285.25,*,35312501.14,*,112,Richmond - Tweed
+9017959,Livestock products - Total,232338519.6,,224240962,,113,Riverina
+9017959,Livestock products - Total,69656488.03,^,69517894.2,^,114,Southern Highlands and Shoalhaven
+9017959,Livestock products - Total,8746599.5,,7491461,,115,Sydney - Baulkham Hills and Hawkesbury
+9017959,Livestock products - Total,12471921.14,^,11795135.97,^,123,Sydney - Outer South West
+9017959,Livestock products - Total,33729611.5,,28888489.54,,124,Sydney - Outer West and Blue Mountains
+9017959,Livestock products - Total,24535753.12,*,22110743.34,*,127,Sydney - South West
+9017959,Livestock products - Total,120881882.7,^,117936422.7,^,201,Ballarat
+9017959,Livestock products - Total,163411453.7,^,157530054.4,^,202,Bendigo
+9017959,Livestock products - Total,106585190.4,^,99546337.32,^,203,Geelong
+9017959,Livestock products - Total,354255715.8,*,345226917.2,*,204,Hume
+9017959,Livestock products - Total,814385502.6,,809994350.8,,205,Latrobe - Gippsland
+9017959,Livestock products - Total,26078.12,**,25463.77,**,208,Melbourne - Inner South
+9017959,Livestock products - Total,26348841.77,^,22846375.09,^,209,Melbourne - North East
+9017959,Livestock products - Total,6098090.5,^,5731586.79,^,210,Melbourne - North West
+9017959,Livestock products - Total,10245989.65,**,10190803.67,**,211,Melbourne - Outer East
+9017959,Livestock products - Total,136082588.9,*,131347595.3,*,212,Melbourne - South East
+9017959,Livestock products - Total,3125123.45,*,2793604.22,*,213,Melbourne - West
+9017959,Livestock products - Total,8598529.57,**,7413381.32,**,214,Mornington Peninsula
+9017959,Livestock products - Total,601251937.3,,589747904.5,,215,North West
+9017959,Livestock products - Total,618906760.2,^,617749089.9,^,216,Shepparton
+9017959,Livestock products - Total,1264472614,,1255262801,,217,Warrnambool and South West
+9017959,Livestock products - Total,421626.66,*,407497.84,*,301,Brisbane - East
+9017959,Livestock products - Total,512979.1,*,495789.03,*,302,Brisbane - North
+9017959,Livestock products - Total,2451375.31,,2451375.31,,305,Brisbane Inner City
+9017959,Livestock products - Total,28591425.65,^,28584455.89,^,306,Cairns
+9017959,Livestock products - Total,309786041.1,,301379475.1,,307,Darling Downs - Maranoa
+9017959,Livestock products - Total,4922952.1,**,4920194.91,**,308,Central Queensland
+9017959,Livestock products - Total,2863197.37,*,2767166.76,*,309,Gold Coast
+9017959,Livestock products - Total,29981228.33,*,29981068.41,*,310,Ipswich
+9017959,Livestock products - Total,14998675.23,*,14998675.23,*,311,Logan - Beaudesert
+9017959,Livestock products - Total,1920247.09,**,1920018.3,**,312,Mackay - Isaac - Whitsunday
+9017959,Livestock products - Total,16397835.25,^,15981254.92,^,313,Moreton Bay - North
+9017959,Livestock products - Total,53469023.84,,51489930.05,,315,Queensland - Outback
+9017959,Livestock products - Total,29410146.03,*,29410146.03,*,316,Sunshine Coast
+9017959,Livestock products - Total,4133520.29,**,4113337.36,**,317,Toowoomba
+9017959,Livestock products - Total,11517960.44,^,11243037.59,^,318,Townsville
+9017959,Livestock products - Total,41964451.96,^,41961108.21,^,319,Wide Bay
+9017959,Livestock products - Total,10983041.34,*,10820093.91,*,401,Adelaide - Central and Hills
+9017959,Livestock products - Total,4025506.72,^,3594216.42,^,402,Adelaide - North
+9017959,Livestock products - Total,7263719.37,^,6419676.06,^,403,Adelaide - South
+9017959,Livestock products - Total,196299819,,187262424.9,,405,Barossa - Yorke - Mid North
+9017959,Livestock products - Total,127277522.9,,122891555.6,,406,South Australia - Outback
+9017959,Livestock products - Total,489438602.1,,478055942.4,,407,South Australia - South East
+9017959,Livestock products - Total,239295908.2,^,237059232.1,^,501,Bunbury
+9017959,Livestock products - Total,4253988.94,*,4175914.73,*,502,Mandurah
+9017959,Livestock products - Total,10184180.82,^,8802058.54,^,504,Perth - North East
+9017959,Livestock products - Total,5636589.93,,4848175.43,,505,Perth - North West
+9017959,Livestock products - Total,3629300.51,^,3365697.18,^,506,Perth - South East
+9017959,Livestock products - Total,819245262.7,,789376639.9,,509,Western Australia - Wheat Belt
+9017959,Livestock products - Total,594949.27,,576139.09,,510,Western Australia - Outback (North)
+9017959,Livestock products - Total,166498099.5,^,160894829.8,^,511,Western Australia - Outback (South)
+9017959,Livestock products - Total,8722284.36,*,8016825.35,*,601,Hobart
+9017959,Livestock products - Total,235619175.5,^,232926648.2,^,602,Launceston and North East
+9017959,Livestock products - Total,61124240.4,,59718791.44,,603,South East
+9017959,Livestock products - Total,255945034.6,,255845599.8,,604,West and North West
+9017959,Livestock products - Total,1907863.59,*,1787323.31,*,801,Australian Capital Territory

@@ -1,0 +1,7 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,State_Code,State
+3611558,Vegetables for human consumption - Onions,4765884.42,*,4191762.88,*,1,New South Wales
+3611558,Vegetables for human consumption - Onions,9390621.7,^,8326849.28,^,2,Victoria
+3611558,Vegetables for human consumption - Onions,30490872.78,^,26728618.78,^,3,Queensland
+3611558,Vegetables for human consumption - Onions,111074486.2,,97233403.27,,4,South Australia
+3611558,Vegetables for human consumption - Onions,29818798.17,,26016304.97,,5,Western Australia
+3611558,Vegetables for human consumption - Onions,33752265.15,,29261070.13,,6,Tasmania

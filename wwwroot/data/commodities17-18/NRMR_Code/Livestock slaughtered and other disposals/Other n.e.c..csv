@@ -1,0 +1,53 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,NRMR_Code,NRMR name
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,1941310.52,**,1839306.22,**,101,Central Tablelands
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,952949.76,*,902877.93,*,102,Central West
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,124234.93,^,117707.12,^,103,Greater Sydney
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,298966.22,^,283257.33,^,104,Hunter
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,104146.87,,98674.58,,105,Murray
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,1193323.19,**,1130621.17,**,106,North Coast
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,321794.38,*,304886,*,108,North West NSW
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,413679.05,*,391942.68,*,109,Northern Tablelands
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,373920.97,^,354273.65,^,110,Riverina
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,189396.86,*,179445.18,*,111,South East NSW
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,4306026.56,^,4079770.52,^,112,Western
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,9108128.39,^,8561421.02,^,201,Corangamite
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,812967.46,^,764169.8,^,202,East Gippsland
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,13525371.43,**,12713522.94,**,203,Glenelg Hopkins
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,10687178.46,^,10045690,^,204,Goulburn Broken
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,2574113.17,**,2419604.3,**,205,Mallee
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,28752474.3,**,27026632.39,**,206,North Central
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,4810296.15,**,4521562.36,**,207,North East
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,2933611.02,*,2757523.6,*,208,Port Phillip and Western Port
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,6610927.08,^,6214112.01,^,209,West Gippsland
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,173756.5,*,163326.92,*,210,Wimmera
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,1208128.3,^,1104087.62,^,301,Burnett Mary
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,18765.56,^,17149.52,^,302,Cape York
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,1996031.22,^,1824138.52,^,303,Condamine
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,11731.5,^,10721.21,^,304,Cooperative Management Area
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,3552780.63,*,3246824.97,*,305,Desert Channels
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,6102630.33,*,5577088.65,*,306,Fitzroy Basin
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,746835.46,^,682520.05,^,307,North Queensland Dry Tropics
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,811904.9,*,741985.89,*,308,Northern Gulf
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,13146308.82,*,12014184.99,*,309,Queensland Murray Darling Basin
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,171090.42,^,156356.59,^,310,Reef Catchments
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,2901119.62,*,2651283.21,*,311,South East Queensland
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,9252376.73,*,8455587.59,*,312,South West Queensland
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,313634.37,^,286625.05,^,313,Southern Gulf
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,894005.8,**,817016.49,**,314,Terrain NRM
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,,,,,401,Adelaide and Mount Lofty Ranges
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,2216600.12,*,2066651.51,*,403,Eyre Peninsula
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,,,,,404,Kangaroo Island
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,,,,,405,Northern and Yorke
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,465135.25,^,433669.77,^,406,South Australian Arid Lands
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,,,,,407,South Australian Murray Darling Basin
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,,,,,408,South East
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,,,,,501,Northern Agricultural
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,259704.18,^,241416.76,^,502,Peel-Harvey
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,912369.07,*,848123.36,*,503,Perth
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,844526.64,*,785058.15,*,504,Rangelands
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,,,,,505,South Coast
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,633845.6,^,589212.5,^,506,South West
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,,,,,601,Cradle Coast
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,,,,,602,North
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,,,,,603,South
+9100916,Livestock slaughtered and other disposals - Other n.e.c.,28606878,**,26302834.8,**,701,Northern Territory

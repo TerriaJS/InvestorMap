@@ -1,0 +1,7 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,State_Code,State
+3602458,Vegetables for human consumption - Carrots,1097919.17,**,853803.23,**,1,New South Wales
+3602458,Vegetables for human consumption - Carrots,34107794.57,,24677802.39,,2,Victoria
+3602458,Vegetables for human consumption - Carrots,44325011.98,,31419522.84,,3,Queensland
+3602458,Vegetables for human consumption - Carrots,83965020.18,,62980099.3,,4,South Australia
+3602458,Vegetables for human consumption - Carrots,48927555.82,,32851180.34,,5,Western Australia
+3602458,Vegetables for human consumption - Carrots,29402905.79,^,21660332.73,^,6,Tasmania

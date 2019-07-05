@@ -1,0 +1,29 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,NRMR_Code,NRMR name
+4200758,Fruit and nuts - Citrus fruit - Oranges,8160323.15,,6823226.71,,102,Central West
+4200758,Fruit and nuts - Citrus fruit - Oranges,3808293.62,*,3184291.88,*,103,Greater Sydney
+4200758,Fruit and nuts - Citrus fruit - Oranges,9181360.33,*,7676963.51,*,105,Murray
+4200758,Fruit and nuts - Citrus fruit - Oranges,5517.16,*,4613.16,*,106,North Coast
+4200758,Fruit and nuts - Citrus fruit - Oranges,6449830.03,*,5393003.65,*,108,North West NSW
+4200758,Fruit and nuts - Citrus fruit - Oranges,102295915,,85534384.72,,110,Riverina
+4200758,Fruit and nuts - Citrus fruit - Oranges,761.82,**,637,**,111,South East NSW
+4200758,Fruit and nuts - Citrus fruit - Oranges,13111279.84,^,10962952.47,^,112,Western
+4200758,Fruit and nuts - Citrus fruit - Oranges,495598.54,**,410498.46,**,204,Goulburn Broken
+4200758,Fruit and nuts - Citrus fruit - Oranges,87778796.42,^,72706148.8,^,205,Mallee
+4200758,Fruit and nuts - Citrus fruit - Oranges,83627.41,*,69267.6,*,206,North Central
+4200758,Fruit and nuts - Citrus fruit - Oranges,231207.23,**,191506.24,**,207,North East
+4200758,Fruit and nuts - Citrus fruit - Oranges,4336123.45,,3530907.57,,301,Burnett Mary
+4200758,Fruit and nuts - Citrus fruit - Oranges,113059,*,92064,*,306,Fitzroy Basin
+4200758,Fruit and nuts - Citrus fruit - Oranges,11832.38,**,9635.11,**,307,North Queensland Dry Tropics
+4200758,Fruit and nuts - Citrus fruit - Oranges,32852.06,**,26751.45,**,308,Northern Gulf
+4200758,Fruit and nuts - Citrus fruit - Oranges,14235.06,**,11591.62,**,309,Queensland Murray Darling Basin
+4200758,Fruit and nuts - Citrus fruit - Oranges,543.65,*,442.69,*,310,Reef Catchments
+4200758,Fruit and nuts - Citrus fruit - Oranges,95008.3,^,77365.31,^,311,South East Queensland
+4200758,Fruit and nuts - Citrus fruit - Oranges,18880.16,**,15374.13,**,314,Terrain NRM
+4200758,Fruit and nuts - Citrus fruit - Oranges,613.12,**,507.28,**,401,Adelaide and Mount Lofty Ranges
+4200758,Fruit and nuts - Citrus fruit - Oranges,217208167.5,,179710854,,407,South Australian Murray Darling Basin
+4200758,Fruit and nuts - Citrus fruit - Oranges,21195876.01,,17504792.87,,501,Northern Agricultural
+4200758,Fruit and nuts - Citrus fruit - Oranges,215920.71,**,178319.94,**,502,Peel-Harvey
+4200758,Fruit and nuts - Citrus fruit - Oranges,78323.14,**,64683.83,**,503,Perth
+4200758,Fruit and nuts - Citrus fruit - Oranges,8375.46,,6916.94,,504,Rangelands
+4200758,Fruit and nuts - Citrus fruit - Oranges,67.02,*,55.35,*,505,South Coast
+4200758,Fruit and nuts - Citrus fruit - Oranges,238916.12,*,197310.89,*,506,South West

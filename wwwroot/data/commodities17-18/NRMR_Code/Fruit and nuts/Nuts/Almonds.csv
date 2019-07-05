@@ -1,0 +1,8 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,NRMR_Code,NRMR name
+4208158,Fruit and nuts - Nuts - Almonds,2422175.88,**,2419758.64,**,105,Murray
+4208158,Fruit and nuts - Nuts - Almonds,14761364.8,,14746633.51,,110,Riverina
+4208158,Fruit and nuts - Nuts - Almonds,19504965.88,,19485500.65,,112,Western
+4208158,Fruit and nuts - Nuts - Almonds,322330298.5,,318822943.9,,205,Mallee
+4208158,Fruit and nuts - Nuts - Almonds,2571400.79,*,2569621.43,*,401,Adelaide and Mount Lofty Ranges
+4208158,Fruit and nuts - Nuts - Almonds,82149094.89,^,82092249.06,^,407,South Australian Murray Darling Basin
+4208158,Fruit and nuts - Nuts - Almonds,867017.14,,867017.14,,501,Northern Agricultural

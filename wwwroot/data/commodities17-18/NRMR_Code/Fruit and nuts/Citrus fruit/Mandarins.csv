@@ -1,0 +1,24 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,NRMR_Code,NRMR name
+4201458,Fruit and nuts - Citrus fruit - Mandarins,755067.87,*,623032.13,*,103,Greater Sydney
+4201458,Fruit and nuts - Citrus fruit - Mandarins,1143143.77,^,943246.72,^,105,Murray
+4201458,Fruit and nuts - Citrus fruit - Mandarins,10440.96,**,8615.19,**,106,North Coast
+4201458,Fruit and nuts - Citrus fruit - Mandarins,4529345.18,,3737316.43,,110,Riverina
+4201458,Fruit and nuts - Citrus fruit - Mandarins,503.69,**,415.61,**,111,South East NSW
+4201458,Fruit and nuts - Citrus fruit - Mandarins,4538358.63,^,3744753.74,^,112,Western
+4201458,Fruit and nuts - Citrus fruit - Mandarins,27285438.67,^,22932064.39,^,205,Mallee
+4201458,Fruit and nuts - Citrus fruit - Mandarins,305325.03,^,256610.62,^,206,North Central
+4201458,Fruit and nuts - Citrus fruit - Mandarins,1887.66,**,1586.49,**,207,North East
+4201458,Fruit and nuts - Citrus fruit - Mandarins,141987374.2,,123358713.3,,301,Burnett Mary
+4201458,Fruit and nuts - Citrus fruit - Mandarins,925730.24,,804274.97,,306,Fitzroy Basin
+4201458,Fruit and nuts - Citrus fruit - Mandarins,266122.21,*,231207.13,*,308,Northern Gulf
+4201458,Fruit and nuts - Citrus fruit - Mandarins,1003.85,*,872.14,*,310,Reef Catchments
+4201458,Fruit and nuts - Citrus fruit - Mandarins,55493.42,*,48212.72,*,311,South East Queensland
+4201458,Fruit and nuts - Citrus fruit - Mandarins,160434.95,**,139385.98,**,314,Terrain NRM
+4201458,Fruit and nuts - Citrus fruit - Mandarins,216.5,**,184.09,**,401,Adelaide and Mount Lofty Ranges
+4201458,Fruit and nuts - Citrus fruit - Mandarins,106518979.7,,90574642.48,,407,South Australian Murray Darling Basin
+4201458,Fruit and nuts - Citrus fruit - Mandarins,6264994.55,,5218528.75,,501,Northern Agricultural
+4201458,Fruit and nuts - Citrus fruit - Mandarins,705986.74,**,588063.1,**,502,Peel-Harvey
+4201458,Fruit and nuts - Citrus fruit - Mandarins,288770.61,*,240536.16,*,503,Perth
+4201458,Fruit and nuts - Citrus fruit - Mandarins,135.67,*,113.01,*,505,South Coast
+4201458,Fruit and nuts - Citrus fruit - Mandarins,391792.02,*,326349.51,*,506,South West
+4201458,Fruit and nuts - Citrus fruit - Mandarins,841.31,,730.93,,701,Northern Territory

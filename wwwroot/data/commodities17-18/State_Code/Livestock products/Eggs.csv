@@ -1,0 +1,8 @@
+Commodity code,Commodity description,Gross value ($),Gross value - Relative Standard Errors,Local value ($),Local value - Relative Standard Errors,State_Code,State
+9200348,Livestock products - Eggs,263095333,,225316018.2,,1,New South Wales
+9200348,Livestock products - Eggs,205570832.9,,177088973.1,,2,Victoria
+9200348,Livestock products - Eggs,224771326.9,,217239179.8,,3,Queensland
+9200348,Livestock products - Eggs,49598979.27,,42962203.31,,4,South Australia
+9200348,Livestock products - Eggs,69221266.09,,59538984.75,,5,Western Australia
+9200348,Livestock products - Eggs,15310638.42,*,13552947.1,*,6,Tasmania
+9200348,Livestock products - Eggs,659478.71,*,566551.45,*,8,Australian Capital Territory
