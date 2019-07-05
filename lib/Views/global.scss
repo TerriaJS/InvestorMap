@@ -309,4 +309,15 @@ body {
        padding: 0px 10px 0px 10px;
   }
 
+  .tjs-share-panel__btn--catalogShare{
+         background-color: $color-primary;
+         color: #ffffff;
+         svg{
+                 fill: #ffffff;
+         }
+         &:hover, &:focus{
+                 background-color: darken($color-primary, 10%);
+         }
+  }
+
 }
