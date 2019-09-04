@@ -1,6 +1,23 @@
 Change Log
 ==========
 
+### 2019-09-04
+
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs) v7.6.10
+  * Fixed error when opening a URL shared from an explorer tab. #3614
+  * Resolve a bug with `SdmxJsonCatalogItem`'s v2.0 where they were being redrawn when dimensions we're changed. #3659
+  * Upgrades terriajs-cesium to 1.61.0
+  * Automatically set `linkedWcsCoverage` on a WebMapServiceCatalogItem.
+  * Added ability in TerriaJsonCatalogFunction to handle long requests via HTTP:202 Accepted.
+  * Fixed share disclaimer to warn only when user has added items that cannot be shared.
+  * Basemaps are now loaded before being enabled & showed
+  * Add the filename to a workbench item from a drag'n'dropped file so it isn't undisplayed as 'Unnamed item'.
+  * Fixed inability to share SOS items.
+  * Added an option to the mobile menu to allow a story to be resumed after it is closed.
+  * The "Introducing Data Stories" prompt now only needs to be dismissed once. Previously it would continue to appear on every load until you clicked the "Story" button.
+  * Fixed a crash that could occur when the feature info panel has a chart but the selected feature has no chart data.
+  * Fixed a bug where the feature info panel would show information on a vector tile region mapped dataset that had no match.
+
 ### 2019-07-02
 
 * Update tourism datasets.
