@@ -71,6 +71,11 @@ module.exports = {
       }
     },
     {
+      name: "Hydrogen Production Prospectivity Scenarios",
+      type: "esri-mapServer-group",
+      url: "http://services.ga.gov.au/gis/rest/services/Hydrogen_Production_Prospectivity_Scenarios/MapServer"
+    },
+    {
       name: "Western Australia",
       type: "group",
       items: [
