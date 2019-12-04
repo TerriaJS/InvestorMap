@@ -15,6 +15,15 @@ module.exports = {
       preserveOrder: true,
       items: [
         {
+          id: "354db2f2",
+          name: "Catchment Scale Land Use 2018",
+          url:
+            "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
+          type: "esri-mapServer-group",
+          ungroupedTitle: null,
+          ignoreUnknownTileErrors: true
+        },
+        {
           name: "Catchment Scale Land Use 2017",
           type: "esri-mapServer",
           dataUrl: "http://www.agriculture.gov.au/abares/data/clum-50m-current",
