@@ -2,316 +2,336 @@
 @import "~terriajs/lib/Sass/global/global";
 
 body {
-    margin: 0;
-    overflow: hidden;
+  margin: 0;
+  overflow: hidden;
 }
 
 :global {
-    @media print {
-        .nationalmap-print-disclaimer {
-            color: #000;
-            display: block;
-        }
+  @media print {
+    .nationalmap-print-disclaimer {
+      color: #000;
+      display: block;
+    }
+  }
+
+  // To customise the look of your Terria Map, uncomment this section and make changes to your heart's content
+  // You will also want to uncomment and change values in lib/Styles/variables.scss
+
+  // Import any custom fonts here
+  //@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700);
+
+  html {
+    font-family: $font-base;
+  }
+
+  // Logo area in top left
+  .tjs-branding__branding {
+    div {
+      width: 100%;
+      height: 100%;
+    }
+    @media screen and (min-width: $sm) {
+      padding: 6px;
+      background-color: $color-primary; //rgb(225,83,29);
+      border-bottom: 5px solid $dark;
+    }
+    // Different font size for the branding
+    font-weight: 300;
+    color: white;
+    font-size: 26px;
+
+    // To make the logo clickable, it should be instead set in config.json, at "brandBarElements"
+    // background:$dark url(http://www.public-domain-image.com/backgrounds/slides/abstract-waves-on-a-blue-background.jpg);
+
+    // background-position: top right;
+    // background-size: 100%;
+    // background-repeat: no-repeat;
+    img {
+      @media screen and (min-width: $sm) {
+      }
     }
 
-    // To customise the look of your Terria Map, uncomment this section and make changes to your heart's content
-    // You will also want to uncomment and change values in lib/Styles/variables.scss
-
-    // Import any custom fonts here
-    //@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700);
-
-    html {
-        font-family: $font-base;
-    }
-
-    // Logo area in top left
-    .tjs-branding__branding {
-      div{
-        width: 100%;
+    @media screen and (min-width: $sm) {
+      #primary-logo {
+        width: 255px;
         height: 100%;
+        float: left;
+        display: block;
       }
-        @media screen and (min-width: $sm) {
-            padding:6px;
-            background-color: $color-primary; //rgb(225,83,29);
-            border-bottom: 5px solid $dark;
-        }
-        // Different font size for the branding
-        font-weight: 300;
-        color: white;
-        font-size: 26px;
 
-        // To make the logo clickable, it should be instead set in config.json, at "brandBarElements"
-        // background:$dark url(http://www.public-domain-image.com/backgrounds/slides/abstract-waves-on-a-blue-background.jpg);
-
-        // background-position: top right;
-        // background-size: 100%;
-        // background-repeat: no-repeat;
+      #secondary-logo {
+        width: 57px;
+        width: calc(100% - 280px);
+        height: 100%;
+        float: left;
+        position: relative;
+        margin-left: 10px;
         img {
-            @media screen and (min-width: $sm){
-            }
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: auto;
         }
-
-        @media screen and (min-width: $sm) {
-          #primary-logo{
-            width: 255px;
-            height: 100%;
-            float: left;
-            display: block;
-          }
-
-          #secondary-logo{
-            width: 57px;
-            width: calc(100% - 280px);
-            height: 100%;
-            float: left;
-            position: relative;
-            margin-left: 10px;
-            img{
-              position: absolute;
-              bottom: 0;
-              width: 100%;
-              height: auto;
-            }
-          }
-        }
-
-        @media screen and (max-width: 410px) {
-          #secondary-logo{
-            display: none;
-          }
-        }
-    }
-    // Background of whole left panel
-    .tjs-standard-user-interface__sidePanel {
-        background:$dark-darker;
-    }
-    // Individual sections within the left panel
-    .tjs-side-panel__workBench {
-        font-family:$font-base;
-        font-weight:400;
-        font-size:18px;
-        background:$dark-darker;
-        height: calc(100vh - #{$logo-height});
-    }
-
-    // All kinds of buttons in various screens
-    .tjs-_buttons__btn {
-        &-primary {
-            font-family: $font-base;
-        }
-    }
-
-    .tjs-viewing-controls__btn{
-      &:hover, &:focus{
-        color: lighten($color-primary, 50%);
       }
     }
 
-    .tjs-data-catalog-item__btn-catalog-item--is-previewed,
-    .tjs-data-catalog-item__btn-catalog-item:focus,
-    .tjs-data-catalog-item__btn-catalog-item:hover{
+    @media screen and (max-width: 410px) {
+      #secondary-logo {
+        display: none;
+      }
+    }
+  }
+  // Background of whole left panel
+  .tjs-standard-user-interface__sidePanel {
+    background: $dark-darker;
+  }
+  // Individual sections within the left panel
+  .tjs-side-panel__workBench {
+    font-family: $font-base;
+    font-weight: 400;
+    font-size: 18px;
+    background: $dark-darker;
+    height: calc(100vh - #{$logo-height});
+  }
+
+  // All kinds of buttons in various screens
+  .tjs-_buttons__btn {
+    &-primary {
+      font-family: $font-base;
+    }
+  }
+
+  .tjs-viewing-controls__btn {
+    &:hover,
+    &:focus {
+      color: lighten($color-primary, 50%);
+    }
+  }
+
+  .tjs-data-catalog-item__btn-catalog-item--is-previewed,
+  .tjs-data-catalog-item__btn-catalog-item:focus,
+  .tjs-data-catalog-item__btn-catalog-item:hover {
+    color: $color-primary;
+  }
+
+  .tjs-data-catalog-item__btn-action {
+    &:hover,
+    &:focus {
+      svg {
+        fill: $color-primary;
+      }
+    }
+  }
+
+  .tjs-data-catalog-group__isPreviewed {
+    background: $color-primary;
+  }
+
+  // Buttons like "Share" within the map area.
+  .tjs-_buttons__btn--map {
+    background: $dark;
+    &:focus,
+    &:hover {
+      color: white;
+    }
+  }
+
+  // Lat/lon buttons
+  .tjs-legend__locationBar,
+  .tjs-legend__distanceLegend {
+    background: $dark;
+    color: white;
+    &:hover,
+    &:focus {
+      background: $dark;
+      color: white;
+    }
+  }
+
+  // Progress bar while datasets are loading
+  .tjs-progress-bar__progress-bar {
+    background: $color-primary;
+  }
+
+  // Flatten and simplify display of timeline controls
+  .tjs-timeline-controls__timeline__control {
+    background: $dark-lighter;
+    border: none;
+  }
+
+  .tjs-timeline__text-cell {
+    font-family: $font-base;
+  }
+
+  .tjs-timeline__timeline {
+    background: $dark-lighter;
+  }
+
+  .cesium-timeline-bar {
+    background: $dark-with-overlay;
+  }
+
+  // Feature info table
+  .tjs-feature-info-section__content {
+    h1 {
       color: $color-primary;
     }
-
-    .tjs-data-catalog-item__btn-action{
-      &:hover, &:focus{
-        svg{
-          fill: $color-primary;
-        }
-      }
+    table th {
+      // font-family: $font-base; // if you don't want monospaced
+      font-weight: 200; // not bold
+      padding-right: 0.5em;
     }
 
-    .tjs-data-catalog-group__isPreviewed{
+    table td {
+      // border:none;
+      // font-family: $font-base; // if you don't want monospaced
+      font-weight: normal; // not bold
+      color: hsl(0, 0%, 90%);
+      padding: 5px;
+    }
+    a {
+      color: $color-secondary;
+    }
+  }
+
+  // The Data Catalog ("Add Data") page
+  // expandable catalog groups
+  .tjs-data-catalog-group__btn--catalog {
+    &:hover {
+      background: $color-secondary;
+      color: white;
+    }
+    &:focus {
       background: $color-primary;
+      color: white;
     }
-
-    // Buttons like "Share" within the map area.
-    .tjs-_buttons__btn--map {
-        background: $dark;
-        &:focus, &:hover { color: white; }
+  }
+  // The currently selected item in the list
+  .tjs-data-catalog-item__btn-catalog-item--is-previewed {
+    &:focus {
+      color: $color-primary;
     }
+  }
+  // The tabs at the top
+  .tjs-tabs__btn--tab {
+    font-family: $font-base;
+  }
 
-    // Lat/lon buttons
-    .tjs-legend__locationBar, .tjs-legend__distanceLegend {
+  .tjs-tabs__btn--selected {
+    color: $color-primary-dark;
+  }
+  .tjs-tabs__btn--tab:hover {
+    color: $color-secondary;
+  }
 
-        background:$dark;
-        color:white;
-        &:hover,&:focus { background: $dark; color: white; }
-
+  // Special Austrade link
+  .austrade {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    background: hsl(
+      214,
+      15%,
+      19%
+    ); // so it's visible over legends etc (this should be a variable)
+    left: -20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 20;
+    a {
+      color: $color-primary;
     }
+  }
 
-    // Progress bar while datasets are loading
-    .tjs-progress-bar__progress-bar {
-        background: $color-primary;
+  .tjs-_buttons__btn-primary {
+    &:hover {
+      color: #fff;
     }
+  }
 
-    // Flatten and simplify display of timeline controls
-    .tjs-timeline-controls__timeline__control {
-        background:$dark-lighter;
-        border:none;
+  .tjs-mobile-modal-window__done-button {
+    &:hover {
+      color: #fff !important;
+      background: $color-secondary !important;
     }
+  }
 
-    .tjs-timeline__text-cell {
-        font-family: $font-base;
+  .tjs-full_screen_button__minifiedFullscreenBtnWrapper {
+    top: 14px;
+  }
+  .tjs-full_screen_button__toggleWorkbench {
+    display: block;
+    color: #ffffff;
+    transform: translateZ(1000px) rotate(90deg);
+    z-index: 10;
+    position: absolute;
+    left: 0px;
+    text-transform: uppercase;
+    top: 17px;
+    font-size: 14px;
+    pointer-events: none;
+    cursor: pointer;
+  }
+  .tjs-full_screen_button__minified {
+    &,
+    &:hover,
+    &:focus {
+      padding: 20px 15px 20px 0;
+      border-radius: 0 5px 5px 0;
+      transform: perspective(10px) rotateY(5deg);
     }
-
-    .tjs-timeline__timeline {
-        background:$dark-lighter;
+    svg {
+      margin-left: -2px;
     }
+  }
 
-    .cesium-timeline-bar {
-        background:$dark-with-overlay;
+  // Styles for the "Annual Deferral Value" catalog item (AREMI) feature info
+  // from here: https://github.com/TerriaJS/aremi-natmap/blob/master/lib/Styles/AREMI.scss#L72-L107
+  $isf-max-width: 400px;
+  dl.isf-info {
+    text-align: right;
+    width: 100%;
+    // max-width: 100%;//$isf-max-width;
+    // @extend .clearfix;
+    overflow: auto;
+
+    dt {
+      float: left;
+      text-align: left;
+      font-weight: bold;
+      padding-right: 10px;
+      margin-top: 5px;
+      clear: left;
+      max-width: 50%;
+      clear: both;
+      // border-top: white 1px solid;
     }
-
-    // Feature info table
-    .tjs-feature-info-section__content {
-        h1 {
-            color: $color-primary;
-        }
-        table th {
-            // font-family: $font-base; // if you don't want monospaced
-            font-weight:200; // not bold
-            padding-right:0.5em;
-        }
-
-        table td {
-            // border:none;
-            // font-family: $font-base; // if you don't want monospaced
-            font-weight:normal; // not bold
-            color:hsl(0,0%,90%);
-            padding: 5px;
-
-        }
-        a {
-            color:$color-secondary;
-        }
+    dd {
+      float: right;
+      text-align: right;
+      margin-top: 3px;
+      max-width: 90%;
+      // border-top: gray 1px solid;
     }
+  }
 
-    // The Data Catalog ("Add Data") page
-      // expandable catalog groups
-    .tjs-data-catalog-group__btn--catalog {
-        &:hover { background: $color-secondary; color: white; }
-        &:focus { background: $color-primary; color: white;}
-    }
-      // The currently selected item in the list
-    .tjs-data-catalog-item__btn-catalog-item--is-previewed {
-        &:focus {color: $color-primary; }
-    }
-      // The tabs at the top
-    .tjs-tabs__btn--tab {
-        font-family:$font-base
-    }
+  .isf-note,
+  dl dd.isf-note {
+    max-width: $isf-max-width;
+    font-weight: lighter;
+  }
 
-    .tjs-tabs__btn--selected {
-        color:$color-primary-dark;
-    }
-    .tjs-tabs__btn--tab:hover {
-        color:$color-secondary;
-    }
-
-
-    // Special Austrade link
-    .austrade {
-        font-size: 15px;
-        position:absolute;
-        bottom:0;
-        left:0;
-        padding-bottom:0.5em;
-        padding-left:1em;
-        background:hsl(214, 15%, 19%); // so it's visible over legends etc (this should be a variable)
-        left: -20px;
-        width:100%;
-        box-sizing: border-box;
-        margin-top: 20px;
-        margin-left: 20px;
-        z-index: 20;
-        a {
-            color: $color-primary;
-        }
-    }
-
-    .tjs-_buttons__btn-primary{
-        &:hover{
-            color: #fff;
-        }
-    }
-
-    .tjs-mobile-modal-window__done-button{
-        &:hover{
-            color: #fff !important;
-            background: $color-secondary !important;
-        }
-    }
-
-    .tjs-full_screen_button__minifiedFullscreenBtnWrapper{
-        top: 14px;
-    }
-    .tjs-full_screen_button__toggleWorkbench{
-        display: block;
-        color: #ffffff;
-        transform: translateZ(1000px) rotate(90deg);
-        z-index: 10;
-        position: absolute;
-        left: 0px;
-        text-transform: uppercase;
-        top: 17px;
-        font-size: 14px;
-        pointer-events: none;
-        cursor: pointer;
-    }
-    .tjs-full_screen_button__minified{
-       &, &:hover, &:focus{
-        padding: 20px 15px 20px 0;
-        border-radius: 0 5px 5px 0;
-        transform: perspective(10px) rotateY(5deg);
-      }
-      svg{
-       margin-left: -2px;
-      }
-   }
-
-   // Styles for the "Annual Deferral Value" catalog item (AREMI) feature info
-   // from here: https://github.com/TerriaJS/aremi-natmap/blob/master/lib/Styles/AREMI.scss#L72-L107
-   $isf-max-width: 400px;
-   dl.isf-info {
-     text-align: right;
-     width: 100%;
-     // max-width: 100%;//$isf-max-width;
-     // @extend .clearfix;
-     overflow: auto;
-
-     dt {
-       float: left;
-       text-align:left;
-       font-weight: bold;
-       padding-right: 10px;
-       margin-top: 5px;
-       clear: left;
-       max-width: 50%;
-       clear:both;
-       // border-top: white 1px solid;
-     }
-     dd {
-        float:right;
-        text-align:right;
-        margin-top: 3px;
-        max-width: 90%;
-        // border-top: gray 1px solid;
-     }
-   }
-
-   .isf-note, dl dd.isf-note {
-     max-width: $isf-max-width;
-     font-weight: lighter;
-   }
-
-   .isf-table tbody th {
-       padding: 0px 10px 0px 10px;
+  .isf-table tbody th {
+    padding: 0px 10px 0px 10px;
   }
 
   //story related
-  .tjs-story-panel__full-panel{
-          z-index: 9999;
+  .tjs-story-panel__full-panel {
+    z-index: 9999;
   }
-
 }
