@@ -47,6 +47,6 @@
         "showInAppGuides": true,
 
         // True to display new feature popups.
-        "showFeaturePrompts": true,
+        // "showFeaturePrompts": false,
     }
 }
