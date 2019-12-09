@@ -71,8 +71,7 @@ module.exports = {
         ]),
         getFromCatalogPath(externalCatalogs.nationalmap, [
           "National Datasets",
-          "Land",
-          "Agriculture and Mining",
+          "Agriculture",
           "Water Use on Australian Farms"
         ])
       ]

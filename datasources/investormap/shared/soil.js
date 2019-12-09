@@ -6,7 +6,7 @@ const externalCatalogs = require("../shared/externalCatalogs");
 
 const soilGroup = getFromCatalogPath(externalCatalogs.nationalmap, [
   "National Datasets",
-  "Land",
+  "Land Cover and Land Use",
   "National Soil Attributes"
 ]);
 

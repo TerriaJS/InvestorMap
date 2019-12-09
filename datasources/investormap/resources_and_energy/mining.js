@@ -79,8 +79,8 @@ module.exports = {
     },
     getFromCatalogPath(externalCatalogs.nationalmap, [
       "National Datasets",
-      "Land",
-      "Agriculture and Mining",
+      "Land Cover and Land Use",
+      "Mining",
       "Mineral Exploration"
     ]),
     {
