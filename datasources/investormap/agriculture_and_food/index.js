@@ -26,10 +26,10 @@ module.exports = {
         {
           name: "Catchment Scale Land Use 2017",
           type: "esri-mapServer",
-          dataUrl: "http://www.agriculture.gov.au/abares/data/clum-50m-current",
+          dataUrl: "http://www.agriculture.gov.au/abares/data/clum-50m-2017",
           dataUrlType: "direct",
           url:
-            "http://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_current/MapServer"
+            "http://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2017/MapServer"
         },
         {
           name: "Land Cover",
