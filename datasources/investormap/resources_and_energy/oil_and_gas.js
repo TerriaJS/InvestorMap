@@ -57,8 +57,8 @@ module.exports = {
     },
     getFromCatalogPath(externalCatalogs.nationalmap, [
       "National Datasets",
-      "Land",
-      "Agriculture and Mining",
+      "Land Cover and Land Use",
+      "Mining",
       "Petroleum Exploration"
     ]),
     {
@@ -69,6 +69,11 @@ module.exports = {
       parameters: {
         CQL_FILTER: "WELLTYPE='Petroleum'"
       }
+    },
+    {
+      name: "Hydrogen Production Prospectivity Scenarios",
+      type: "esri-mapServer-group",
+      url: "http://services.ga.gov.au/gis/rest/services/Hydrogen_Production_Prospectivity_Scenarios/MapServer"
     },
     {
       name: "Western Australia",
