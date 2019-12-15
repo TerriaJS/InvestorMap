@@ -10,6 +10,17 @@ module.exports = {
   preserveOrder: true,
   items: [
     {
+      name: "Hydrogen",
+      type: "group",
+      items: [
+        {
+          name: "Hydrogen Production Prospectivity Scenarios",
+          type: "esri-mapServer-group",
+          url: "http://services.ga.gov.au/gis/rest/services/Hydrogen_Production_Prospectivity_Scenarios/MapServer"
+        }
+      ]
+    },
+    {
       type: "esri-mapServer",
       name: "Gas Basins",
       url:
@@ -69,11 +80,6 @@ module.exports = {
       parameters: {
         CQL_FILTER: "WELLTYPE='Petroleum'"
       }
-    },
-    {
-      name: "Hydrogen Production Prospectivity Scenarios",
-      type: "esri-mapServer-group",
-      url: "http://services.ga.gov.au/gis/rest/services/Hydrogen_Production_Prospectivity_Scenarios/MapServer"
     },
     {
       name: "Western Australia",
