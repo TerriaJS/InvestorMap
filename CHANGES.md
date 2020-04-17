@@ -1,6 +1,13 @@
 Change Log
 ==========
-### 2020--3-17
+### 2020-4-17
+* Updated to [TerriaJS](https://github.com/TerriaJS/terriajs/tree/7.11.4) 7.11.4.  Changes include:
+  * Added support for classBreaks renderer to ArcGisFeatureServerCatalogItem.
+  * Upgraded to Cesium v1.68.
+  * Upgraded to generate-terriajs-schema to v1.5.0.
+  * Replaced defineProperties and freezeObject to Object.defineProperties and Object.freeze respectively.
+
+### 2020-3-17
 * Updated to [TerriaJS](https://github.com/TerriaJS/terriajs/tree/7.11.3) 7.11.3.  Changes include:
   * Upgraded to Cesium v1.66.
   * Added WA CKAN catalogue.
