@@ -1,5 +1,8 @@
 Change Log
 ==========
+### 2020-4-28
+* Reinstated IM-specific region mapping override
+
 ### 2020-4-17
 * Updated to [TerriaJS](https://github.com/TerriaJS/terriajs/tree/7.11.4) 7.11.4.  Changes include:
   * Added support for classBreaks renderer to ArcGisFeatureServerCatalogItem.
