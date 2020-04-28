@@ -1,6 +1,6 @@
 {
     "initializationUrls" : [
-        "proxy/_60s/http://static.nationalmap.nicta.com.au/investormap/init/2019-12-16.json"
+        "proxy/_60s/http://static.nationalmap.nicta.com.au/investormap/init/2020-04-28.json"
     ],
     "parameters": {
         "feedbackUrl": "feedback",
