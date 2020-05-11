@@ -1,5 +1,8 @@
 Change Log
 ==========
+### 2020-5-11
+* Revert TR_2019 region mapping removal
+
 ### 2020-4-28
 * Reinstated IM-specific region mapping override
 
