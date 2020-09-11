@@ -44,7 +44,7 @@
     "gulp": "^4.0.0",
     "husky": "^2.2.0",
     "json5": "^2.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "marked": "^0.4.0",
     "mkdirp": "^0.5.1",
     "nationalmap-catalog": "git://github.com/TerriaJS/NationalMap-Catalog",
