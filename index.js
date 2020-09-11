@@ -136,6 +136,8 @@ module.exports = terria.start({
                     defined(globalDisclaimer.prodHostRegex) && !hostname.match(globalDisclaimer.prodHostRegex)) {
                         message += require('./lib/Views/DevelopmentDisclaimerPreamble.html');
                 }
+                message += require('./lib/Views/DecomissionNotice.html');
+                message += '<h3>Disclaimer</h3>';
                 message += require('./lib/Views/GlobalDisclaimer.html');
 
                 var options = {

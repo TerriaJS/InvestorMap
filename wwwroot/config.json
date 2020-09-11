@@ -15,7 +15,7 @@
         "globalDisclaimer": {
             "enabled": false,
             "confirmationRequired": false,
-            "title": "Disclaimer",
+            "title": "",
             "buttonTitle": "I ACCEPT",
             "prodHostRegex": "nationalmap\\.gov\\.au",
             //devHostRegex: "\\b(staging|preview|test|dev)\\.",
